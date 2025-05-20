@@ -206,11 +206,13 @@ export async function getPublications(
       .map(
         (pub) => `
             <a data-toggle="modal" data-target="#pub_${pub.iuid}" href="${pub.links.display.href}" 
-               target="_blank" class="list-group-item list-group-item-action${pub.is_collab ? ' list-pub-collab' : ''}${pub.is_tech_dev ? ' list-pub-techdev' : ''}">
+                target="_blank" class="list-group-item list-group-item-action${pub.is_collab ? ' list-pub-collab' : ''}${pub.is_tech_dev ? ' list-pub-techdev' : ''}">
                 ${pub.title}<br>
                 <small class="text-muted"><em>${pub.journal.title}</em> (${pub.published.split('-')[0]})</small>
-                ${pub.is_collab ? '<span class="float-right" style="display:inline-block"><span class="badge badge-primary mt-3">NGI Collaboration</span>' : ''}
-                ${pub.is_tech_dev ? '<span class="badge badge-success mt-3 mx-1">NGI Technology development</span></span>' : '</span>'}
+                ${(pub.is_collab || pub.is_tech_dev) ? '<span class="float-right" style="display:inline-block">' : ''}
+                ${pub.is_collab ? '<span class="badge badge-primary mt-3">NGI Collaboration</span>' : ''}
+                ${pub.is_tech_dev ? '<span class="badge badge-success mt-3 mx-1">NGI Technology development</span>' : ''}
+                ${(pub.is_collab || pub.is_tech_dev) ? '</span>' : ''}
             </a>
         `
       )
