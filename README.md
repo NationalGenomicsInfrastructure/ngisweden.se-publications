@@ -1,4 +1,4 @@
-# Create a GitHub Action Using TypeScript
+# GitHub Action for fetching NGI publications
 
 [![GitHub Super-Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
 ![CI](https://github.com/actions/typescript-action/actions/workflows/ci.yml/badge.svg)
@@ -6,32 +6,9 @@
 [![CodeQL](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml)
 [![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
-Use this template to bootstrap the creation of a TypeScript action. :rocket:
+## Development
 
-This template includes compilation support, tests, a validation workflow,
-publishing, and versioning guidance.
-
-If you are new, there's also a simpler introduction in the
-[Hello world JavaScript action repository](https://github.com/actions/hello-world-javascript-action).
-
-## Create Your Own Action
-
-To create your own action, you can use this repository as a template! Just
-follow the below instructions:
-
-1. Click the **Use this template** button at the top of the repository
-1. Select **Create a new repository**
-1. Select an owner and name for your new repository
-1. Click **Create repository**
-1. Clone your new repository
-
-> [!IMPORTANT]
->
-> Make sure to remove or update the [`CODEOWNERS`](./CODEOWNERS) file! For
-> details on how to use this file, see
-> [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
-
-## Initial Setup
+### Initial Setup
 
 After you've cloned the repository to your local machine or codespace, you'll
 need to perform some initial setup steps before you can develop your action.
@@ -50,19 +27,19 @@ need to perform some initial setup steps before you can develop your action.
 1. :hammer_and_wrench: Install the dependencies
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 1. :building_construction: Package the TypeScript for distribution
 
    ```bash
-   npm run bundle
+   pnpm run bundle
    ```
 
 1. :white_check_mark: Run the tests
 
    ```bash
-   $ npm test
+   $ pnpm test
 
    PASS  ./index.test.js
      ✓ throws invalid number (3ms)
@@ -72,7 +49,7 @@ need to perform some initial setup steps before you can develop your action.
    ...
    ```
 
-## Update the Action Metadata
+### Update the Action Metadata
 
 The [`action.yml`](action.yml) file defines metadata about your action, such as
 input(s) and output(s). For details about this file, see
@@ -81,7 +58,7 @@ input(s) and output(s). For details about this file, see
 When you copy this repository, update `action.yml` with the name, description,
 inputs, and outputs for your action.
 
-## Update the Action Code
+### Update the Action Code
 
 The [`src/`](./src/) directory is the heart of your action! This contains the
 source code that will be run when your action is invoked. You can replace the
@@ -231,76 +208,4 @@ steps:
   - name: Print Output
     id: output
     run: echo "${{ steps.test-action.outputs.time }}"
-```
-
-## Publishing a New Release
-
-This project includes a helper script, [`script/release`](./script/release)
-designed to streamline the process of tagging and pushing new releases for
-GitHub Actions.
-
-GitHub Actions allows users to select a specific version of the action to use,
-based on release tags. This script simplifies this process by performing the
-following steps:
-
-1. **Retrieving the latest release tag:** The script starts by fetching the most
-   recent SemVer release tag of the current branch, by looking at the local data
-   available in your repository.
-1. **Prompting for a new release tag:** The user is then prompted to enter a new
-   release tag. To assist with this, the script displays the tag retrieved in
-   the previous step, and validates the format of the inputted tag (vX.X.X). The
-   user is also reminded to update the version field in package.json.
-1. **Tagging the new release:** The script then tags a new release and syncs the
-   separate major tag (e.g. v1, v2) with the new release tag (e.g. v1.0.0,
-   v2.1.2). When the user is creating a new major release, the script
-   auto-detects this and creates a `releases/v#` branch for the previous major
-   version.
-1. **Pushing changes to remote:** Finally, the script pushes the necessary
-   commits, tags and branches to the remote repository. From here, you will need
-   to create a new release in GitHub so users can easily reference the new tags
-   in their workflows.
-
-## Dependency License Management
-
-This template includes a GitHub Actions workflow,
-[`licensed.yml`](./.github/workflows/licensed.yml), that uses
-[Licensed](https://github.com/licensee/licensed) to check for dependencies with
-missing or non-compliant licenses. This workflow is initially disabled. To
-enable the workflow, follow the below steps.
-
-1. Open [`licensed.yml`](./.github/workflows/licensed.yml)
-1. Uncomment the following lines:
-
-   ```yaml
-   # pull_request:
-   #   branches:
-   #     - main
-   # push:
-   #   branches:
-   #     - main
-   ```
-
-1. Save and commit the changes
-
-Once complete, this workflow will run any time a pull request is created or
-changes pushed directly to `main`. If the workflow detects any dependencies with
-missing or non-compliant licenses, it will fail the workflow and provide details
-on the issue(s) found.
-
-### Updating Licenses
-
-Whenever you install or update dependencies, you can use the Licensed CLI to
-update the licenses database. To install Licensed, see the project's
-[Readme](https://github.com/licensee/licensed?tab=readme-ov-file#installation).
-
-To update the cached licenses, run the following command:
-
-```bash
-licensed cache
-```
-
-To check the status of cached licenses, run the following command:
-
-```bash
-licensed status
 ```
