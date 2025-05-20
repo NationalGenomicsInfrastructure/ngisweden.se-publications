@@ -90,6 +90,9 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# PHP files
+*.php
+
 # OS metadata
 .DS_Store
 Thumbs.db

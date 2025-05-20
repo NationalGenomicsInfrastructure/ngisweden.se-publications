@@ -1,24 +1,52 @@
-name: The name of your action here
-description: Provide a description here
-author: Your name or organization here
+name: 'NGI Sweden Publications'
+description: 'Fetches and displays publications from publications.scilifelab.se'
+author: MatthiasZepper
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: heart
-  color: red
+  icon: book-open
+  color: blue
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: Your input description here
-    required: true
-    default: '1000'
+  download-limit:
+    description: 'Maximum number of publications to fetch per facility'
+    required: false
+    default: '50'
+  num-publications:
+    description: 'Number of publications to display'
+    required: false
+    default: '5'
+  show-title:
+    description: 'Whether to show the "User Publications" title'
+    required: false
+    default: 'true'
+  show-footer:
+    description: 'Whether to show the footer with link to publications.scilifelab.se'
+    required: false
+    default: 'true'
+  randomise:
+    description: 'Whether to randomize the order of publications'
+    required: false
+    default: 'true'
+  max-collabs:
+    description: 'Maximum number of collaborative publications to show (-1 for no limit)'
+    required: false
+    default: '-1'
+  tech-dev-is-collab:
+    description: 'Whether to treat technology development publications as collaborations'
+    required: false
+    default: 'true'
 
 # Define your outputs here.
 outputs:
-  time:
-    description: Your output description here
+  html:
+    description: 'The generated HTML for displaying publications'
+  json:
+    description: 'The raw publication data in JSON format'
+  warnings:
+    description: 'Any warnings that occurred during processing'
 
 runs:
-  using: node20
-  main: dist/index.js
+  using: 'node20'
+  main: 'dist/index.js'
