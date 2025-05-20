@@ -27246,36 +27246,232 @@ function requireCore () {
 
 var coreExports = requireCore();
 
-/**
- * Waits for a number of milliseconds.
- *
- * @param milliseconds The number of milliseconds to wait.
- * @returns Resolves with 'done!' after the wait is over.
- */
-async function wait(milliseconds) {
-    return new Promise((resolve) => {
-        if (isNaN(milliseconds))
-            throw new Error('milliseconds is not a number');
-        setTimeout(() => resolve('done!'), milliseconds);
+const FACILITY_LABELS = [
+    'NGI Stockholm (Genomics Applications)',
+    'NGI Stockholm (Genomics Production)',
+    'NGI Uppsala (SNP&SEQ Technology Platform)',
+    'NGI Uppsala (Uppsala Genome Center)',
+    'National Genomics Infrastructure'
+];
+async function fetchPublicationsFromAPI(facility, downloadLimit) {
+    const url = `https://publications.scilifelab.se/label/${encodeURIComponent(facility)}.json?limit=${downloadLimit}`;
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error from SciLifeLab Publications API: status: ${response.status}`);
+        }
+        const data = (await response.json());
+        return data.publications || [];
+    }
+    catch (error) {
+        console.error(`Error fetching publications for ${facility}:`, error);
+        return [];
+    }
+}
+function processPublications(publications, options) {
+    const processedPubs = publications.map((pub) => {
+        // Check for collaborations
+        const isCollab = FACILITY_LABELS.some((fac) => pub.labels[fac] === 'Collaborative');
+        // Check for technology development
+        const isTechDev = FACILITY_LABELS.some((fac) => pub.labels[fac] === 'Technology development');
+        return {
+            ...pub,
+            is_collab: isCollab,
+            is_tech_dev: isTechDev && (options.tech_dev_is_collab ? true : isCollab)
+        };
     });
+    // Remove duplicates
+    const uniquePubs = processedPubs.filter((pub, index, self) => index === self.findIndex((p) => p.iuid === pub.iuid || p.doi === pub.doi));
+    // Sort by publication date
+    return uniquePubs.sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
+}
+function formatPublicationHTML(publication) {
+    const authors = publication.authors
+        .map((author) => {
+        const given = author.given === author.given.toUpperCase()
+            ? author.given
+                .toLowerCase()
+                .replace(/\b\w/g, (l) => l.toUpperCase())
+            : author.given;
+        const family = author.family === author.family.toUpperCase()
+            ? author.family
+                .toLowerCase()
+                .replace(/\b\w/g, (l) => l.toUpperCase())
+            : author.family;
+        return `<span class="pub-author" title="${given} ${family}">${author.initials} ${family}</span>`;
+    })
+        .join(', ');
+    const collabBadge = publication.is_collab
+        ? '<span class="float-right badge badge-primary" title="A publication where a facility member is in the authors list" data-toggle="tooltip">NGI Collaboration</span>'
+        : '';
+    const techDevBadge = publication.is_tech_dev
+        ? '<span class="float-right badge badge-success" title="A publication with facility internal technology development" data-toggle="tooltip">NGI Technology development</span>'
+        : '';
+    return `
+        <div class="modal ngisweden-publications-modal fade" id="pub_${publication.iuid}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">${publication.title}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-sub-header">
+                        <div class="font-weight-light pub-authors">${authors}</div>
+                        <p class="mt-2 mb-0">${collabBadge}${techDevBadge}</p>
+                    </div>
+                    ${publication.abstract
+        ? `<div class="modal-body small">${publication.abstract}</div>`
+        : '<div class="modal-body d-none"></div>'}
+                    <div class="modal-footer ${!publication.abstract ? 'border-0' : ''}">
+                        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/${publication.pmid}" target="_blank" class="btn btn-sm btn-info">
+                            Pubmed <i class="fas fa-external-link-alt fa-sm ml-2"></i>
+                        </a>
+                        <a href="https://dx.doi.org/${publication.doi}" target="_blank" class="btn btn-sm btn-primary">
+                            DOI <i class="fas fa-external-link-alt fa-sm ml-2"></i>
+                        </a>
+                        <a href="${publication.links.display.href}" target="_blank" class="btn btn-sm btn-success">
+                            SciLifeLab Pubs <i class="fas fa-external-link-alt fa-sm ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+async function getPublications(options = {}) {
+    const warnings = [];
+    const defaultOptions = {
+        title: true,
+        footer: true,
+        randomise: true,
+        num: 5,
+        collabs: 0,
+        max_collabs: -1,
+        tech_dev_is_collab: true,
+        downloadLimit: 50,
+        ...options
+    };
+    try {
+        // Fetch all publications
+        const allPublications = [];
+        for (const facility of FACILITY_LABELS) {
+            const facilityPubs = await fetchPublicationsFromAPI(facility, defaultOptions.downloadLimit);
+            allPublications.push(...facilityPubs);
+        }
+        if (allPublications.length === 0) {
+            warnings.push('No publications found when fetching');
+            return {
+                html: '<p class="text-muted"><em>Error: Publications could not be retrieved</em></p>',
+                json: '[]',
+                warnings
+            };
+        }
+        // Process publications
+        let publications = processPublications(allPublications, defaultOptions);
+        // Apply filters and limits
+        let numCollabs = 0;
+        publications = publications
+            .filter((pub) => {
+            const maxCollabs = defaultOptions.max_collabs ?? -1;
+            if (maxCollabs >= 0 && numCollabs >= maxCollabs && pub.is_collab) {
+                return false;
+            }
+            if (pub.is_collab) {
+                numCollabs++;
+            }
+            return true;
+        })
+            .slice(0, defaultOptions.num);
+        // Randomize if requested
+        if (defaultOptions.randomise) {
+            publications = publications.sort(() => Math.random() - 0.5);
+        }
+        // Generate HTML
+        const modals = publications.map(formatPublicationHTML).join('\n');
+        const listItems = publications
+            .map((pub) => `
+            <a data-toggle="modal" data-target="#pub_${pub.iuid}" href="${pub.links.display.href}" 
+               target="_blank" class="list-group-item list-group-item-action${pub.is_collab ? ' list-pub-collab' : ''}${pub.is_tech_dev ? ' list-pub-techdev' : ''}">
+                ${pub.title}<br>
+                <small class="text-muted"><em>${pub.journal.title}</em> (${pub.published.split('-')[0]})</small>
+                ${pub.is_collab ? '<span class="float-right" style="display:inline-block"><span class="badge badge-primary mt-3">NGI Collaboration</span>' : ''}
+                ${pub.is_tech_dev ? '<span class="badge badge-success mt-3 mx-1">NGI Technology development</span></span>' : '</span>'}
+            </a>
+        `)
+            .join('\n');
+        let html = '<div class="ngisweden-publications mb-5">';
+        if (defaultOptions.title) {
+            html += '<h5>User Publications</h5>';
+        }
+        html += `<div class="list-group">${listItems}</div>`;
+        if (defaultOptions.footer) {
+            html += `
+                <p class="small text-muted mt-2">
+                    See all publications at
+                    <a href="https://publications.scilifelab.se/label/National%20Genomics%20Infrastructure" 
+                        target="_blank" class="text-muted">
+                        publications.scilifelab.se
+                    </a>
+                </p>
+            `;
+        }
+        html += '</div>';
+        html += modals;
+        return {
+            html,
+            json: JSON.stringify(publications, null, 2),
+            warnings
+        };
+    }
+    catch (error) {
+        warnings.push(`Error processing publications: ${error instanceof Error ? error.message : String(error)}`);
+        return {
+            html: '<p class="text-muted"><em>Error: Publications could not be retrieved</em></p>',
+            json: '[]',
+            warnings
+        };
+    }
 }
 
 /**
  * The main function for the action.
+ * This action fetches publications from publications.scilifelab.se and generates HTML output.
  *
  * @returns Resolves when the action is complete.
  */
 async function run() {
     try {
-        const ms = coreExports.getInput('milliseconds');
+        // Get inputs
+        const downloadLimit = parseInt(coreExports.getInput('download-limit') || '50', 10);
+        const numPublications = parseInt(coreExports.getInput('num-publications') || '5', 10);
+        const showTitle = coreExports.getInput('show-title') !== 'false';
+        const showFooter = coreExports.getInput('show-footer') !== 'false';
+        const randomise = coreExports.getInput('randomise') !== 'false';
+        const maxCollabs = parseInt(coreExports.getInput('max-collabs') || '-1', 10);
+        const techDevIsCollab = coreExports.getInput('tech-dev-is-collab') !== 'false';
         // Debug logs are only output if the `ACTIONS_STEP_DEBUG` secret is true
-        coreExports.debug(`Waiting ${ms} milliseconds ...`);
-        // Log the current timestamp, wait, then log the new timestamp
-        coreExports.debug(new Date().toTimeString());
-        await wait(parseInt(ms, 10));
-        coreExports.debug(new Date().toTimeString());
+        coreExports.debug(`Fetching up to ${downloadLimit} publications per facility...`);
+        // Get publications
+        const result = await getPublications({
+            downloadLimit,
+            num: numPublications,
+            title: showTitle,
+            footer: showFooter,
+            randomise,
+            max_collabs: maxCollabs,
+            tech_dev_is_collab: techDevIsCollab
+        });
         // Set outputs for other workflow steps to use
-        coreExports.setOutput('time', new Date().toTimeString());
+        coreExports.setOutput('html', result.html);
+        coreExports.setOutput('json', result.json);
+        coreExports.setOutput('warnings', result.warnings.join('\n'));
+        // Log any warnings
+        if (result.warnings.length > 0) {
+            coreExports.warning(`Warnings occurred:\n${result.warnings.join('\n')}`);
+        }
     }
     catch (error) {
         // Fail the workflow run if an error occurs

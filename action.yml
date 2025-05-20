@@ -22,7 +22,8 @@ inputs:
     required: false
     default: 'true'
   show-footer:
-    description: 'Whether to show the footer with link to publications.scilifelab.se'
+    description:
+      'Whether to show the footer with link to publications.scilifelab.se'
     required: false
     default: 'true'
   randomise:
@@ -30,11 +31,13 @@ inputs:
     required: false
     default: 'true'
   max-collabs:
-    description: 'Maximum number of collaborative publications to show (-1 for no limit)'
+    description:
+      'Maximum number of collaborative publications to show (-1 for no limit)'
     required: false
     default: '-1'
   tech-dev-is-collab:
-    description: 'Whether to treat technology development publications as collaborations'
+    description:
+      'Whether to treat technology development publications as collaborations'
     required: false
     default: 'true'
 

@@ -11,7 +11,10 @@ export async function run(): Promise<void> {
   try {
     // Get inputs
     const downloadLimit = parseInt(core.getInput('download-limit') || '50', 10)
-    const numPublications = parseInt(core.getInput('num-publications') || '5', 10)
+    const numPublications = parseInt(
+      core.getInput('num-publications') || '5',
+      10
+    )
     const showTitle = core.getInput('show-title') !== 'false'
     const showFooter = core.getInput('show-footer') !== 'false'
     const randomise = core.getInput('randomise') !== 'false'
@@ -41,7 +44,6 @@ export async function run(): Promise<void> {
     if (result.warnings.length > 0) {
       core.warning(`Warnings occurred:\n${result.warnings.join('\n')}`)
     }
-
   } catch (error) {
     // Fail the workflow run if an error occurs
     if (error instanceof Error) core.setFailed(error.message)
