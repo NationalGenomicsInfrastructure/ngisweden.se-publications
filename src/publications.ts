@@ -23,12 +23,12 @@ async function fetchPublicationsFromAPI(
     }
     const rawData = await response.json()
     const result = ApiResponseSchema.safeParse(rawData)
-    
+
     if (!result.success) {
       console.error(`Validation error for ${facility}:`, result.error)
       return []
     }
-    
+
     return result.data.publications
   } catch (error) {
     console.error(`Error fetching publications for ${facility}:`, error)
@@ -209,10 +209,10 @@ export async function getPublications(
                 target="_blank" class="list-group-item list-group-item-action${pub.is_collab ? ' list-pub-collab' : ''}${pub.is_tech_dev ? ' list-pub-techdev' : ''}">
                 ${pub.title}<br>
                 <small class="text-muted"><em>${pub.journal.title}</em> (${pub.published.split('-')[0]})</small>
-                ${(pub.is_collab || pub.is_tech_dev) ? '<span class="float-right" style="display:inline-block">' : ''}
+                ${pub.is_collab || pub.is_tech_dev ? '<span class="float-right" style="display:inline-block">' : ''}
                 ${pub.is_collab ? '<span class="badge badge-primary mt-3">NGI Collaboration</span>' : ''}
                 ${pub.is_tech_dev ? '<span class="badge badge-success mt-3 mx-1">NGI Technology development</span>' : ''}
-                ${(pub.is_collab || pub.is_tech_dev) ? '</span>' : ''}
+                ${pub.is_collab || pub.is_tech_dev ? '</span>' : ''}
             </a>
         `
       )

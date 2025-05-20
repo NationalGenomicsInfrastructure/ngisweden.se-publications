@@ -40,6 +40,22 @@ inputs:
       'Whether to treat technology development publications as collaborations'
     required: false
     default: 'true'
+  commit:
+    description: 'Whether to commit the generated files to the repository'
+    required: false
+    default: 'false'
+  commit-message:
+    description: 'Commit message to use when committing files'
+    required: false
+    default: 'Update publications'
+  html-path:
+    description: 'Path where to save the HTML file in the repository'
+    required: false
+    default: 'publications.html'
+  json-path:
+    description: 'Path where to save the JSON file in the repository'
+    required: false
+    default: 'publications.json'
 
 # Define your outputs here.
 outputs:

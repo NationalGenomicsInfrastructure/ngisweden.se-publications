@@ -23,37 +23,38 @@
     "node": ">=20"
   },
   "scripts": {
-    "bundle": "npm run format:write && npm run package",
-    "ci-test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest",
-    "coverage": "npx make-coverage-badge --output-path ./badges/coverage.svg",
-    "format:write": "npx prettier --write .",
-    "format:check": "npx prettier --check .",
-    "lint": "npx eslint .",
-    "local-action": "npx @github/local-action . src/main.ts .env",
-    "package": "npx rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
-    "package:watch": "npm run package -- --watch",
-    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest",
-    "all": "npm run format:write && npm run lint && npm run test && npm run coverage && npm run package"
+    "bundle": "pnpm run format:write && pnpm run package",
+    "ci-test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 pnpm jest",
+    "coverage": "pnpm make-coverage-badge --output-path ./badges/coverage.svg",
+    "format:write": "pnpm prettier --write .",
+    "format:check": "pnpm prettier --check .",
+    "lint": "pnpm eslint .",
+    "local-action": "pnpm @github/local-action . src/main.ts .env",
+    "package": "pnpm rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "package:watch": "pnpm run package -- --watch",
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 pnpm jest",
+    "all": "pnpm run format:write && pnpm run lint && pnpm run test && pnpm run coverage && pnpm run package"
   },
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "zod": "^3.22.4"
+    "@octokit/rest": "^20.1.2",
+    "zod": "^3.25.7"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.9",
     "@github/local-action": "^3.2.1",
     "@jest/globals": "^29.7.0",
-    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-typescript": "^12.1.1",
+    "@rollup/plugin-typescript": "^12.1.2",
     "@types/jest": "^29.5.14",
-    "@types/node": "^20.17.46",
-    "@typescript-eslint/eslint-plugin": "^8.32.0",
-    "@typescript-eslint/parser": "^8.32.0",
-    "eslint": "^9.26.0",
+    "@types/node": "^20.17.48",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
-    "eslint-import-resolver-typescript": "^4.3.4",
+    "eslint-import-resolver-typescript": "^4.3.5",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-prettier": "^5.4.0",
@@ -61,12 +62,12 @@
     "make-coverage-badge": "^1.2.0",
     "prettier": "^3.5.3",
     "prettier-eslint": "^16.4.2",
-    "rollup": "^4.40.2",
-    "ts-jest": "^29.3.2",
+    "rollup": "^4.41.0",
+    "ts-jest": "^29.3.4",
     "ts-jest-resolver": "^2.0.1",
     "typescript": "^5.8.3"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "*"
+    "@rollup/rollup-linux-x64-gnu": "^4.41.0"
   }
 }
