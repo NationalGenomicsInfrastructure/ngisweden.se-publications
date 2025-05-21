@@ -12,7 +12,31 @@ const config = {
     format: 'es',
     sourcemap: true
   },
-  plugins: [typescript(), nodeResolve({ preferBuiltins: true }), commonjs()]
+  external: ['@actions/core'],
+  plugins: [
+    typescript(),
+    nodeResolve({
+      preferBuiltins: true,
+      // Handle circular dependencies
+      mainFields: ['module', 'main'],
+      extensions: ['.js', '.ts']
+    }),
+    commonjs({
+      // Handle circular dependencies
+      ignoreDynamicRequires: true,
+      requireReturnsDefault: 'auto'
+    })
+  ],
+  onwarn(warning, warn) {
+    // Ignore circular dependency warnings for @actions/core
+    if (
+      warning.code === 'CIRCULAR_DEPENDENCY' &&
+      warning.message.includes('@actions/core')
+    ) {
+      return
+    }
+    warn(warning)
+  }
 }
 
 export default config
