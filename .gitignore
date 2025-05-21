@@ -93,6 +93,9 @@ typings/
 # PHP files
 *.php
 
+# JSON files
+*.json
+
 # OS metadata
 .DS_Store
 Thumbs.db

@@ -22,6 +22,8 @@ async function fetchPublicationsFromAPI(
       )
     }
     const rawData = await response.json()
+    // For debugging, you can limit the number of publications downloaded by using jq:
+    // jq '.publications = (.publications | .[0:10])' publications_all.json > publications_subset.json
     const result = ApiResponseSchema.safeParse(rawData)
 
     if (!result.success) {

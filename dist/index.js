@@ -7632,6 +7632,7 @@ var ZodFirstPartyTypeKind;
     ZodFirstPartyTypeKind["ZodReadonly"] = "ZodReadonly";
 })(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
 const stringType = ZodString.create;
+const numberType = ZodNumber.create;
 const booleanType = ZodBoolean.create;
 ZodNever.create;
 const arrayType = ZodArray.create;
@@ -7640,45 +7641,129 @@ ZodUnion.create;
 ZodIntersection.create;
 ZodTuple.create;
 const recordType = ZodRecord.create;
-ZodEnum.create;
+const enumType = ZodEnum.create;
 ZodPromise.create;
 ZodOptional.create;
 ZodNullable.create;
 
 // Base schemas for nested objects
-const AuthorSchema = objectType({
-    given: stringType(),
-    family: stringType(),
-    initials: stringType()
-});
-const JournalSchema = objectType({
-    title: stringType(),
-    volume: stringType().optional(),
-    issue: stringType().optional(),
-    issn: stringType().optional()
-});
 const LinksSchema = objectType({
+    self: objectType({
+        href: stringType().url()
+    }),
     display: objectType({
         href: stringType().url()
     })
 });
+const AuthorSchema = objectType({
+    given: stringType(),
+    family: stringType(),
+    initials: stringType(),
+    orcid: stringType().optional(),
+    researcher: objectType({
+        href: stringType().url()
+    })
+        .optional()
+});
+const AccountSchema = objectType({
+    entity: stringType(),
+    iuid: stringType(),
+    timestamp: stringType().datetime().or(stringType()),
+    links: LinksSchema,
+    email: stringType().email(),
+    name: stringType(),
+    orcid: stringType(),
+    role: stringType(),
+    status: stringType(),
+    login: stringType().datetime().or(stringType()),
+    created: stringType().datetime().or(stringType()),
+    modified: stringType().datetime().or(stringType())
+});
+const JournalSchema = objectType({
+    title: stringType(),
+    volume: stringType().nullable().optional(),
+    issue: stringType().nullable().optional(),
+    issn: stringType().nullable().optional(),
+    'issn-l': stringType().nullable().optional(),
+    pages: stringType().nullable().optional()
+});
+const XrefSchema = objectType({
+    db: stringType(),
+    key: stringType()
+});
+// Define a more flexible label type that falls back to string if not in enum
+const LabelTypeSchema = enumType(['Service', 'Collaborative', 'Technology development'])
+    .or(stringType())
+    .transform((val) => {
+    // Normalize common variations
+    if (typeof val === 'string') {
+        const normalized = val.toLowerCase().trim();
+        if (normalized.includes('service'))
+            return 'Service';
+        if (normalized.includes('collab'))
+            return 'Collaborative';
+        if (normalized.includes('tech'))
+            return 'Technology development';
+    }
+    return val;
+});
 // Main publication schema
 const PublicationSchema = objectType({
+    entity: stringType(),
     iuid: stringType(),
+    timestamp: stringType().datetime().or(stringType()),
     doi: stringType(),
-    pmid: stringType(),
+    pmid: stringType().nullable().optional(),
     title: stringType(),
-    abstract: stringType().optional(),
-    published: stringType().datetime(),
+    abstract: stringType().nullable().optional(),
+    published: stringType()
+        .datetime()
+        .or(stringType())
+        .transform((val) => {
+        // Try to normalize dates
+        try {
+            if (typeof val === 'string') {
+                // Handle YYYY-MM format
+                if (/^\d{4}-\d{2}$/.test(val)) {
+                    return val + '-01'; // Add day
+                }
+                // Handle YYYY format
+                if (/^\d{4}$/.test(val)) {
+                    return val + '-01-01'; // Add month and day
+                }
+                return val;
+            }
+            return val;
+        }
+        catch {
+            return val;
+        }
+    }),
+    type: stringType(),
     authors: arrayType(AuthorSchema),
     journal: JournalSchema,
-    labels: recordType(stringType()),
+    labels: recordType(stringType(), LabelTypeSchema),
     links: LinksSchema,
+    xrefs: arrayType(XrefSchema).optional(),
+    notes: arrayType(stringType()).optional(),
+    created: stringType().datetime().or(stringType()),
+    modified: stringType().datetime().or(stringType()),
     is_collab: booleanType().optional(),
     is_tech_dev: booleanType().optional()
 });
 // API response schema
 const ApiResponseSchema = objectType({
+    entity: stringType(),
+    iuid: stringType(),
+    timestamp: stringType().datetime().or(stringType()),
+    links: LinksSchema,
+    value: stringType(),
+    started: stringType(),
+    ended: stringType(),
+    created: stringType().datetime().or(stringType()),
+    modified: stringType().datetime().or(stringType()),
+    accounts: arrayType(AccountSchema),
+    publications_count: numberType(),
     publications: arrayType(PublicationSchema)
 });
 
@@ -7697,6 +7782,8 @@ async function fetchPublicationsFromAPI(facility, downloadLimit) {
             throw new Error(`HTTP error from SciLifeLab Publications API: status: ${response.status}`);
         }
         const rawData = await response.json();
+        // For debugging, you can limit the number of publications downloaded by using jq:
+        // jq '.publications = (.publications | .[0:10])' publications_all.json > publications_subset.json
         const result = ApiResponseSchema.safeParse(rawData);
         if (!result.success) {
             console.error(`Validation error for ${facility}:`, result.error);
