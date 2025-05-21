@@ -12,10 +12,19 @@ export const LinksSchema = z.object({
 })
 
 export const AuthorSchema = z.object({
-  given: z.string(),
-  family: z.string(),
-  initials: z.string(),
-  orcid: z.string().optional(),
+  given: z
+    .string()
+    .nullable()
+    .transform((val) => val ?? ''),
+  family: z
+    .string()
+    .nullable()
+    .transform((val) => val ?? ''),
+  initials: z
+    .string()
+    .nullable()
+    .transform((val) => val ?? ''),
+  orcid: z.string().nullable().optional(),
   researcher: z
     .object({
       href: z.string().url()
@@ -30,10 +39,10 @@ export const AccountSchema = z.object({
   links: LinksSchema,
   email: z.string().email(),
   name: z.string(),
-  orcid: z.string(),
+  orcid: z.string().nullable().optional(),
   role: z.string(),
   status: z.string(),
-  login: z.string().datetime().or(z.string()),
+  login: z.string().datetime().or(z.string().nullable()),
   created: z.string().datetime().or(z.string()),
   modified: z.string().datetime().or(z.string())
 })
@@ -55,9 +64,8 @@ export const XrefSchema = z.object({
 // Define a more flexible label type that falls back to string if not in enum
 export const LabelTypeSchema = z
   .enum(['Service', 'Collaborative', 'Technology development'])
-  .or(z.string())
+  .or(z.string().nullable())
   .transform((val) => {
-    // Normalize common variations
     if (typeof val === 'string') {
       const normalized = val.toLowerCase().trim()
       if (normalized.includes('service')) return 'Service'
@@ -71,8 +79,10 @@ export const LabelTypeSchema = z
 export const PublicationSchema = z.object({
   entity: z.string(),
   iuid: z.string(),
-  timestamp: z.string().datetime().or(z.string()),
-  doi: z.string(),
+  doi: z
+    .string()
+    .nullable()
+    .transform((val) => val ?? ''),
   pmid: z.string().nullable().optional(),
   title: z.string(),
   abstract: z.string().nullable().optional(),
@@ -99,13 +109,13 @@ export const PublicationSchema = z.object({
         return val
       }
     }),
-  type: z.string(),
+  type: z.string().nullable().optional(),
   authors: z.array(AuthorSchema),
   journal: JournalSchema,
   labels: z.record(z.string(), LabelTypeSchema),
   links: LinksSchema,
   xrefs: z.array(XrefSchema).optional(),
-  notes: z.array(z.string()).optional(),
+  notes: z.union([z.array(z.string()), z.string()]).optional(),
   created: z.string().datetime().or(z.string()),
   modified: z.string().datetime().or(z.string()),
   is_collab: z.boolean().optional(),

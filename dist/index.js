@@ -7637,7 +7637,7 @@ const booleanType = ZodBoolean.create;
 ZodNever.create;
 const arrayType = ZodArray.create;
 const objectType = ZodObject.create;
-ZodUnion.create;
+const unionType = ZodUnion.create;
 ZodIntersection.create;
 ZodTuple.create;
 const recordType = ZodRecord.create;
@@ -7656,10 +7656,16 @@ const LinksSchema = objectType({
     })
 });
 const AuthorSchema = objectType({
-    given: stringType(),
-    family: stringType(),
-    initials: stringType(),
-    orcid: stringType().optional(),
+    given: stringType()
+        .nullable()
+        .transform((val) => val ?? ''),
+    family: stringType()
+        .nullable()
+        .transform((val) => val ?? ''),
+    initials: stringType()
+        .nullable()
+        .transform((val) => val ?? ''),
+    orcid: stringType().nullable().optional(),
     researcher: objectType({
         href: stringType().url()
     })
@@ -7672,10 +7678,10 @@ const AccountSchema = objectType({
     links: LinksSchema,
     email: stringType().email(),
     name: stringType(),
-    orcid: stringType(),
+    orcid: stringType().nullable().optional(),
     role: stringType(),
     status: stringType(),
-    login: stringType().datetime().or(stringType()),
+    login: stringType().datetime().or(stringType().nullable()),
     created: stringType().datetime().or(stringType()),
     modified: stringType().datetime().or(stringType())
 });
@@ -7693,9 +7699,8 @@ const XrefSchema = objectType({
 });
 // Define a more flexible label type that falls back to string if not in enum
 const LabelTypeSchema = enumType(['Service', 'Collaborative', 'Technology development'])
-    .or(stringType())
+    .or(stringType().nullable())
     .transform((val) => {
-    // Normalize common variations
     if (typeof val === 'string') {
         const normalized = val.toLowerCase().trim();
         if (normalized.includes('service'))
@@ -7711,8 +7716,9 @@ const LabelTypeSchema = enumType(['Service', 'Collaborative', 'Technology develo
 const PublicationSchema = objectType({
     entity: stringType(),
     iuid: stringType(),
-    timestamp: stringType().datetime().or(stringType()),
-    doi: stringType(),
+    doi: stringType()
+        .nullable()
+        .transform((val) => val ?? ''),
     pmid: stringType().nullable().optional(),
     title: stringType(),
     abstract: stringType().nullable().optional(),
@@ -7739,13 +7745,13 @@ const PublicationSchema = objectType({
             return val;
         }
     }),
-    type: stringType(),
+    type: stringType().nullable().optional(),
     authors: arrayType(AuthorSchema),
     journal: JournalSchema,
     labels: recordType(stringType(), LabelTypeSchema),
     links: LinksSchema,
     xrefs: arrayType(XrefSchema).optional(),
-    notes: arrayType(stringType()).optional(),
+    notes: unionType([arrayType(stringType()), stringType()]).optional(),
     created: stringType().datetime().or(stringType()),
     modified: stringType().datetime().or(stringType()),
     is_collab: booleanType().optional(),
