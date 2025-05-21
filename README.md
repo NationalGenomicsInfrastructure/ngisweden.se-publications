@@ -6,6 +6,52 @@
 [![CodeQL](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml)
 [![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
+## Usage
+
+To include the action in a workflow in another repository, you can use the
+`uses` syntax with the `@` symbol to reference a specific branch, tag, or commit
+hash.
+
+```yaml
+steps:
+  - uses: actions/checkout@v4
+  - uses: pnpm/action-setup@v4
+  - uses: actions/setup-node@v4
+    with:
+      node-version: 'lts/*'
+      cache: 'pnpm'
+  - name: Install dependencies
+    run: pnpm install
+  - uses: @NationalGenomicsInfrastructure/ngisweden.se-publications
+      with:
+        # Maximum number of publications to fetch per facility
+        download-limit: '10'
+        # Number of publications to display
+        num-publications: '25'
+        # Whether to show the "User Publications" title
+        show-title: 'true'
+        # Whether to show the footer with link to publications.scilifelab.se
+        show-footer: 'true'
+        # Whether to randomize the order of publications
+        randomise: 'true'
+        # Maximum number of collaborative publications to show (-1 for no limit)
+        max-collabs: '-1'
+        # Whether to treat technology development publications as collaborations
+        tech-dev-is-collab: 'true'
+        # Whether to commit the generated files to a repository
+        commit: 'false'
+        # Commit message to use when committing files
+        commit-message: 'Update publications'
+        # Repository to commit the files to (defaults to current repository)
+        commit-repo: '${{ github.repository }}'
+        # Token to use when committing files (defaults to GITHUB_TOKEN)
+        commit-token: '${{ secrets.GITHUB_TOKEN }}'
+        # Path where to save the HTML file in the repository
+        html-path: 'publications.html'
+        # Path where to save the JSON file in the repository
+        json-path: 'publications.json'
+```
+
 ## Development
 
 ### Initial Setup
@@ -98,7 +144,7 @@ So, what are you waiting for? Go ahead and start customizing your action!
 1. Format, test, and build the action
 
    ```bash
-   npm run all
+   pnpm run all
    ```
 
    > This step is important! It will run [`rollup`](https://rollupjs.org/) to
@@ -156,7 +202,7 @@ For information about versioning your action, see
 [Versioning](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
 in the GitHub Actions toolkit.
 
-## Validate the Action
+### Validate the Action
 
 You can now validate the action by referencing it in a workflow file. For
 example, [`ci.yml`](./.github/workflows/ci.yml) demonstrates how to reference an
@@ -164,48 +210,27 @@ action in the same repository.
 
 ```yaml
 steps:
-  - name: Checkout
-    id: checkout
-    uses: actions/checkout@v4
-
+  - uses: actions/checkout@v4
+  - uses: pnpm/action-setup@v4
+  - uses: actions/setup-node@v4
+    with:
+      node-version: 'lts/*'
+      cache: 'pnpm'
+  - name: Install dependencies
+    run: pnpm install
   - name: Test Local Action
     id: test-action
     uses: ./
     with:
-      milliseconds: 1000
-
-  - name: Print Output
-    id: output
-    run: echo "${{ steps.test-action.outputs.time }}"
+      download-limit: '10'
+      num-publications: '25'
+      commit: 'false'
+  - name: Upload outputs for inspection
+    uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
+    with:
+      name: publications
+      path: publications*
 ```
 
 For example workflow runs, check out the
 [Actions tab](https://github.com/actions/typescript-action/actions)! :rocket:
-
-## Usage
-
-After testing, you can create version tag(s) that developers can use to
-reference different stable versions of your action. For more information, see
-[Versioning](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
-in the GitHub Actions toolkit.
-
-To include the action in a workflow in another repository, you can use the
-`uses` syntax with the `@` symbol to reference a specific branch, tag, or commit
-hash.
-
-```yaml
-steps:
-  - name: Checkout
-    id: checkout
-    uses: actions/checkout@v4
-
-  - name: Test Local Action
-    id: test-action
-    uses: actions/typescript-action@v1 # Commit with the `v1` tag
-    with:
-      milliseconds: 1000
-
-  - name: Print Output
-    id: output
-    run: echo "${{ steps.test-action.outputs.time }}"
-```

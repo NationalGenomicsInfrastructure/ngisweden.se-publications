@@ -22,6 +22,8 @@ export async function run(): Promise<void> {
     const maxCollabs = parseInt(core.getInput('max-collabs') || '-1', 10)
     const techDevIsCollab = core.getInput('tech-dev-is-collab') !== 'false'
     const shouldCommit = core.getInput('commit') === 'true'
+    const commitRepo = core.getInput('commit-repo')
+    const commitToken = core.getInput('commit-token')
     const commitMessage = core.getInput('commit-message')
     const htmlPath = core.getInput('html-path')
     const jsonPath = core.getInput('json-path')
@@ -43,6 +45,8 @@ export async function run(): Promise<void> {
     // Set outputs for other workflow steps to use
     core.setOutput('html', result.html)
     core.setOutput('json', result.json)
+    core.setOutput('html-path', htmlPath || 'publications.html')
+    core.setOutput('json-path', jsonPath || 'publications.json')
     core.setOutput('warnings', result.warnings.join('\n'))
 
     // Log any warnings
@@ -52,13 +56,13 @@ export async function run(): Promise<void> {
 
     // Commit files if requested
     if (shouldCommit) {
-      const token = process.env.GITHUB_TOKEN
+      const token = commitToken || process.env.GITHUB_TOKEN
       if (!token) {
         throw new Error('GITHUB_TOKEN is required when commit is enabled')
       }
 
       const octokit = new Octokit({ auth: token })
-      const [owner, repo] = (process.env.GITHUB_REPOSITORY || '').split('/')
+      const [owner, repo] = (commitRepo || '').split('/')
       if (!owner || !repo) {
         throw new Error('GITHUB_REPOSITORY is not set')
       }

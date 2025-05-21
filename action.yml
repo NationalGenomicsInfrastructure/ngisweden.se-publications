@@ -48,6 +48,14 @@ inputs:
     description: 'Commit message to use when committing files'
     required: false
     default: 'Update publications'
+  commit-repo:
+    description: 'Repository to commit the files to'
+    required: false
+    default: '${{ process.env.GITHUB_REPOSITORY }}'
+  commit-token:
+    description: 'Token to use when committing files'
+    required: false
+    default: '${{ secrets.GITHUB_TOKEN }}'
   html-path:
     description: 'Path where to save the HTML file in the repository'
     required: false

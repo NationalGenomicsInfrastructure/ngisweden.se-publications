@@ -34875,6 +34875,8 @@ async function run() {
         const maxCollabs = parseInt(coreExports.getInput('max-collabs') || '-1', 10);
         const techDevIsCollab = coreExports.getInput('tech-dev-is-collab') !== 'false';
         const shouldCommit = coreExports.getInput('commit') === 'true';
+        const commitRepo = coreExports.getInput('commit-repo');
+        const commitToken = coreExports.getInput('commit-token');
         const commitMessage = coreExports.getInput('commit-message');
         const htmlPath = coreExports.getInput('html-path');
         const jsonPath = coreExports.getInput('json-path');
@@ -34893,6 +34895,8 @@ async function run() {
         // Set outputs for other workflow steps to use
         coreExports.setOutput('html', result.html);
         coreExports.setOutput('json', result.json);
+        coreExports.setOutput('html-path', htmlPath || 'publications.html');
+        coreExports.setOutput('json-path', jsonPath || 'publications.json');
         coreExports.setOutput('warnings', result.warnings.join('\n'));
         // Log any warnings
         if (result.warnings.length > 0) {
@@ -34900,12 +34904,12 @@ async function run() {
         }
         // Commit files if requested
         if (shouldCommit) {
-            const token = process.env.GITHUB_TOKEN;
+            const token = commitToken || process.env.GITHUB_TOKEN;
             if (!token) {
                 throw new Error('GITHUB_TOKEN is required when commit is enabled');
             }
             const octokit = new Octokit({ auth: token });
-            const [owner, repo] = (process.env.GITHUB_REPOSITORY || '').split('/');
+            const [owner, repo] = (commitRepo || '').split('/');
             if (!owner || !repo) {
                 throw new Error('GITHUB_REPOSITORY is not set');
             }
