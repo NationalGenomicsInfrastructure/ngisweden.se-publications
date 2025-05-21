@@ -51,11 +51,11 @@ inputs:
   commit-repo:
     description: 'Repository to commit the files to'
     required: false
-    default: '${{ process.env.GITHUB_REPOSITORY }}'
+    default: ${{ github.action_repository }}
   commit-token:
     description: 'Token to use when committing files'
     required: false
-    default: '${{ secrets.GITHUB_TOKEN }}'
+    default: ${{ github.token }}
   html-path:
     description: 'Path where to save the HTML file in the repository'
     required: false
