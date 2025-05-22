@@ -43,11 +43,11 @@ jobs:
 
       - name: Lint
         id: pnpm-lint
-        run: pnpm run lint
+        run: pnpm lint
 
       - name: Test
         id: pnpm-ci-test
-        run: pnpm run ci-test
+        run: pnpm ci-test
 
   test-action:
     name: GitHub Actions Test
