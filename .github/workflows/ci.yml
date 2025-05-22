@@ -76,8 +76,20 @@ jobs:
         uses: ./
         with:
           download-limit: '10'
-          num-publications: '25'
+          num-publications: '2'
           commit: 'false'
+      
+      - name: Write outputs to files
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('publications.html', process.env.HTML_OUTPUT);
+            fs.writeFileSync('publications.json', process.env.JSON_OUTPUT);
+          "
+        env:
+          HTML_OUTPUT: ${{ steps.test-action.outputs.html }}
+          JSON_OUTPUT: ${{ steps.test-action.outputs.json }}
+      
       - name: Upload outputs for inspection
         uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
         with:
