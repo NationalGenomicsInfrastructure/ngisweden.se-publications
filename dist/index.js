@@ -7905,10 +7905,9 @@ async function getPublications(options = {}) {
         }
         // Process publications
         let publications = processPublications(allPublications, defaultOptions);
-        // Apply filters and limits
+        // Apply collaboration filters
         let numCollabs = 0;
-        publications = publications
-            .filter((pub) => {
+        publications = publications.filter((pub) => {
             const maxCollabs = defaultOptions.max_collabs ?? -1;
             if (maxCollabs >= 0 && numCollabs >= maxCollabs && pub.is_collab) {
                 return false;
@@ -7917,12 +7916,13 @@ async function getPublications(options = {}) {
                 numCollabs++;
             }
             return true;
-        })
-            .slice(0, defaultOptions.num);
-        // Randomize if requested
+        });
+        // Randomize the full set of publications
         if (defaultOptions.randomise) {
             publications = publications.sort(() => Math.random() - 0.5);
         }
+        // Apply the num limit after randomization, to get n random or newest (if randomize is false) publications
+        publications = publications.slice(0, defaultOptions.num);
         // Generate HTML
         const modals = publications.map(formatPublicationHTML).join('\n');
         const listItems = publications
