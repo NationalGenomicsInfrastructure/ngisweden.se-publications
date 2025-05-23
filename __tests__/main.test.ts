@@ -18,22 +18,18 @@ const __dirname = path.dirname(__filename)
 const mockOctokit = {
   rest: {
     repos: {
-      get: jest
-        .fn()
-        .mockImplementation(async () => ({ 
-          data: { 
-            default_branch: 'main',
-            name: 'repo',
-            owner: { login: 'owner' }
-          } 
-        }))
+      get: jest.fn().mockImplementation(async () => ({
+        data: {
+          default_branch: 'main',
+          name: 'repo',
+          owner: { login: 'owner' }
+        }
+      }))
     },
     git: {
-      getRef: jest
-        .fn()
-        .mockImplementation(async () => ({
-          data: { object: { sha: 'abc123' } }
-        })),
+      getRef: jest.fn().mockImplementation(async () => ({
+        data: { object: { sha: 'abc123' } }
+      })),
       createTree: jest
         .fn()
         .mockImplementation(async () => ({ data: { sha: 'def456' } })),
@@ -148,23 +144,23 @@ describe('main.ts', () => {
     // Set up environment for commit
     process.env.GITHUB_REPOSITORY = 'owner/repo'
     process.env.GITHUB_TOKEN = 'test-token'
-    
+
     // Reset mocks before test
     jest.clearAllMocks()
-    
+
     // Track input calls
     const inputCalls: string[] = []
-    
+
     core.getInput.mockImplementation((name: string) => {
       const inputs: Record<string, string> = {
         'download-limit': '50',
         'num-publications': '5',
         'show-title': 'true',
         'show-footer': 'true',
-        'randomise': 'true',
+        randomise: 'true',
         'max-collabs': '-1',
         'tech-dev-is-collab': 'true',
-        'commit': 'true',
+        commit: 'true',
         'commit-repo': 'owner/repo',
         'commit-token': 'test-token',
         'commit-message': 'Update publications',
@@ -181,7 +177,10 @@ describe('main.ts', () => {
     // Log calls to console for debugging
     console.log('Input calls:', inputCalls)
     console.log('Octokit constructor calls:', mockOctokitConstructor.mock.calls)
-    console.log('Octokit repos.get calls:', mockOctokit.rest.repos.get.mock.calls)
+    console.log(
+      'Octokit repos.get calls:',
+      mockOctokit.rest.repos.get.mock.calls
+    )
 
     // Verify Octokit was used to commit files
     expect(mockOctokit.rest.repos.get).toHaveBeenCalledWith({
