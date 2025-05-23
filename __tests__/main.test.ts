@@ -6,6 +6,7 @@ import * as core from '../__fixtures__/core.js'
 import * as fs from 'fs/promises'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
+import type { ApiResponse } from '../src/schemas.js'
 
 // Mock the core module
 jest.unstable_mockModule('@actions/core', () => core)
@@ -49,7 +50,7 @@ jest.mock('@octokit/rest', () => ({
 
 // Mock fetch for the publications API
 const mockFetch = jest.fn() as jest.Mock<
-  () => Promise<{ ok: boolean; json: () => Promise<any> }>
+  () => Promise<{ ok: boolean; json: () => Promise<ApiResponse> }>
 >
 
 // Override global fetch
@@ -62,7 +63,7 @@ Object.defineProperty(global, 'fetch', {
 const { run } = await import('../src/main.js')
 
 describe('main.ts', () => {
-  let mockApiResponse: any
+  let mockApiResponse: ApiResponse
 
   beforeEach(async () => {
     // Reset all mocks before each test
