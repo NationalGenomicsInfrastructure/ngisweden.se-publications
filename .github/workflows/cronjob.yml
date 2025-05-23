@@ -39,7 +39,7 @@ jobs:
           num-publications: '20'
           commit: 'true'
           'commit-repo': 'NationalGenomicsInfrastructure/ngisweden.se-publications'
-          'commit-token': ${{ secrets.GITHUB_TOKEN }}
+          'commit-token': ${{ secrets.TOKEN_FOR_PUBLICATION_COMMITS }}
           'commit-message': 'Update NGI Publications'
           'html-path': 'cache/publications.html'
           'json-path': 'cache/publications.json'
