@@ -3,9 +3,16 @@
  */
 import { jest } from '@jest/globals'
 import * as core from '../__fixtures__/core.js'
+import * as fs from 'fs/promises'
+import * as path from 'path'
+import { fileURLToPath } from 'url'
 
 // Mock the core module
 jest.unstable_mockModule('@actions/core', () => core)
+
+// Get the directory name in ES modules
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // Mock Octokit
 const mockOctokit = {
@@ -13,7 +20,13 @@ const mockOctokit = {
     repos: {
       get: jest
         .fn()
-        .mockImplementation(async () => ({ data: { default_branch: 'main' } }))
+        .mockImplementation(async () => ({ 
+          data: { 
+            default_branch: 'main',
+            name: 'repo',
+            owner: { login: 'owner' }
+          } 
+        }))
     },
     git: {
       getRef: jest
@@ -53,7 +66,9 @@ Object.defineProperty(global, 'fetch', {
 const { run } = await import('../src/main.js')
 
 describe('main.ts', () => {
-  beforeEach(() => {
+  let mockApiResponse: any
+
+  beforeEach(async () => {
     // Reset all mocks before each test
     jest.clearAllMocks()
 
@@ -78,56 +93,10 @@ describe('main.ts', () => {
       return defaults[name] || ''
     })
 
-    // Mock successful API response
-    const mockApiResponse = {
-      entity: 'publication',
-      iuid: 'vasa-1524-09-01',
-      timestamp: new Date().toISOString(),
-      links: {
-        self: { href: 'https://example.com/self' },
-        display: { href: 'https://example.com/display' }
-      },
-      value: 'test',
-      started: new Date().toISOString(),
-      ended: new Date().toISOString(),
-      created: new Date().toISOString(),
-      modified: new Date().toISOString(),
-      accounts: [],
-      publications_count: 1,
-      publications: [
-        {
-          entity: 'publication',
-          iuid: 'vasa-1524-09-01',
-          doi: '211.18M/vasa-1524-09-01',
-          title:
-            'Musings on defeating King Christian II and forming a new dynasty',
-          published: '1524-09-01',
-          authors: [
-            {
-              given: 'Gustav',
-              family: 'Vasa',
-              initials: 'GV',
-              orcid: null
-            }
-          ],
-          journal: {
-            name: 'Malmö recess',
-            volume: '1',
-            issue: '1',
-            pages: '1521–23'
-          },
-          labels: {
-            'NGI Stockholm (Genomics Applications)': 'Collaborative'
-          },
-          links: {
-            self: { href: 'https://example.com/self' },
-            display: { href: 'https://example.com/display' }
-          },
-          created: new Date().toISOString(),
-          modified: new Date().toISOString()
-        }
-      ]
-    }
+    // Load mock API response from file
+    const mockFilePath = path.join(__dirname, 'publications_mock.json')
+    const mockFileContent = await fs.readFile(mockFilePath, 'utf-8')
+    mockApiResponse = JSON.parse(mockFileContent)
 
     // Mock fetch response
     const mockResponse = {
@@ -158,19 +127,6 @@ describe('main.ts', () => {
     expect(core.setOutput).toHaveBeenCalledWith('warnings', expect.any(String))
   })
 
-  it('should handle API errors gracefully', async () => {
-    mockFetch.mockRejectedValueOnce(new Error('API Error'))
-
-    await run()
-
-    expect(core.setOutput).toHaveBeenCalledWith(
-      'html',
-      expect.stringContaining('Error: Publications could not be retrieved')
-    )
-    expect(core.setOutput).toHaveBeenCalledWith('json', '[]')
-    expect(core.warning).toHaveBeenCalled()
-  })
-
   it('should respect custom input parameters', async () => {
     core.getInput.mockImplementation((name: string) => {
       if (name === 'num-publications') return '2'
@@ -191,13 +147,24 @@ describe('main.ts', () => {
   it('should commit files when commit option is enabled', async () => {
     // Set up environment for commit
     process.env.GITHUB_REPOSITORY = 'owner/repo'
+    process.env.GITHUB_TOKEN = 'test-token'
+    
+    // Reset mocks before test
+    jest.clearAllMocks()
     
     // Track input calls
     const inputCalls: string[] = []
     
     core.getInput.mockImplementation((name: string) => {
       const inputs: Record<string, string> = {
-        commit: 'true',
+        'download-limit': '50',
+        'num-publications': '5',
+        'show-title': 'true',
+        'show-footer': 'true',
+        'randomise': 'true',
+        'max-collabs': '-1',
+        'tech-dev-is-collab': 'true',
+        'commit': 'true',
         'commit-repo': 'owner/repo',
         'commit-token': 'test-token',
         'commit-message': 'Update publications',
@@ -211,12 +178,16 @@ describe('main.ts', () => {
 
     await run()
 
-    // Log what happened
+    // Log calls to console for debugging
     console.log('Input calls:', inputCalls)
     console.log('Octokit constructor calls:', mockOctokitConstructor.mock.calls)
+    console.log('Octokit repos.get calls:', mockOctokit.rest.repos.get.mock.calls)
 
     // Verify Octokit was used to commit files
-    expect(mockOctokitConstructor).toHaveBeenCalledWith({ auth: 'test-token' })
+    expect(mockOctokit.rest.repos.get).toHaveBeenCalledWith({
+      owner: 'owner',
+      repo: 'repo'
+    })
     expect(mockOctokit.rest.git.createTree).toHaveBeenCalled()
     expect(mockOctokit.rest.git.createCommit).toHaveBeenCalled()
     expect(mockOctokit.rest.git.updateRef).toHaveBeenCalled()

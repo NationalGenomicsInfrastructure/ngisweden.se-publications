@@ -102,6 +102,7 @@ Thumbs.db
 
 # Ignore built ts files
 __tests__/runner/*
+!__tests__/publications_mock.json
 
 # IDE files
 .idea
