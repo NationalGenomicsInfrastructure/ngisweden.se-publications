@@ -1,10 +1,11 @@
+![ngi-publications](https://raw.githubusercontent.com/NationalGenomicsInfrastructure/ngi-firn/refs/heads/main/docs/images/repoheader.svg)
+
 # GitHub Action for fetching NGI publications
 
 [![GitHub Super-Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
 ![CI](https://github.com/actions/typescript-action/actions/workflows/ci.yml/badge.svg)
 [![Check dist/](https://github.com/actions/typescript-action/actions/workflows/check-dist.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/check-dist.yml)
 [![CodeQL](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml)
-[![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
 ## Usage
 
@@ -131,8 +132,6 @@ There are a few things to keep in mind when writing your action code:
   For more information about the GitHub Actions toolkit, see the
   [documentation](https://github.com/actions/toolkit/blob/master/README.md).
 
-So, what are you waiting for? Go ahead and start customizing your action!
-
 1. Create a new branch
 
    ```bash
@@ -152,34 +151,6 @@ So, what are you waiting for? Go ahead and start customizing your action!
    > you do not run this step, your action will not work correctly when it is
    > used in a workflow.
 
-1. (Optional) Test your action locally
-
-   The [`@github/local-action`](https://github.com/github/local-action) utility
-   can be used to test your action locally. It is a simple command-line tool
-   that "stubs" (or simulates) the GitHub Actions Toolkit. This way, you can run
-   your TypeScript action locally without having to commit and push your changes
-   to a repository.
-
-   The `local-action` utility can be run in the following ways:
-
-   - Visual Studio Code Debugger
-
-     Make sure to review and, if needed, update
-     [`.vscode/launch.json`](./.vscode/launch.json)
-
-   - Terminal/Command Prompt
-
-     ```bash
-     # npx @github/local action <action-yaml-path> <entrypoint> <dotenv-file>
-     npx @github/local-action . src/main.ts .env
-     ```
-
-   You can provide a `.env` file to the `local-action` CLI to set environment
-   variables used by the GitHub Actions Toolkit. For example, setting inputs and
-   event payload data used by your action. For more information, see the example
-   file, [`.env.example`](./.env.example), and the
-   [GitHub Actions Documentation](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables).
-
 1. Commit your changes
 
    ```bash
@@ -198,10 +169,6 @@ So, what are you waiting for? Go ahead and start customizing your action!
 
 Your action is now published! :rocket:
 
-For information about versioning your action, see
-[Versioning](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
-in the GitHub Actions toolkit.
-
 ### Validate the Action
 
 You can now validate the action by referencing it in a workflow file. For
@@ -209,28 +176,48 @@ example, [`ci.yml`](./.github/workflows/ci.yml) demonstrates how to reference an
 action in the same repository.
 
 ```yaml
-steps:
-  - uses: actions/checkout@v4
-  - uses: pnpm/action-setup@v4
-  - uses: actions/setup-node@v4
-    with:
-      node-version: 'lts/*'
-      cache: 'pnpm'
-  - name: Install dependencies
-    run: pnpm install
-  - name: Test Local Action
-    id: test-action
-    uses: ./
-    with:
-      download-limit: '10'
-      num-publications: '25'
-      commit: 'false'
-  - name: Upload outputs for inspection
-    uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
-    with:
-      name: publications
-      path: publications*
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Test Local Action
+        id: test-action
+        uses: ./
+        with:
+          download-limit: '10'
+          num-publications: '2'
+          commit: 'false'
+
+      - name: Write outputs to files
+        run: |
+          node -e "
+            const fs = require('fs');
+            fs.writeFileSync('publications.html', process.env.HTML_OUTPUT);
+            fs.writeFileSync('publications.json', process.env.JSON_OUTPUT);
+          "
+        env:
+          HTML_OUTPUT: ${{ steps.test-action.outputs.html }}
+          JSON_OUTPUT: ${{ steps.test-action.outputs.json }}
+
+      - name: Upload outputs for inspection
+        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
+        with:
+          name: publications
+          path: publications*
 ```
 
 For example workflow runs, check out the
-[Actions tab](https://github.com/actions/typescript-action/actions)! :rocket:
+[Actions tab](https://github.com/NationalGenomicsInfrastructure/ngisweden.se-publications/actions)! :rocket:
