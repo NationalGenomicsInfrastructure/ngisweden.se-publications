@@ -1,0 +1,7123 @@
+[
+  {
+    "entity": "publication",
+    "iuid": "ee01bdbaa4114eec92a4d6c0407a11d8",
+    "doi": "10.1038/s43705-023-00231-x",
+    "pmid": "36973336",
+    "title": "Linking prokaryotic genome size variation to metabolic potential and environment.",
+    "abstract": "While theories and models have appeared to explain genome size as a result of evolutionary processes, little work has shown that genome sizes carry ecological signatures. Our work delves into the ecological implications of microbial genome size variation in benthic and pelagic habitats across environmental gradients of the brackish Baltic Sea. While depth is significantly associated with genome size in benthic and pelagic brackish metagenomes, salinity is only correlated to genome size in benthic metagenomes. Overall, we confirm that prokaryotic genome sizes in Baltic sediments (3.47 Mbp) are significantly bigger than in the water column (2.96 Mbp). While benthic genomes have a higher number of functions than pelagic genomes, the smallest genomes coded for a higher number of module steps per Mbp for most of the functions irrespective of their environment. Some examples of this functions are amino acid metabolism and central carbohydrate metabolism. However, we observed that nitrogen metabolism was almost absent in pelagic genomes and was mostly present in benthic genomes. Finally, we also show that Bacteria inhabiting Baltic sediments and water column not only differ in taxonomy, but also in their metabolic potential, such as the Wood-Ljungdahl pathway or the presence of different hydrogenases. Our work shows how microbial genome size is linked to abiotic factors in the environment, metabolic potential and taxonomic identity of Bacteria and Archaea within aquatic ecosystems.",
+    "published": "2023-03-27",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Alejandro",
+        "family": "Rodríguez-Gijón",
+        "initials": "A",
+        "orcid": "0000-0002-1649-6894",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d25dfecc53e94af0b79799621f131631.json"
+        }
+      },
+      {
+        "given": "Moritz",
+        "family": "Buck",
+        "initials": "M",
+        "orcid": "0000-0001-6632-5324",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ba68bf651630488dab4d146b11cf612a.json"
+        }
+      },
+      {
+        "given": "Anders F",
+        "family": "Andersson",
+        "initials": "AF",
+        "orcid": "0000-0002-3627-6899",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/caa76ee4438d4b4aad386ba8a90448c2.json"
+        }
+      },
+      {
+        "given": "Dandan",
+        "family": "Izabel-Shen",
+        "initials": "D",
+        "orcid": "0000-0002-3280-1166",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/21fcbf89ed644524852f2e12217f5371.json"
+        }
+      },
+      {
+        "given": "Francisco J A",
+        "family": "Nascimento",
+        "initials": "FJA",
+        "orcid": "0000-0003-3722-1360",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5c2cfb0d7a614432b9dfdfcfa3fc4644.json"
+        }
+      },
+      {
+        "given": "Sarahi L",
+        "family": "Garcia",
+        "initials": "SL",
+        "orcid": "0000-0002-8622-0308",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8aabc8c17d5b4ad7872c7380301d4562.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "ISME COMMUN.",
+      "volume": "3",
+      "issue": "1",
+      "issn": "2730-6151",
+      "issn-l": null,
+      "pages": "25"
+    },
+    "labels": {
+      "NGI Short read": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/ee01bdbaa4114eec92a4d6c0407a11d8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/ee01bdbaa4114eec92a4d6c0407a11d8"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC10042847"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s43705-023-00231-x"
+      }
+    ],
+    "notes": [],
+    "created": "2023-10-04T12:20:23.424Z",
+    "modified": "2024-01-16T13:48:33.810Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "b0dd5269a2024cd0a185edebda98873e",
+    "doi": "10.1038/srep35108",
+    "pmid": "27725773",
+    "title": "Analysis of the brain mural cell transcriptome.",
+    "abstract": "Pericytes, the mural cells of blood microvessels, regulate microvascular development and function and have been implicated in many brain diseases. However, due to a paucity of defining markers, pericyte identification and functional characterization remain ambiguous and data interpretation problematic. In mice carrying two transgenic reporters, Pdgfrb-eGFP and NG2-DsRed, we found that double-positive cells were vascular mural cells, while the single reporters marked additional, but non-overlapping, neuroglial cells. Double-positive cells were isolated by fluorescence-activated cell sorting (FACS) and analyzed by RNA sequencing. To reveal defining patterns of mural cell transcripts, we compared the RNA sequencing data with data from four previously published studies. The meta-analysis provided a conservative catalogue of 260 brain mural cell-enriched gene transcripts. We validated pericyte-specific expression of two novel markers, vitronectin (Vtn) and interferon-induced transmembrane protein 1 (Ifitm1), using fluorescent in situ hybridization and immunohistochemistry. We further analyzed signaling pathways and interaction networks of the pericyte-enriched genes in silico. This work provides novel insight into the molecular composition of brain mural cells. The reported gene catalogue facilitates identification of brain pericytes by providing numerous new candidate marker genes and is a rich source for new hypotheses for future studies of brain mural cell physiology and pathophysiology.",
+    "published": "2016-10-11",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Liqun",
+        "family": "He",
+        "initials": "L"
+      },
+      {
+        "given": "Michael",
+        "family": "Vanlandewijck",
+        "initials": "M"
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Raschperger",
+        "initials": "E"
+      },
+      {
+        "given": "Maarja",
+        "family": "Andaloussi Mäe",
+        "initials": "M"
+      },
+      {
+        "given": "Bongnam",
+        "family": "Jung",
+        "initials": "B"
+      },
+      {
+        "given": "Thibaud",
+        "family": "Lebouvier",
+        "initials": "T"
+      },
+      {
+        "given": "Koji",
+        "family": "Ando",
+        "initials": "K"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Hofmann",
+        "initials": "J"
+      },
+      {
+        "given": "Annika",
+        "family": "Keller",
+        "initials": "A"
+      },
+      {
+        "given": "Christer",
+        "family": "Betsholtz",
+        "initials": "C"
+      }
+    ],
+    "journal": {
+      "title": "Sci Rep",
+      "volume": "6",
+      "issue": null,
+      "issn": "2045-2322",
+      "issn-l": "2045-2322",
+      "pages": "35108"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/b0dd5269a2024cd0a185edebda98873e.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/b0dd5269a2024cd0a185edebda98873e"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "srep35108"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC5057134"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-03T13:01:41.218Z",
+    "modified": "2020-01-21T13:56:04.656Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "885c4609901343dea7ed3ff2af085159",
+    "doi": "10.1128/MRA.01664-18",
+    "pmid": "30714040",
+    "title": "Complete Genome Sequence of the Marine Hydrocarbon Degrader Alcaligenes aquatilis QD168, Isolated from Crude Oil-Polluted Sediment of Quintero Bay, Central Chile.",
+    "abstract": "Alcaligenes aquatilis strain QD168 (= CCUG 69566) is a marine hydrocarbon-degrading bacterium isolated from crude oil-polluted sediment from Quintero Bay, Central Chile. Here, we present the 4.32-Mb complete genome sequence of strain QD168, with 3,892 coding sequences, 58 tRNAs, and a 56.3% G+C content.",
+    "published": "2019-01-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Roberto E",
+        "family": "Durán",
+        "initials": "RE"
+      },
+      {
+        "given": "Bárbara",
+        "family": "Barra-Sanhueza",
+        "initials": "B"
+      },
+      {
+        "given": "Francisco",
+        "family": "Salvà-Serra",
+        "initials": "F"
+      },
+      {
+        "given": "Valentina",
+        "family": "Méndez",
+        "initials": "V"
+      },
+      {
+        "given": "Daniel",
+        "family": "Jaén-Luchoro",
+        "initials": "D"
+      },
+      {
+        "given": "Edward R B",
+        "family": "Moore",
+        "initials": "ERB"
+      },
+      {
+        "given": "Michael",
+        "family": "Seeger",
+        "initials": "M"
+      }
+    ],
+    "journal": {
+      "title": "Microbiol Resour Announc",
+      "volume": "8",
+      "issue": "5",
+      "issn": "2576-098X",
+      "issn-l": "2576-098X"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (Uppsala Genome Center)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/885c4609901343dea7ed3ff2af085159.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/885c4609901343dea7ed3ff2af085159"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "MRA01664-18"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC6357646"
+      }
+    ],
+    "notes": [],
+    "created": "2019-02-08T05:41:54.708Z",
+    "modified": "2020-01-21T13:56:13.810Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "e82b7d48491448a3b244184f53b885db",
+    "doi": "10.1073/pnas.1404623111",
+    "pmid": "25201988",
+    "title": "Common genetic variants associated with cognitive performance identified using the proxy-phenotype method.",
+    "abstract": "We identify common genetic variants associated with cognitive performance using a two-stage approach, which we call the proxy-phenotype method. First, we conduct a genome-wide association study of educational attainment in a large sample (n = 106,736), which produces a set of 69 education-associated SNPs. Second, using independent samples (n = 24,189), we measure the association of these education-associated SNPs with cognitive performance. Three SNPs (rs1487441, rs7923609, and rs2721173) are significantly associated with cognitive performance after correction for multiple hypothesis testing. In an independent sample of older Americans (n = 8,652), we also show that a polygenic score derived from the education-associated SNPs is associated with memory and absence of dementia. Convergent evidence from a set of bioinformatics analyses implicates four specific genes (KNCMA1, NRXN1, POU2F3, and SCRT). All of these genes are associated with a particular neurotransmitter pathway involved in synaptic plasticity, the main cellular mechanism for learning and memory.",
+    "published": "2014-09-23",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Cornelius A",
+        "family": "Rietveld",
+        "initials": "CA"
+      },
+      {
+        "given": "Tõnu",
+        "family": "Esko",
+        "initials": "T"
+      },
+      {
+        "given": "Gail",
+        "family": "Davies",
+        "initials": "G"
+      },
+      {
+        "given": "Tune H",
+        "family": "Pers",
+        "initials": "TH"
+      },
+      {
+        "given": "Patrick",
+        "family": "Turley",
+        "initials": "P"
+      },
+      {
+        "given": "Beben",
+        "family": "Benyamin",
+        "initials": "B"
+      },
+      {
+        "given": "Christopher F",
+        "family": "Chabris",
+        "initials": "CF"
+      },
+      {
+        "given": "Valur",
+        "family": "Emilsson",
+        "initials": "V"
+      },
+      {
+        "given": "Andrew D",
+        "family": "Johnson",
+        "initials": "AD"
+      },
+      {
+        "given": "James J",
+        "family": "Lee",
+        "initials": "JJ"
+      },
+      {
+        "given": "Christiaan",
+        "family": "de Leeuw",
+        "initials": "C"
+      },
+      {
+        "given": "Riccardo E",
+        "family": "Marioni",
+        "initials": "RE"
+      },
+      {
+        "given": "Sarah E",
+        "family": "Medland",
+        "initials": "SE"
+      },
+      {
+        "given": "Michael B",
+        "family": "Miller",
+        "initials": "MB"
+      },
+      {
+        "given": "Olga",
+        "family": "Rostapshova",
+        "initials": "O"
+      },
+      {
+        "given": "Sven J",
+        "family": "van der Lee",
+        "initials": "SJ"
+      },
+      {
+        "given": "Anna A E",
+        "family": "Vinkhuyzen",
+        "initials": "AA"
+      },
+      {
+        "given": "Najaf",
+        "family": "Amin",
+        "initials": "N"
+      },
+      {
+        "given": "Dalton",
+        "family": "Conley",
+        "initials": "D"
+      },
+      {
+        "given": "Jaime",
+        "family": "Derringer",
+        "initials": "J"
+      },
+      {
+        "given": "Cornelia M",
+        "family": "van Duijn",
+        "initials": "CM"
+      },
+      {
+        "given": "Rudolf",
+        "family": "Fehrmann",
+        "initials": "R"
+      },
+      {
+        "given": "Lude",
+        "family": "Franke",
+        "initials": "L"
+      },
+      {
+        "given": "Edward L",
+        "family": "Glaeser",
+        "initials": "EL"
+      },
+      {
+        "given": "Narelle K",
+        "family": "Hansell",
+        "initials": "NK"
+      },
+      {
+        "given": "Caroline",
+        "family": "Hayward",
+        "initials": "C"
+      },
+      {
+        "given": "William G",
+        "family": "Iacono",
+        "initials": "WG"
+      },
+      {
+        "given": "Carla",
+        "family": "Ibrahim-Verbaas",
+        "initials": "C"
+      },
+      {
+        "given": "Vincent",
+        "family": "Jaddoe",
+        "initials": "V"
+      },
+      {
+        "given": "Juha",
+        "family": "Karjalainen",
+        "initials": "J"
+      },
+      {
+        "given": "David",
+        "family": "Laibson",
+        "initials": "D"
+      },
+      {
+        "given": "Paul",
+        "family": "Lichtenstein",
+        "initials": "P"
+      },
+      {
+        "given": "David C",
+        "family": "Liewald",
+        "initials": "DC"
+      },
+      {
+        "given": "Patrik K E",
+        "family": "Magnusson",
+        "initials": "PK"
+      },
+      {
+        "given": "Nicholas G",
+        "family": "Martin",
+        "initials": "NG"
+      },
+      {
+        "given": "Matt",
+        "family": "McGue",
+        "initials": "M"
+      },
+      {
+        "given": "George",
+        "family": "McMahon",
+        "initials": "G"
+      },
+      {
+        "given": "Nancy L",
+        "family": "Pedersen",
+        "initials": "NL"
+      },
+      {
+        "given": "Steven",
+        "family": "Pinker",
+        "initials": "S"
+      },
+      {
+        "given": "David J",
+        "family": "Porteous",
+        "initials": "DJ"
+      },
+      {
+        "given": "Danielle",
+        "family": "Posthuma",
+        "initials": "D"
+      },
+      {
+        "given": "Fernando",
+        "family": "Rivadeneira",
+        "initials": "F"
+      },
+      {
+        "given": "Blair H",
+        "family": "Smith",
+        "initials": "BH"
+      },
+      {
+        "given": "John M",
+        "family": "Starr",
+        "initials": "JM"
+      },
+      {
+        "given": "Henning",
+        "family": "Tiemeier",
+        "initials": "H"
+      },
+      {
+        "given": "Nicholas J",
+        "family": "Timpson",
+        "initials": "NJ"
+      },
+      {
+        "given": "Maciej",
+        "family": "Trzaskowski",
+        "initials": "M"
+      },
+      {
+        "given": "André G",
+        "family": "Uitterlinden",
+        "initials": "AG"
+      },
+      {
+        "given": "Frank C",
+        "family": "Verhulst",
+        "initials": "FC"
+      },
+      {
+        "given": "Mary E",
+        "family": "Ward",
+        "initials": "ME"
+      },
+      {
+        "given": "Margaret J",
+        "family": "Wright",
+        "initials": "MJ"
+      },
+      {
+        "given": "George",
+        "family": "Davey Smith",
+        "initials": "G"
+      },
+      {
+        "given": "Ian J",
+        "family": "Deary",
+        "initials": "IJ"
+      },
+      {
+        "given": "Magnus",
+        "family": "Johannesson",
+        "initials": "M"
+      },
+      {
+        "given": "Robert",
+        "family": "Plomin",
+        "initials": "R"
+      },
+      {
+        "given": "Peter M",
+        "family": "Visscher",
+        "initials": "PM"
+      },
+      {
+        "given": "Daniel J",
+        "family": "Benjamin",
+        "initials": "DJ"
+      },
+      {
+        "given": "David",
+        "family": "Cesarini",
+        "initials": "D"
+      },
+      {
+        "given": "Philipp D",
+        "family": "Koellinger",
+        "initials": "PD"
+      }
+    ],
+    "journal": {
+      "title": "Proc. Natl. Acad. Sci. U.S.A.",
+      "volume": "111",
+      "issue": "38",
+      "issn": "1091-6490",
+      "issn-l": "0027-8424",
+      "pages": "13790-13794"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/e82b7d48491448a3b244184f53b885db.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/e82b7d48491448a3b244184f53b885db"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "1404623111"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC4183313"
+      }
+    ],
+    "notes": [],
+    "created": "2017-10-30T13:40:03.088Z",
+    "modified": "2020-01-21T13:56:08.367Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "b06847c79e764c63a92651533f1dd61d",
+    "doi": "10.1038/ng.2966",
+    "pmid": "24777449",
+    "title": "Mosaic loss of chromosome Y in peripheral blood is associated with shorter survival and higher risk of cancer.",
+    "abstract": "Incidence and mortality for sex-unspecific cancers are higher among men, a fact that is largely unexplained. Furthermore, age-related loss of chromosome Y (LOY) is frequent in normal hematopoietic cells, but the phenotypic consequences of LOY have been elusive. From analysis of 1,153 elderly men, we report that LOY in peripheral blood was associated with risks of all-cause mortality (hazards ratio (HR) = 1.91, 95% confidence interval (CI) = 1.17-3.13; 637 events) and non-hematological cancer mortality (HR = 3.62, 95% CI = 1.56-8.41; 132 events). LOY affected at least 8.2% of the subjects in this cohort, and median survival times among men with LOY were 5.5 years shorter. Association of LOY with risk of all-cause mortality was validated in an independent cohort (HR = 3.66) in which 20.5% of subjects showed LOY. These results illustrate the impact of post-zygotic mosaicism on disease risk, could explain why males are more frequently affected by cancer and suggest that chromosome Y is important in processes beyond sex determination. LOY in blood could become a predictive biomarker of male carcinogenesis.",
+    "published": "2014-06-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Lars A",
+        "family": "Forsberg",
+        "initials": "LA"
+      },
+      {
+        "given": "Chiara",
+        "family": "Rasi",
+        "initials": "C"
+      },
+      {
+        "given": "Niklas",
+        "family": "Malmqvist",
+        "initials": "N"
+      },
+      {
+        "given": "Hanna",
+        "family": "Davies",
+        "initials": "H"
+      },
+      {
+        "given": "Saichand",
+        "family": "Pasupulati",
+        "initials": "S"
+      },
+      {
+        "given": "Geeta",
+        "family": "Pakalapati",
+        "initials": "G"
+      },
+      {
+        "given": "Johanna",
+        "family": "Sandgren",
+        "initials": "J"
+      },
+      {
+        "given": "Teresita",
+        "family": "Diaz de Ståhl",
+        "initials": "T"
+      },
+      {
+        "given": "Ammar",
+        "family": "Zaghlool",
+        "initials": "A"
+      },
+      {
+        "given": "Vilmantas",
+        "family": "Giedraitis",
+        "initials": "V"
+      },
+      {
+        "given": "Lars",
+        "family": "Lannfelt",
+        "initials": "L"
+      },
+      {
+        "given": "Joannah",
+        "family": "Score",
+        "initials": "J"
+      },
+      {
+        "given": "Nicholas C P",
+        "family": "Cross",
+        "initials": "NCP"
+      },
+      {
+        "given": "Devin",
+        "family": "Absher",
+        "initials": "D"
+      },
+      {
+        "given": "Eva Tiensuu",
+        "family": "Janson",
+        "initials": "ET"
+      },
+      {
+        "given": "Cecilia M",
+        "family": "Lindgren",
+        "initials": "CM"
+      },
+      {
+        "given": "Andrew P",
+        "family": "Morris",
+        "initials": "AP"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Lars",
+        "family": "Lind",
+        "initials": "L"
+      },
+      {
+        "given": "Jan P",
+        "family": "Dumanski",
+        "initials": "JP"
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": "46",
+      "issue": "6",
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": "624-628"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/b06847c79e764c63a92651533f1dd61d.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/b06847c79e764c63a92651533f1dd61d"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ng.2966"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:58:47.131Z",
+    "modified": "2020-01-21T13:56:08.516Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "c1a4b81f04404d3886e7db578313b7d9",
+    "doi": "10.1038/ng.3014",
+    "pmid": "24952745",
+    "title": "Genetic association study of QT interval highlights role for calcium signaling pathways in myocardial repolarization.",
+    "abstract": "The QT interval, an electrocardiographic measure reflecting myocardial repolarization, is a heritable trait. QT prolongation is a risk factor for ventricular arrhythmias and sudden cardiac death (SCD) and could indicate the presence of the potentially lethal mendelian long-QT syndrome (LQTS). Using a genome-wide association and replication study in up to 100,000 individuals, we identified 35 common variant loci associated with QT interval that collectively explain ∼8-10% of QT-interval variation and highlight the importance of calcium regulation in myocardial repolarization. Rare variant analysis of 6 new QT interval-associated loci in 298 unrelated probands with LQTS identified coding variants not found in controls but of uncertain causality and therefore requiring validation. Several newly identified loci encode proteins that physically interact with other recognized repolarization proteins. Our integration of common variant association, expression and orthogonal protein-protein interaction screens provides new insights into cardiac electrophysiology and identifies new candidate genes for ventricular arrhythmias, LQTS and SCD.",
+    "published": "2014-08-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Dan E",
+        "family": "Arking",
+        "initials": "DE"
+      },
+      {
+        "given": "Sara L",
+        "family": "Pulit",
+        "initials": "SL"
+      },
+      {
+        "given": "Lia",
+        "family": "Crotti",
+        "initials": "L"
+      },
+      {
+        "given": "Pim",
+        "family": "van der Harst",
+        "initials": "P"
+      },
+      {
+        "given": "Patricia B",
+        "family": "Munroe",
+        "initials": "PB"
+      },
+      {
+        "given": "Tamara T",
+        "family": "Koopmann",
+        "initials": "TT"
+      },
+      {
+        "given": "Nona",
+        "family": "Sotoodehnia",
+        "initials": "N"
+      },
+      {
+        "given": "Elizabeth J",
+        "family": "Rossin",
+        "initials": "EJ"
+      },
+      {
+        "given": "Michael",
+        "family": "Morley",
+        "initials": "M"
+      },
+      {
+        "given": "Xinchen",
+        "family": "Wang",
+        "initials": "X"
+      },
+      {
+        "given": "Andrew D",
+        "family": "Johnson",
+        "initials": "AD"
+      },
+      {
+        "given": "Alicia",
+        "family": "Lundby",
+        "initials": "A"
+      },
+      {
+        "given": "Daníel F",
+        "family": "Gudbjartsson",
+        "initials": "DF"
+      },
+      {
+        "given": "Peter A",
+        "family": "Noseworthy",
+        "initials": "PA"
+      },
+      {
+        "given": "Mark",
+        "family": "Eijgelsheim",
+        "initials": "M"
+      },
+      {
+        "given": "Yuki",
+        "family": "Bradford",
+        "initials": "Y"
+      },
+      {
+        "given": "Kirill V",
+        "family": "Tarasov",
+        "initials": "KV"
+      },
+      {
+        "given": "Marcus",
+        "family": "Dörr",
+        "initials": "M"
+      },
+      {
+        "given": "Martina",
+        "family": "Müller-Nurasyid",
+        "initials": "M"
+      },
+      {
+        "given": "Annukka M",
+        "family": "Lahtinen",
+        "initials": "AM"
+      },
+      {
+        "given": "Ilja M",
+        "family": "Nolte",
+        "initials": "IM"
+      },
+      {
+        "given": "Albert Vernon",
+        "family": "Smith",
+        "initials": "AV"
+      },
+      {
+        "given": "Joshua C",
+        "family": "Bis",
+        "initials": "JC"
+      },
+      {
+        "given": "Aaron",
+        "family": "Isaacs",
+        "initials": "A"
+      },
+      {
+        "given": "Stephen J",
+        "family": "Newhouse",
+        "initials": "SJ"
+      },
+      {
+        "given": "Daniel S",
+        "family": "Evans",
+        "initials": "DS"
+      },
+      {
+        "given": "Wendy S",
+        "family": "Post",
+        "initials": "WS"
+      },
+      {
+        "given": "Daryl",
+        "family": "Waggott",
+        "initials": "D"
+      },
+      {
+        "given": "Leo-Pekka",
+        "family": "Lyytikäinen",
+        "initials": "L"
+      },
+      {
+        "given": "Andrew A",
+        "family": "Hicks",
+        "initials": "AA"
+      },
+      {
+        "given": "Lewin",
+        "family": "Eisele",
+        "initials": "L"
+      },
+      {
+        "given": "David",
+        "family": "Ellinghaus",
+        "initials": "D"
+      },
+      {
+        "given": "Caroline",
+        "family": "Hayward",
+        "initials": "C"
+      },
+      {
+        "given": "Pau",
+        "family": "Navarro",
+        "initials": "P"
+      },
+      {
+        "given": "Sheila",
+        "family": "Ulivi",
+        "initials": "S"
+      },
+      {
+        "given": "Toshiko",
+        "family": "Tanaka",
+        "initials": "T"
+      },
+      {
+        "given": "David J",
+        "family": "Tester",
+        "initials": "DJ"
+      },
+      {
+        "given": "Stéphanie",
+        "family": "Chatel",
+        "initials": "S"
+      },
+      {
+        "given": "Stefan",
+        "family": "Gustafsson",
+        "initials": "S"
+      },
+      {
+        "given": "Meena",
+        "family": "Kumari",
+        "initials": "M"
+      },
+      {
+        "given": "Richard W",
+        "family": "Morris",
+        "initials": "RW"
+      },
+      {
+        "given": "Åsa T",
+        "family": "Naluai",
+        "initials": "ÅT"
+      },
+      {
+        "given": "Sandosh",
+        "family": "Padmanabhan",
+        "initials": "S"
+      },
+      {
+        "given": "Alexander",
+        "family": "Kluttig",
+        "initials": "A"
+      },
+      {
+        "given": "Bernhard",
+        "family": "Strohmer",
+        "initials": "B"
+      },
+      {
+        "given": "Andrie G",
+        "family": "Panayiotou",
+        "initials": "AG"
+      },
+      {
+        "given": "Maria",
+        "family": "Torres",
+        "initials": "M"
+      },
+      {
+        "given": "Michael",
+        "family": "Knoflach",
+        "initials": "M"
+      },
+      {
+        "given": "Jaroslav A",
+        "family": "Hubacek",
+        "initials": "JA"
+      },
+      {
+        "given": "Kamil",
+        "family": "Slowikowski",
+        "initials": "K"
+      },
+      {
+        "given": "Soumya",
+        "family": "Raychaudhuri",
+        "initials": "S"
+      },
+      {
+        "given": "Runjun D",
+        "family": "Kumar",
+        "initials": "RD"
+      },
+      {
+        "given": "Tamara B",
+        "family": "Harris",
+        "initials": "TB"
+      },
+      {
+        "given": "Lenore J",
+        "family": "Launer",
+        "initials": "LJ"
+      },
+      {
+        "given": "Alan R",
+        "family": "Shuldiner",
+        "initials": "AR"
+      },
+      {
+        "given": "Alvaro",
+        "family": "Alonso",
+        "initials": "A"
+      },
+      {
+        "given": "Joel S",
+        "family": "Bader",
+        "initials": "JS"
+      },
+      {
+        "given": "Georg",
+        "family": "Ehret",
+        "initials": "G"
+      },
+      {
+        "given": "Hailiang",
+        "family": "Huang",
+        "initials": "H"
+      },
+      {
+        "given": "W H Linda",
+        "family": "Kao",
+        "initials": "WHL"
+      },
+      {
+        "given": "James B",
+        "family": "Strait",
+        "initials": "JB"
+      },
+      {
+        "given": "Peter W",
+        "family": "Macfarlane",
+        "initials": "PW"
+      },
+      {
+        "given": "Morris",
+        "family": "Brown",
+        "initials": "M"
+      },
+      {
+        "given": "Mark J",
+        "family": "Caulfield",
+        "initials": "MJ"
+      },
+      {
+        "given": "Nilesh J",
+        "family": "Samani",
+        "initials": "NJ"
+      },
+      {
+        "given": "Florian",
+        "family": "Kronenberg",
+        "initials": "F"
+      },
+      {
+        "given": "Johann",
+        "family": "Willeit",
+        "initials": "J"
+      },
+      {
+        "given": "None",
+        "family": "CARe Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "None",
+        "family": "COGENT Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "J Gustav",
+        "family": "Smith",
+        "initials": "JG"
+      },
+      {
+        "given": "Karin H",
+        "family": "Greiser",
+        "initials": "KH"
+      },
+      {
+        "given": "Henriette",
+        "family": "Meyer Zu Schwabedissen",
+        "initials": "H"
+      },
+      {
+        "given": "Karl",
+        "family": "Werdan",
+        "initials": "K"
+      },
+      {
+        "given": "Massimo",
+        "family": "Carella",
+        "initials": "M"
+      },
+      {
+        "given": "Leopoldo",
+        "family": "Zelante",
+        "initials": "L"
+      },
+      {
+        "given": "Susan R",
+        "family": "Heckbert",
+        "initials": "SR"
+      },
+      {
+        "given": "Bruce M",
+        "family": "Psaty",
+        "initials": "BM"
+      },
+      {
+        "given": "Jerome I",
+        "family": "Rotter",
+        "initials": "JI"
+      },
+      {
+        "given": "Ivana",
+        "family": "Kolcic",
+        "initials": "I"
+      },
+      {
+        "given": "Ozren",
+        "family": "Polašek",
+        "initials": "O"
+      },
+      {
+        "given": "Alan F",
+        "family": "Wright",
+        "initials": "AF"
+      },
+      {
+        "given": "Maura",
+        "family": "Griffin",
+        "initials": "M"
+      },
+      {
+        "given": "Mark J",
+        "family": "Daly",
+        "initials": "MJ"
+      },
+      {
+        "given": "None",
+        "family": "DCCT/EDIC",
+        "initials": "N"
+      },
+      {
+        "given": "David O",
+        "family": "Arnar",
+        "initials": "DO"
+      },
+      {
+        "given": "Hilma",
+        "family": "Hólm",
+        "initials": "H"
+      },
+      {
+        "given": "Unnur",
+        "family": "Thorsteinsdottir",
+        "initials": "U"
+      },
+      {
+        "given": "None",
+        "family": "eMERGE Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Joshua C",
+        "family": "Denny",
+        "initials": "JC"
+      },
+      {
+        "given": "Dan M",
+        "family": "Roden",
+        "initials": "DM"
+      },
+      {
+        "given": "Rebecca L",
+        "family": "Zuvich",
+        "initials": "RL"
+      },
+      {
+        "given": "Valur",
+        "family": "Emilsson",
+        "initials": "V"
+      },
+      {
+        "given": "Andrew S",
+        "family": "Plump",
+        "initials": "AS"
+      },
+      {
+        "given": "Martin G",
+        "family": "Larson",
+        "initials": "MG"
+      },
+      {
+        "given": "Christopher J",
+        "family": "O'Donnell",
+        "initials": "CJ"
+      },
+      {
+        "given": "Xiaoyan",
+        "family": "Yin",
+        "initials": "X"
+      },
+      {
+        "given": "Marco",
+        "family": "Bobbo",
+        "initials": "M"
+      },
+      {
+        "given": "Adamo P",
+        "family": "D'Adamo",
+        "initials": "AP"
+      },
+      {
+        "given": "Annamaria",
+        "family": "Iorio",
+        "initials": "A"
+      },
+      {
+        "given": "Gianfranco",
+        "family": "Sinagra",
+        "initials": "G"
+      },
+      {
+        "given": "Angel",
+        "family": "Carracedo",
+        "initials": "A"
+      },
+      {
+        "given": "Steven R",
+        "family": "Cummings",
+        "initials": "SR"
+      },
+      {
+        "given": "Michael A",
+        "family": "Nalls",
+        "initials": "MA"
+      },
+      {
+        "given": "Antti",
+        "family": "Jula",
+        "initials": "A"
+      },
+      {
+        "given": "Kimmo K",
+        "family": "Kontula",
+        "initials": "KK"
+      },
+      {
+        "given": "Annukka",
+        "family": "Marjamaa",
+        "initials": "A"
+      },
+      {
+        "given": "Lasse",
+        "family": "Oikarinen",
+        "initials": "L"
+      },
+      {
+        "given": "Markus",
+        "family": "Perola",
+        "initials": "M"
+      },
+      {
+        "given": "Kimmo",
+        "family": "Porthan",
+        "initials": "K"
+      },
+      {
+        "given": "Raimund",
+        "family": "Erbel",
+        "initials": "R"
+      },
+      {
+        "given": "Per",
+        "family": "Hoffmann",
+        "initials": "P"
+      },
+      {
+        "given": "Karl-Heinz",
+        "family": "Jöckel",
+        "initials": "K"
+      },
+      {
+        "given": "Hagen",
+        "family": "Kälsch",
+        "initials": "H"
+      },
+      {
+        "given": "Markus M",
+        "family": "Nöthen",
+        "initials": "MM"
+      },
+      {
+        "given": "None",
+        "family": "HRGEN Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Marcel",
+        "family": "den Hoed",
+        "initials": "M"
+      },
+      {
+        "given": "Ruth J F",
+        "family": "Loos",
+        "initials": "RJF"
+      },
+      {
+        "given": "Dag S",
+        "family": "Thelle",
+        "initials": "DS"
+      },
+      {
+        "given": "Christian",
+        "family": "Gieger",
+        "initials": "C"
+      },
+      {
+        "given": "Thomas",
+        "family": "Meitinger",
+        "initials": "T"
+      },
+      {
+        "given": "Siegfried",
+        "family": "Perz",
+        "initials": "S"
+      },
+      {
+        "given": "Annette",
+        "family": "Peters",
+        "initials": "A"
+      },
+      {
+        "given": "Hanna",
+        "family": "Prucha",
+        "initials": "H"
+      },
+      {
+        "given": "Moritz F",
+        "family": "Sinner",
+        "initials": "MF"
+      },
+      {
+        "given": "Melanie",
+        "family": "Waldenberger",
+        "initials": "M"
+      },
+      {
+        "given": "Rudolf A",
+        "family": "de Boer",
+        "initials": "RA"
+      },
+      {
+        "given": "Lude",
+        "family": "Franke",
+        "initials": "L"
+      },
+      {
+        "given": "Pieter A",
+        "family": "van der Vleuten",
+        "initials": "PA"
+      },
+      {
+        "given": "Britt Maria",
+        "family": "Beckmann",
+        "initials": "BM"
+      },
+      {
+        "given": "Eimo",
+        "family": "Martens",
+        "initials": "E"
+      },
+      {
+        "given": "Abdennasser",
+        "family": "Bardai",
+        "initials": "A"
+      },
+      {
+        "given": "Nynke",
+        "family": "Hofman",
+        "initials": "N"
+      },
+      {
+        "given": "Arthur A M",
+        "family": "Wilde",
+        "initials": "AAM"
+      },
+      {
+        "given": "Elijah R",
+        "family": "Behr",
+        "initials": "ER"
+      },
+      {
+        "given": "Chrysoula",
+        "family": "Dalageorgou",
+        "initials": "C"
+      },
+      {
+        "given": "John R",
+        "family": "Giudicessi",
+        "initials": "JR"
+      },
+      {
+        "given": "Argelia",
+        "family": "Medeiros-Domingo",
+        "initials": "A"
+      },
+      {
+        "given": "Julien",
+        "family": "Barc",
+        "initials": "J"
+      },
+      {
+        "given": "Florence",
+        "family": "Kyndt",
+        "initials": "F"
+      },
+      {
+        "given": "Vincent",
+        "family": "Probst",
+        "initials": "V"
+      },
+      {
+        "given": "Alice",
+        "family": "Ghidoni",
+        "initials": "A"
+      },
+      {
+        "given": "Roberto",
+        "family": "Insolia",
+        "initials": "R"
+      },
+      {
+        "given": "Robert M",
+        "family": "Hamilton",
+        "initials": "RM"
+      },
+      {
+        "given": "Stephen W",
+        "family": "Scherer",
+        "initials": "SW"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Brandimarto",
+        "initials": "J"
+      },
+      {
+        "given": "Kenneth",
+        "family": "Margulies",
+        "initials": "K"
+      },
+      {
+        "given": "Christine E",
+        "family": "Moravec",
+        "initials": "CE"
+      },
+      {
+        "given": "Fabiola",
+        "family": "del Greco M",
+        "initials": "F"
+      },
+      {
+        "given": "Christian",
+        "family": "Fuchsberger",
+        "initials": "C"
+      },
+      {
+        "given": "Jeffrey R",
+        "family": "O'Connell",
+        "initials": "JR"
+      },
+      {
+        "given": "Wai K",
+        "family": "Lee",
+        "initials": "WK"
+      },
+      {
+        "given": "Graham C M",
+        "family": "Watt",
+        "initials": "GCM"
+      },
+      {
+        "given": "Harry",
+        "family": "Campbell",
+        "initials": "H"
+      },
+      {
+        "given": "Sarah H",
+        "family": "Wild",
+        "initials": "SH"
+      },
+      {
+        "given": "Nour E",
+        "family": "El Mokhtari",
+        "initials": "NE"
+      },
+      {
+        "given": "Norbert",
+        "family": "Frey",
+        "initials": "N"
+      },
+      {
+        "given": "Folkert W",
+        "family": "Asselbergs",
+        "initials": "FW"
+      },
+      {
+        "given": "Irene",
+        "family": "Mateo Leach",
+        "initials": "I"
+      },
+      {
+        "given": "Gerjan",
+        "family": "Navis",
+        "initials": "G"
+      },
+      {
+        "given": "Maarten P",
+        "family": "van den Berg",
+        "initials": "MP"
+      },
+      {
+        "given": "Dirk J",
+        "family": "van Veldhuisen",
+        "initials": "DJ"
+      },
+      {
+        "given": "Manolis",
+        "family": "Kellis",
+        "initials": "M"
+      },
+      {
+        "given": "Bouwe P",
+        "family": "Krijthe",
+        "initials": "BP"
+      },
+      {
+        "given": "Oscar H",
+        "family": "Franco",
+        "initials": "OH"
+      },
+      {
+        "given": "Albert",
+        "family": "Hofman",
+        "initials": "A"
+      },
+      {
+        "given": "Jan A",
+        "family": "Kors",
+        "initials": "JA"
+      },
+      {
+        "given": "André G",
+        "family": "Uitterlinden",
+        "initials": "AG"
+      },
+      {
+        "given": "Jacqueline C M",
+        "family": "Witteman",
+        "initials": "JCM"
+      },
+      {
+        "given": "Lyudmyla",
+        "family": "Kedenko",
+        "initials": "L"
+      },
+      {
+        "given": "Claudia",
+        "family": "Lamina",
+        "initials": "C"
+      },
+      {
+        "given": "Ben A",
+        "family": "Oostra",
+        "initials": "BA"
+      },
+      {
+        "given": "Gonçalo R",
+        "family": "Abecasis",
+        "initials": "GR"
+      },
+      {
+        "given": "Edward G",
+        "family": "Lakatta",
+        "initials": "EG"
+      },
+      {
+        "given": "Antonella",
+        "family": "Mulas",
+        "initials": "A"
+      },
+      {
+        "given": "Marco",
+        "family": "Orrú",
+        "initials": "M"
+      },
+      {
+        "given": "David",
+        "family": "Schlessinger",
+        "initials": "D"
+      },
+      {
+        "given": "Manuela",
+        "family": "Uda",
+        "initials": "M"
+      },
+      {
+        "given": "Marcello R P",
+        "family": "Markus",
+        "initials": "MRP"
+      },
+      {
+        "given": "Uwe",
+        "family": "Völker",
+        "initials": "U"
+      },
+      {
+        "given": "Harold",
+        "family": "Snieder",
+        "initials": "H"
+      },
+      {
+        "given": "Timothy D",
+        "family": "Spector",
+        "initials": "TD"
+      },
+      {
+        "given": "Johan",
+        "family": "Ärnlöv",
+        "initials": "J"
+      },
+      {
+        "given": "Lars",
+        "family": "Lind",
+        "initials": "L"
+      },
+      {
+        "given": "Johan",
+        "family": "Sundström",
+        "initials": "J"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "A",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Mika",
+        "family": "Kivimaki",
+        "initials": "M"
+      },
+      {
+        "given": "Mika",
+        "family": "Kähönen",
+        "initials": "M"
+      },
+      {
+        "given": "Nina",
+        "family": "Mononen",
+        "initials": "N"
+      },
+      {
+        "given": "Olli T",
+        "family": "Raitakari",
+        "initials": "OT"
+      },
+      {
+        "given": "Jorma S",
+        "family": "Viikari",
+        "initials": "JS"
+      },
+      {
+        "given": "Vera",
+        "family": "Adamkova",
+        "initials": "V"
+      },
+      {
+        "given": "Stefan",
+        "family": "Kiechl",
+        "initials": "S"
+      },
+      {
+        "given": "Maria",
+        "family": "Brion",
+        "initials": "M"
+      },
+      {
+        "given": "Andrew N",
+        "family": "Nicolaides",
+        "initials": "AN"
+      },
+      {
+        "given": "Bernhard",
+        "family": "Paulweber",
+        "initials": "B"
+      },
+      {
+        "given": "Johannes",
+        "family": "Haerting",
+        "initials": "J"
+      },
+      {
+        "given": "Anna F",
+        "family": "Dominiczak",
+        "initials": "AF"
+      },
+      {
+        "given": "Fredrik",
+        "family": "Nyberg",
+        "initials": "F"
+      },
+      {
+        "given": "Peter H",
+        "family": "Whincup",
+        "initials": "PH"
+      },
+      {
+        "given": "Aroon D",
+        "family": "Hingorani",
+        "initials": "AD"
+      },
+      {
+        "given": "Jean-Jacques",
+        "family": "Schott",
+        "initials": "J"
+      },
+      {
+        "given": "Connie R",
+        "family": "Bezzina",
+        "initials": "CR"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Luigi",
+        "family": "Ferrucci",
+        "initials": "L"
+      },
+      {
+        "given": "Paolo",
+        "family": "Gasparini",
+        "initials": "P"
+      },
+      {
+        "given": "James F",
+        "family": "Wilson",
+        "initials": "JF"
+      },
+      {
+        "given": "Igor",
+        "family": "Rudan",
+        "initials": "I"
+      },
+      {
+        "given": "Andre",
+        "family": "Franke",
+        "initials": "A"
+      },
+      {
+        "given": "Thomas W",
+        "family": "Mühleisen",
+        "initials": "TW"
+      },
+      {
+        "given": "Peter P",
+        "family": "Pramstaller",
+        "initials": "PP"
+      },
+      {
+        "given": "Terho J",
+        "family": "Lehtimäki",
+        "initials": "TJ"
+      },
+      {
+        "given": "Andrew D",
+        "family": "Paterson",
+        "initials": "AD"
+      },
+      {
+        "given": "Afshin",
+        "family": "Parsa",
+        "initials": "A"
+      },
+      {
+        "given": "Yongmei",
+        "family": "Liu",
+        "initials": "Y"
+      },
+      {
+        "given": "Cornelia M",
+        "family": "van Duijn",
+        "initials": "CM"
+      },
+      {
+        "given": "David S",
+        "family": "Siscovick",
+        "initials": "DS"
+      },
+      {
+        "given": "Vilmundur",
+        "family": "Gudnason",
+        "initials": "V"
+      },
+      {
+        "given": "Yalda",
+        "family": "Jamshidi",
+        "initials": "Y"
+      },
+      {
+        "given": "Veikko",
+        "family": "Salomaa",
+        "initials": "V"
+      },
+      {
+        "given": "Stephan B",
+        "family": "Felix",
+        "initials": "SB"
+      },
+      {
+        "given": "Serena",
+        "family": "Sanna",
+        "initials": "S"
+      },
+      {
+        "given": "Marylyn D",
+        "family": "Ritchie",
+        "initials": "MD"
+      },
+      {
+        "given": "Bruno H",
+        "family": "Stricker",
+        "initials": "BH"
+      },
+      {
+        "given": "Kari",
+        "family": "Stefansson",
+        "initials": "K"
+      },
+      {
+        "given": "Laurie A",
+        "family": "Boyer",
+        "initials": "LA"
+      },
+      {
+        "given": "Thomas P",
+        "family": "Cappola",
+        "initials": "TP"
+      },
+      {
+        "given": "Jesper V",
+        "family": "Olsen",
+        "initials": "JV"
+      },
+      {
+        "given": "Kasper",
+        "family": "Lage",
+        "initials": "K"
+      },
+      {
+        "given": "Peter J",
+        "family": "Schwartz",
+        "initials": "PJ"
+      },
+      {
+        "given": "Stefan",
+        "family": "Kääb",
+        "initials": "S"
+      },
+      {
+        "given": "Aravinda",
+        "family": "Chakravarti",
+        "initials": "A"
+      },
+      {
+        "given": "Michael J",
+        "family": "Ackerman",
+        "initials": "MJ"
+      },
+      {
+        "given": "Arne",
+        "family": "Pfeufer",
+        "initials": "A"
+      },
+      {
+        "given": "Paul I W",
+        "family": "de Bakker",
+        "initials": "PIW"
+      },
+      {
+        "given": "Christopher",
+        "family": "Newton-Cheh",
+        "initials": "C"
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": "46",
+      "issue": "8",
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": "826-836"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/c1a4b81f04404d3886e7db578313b7d9.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/c1a4b81f04404d3886e7db578313b7d9"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ng.3014"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC4124521"
+      },
+      {
+        "db": "mid",
+        "key": "NIHMS600569"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:58:46.815Z",
+    "modified": "2021-07-07T15:11:02.188Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "04c66129954e4ca2a6da42c4278867b8",
+    "doi": "10.1161/ATVBAHA.112.300353",
+    "pmid": "23430611",
+    "title": "Identification of a functional apolipoprotein E promoter polymorphism regulating plasma apolipoprotein E concentration.",
+    "abstract": "There is compelling evidence that the plasma apolipoprotein E (APOE) concentration, in addition to the APOE ε2/ε3/ε4 genotype, influences plasma lipoprotein levels, but the functional genetic variants influencing the plasma APOE concentration have not been identified.\n\nGenome-wide association studies in 2 cohorts of healthy, middle-aged subjects identified the APOE locus as the only genetic locus showing robust associations with the plasma APOE concentration. Fine-mapping of the APOE locus confirmed that the rs7412 ε2-allele is the primary genetic variant responsible for the relationship with plasma APOE concentration. Further mapping of the APOE locus uncovered that rs769446 (-427T/C) in the APOE promoter is independently associated with the plasma APOE concentration. Expression studies in 199 human liver samples demonstrated that the rs769446 C-allele is associated with increased APOE mRNA levels (P=0.015). Transient transfection studies and electrophoretic mobility shift assays in human hepatoma HepG2 cells corroborated the role of rs769446 in transcriptional regulation of APOE. However, no relationships were found between rs769446 genotype and plasma lipoprotein levels in 2 cohorts (n=1648 and n=1039) of healthy middle-aged carriers of the APOE ε3/ε3 genotype.\n\nrs769446 is a functional polymorphism involved in the regulation of the plasma APOE concentration.",
+    "published": "2013-05-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Maria Nastase",
+        "family": "Mannila",
+        "initials": "MN"
+      },
+      {
+        "given": "Hovsep",
+        "family": "Mahdessian",
+        "initials": "H"
+      },
+      {
+        "given": "Anders",
+        "family": "Franco-Cereceda",
+        "initials": "A"
+      },
+      {
+        "given": "Gösta",
+        "family": "Eggertsen",
+        "initials": "G"
+      },
+      {
+        "given": "Ulf",
+        "family": "de Faire",
+        "initials": "U"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "AC",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Per",
+        "family": "Eriksson",
+        "initials": "P"
+      },
+      {
+        "given": "Anders",
+        "family": "Hamsten",
+        "initials": "A"
+      },
+      {
+        "given": "Ferdinand M",
+        "family": "van 't Hooft",
+        "initials": "FM"
+      }
+    ],
+    "journal": {
+      "title": "Arterioscler. Thromb. Vasc. Biol.",
+      "volume": "33",
+      "issue": "5",
+      "issn": "1524-4636",
+      "issn-l": "1079-5642",
+      "pages": "1063-1069"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/04c66129954e4ca2a6da42c4278867b8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/04c66129954e4ca2a6da42c4278867b8"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ATVBAHA.112.300353"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:14.470Z",
+    "modified": "2021-07-07T15:11:02.277Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "c45be243a5b749b29dd4adaff06f736e",
+    "doi": "10.1182/blood-2012-06-436188",
+    "pmid": "22990020",
+    "title": "Genome-wide association study for circulating levels of PAI-1 provides novel insights into its regulation.",
+    "abstract": "We conducted a genome-wide association study to identify novel associations between genetic variants and circulating plasminogen activator inhibitor-1 (PAI-1) concentration, and examined functional implications of variants and genes that were discovered. A discovery meta-analysis was performed in 19 599 subjects, followed by replication analysis of genome-wide significant (P < 5 × 10(-8)) single nucleotide polymorphisms (SNPs) in 10 796 independent samples. We further examined associations with type 2 diabetes and coronary artery disease, assessed the functional significance of the SNPs for gene expression in human tissues, and conducted RNA-silencing experiments for one novel association. We confirmed the association of the 4G/5G proxy SNP rs2227631 in the promoter region of SERPINE1 (7q22.1) and discovered genome-wide significant associations at 3 additional loci: chromosome 7q22.1 close to SERPINE1 (rs6976053, discovery P = 3.4 × 10(-10)); chromosome 11p15.2 within ARNTL (rs6486122, discovery P = 3.0 × 10(-8)); and chromosome 3p25.2 within PPARG (rs11128603, discovery P = 2.9 × 10(-8)). Replication was achieved for the 7q22.1 and 11p15.2 loci. There was nominal association with type 2 diabetes and coronary artery disease at ARNTL (P < .05). Functional studies identified MUC3 as a candidate gene for the second association signal on 7q22.1. In summary, SNPs in SERPINE1 and ARNTL and an SNP associated with the expression of MUC3 were robustly associated with circulating levels of PAI-1.",
+    "published": "2012-12-06",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Jie",
+        "family": "Huang",
+        "initials": "J"
+      },
+      {
+        "given": "Maria",
+        "family": "Sabater-Lleal",
+        "initials": "M"
+      },
+      {
+        "given": "Folkert W",
+        "family": "Asselbergs",
+        "initials": "FW"
+      },
+      {
+        "given": "David",
+        "family": "Tregouet",
+        "initials": "D"
+      },
+      {
+        "given": "So-Youn",
+        "family": "Shin",
+        "initials": "SY"
+      },
+      {
+        "given": "Jingzhong",
+        "family": "Ding",
+        "initials": "J"
+      },
+      {
+        "given": "Jens",
+        "family": "Baumert",
+        "initials": "J"
+      },
+      {
+        "given": "Tiphaine",
+        "family": "Oudot-Mellakh",
+        "initials": "T"
+      },
+      {
+        "given": "Lasse",
+        "family": "Folkersen",
+        "initials": "L"
+      },
+      {
+        "given": "Andrew D",
+        "family": "Johnson",
+        "initials": "AD"
+      },
+      {
+        "given": "Nicholas L",
+        "family": "Smith",
+        "initials": "NL"
+      },
+      {
+        "given": "Scott M",
+        "family": "Williams",
+        "initials": "SM"
+      },
+      {
+        "given": "Mohammad A",
+        "family": "Ikram",
+        "initials": "MA"
+      },
+      {
+        "given": "Marcus E",
+        "family": "Kleber",
+        "initials": "ME"
+      },
+      {
+        "given": "Diane M",
+        "family": "Becker",
+        "initials": "DM"
+      },
+      {
+        "given": "Vinh",
+        "family": "Truong",
+        "initials": "V"
+      },
+      {
+        "given": "Josyf C",
+        "family": "Mychaleckyj",
+        "initials": "JC"
+      },
+      {
+        "given": "Weihong",
+        "family": "Tang",
+        "initials": "W"
+      },
+      {
+        "given": "Qiong",
+        "family": "Yang",
+        "initials": "Q"
+      },
+      {
+        "given": "Bengt",
+        "family": "Sennblad",
+        "initials": "B"
+      },
+      {
+        "given": "Jason H",
+        "family": "Moore",
+        "initials": "JH"
+      },
+      {
+        "given": "Frances M K",
+        "family": "Williams",
+        "initials": "FM"
+      },
+      {
+        "given": "Abbas",
+        "family": "Dehghan",
+        "initials": "A"
+      },
+      {
+        "given": "Günther",
+        "family": "Silbernagel",
+        "initials": "G"
+      },
+      {
+        "given": "Elisabeth M C",
+        "family": "Schrijvers",
+        "initials": "EM"
+      },
+      {
+        "given": "Shelly",
+        "family": "Smith",
+        "initials": "S"
+      },
+      {
+        "given": "Mahir",
+        "family": "Karakas",
+        "initials": "M"
+      },
+      {
+        "given": "Geoffrey H",
+        "family": "Tofler",
+        "initials": "GH"
+      },
+      {
+        "given": "Angela",
+        "family": "Silveira",
+        "initials": "A"
+      },
+      {
+        "given": "Gerjan J",
+        "family": "Navis",
+        "initials": "GJ"
+      },
+      {
+        "given": "Kurt",
+        "family": "Lohman",
+        "initials": "K"
+      },
+      {
+        "given": "Ming-Huei",
+        "family": "Chen",
+        "initials": "MH"
+      },
+      {
+        "given": "Annette",
+        "family": "Peters",
+        "initials": "A"
+      },
+      {
+        "given": "Anuj",
+        "family": "Goel",
+        "initials": "A"
+      },
+      {
+        "given": "Jemma C",
+        "family": "Hopewell",
+        "initials": "JC"
+      },
+      {
+        "given": "John C",
+        "family": "Chambers",
+        "initials": "JC"
+      },
+      {
+        "given": "Danish",
+        "family": "Saleheen",
+        "initials": "D"
+      },
+      {
+        "given": "Per",
+        "family": "Lundmark",
+        "initials": "P"
+      },
+      {
+        "given": "Bruce M",
+        "family": "Psaty",
+        "initials": "BM"
+      },
+      {
+        "given": "Rona J",
+        "family": "Strawbridge",
+        "initials": "RJ"
+      },
+      {
+        "given": "Bernhard O",
+        "family": "Boehm",
+        "initials": "BO"
+      },
+      {
+        "given": "Angela M",
+        "family": "Carter",
+        "initials": "AM"
+      },
+      {
+        "given": "Christa",
+        "family": "Meisinger",
+        "initials": "C"
+      },
+      {
+        "given": "John F",
+        "family": "Peden",
+        "initials": "JF"
+      },
+      {
+        "given": "Joshua C",
+        "family": "Bis",
+        "initials": "JC"
+      },
+      {
+        "given": "Barbara",
+        "family": "McKnight",
+        "initials": "B"
+      },
+      {
+        "given": "John",
+        "family": "Öhrvik",
+        "initials": "J"
+      },
+      {
+        "given": "Kent",
+        "family": "Taylor",
+        "initials": "K"
+      },
+      {
+        "given": "Maria Grazia",
+        "family": "Franzosi",
+        "initials": "MG"
+      },
+      {
+        "given": "Udo",
+        "family": "Seedorf",
+        "initials": "U"
+      },
+      {
+        "given": "Rory",
+        "family": "Collins",
+        "initials": "R"
+      },
+      {
+        "given": "Anders",
+        "family": "Franco-Cereceda",
+        "initials": "A"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "AC",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Alison H",
+        "family": "Goodall",
+        "initials": "AH"
+      },
+      {
+        "given": "Lisa R",
+        "family": "Yanek",
+        "initials": "LR"
+      },
+      {
+        "given": "Mary",
+        "family": "Cushman",
+        "initials": "M"
+      },
+      {
+        "given": "Martina",
+        "family": "Müller-Nurasyid",
+        "initials": "M"
+      },
+      {
+        "given": "Aaron R",
+        "family": "Folsom",
+        "initials": "AR"
+      },
+      {
+        "given": "Saonli",
+        "family": "Basu",
+        "initials": "S"
+      },
+      {
+        "given": "Nena",
+        "family": "Matijevic",
+        "initials": "N"
+      },
+      {
+        "given": "Wiek H",
+        "family": "van Gilst",
+        "initials": "WH"
+      },
+      {
+        "given": "Jaspal S",
+        "family": "Kooner",
+        "initials": "JS"
+      },
+      {
+        "given": "Albert",
+        "family": "Hofman",
+        "initials": "A"
+      },
+      {
+        "given": "John",
+        "family": "Danesh",
+        "initials": "J"
+      },
+      {
+        "given": "Robert",
+        "family": "Clarke",
+        "initials": "R"
+      },
+      {
+        "given": "James B",
+        "family": "Meigs",
+        "initials": "JB"
+      },
+      {
+        "given": "",
+        "family": "DIAGRAM Consortium",
+        "initials": ""
+      },
+      {
+        "given": "Sekar",
+        "family": "Kathiresan",
+        "initials": "S"
+      },
+      {
+        "given": "Muredach P",
+        "family": "Reilly",
+        "initials": "MP"
+      },
+      {
+        "given": "",
+        "family": "CARDIoGRAM Consortium",
+        "initials": ""
+      },
+      {
+        "given": "Norman",
+        "family": "Klopp",
+        "initials": "N"
+      },
+      {
+        "given": "Tamara B",
+        "family": "Harris",
+        "initials": "TB"
+      },
+      {
+        "given": "Bernhard R",
+        "family": "Winkelmann",
+        "initials": "BR"
+      },
+      {
+        "given": "Peter J",
+        "family": "Grant",
+        "initials": "PJ"
+      },
+      {
+        "given": "Hans L",
+        "family": "Hillege",
+        "initials": "HL"
+      },
+      {
+        "given": "Hugh",
+        "family": "Watkins",
+        "initials": "H"
+      },
+      {
+        "given": "",
+        "family": "C4D Consortium",
+        "initials": ""
+      },
+      {
+        "given": "Timothy D",
+        "family": "Spector",
+        "initials": "TD"
+      },
+      {
+        "given": "Lewis C",
+        "family": "Becker",
+        "initials": "LC"
+      },
+      {
+        "given": "Russell P",
+        "family": "Tracy",
+        "initials": "RP"
+      },
+      {
+        "given": "Winfried",
+        "family": "März",
+        "initials": "W"
+      },
+      {
+        "given": "Andre G",
+        "family": "Uitterlinden",
+        "initials": "AG"
+      },
+      {
+        "given": "Per",
+        "family": "Eriksson",
+        "initials": "P"
+      },
+      {
+        "given": "Francois",
+        "family": "Cambien",
+        "initials": "F"
+      },
+      {
+        "given": "",
+        "family": "CARDIOGENICS Consortium",
+        "initials": ""
+      },
+      {
+        "given": "Pierre-Emmanuel",
+        "family": "Morange",
+        "initials": "PE"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Koenig",
+        "initials": "W"
+      },
+      {
+        "given": "Nicole",
+        "family": "Soranzo",
+        "initials": "N"
+      },
+      {
+        "given": "Pim",
+        "family": "van der Harst",
+        "initials": "P"
+      },
+      {
+        "given": "Yongmei",
+        "family": "Liu",
+        "initials": "Y"
+      },
+      {
+        "given": "Christopher J",
+        "family": "O'Donnell",
+        "initials": "CJ"
+      },
+      {
+        "given": "Anders",
+        "family": "Hamsten",
+        "initials": "A"
+      }
+    ],
+    "journal": {
+      "title": "Blood",
+      "volume": "120",
+      "issue": "24",
+      "issn": "1528-0020",
+      "issn-l": "0006-4971",
+      "pages": "4873-4881"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/c45be243a5b749b29dd4adaff06f736e.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/c45be243a5b749b29dd4adaff06f736e"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "blood-2012-06-436188"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3520624"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:00:55.006Z",
+    "modified": "2021-07-07T15:11:02.727Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "b1bc27056e554963bd429f1073c6ba5f",
+    "doi": "10.1371/journal.pone.0048347",
+    "pmid": "23139779",
+    "title": "A 2nd generation linkage map of Heterobasidion annosum s.l. based on in silico anchoring of AFLP markers.",
+    "abstract": "In this study, we present a 2(nd) generation genetic linkage map of a cross between the North American species Heterobasidion irregulare and H. occidentale, based on the alignment of the previously published 1(st) generation map to the parental genomes. We anchored 216 of the original 308 AFLP markers to their respective restriction sites using an in silico-approach. The map resolution was improved by adding 146 sequence-tagged microsatellite markers and 39 sequenced gene markers. The new markers confirmed the positions of the anchored AFLP markers, fused the original 39 linkage groups together into 17, and fully expanded 12 of these to single groups covering entire chromosomes. Map coverage of the genome increased from 55.3% to 92.8%, with 96.3% of 430 markers collinearly aligned with the genome sequence. The anchored map also improved the H. irregulare assembly considerably. It identified several errors in scaffold arrangements and assisted in reducing the total number of major scaffolds from 18 to 15. This denser, more comprehensive map allowed sequence-based mapping of three intersterility loci and one mating type locus. This demonstrates the possibility to utilize an in silico procedure to convert anonymous markers into sequence-tagged ones, as well as the power of a sequence-anchored linkage map and its usefulness in the assembly of a whole genome sequence.",
+    "published": "2012-11-05",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Mårten",
+        "family": "Lind",
+        "initials": "M"
+      },
+      {
+        "given": "Magriet",
+        "family": "van der Nest",
+        "initials": "M"
+      },
+      {
+        "given": "Åke",
+        "family": "Olson",
+        "initials": "Å"
+      },
+      {
+        "given": "Mikael",
+        "family": "Brandström-Durling",
+        "initials": "M"
+      },
+      {
+        "given": "Jan",
+        "family": "Stenlid",
+        "initials": "J"
+      }
+    ],
+    "journal": {
+      "title": "PLoS ONE",
+      "volume": "7",
+      "issue": "11",
+      "issn": "1932-6203",
+      "issn-l": "1932-6203",
+      "pages": "e48347"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/b1bc27056e554963bd429f1073c6ba5f.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/b1bc27056e554963bd429f1073c6ba5f"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "PONE-D-12-15116"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3489678"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:12.126Z",
+    "modified": "2020-01-21T13:56:04.691Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "e966eebd690647b88ad5e3f016204c7d",
+    "doi": "10.1371/journal.pgen.1004235",
+    "pmid": "24699409",
+    "title": "A central role for GRB10 in regulation of islet function in man.",
+    "abstract": "Variants in the growth factor receptor-bound protein 10 (GRB10) gene were in a GWAS meta-analysis associated with reduced glucose-stimulated insulin secretion and increased risk of type 2 diabetes (T2D) if inherited from the father, but inexplicably reduced fasting glucose when inherited from the mother. GRB10 is a negative regulator of insulin signaling and imprinted in a parent-of-origin fashion in different tissues. GRB10 knock-down in human pancreatic islets showed reduced insulin and glucagon secretion, which together with changes in insulin sensitivity may explain the paradoxical reduction of glucose despite a decrease in insulin secretion. Together, these findings suggest that tissue-specific methylation and possibly imprinting of GRB10 can influence glucose metabolism and contribute to T2D pathogenesis. The data also emphasize the need in genetic studies to consider whether risk alleles are inherited from the mother or the father.",
+    "published": "2014-04-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Inga",
+        "family": "Prokopenko",
+        "initials": "I"
+      },
+      {
+        "given": "Wenny",
+        "family": "Poon",
+        "initials": "W"
+      },
+      {
+        "given": "Reedik",
+        "family": "Mägi",
+        "initials": "R"
+      },
+      {
+        "given": "Rashmi",
+        "family": "Prasad B",
+        "initials": "R"
+      },
+      {
+        "given": "S Albert",
+        "family": "Salehi",
+        "initials": "SA"
+      },
+      {
+        "given": "Peter",
+        "family": "Almgren",
+        "initials": "P"
+      },
+      {
+        "given": "Peter",
+        "family": "Osmark",
+        "initials": "P"
+      },
+      {
+        "given": "Nabila",
+        "family": "Bouatia-Naji",
+        "initials": "N"
+      },
+      {
+        "given": "Nils",
+        "family": "Wierup",
+        "initials": "N"
+      },
+      {
+        "given": "Tove",
+        "family": "Fall",
+        "initials": "T"
+      },
+      {
+        "given": "Alena",
+        "family": "Stančáková",
+        "initials": "A"
+      },
+      {
+        "given": "Adam",
+        "family": "Barker",
+        "initials": "A"
+      },
+      {
+        "given": "Vasiliki",
+        "family": "Lagou",
+        "initials": "V"
+      },
+      {
+        "given": "Clive",
+        "family": "Osmond",
+        "initials": "C"
+      },
+      {
+        "given": "Weijia",
+        "family": "Xie",
+        "initials": "W"
+      },
+      {
+        "given": "Jari",
+        "family": "Lahti",
+        "initials": "J"
+      },
+      {
+        "given": "Anne U",
+        "family": "Jackson",
+        "initials": "AU"
+      },
+      {
+        "given": "Yu-Ching",
+        "family": "Cheng",
+        "initials": "YC"
+      },
+      {
+        "given": "Jie",
+        "family": "Liu",
+        "initials": "J"
+      },
+      {
+        "given": "Jeffrey R",
+        "family": "O'Connell",
+        "initials": "JR"
+      },
+      {
+        "given": "Paul A",
+        "family": "Blomstedt",
+        "initials": "PA"
+      },
+      {
+        "given": "Joao",
+        "family": "Fadista",
+        "initials": "J"
+      },
+      {
+        "given": "Sami",
+        "family": "Alkayyali",
+        "initials": "S"
+      },
+      {
+        "given": "Tasnim",
+        "family": "Dayeh",
+        "initials": "T"
+      },
+      {
+        "given": "Emma",
+        "family": "Ahlqvist",
+        "initials": "E"
+      },
+      {
+        "given": "Jalal",
+        "family": "Taneera",
+        "initials": "J"
+      },
+      {
+        "given": "Cecile",
+        "family": "Lecoeur",
+        "initials": "C"
+      },
+      {
+        "given": "Ashish",
+        "family": "Kumar",
+        "initials": "A"
+      },
+      {
+        "given": "Ola",
+        "family": "Hansson",
+        "initials": "O"
+      },
+      {
+        "given": "Karin",
+        "family": "Hansson",
+        "initials": "K"
+      },
+      {
+        "given": "Benjamin F",
+        "family": "Voight",
+        "initials": "BF"
+      },
+      {
+        "given": "Hyun Min",
+        "family": "Kang",
+        "initials": "HM"
+      },
+      {
+        "given": "Claire",
+        "family": "Levy-Marchal",
+        "initials": "C"
+      },
+      {
+        "given": "Vincent",
+        "family": "Vatin",
+        "initials": "V"
+      },
+      {
+        "given": "Aarno",
+        "family": "Palotie",
+        "initials": "A"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "AC",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Andrea",
+        "family": "Mari",
+        "initials": "A"
+      },
+      {
+        "given": "Michael N",
+        "family": "Weedon",
+        "initials": "MN"
+      },
+      {
+        "given": "Ruth J F",
+        "family": "Loos",
+        "initials": "RJ"
+      },
+      {
+        "given": "Ken K",
+        "family": "Ong",
+        "initials": "KK"
+      },
+      {
+        "given": "Peter",
+        "family": "Nilsson",
+        "initials": "P"
+      },
+      {
+        "given": "Bo",
+        "family": "Isomaa",
+        "initials": "B"
+      },
+      {
+        "given": "Tiinamaija",
+        "family": "Tuomi",
+        "initials": "T"
+      },
+      {
+        "given": "Nicholas J",
+        "family": "Wareham",
+        "initials": "NJ"
+      },
+      {
+        "given": "Michael",
+        "family": "Stumvoll",
+        "initials": "M"
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Widen",
+        "initials": "E"
+      },
+      {
+        "given": "Timo A",
+        "family": "Lakka",
+        "initials": "TA"
+      },
+      {
+        "given": "Claudia",
+        "family": "Langenberg",
+        "initials": "C"
+      },
+      {
+        "given": "Anke",
+        "family": "Tönjes",
+        "initials": "A"
+      },
+      {
+        "given": "Rainer",
+        "family": "Rauramaa",
+        "initials": "R"
+      },
+      {
+        "given": "Johanna",
+        "family": "Kuusisto",
+        "initials": "J"
+      },
+      {
+        "given": "Timothy M",
+        "family": "Frayling",
+        "initials": "TM"
+      },
+      {
+        "given": "Philippe",
+        "family": "Froguel",
+        "initials": "P"
+      },
+      {
+        "given": "Mark",
+        "family": "Walker",
+        "initials": "M"
+      },
+      {
+        "given": "Johan G",
+        "family": "Eriksson",
+        "initials": "JG"
+      },
+      {
+        "given": "Charlotte",
+        "family": "Ling",
+        "initials": "C"
+      },
+      {
+        "given": "Peter",
+        "family": "Kovacs",
+        "initials": "P"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Mark I",
+        "family": "McCarthy",
+        "initials": "MI"
+      },
+      {
+        "given": "Alan R",
+        "family": "Shuldiner",
+        "initials": "AR"
+      },
+      {
+        "given": "Kristi D",
+        "family": "Silver",
+        "initials": "KD"
+      },
+      {
+        "given": "Markku",
+        "family": "Laakso",
+        "initials": "M"
+      },
+      {
+        "given": "Leif",
+        "family": "Groop",
+        "initials": "L"
+      },
+      {
+        "given": "Valeriya",
+        "family": "Lyssenko",
+        "initials": "V"
+      }
+    ],
+    "journal": {
+      "title": "PLoS Genet.",
+      "volume": "10",
+      "issue": "4",
+      "issn": "1553-7404",
+      "issn-l": "1553-7390",
+      "pages": "e1004235"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/e966eebd690647b88ad5e3f016204c7d.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/e966eebd690647b88ad5e3f016204c7d"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "PGENETICS-D-13-01536"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3974640"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:43.620Z",
+    "modified": "2021-07-07T15:11:02.775Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "a71d5df12f6a469aa30c23cd7a037a99",
+    "doi": "10.15252/msb.20145114",
+    "pmid": "25326100",
+    "title": "Allelic expression mapping across cellular lineages to establish impact of non-coding SNPs.",
+    "abstract": "Most complex disease-associated genetic variants are located in non-coding regions and are therefore thought to be regulatory in nature. Association mapping of differential allelic expression (AE) is a powerful method to identify SNPs with direct cis-regulatory impact (cis-rSNPs). We used AE mapping to identify cis-rSNPs regulating gene expression in 55 and 63 HapMap lymphoblastoid cell lines from a Caucasian and an African population, respectively, 70 fibroblast cell lines, and 188 purified monocyte samples and found 40-60% of these cis-rSNPs to be shared across cell types. We uncover a new class of cis-rSNPs, which disrupt footprint-derived de novo motifs that are predominantly bound by repressive factors and are implicated in disease susceptibility through overlaps with GWAS SNPs. Finally, we provide the proof-of-principle for a new approach for genome-wide functional validation of transcription factor-SNP interactions. By perturbing NFκB action in lymphoblasts, we identified 489 cis-regulated transcripts with altered AE after NFκB perturbation. Altogether, we perform a comprehensive analysis of cis-variation in four cell populations and provide new tools for the identification of functional variants associated to complex diseases.",
+    "published": "2014-10-16",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Veronique",
+        "family": "Adoue",
+        "initials": "V"
+      },
+      {
+        "given": "Alicia",
+        "family": "Schiavi",
+        "initials": "A"
+      },
+      {
+        "given": "Nicholas",
+        "family": "Light",
+        "initials": "N"
+      },
+      {
+        "given": "Jonas Carlsson",
+        "family": "Almlöf",
+        "initials": "JC"
+      },
+      {
+        "given": "Per",
+        "family": "Lundmark",
+        "initials": "P"
+      },
+      {
+        "given": "Bing",
+        "family": "Ge",
+        "initials": "B"
+      },
+      {
+        "given": "Tony",
+        "family": "Kwan",
+        "initials": "T"
+      },
+      {
+        "given": "Maxime",
+        "family": "Caron",
+        "initials": "M"
+      },
+      {
+        "given": "Lars",
+        "family": "Rönnblom",
+        "initials": "L"
+      },
+      {
+        "given": "Chuan",
+        "family": "Wang",
+        "initials": "C"
+      },
+      {
+        "given": "Shu-Huang",
+        "family": "Chen",
+        "initials": "S"
+      },
+      {
+        "given": "Alison H",
+        "family": "Goodall",
+        "initials": "AH"
+      },
+      {
+        "given": "Francois",
+        "family": "Cambien",
+        "initials": "F"
+      },
+      {
+        "given": "Panos",
+        "family": "Deloukas",
+        "initials": "P"
+      },
+      {
+        "given": "Willem H",
+        "family": "Ouwehand",
+        "initials": "WH"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "A",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Tomi",
+        "family": "Pastinen",
+        "initials": "T"
+      }
+    ],
+    "journal": {
+      "title": "Mol. Syst. Biol.",
+      "volume": "10",
+      "issue": null,
+      "issn": "1744-4292",
+      "issn-l": "1744-4292",
+      "pages": "754"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/a71d5df12f6a469aa30c23cd7a037a99.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/a71d5df12f6a469aa30c23cd7a037a99"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC4299376"
+      },
+      {
+        "db": "GEO",
+        "key": "GSE52442"
+      },
+      {
+        "db": "GEO",
+        "key": "GSE53837"
+      },
+      {
+        "db": "GEO",
+        "key": "GSE61254"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:41.164Z",
+    "modified": "2021-07-07T15:11:02.180Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "3391822cdf984b3dafa820407ade2b0e",
+    "doi": "10.1111/mec.12810",
+    "pmid": "24863701",
+    "title": "A high-density linkage map enables a second-generation collared flycatcher genome assembly and reveals the patterns of avian recombination rate variation and chromosomal evolution.",
+    "abstract": "Detailed linkage and recombination rate maps are necessary to use the full potential of genome sequencing and population genomic analyses. We used a custom collared flycatcher 50 K SNP array to develop a high-density linkage map with 37 262 markers assigned to 34 linkage groups in 33 autosomes and the Z chromosome. The best-order map contained 4215 markers, with a total distance of 3132 cM and a mean genetic distance between markers of 0.12 cM. Facilitated by the array being designed to include markers from most scaffolds, we obtained a second-generation assembly of the flycatcher genome that approaches full chromosome sequences (N50 super-scaffold size 20.2 Mb and with 1.042 Gb (of 1.116 Gb) anchored to and mostly ordered and oriented along chromosomes). We found that flycatcher and zebra finch chromosomes are entirely syntenic but that inversions at mean rates of 1.5-2.0 event (6.6-7.5 Mb) per My have changed the organization within chromosomes, rates high enough for inversions to potentially have been involved with many speciation events during avian evolution. The mean recombination rate was 3.1 cM/Mb and correlated closely with chromosome size, from 2 cM/Mb for chromosomes >100 Mb to >10 cM/Mb for chromosomes <10 Mb. This size dependence seemed entirely due to an obligate recombination event per chromosome; if 50 cM was subtracted from the genetic lengths of chromosomes, the rate per physical unit DNA was constant across chromosomes. Flycatcher recombination rate showed similar variation along chromosomes as chicken but lacked the large interior recombination deserts characteristic of zebra finch chromosomes.",
+    "published": "2014-08-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Takeshi",
+        "family": "Kawakami",
+        "initials": "T"
+      },
+      {
+        "given": "Linnéa",
+        "family": "Smeds",
+        "initials": "L"
+      },
+      {
+        "given": "Niclas",
+        "family": "Backström",
+        "initials": "N"
+      },
+      {
+        "given": "Arild",
+        "family": "Husby",
+        "initials": "A"
+      },
+      {
+        "given": "Anna",
+        "family": "Qvarnström",
+        "initials": "A"
+      },
+      {
+        "given": "Carina F",
+        "family": "Mugal",
+        "initials": "CF"
+      },
+      {
+        "given": "Pall",
+        "family": "Olason",
+        "initials": "P"
+      },
+      {
+        "given": "Hans",
+        "family": "Ellegren",
+        "initials": "H"
+      }
+    ],
+    "journal": {
+      "title": "Mol. Ecol.",
+      "volume": "23",
+      "issue": "16",
+      "issn": "1365-294X",
+      "issn-l": "0962-1083",
+      "pages": "4035-4058"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/3391822cdf984b3dafa820407ade2b0e.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/3391822cdf984b3dafa820407ade2b0e"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC4149781"
+      },
+      {
+        "db": "GENBANK",
+        "key": "AGTO02000000"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:40.536Z",
+    "modified": "2020-01-21T13:56:01.452Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "2e1c8dcca9af48ef929ced291f139685",
+    "doi": "10.1161/CIRCGENETICS.113.000044",
+    "pmid": "23661672",
+    "title": "Coronary heart disease in systemic lupus erythematosus is associated with interferon regulatory factor-8 gene variants.",
+    "abstract": "Patients with systemic lupus erythematosus have increased morbidity and mortality in coronary heart disease (CHD). We asked whether there was a genetic influence on CHD in systemic lupus erythematosus.\n\nThe association between single-nucleotide polymorphisms (SNPs) and CHD in 2 populations of patients with systemic lupus erythematosus was assessed. Patients were genotyped on a custom 12k Illumina Array. The allele frequencies were compared between patients with (n=66) and without (n=509) CHD. We found 61 SNPs with an association (P<0.01) to CHD, with the strongest association for 3 SNPs located in the interferon regulatory factor-8 (IRF8) gene. Comparison of the allele frequencies of these 61 SNPs in patients with (n=27) and without (n=212) CHD in the second study population revealed that 2 SNPs, rs925994 and rs10514610 in IRF8 (linkage disequilibrium, r²=0.84), were associated with CHD in both study populations. Meta-analysis of the SNP rs925994 gave an odds ratio of 3.6 (2.1-6.3), P value 1.9×10⁻⁶. The identified IRF8 allele remained as a risk factor for CHD after adjustment for traditional CHD risk factors. The IRF8 risk allele was associated with the presence of carotid plaques (P<0.001) and increased intima-media thickness (P=0.01). By electrophoretic mobility shift assays, we show weaker binding of protein to the risk allele of the highly linked SNP rs11117415, and by flow cytometry, a reduced frequency of circulating B cells was detected in patients with the IRF8 risk allele.\n\nThere is a considerable genetic component for CHD in systemic lupus erythematosus, with IRF8 as a strong susceptibility locus.",
+    "published": "2013-06-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Dag",
+        "family": "Leonard",
+        "initials": "D"
+      },
+      {
+        "given": "Elisabet",
+        "family": "Svenungsson",
+        "initials": "E"
+      },
+      {
+        "given": "Johanna K",
+        "family": "Sandling",
+        "initials": "JK"
+      },
+      {
+        "given": "Olof",
+        "family": "Berggren",
+        "initials": "O"
+      },
+      {
+        "given": "Andreas",
+        "family": "Jönsen",
+        "initials": "A"
+      },
+      {
+        "given": "Christine",
+        "family": "Bengtsson",
+        "initials": "C"
+      },
+      {
+        "given": "Chuan",
+        "family": "Wang",
+        "initials": "C"
+      },
+      {
+        "given": "Kerstin",
+        "family": "Jensen-Urstad",
+        "initials": "K"
+      },
+      {
+        "given": "Sven-Olof",
+        "family": "Granstam",
+        "initials": "SO"
+      },
+      {
+        "given": "Anders A",
+        "family": "Bengtsson",
+        "initials": "AA"
+      },
+      {
+        "given": "Johanna T",
+        "family": "Gustafsson",
+        "initials": "JT"
+      },
+      {
+        "given": "Iva",
+        "family": "Gunnarsson",
+        "initials": "I"
+      },
+      {
+        "given": "Solbritt",
+        "family": "Rantapää-Dahlqvist",
+        "initials": "S"
+      },
+      {
+        "given": "Gunnel",
+        "family": "Nordmark",
+        "initials": "G"
+      },
+      {
+        "given": "Maija-Leena",
+        "family": "Eloranta",
+        "initials": "ML"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "AC",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "Lars",
+        "family": "Rönnblom",
+        "initials": "L"
+      }
+    ],
+    "journal": {
+      "title": "Circ Cardiovasc Genet",
+      "volume": "6",
+      "issue": "3",
+      "issn": "1942-3268",
+      "issn-l": null,
+      "pages": "255-263"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/2e1c8dcca9af48ef929ced291f139685.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/2e1c8dcca9af48ef929ced291f139685"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "CIRCGENETICS.113.000044"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:15.613Z",
+    "modified": "2021-07-07T15:11:02.370Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "3ea6332570bd44389950d506eb377c2b",
+    "doi": "10.1371/journal.pone.0102612",
+    "pmid": "25025429",
+    "title": "Single nucleotide polymorphisms with cis-regulatory effects on long non-coding transcripts in human primary monocytes.",
+    "abstract": "We applied genome-wide allele-specific expression analysis of monocytes from 188 samples. Monocytes were purified from white blood cells of healthy blood donors to detect cis-acting genetic variation that regulates the expression of long non-coding RNAs. We analysed 8929 regions harboring genes for potential long non-coding RNA that were retrieved from data from the ENCODE project. Of these regions, 60% were annotated as intergenic, which implies that they do not overlap with protein-coding genes. Focusing on the intergenic regions, and using stringent analysis of the allele-specific expression data, we detected robust cis-regulatory SNPs in 258 out of 489 informative intergenic regions included in the analysis. The cis-regulatory SNPs that were significantly associated with allele-specific expression of long non-coding RNAs were enriched to enhancer regions marked for active or bivalent, poised chromatin by histone modifications. Out of the lncRNA regions regulated by cis-acting regulatory SNPs, 20% (n = 52) were co-regulated with the closest protein coding gene. We compared the identified cis-regulatory SNPs with those in the catalog of SNPs identified by genome-wide association studies of human diseases and traits. This comparison identified 32 SNPs in loci from genome-wide association studies that displayed a strong association signal with allele-specific expression of non-coding RNAs in monocytes, with p-values ranging from 6.7×10(-7) to 9.5×10(-89). The identified cis-regulatory SNPs are associated with diseases of the immune system, like multiple sclerosis and rheumatoid arthritis.",
+    "published": "2014-07-15",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Jonas Carlsson",
+        "family": "Almlöf",
+        "initials": "JC"
+      },
+      {
+        "given": "Per",
+        "family": "Lundmark",
+        "initials": "P"
+      },
+      {
+        "given": "Anders",
+        "family": "Lundmark",
+        "initials": "A"
+      },
+      {
+        "given": "Bing",
+        "family": "Ge",
+        "initials": "B"
+      },
+      {
+        "given": "Tomi",
+        "family": "Pastinen",
+        "initials": "T"
+      },
+      {
+        "given": "",
+        "family": "Cardiogenics Consortium",
+        "initials": ""
+      },
+      {
+        "given": "Alison H",
+        "family": "Goodall",
+        "initials": "AH"
+      },
+      {
+        "given": "François",
+        "family": "Cambien",
+        "initials": "F"
+      },
+      {
+        "given": "Panos",
+        "family": "Deloukas",
+        "initials": "P"
+      },
+      {
+        "given": "Willem H",
+        "family": "Ouwehand",
+        "initials": "WH"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "AC",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "PLoS ONE",
+      "volume": "9",
+      "issue": "7",
+      "issn": "1932-6203",
+      "issn-l": "1932-6203",
+      "pages": "e102612"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/3ea6332570bd44389950d506eb377c2b.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/3ea6332570bd44389950d506eb377c2b"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "PONE-D-14-07459"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC4099216"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:01:44.548Z",
+    "modified": "2021-07-07T15:11:02.405Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "652ff9600fbe4877a6f560a8046f1d99",
+    "doi": "10.1111/j.1467-789X.2012.01025.x",
+    "pmid": "22931202",
+    "title": "The impact of intronic single nucleotide polymorphisms and ethnic diversity for studies on the obesity gene FTO.",
+    "abstract": "In 2007, the first common genetic variants were identified, which undoubtedly affect our susceptibility to obesity. These variants are located in the fat mass and obesity-associated gene FTO. Since then, over 50 loci for common obesity have been identified. As the research on these loci is still at an early stage, there is a great need to review, for clarification purposes, the current research on FTO, as this is likely to influence future studies. Based on the current knowledge, FTO seems to be directly involved in the regulation of energy intake, but there is an urgent need for the identification of regulatory polymorphisms. Thus, herein, we discuss current knowledge and highlight putative functional regions in FTO based on published data and computer-based analysis.",
+    "published": "2012-12-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "J A",
+        "family": "Jacobsson",
+        "initials": "JA"
+      },
+      {
+        "given": "H B",
+        "family": "Schiöth",
+        "initials": "HB"
+      },
+      {
+        "given": "R",
+        "family": "Fredriksson",
+        "initials": "R"
+      }
+    ],
+    "journal": {
+      "title": "Obes Rev",
+      "volume": "13",
+      "issue": "12",
+      "issn": "1467-789X",
+      "issn-l": "1467-7881",
+      "pages": "1096-1109"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/652ff9600fbe4877a6f560a8046f1d99.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/652ff9600fbe4877a6f560a8046f1d99"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2017-05-04T15:01:06.861Z",
+    "modified": "2020-01-21T13:56:02.748Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "3e2a7ef25d704e5587e03e2786f4d552",
+    "doi": "10.1073/pnas.1217149109",
+    "pmid": "23151514",
+    "title": "Strong signatures of selection in the domestic pig genome.",
+    "abstract": "Domestication of wild boar (Sus scrofa) and subsequent selection have resulted in dramatic phenotypic changes in domestic pigs for a number of traits, including behavior, body composition, reproduction, and coat color. Here we have used whole-genome resequencing to reveal some of the loci that underlie phenotypic evolution in European domestic pigs. Selective sweep analyses revealed strong signatures of selection at three loci harboring quantitative trait loci that explain a considerable part of one of the most characteristic morphological changes in the domestic pig--the elongation of the back and an increased number of vertebrae. The three loci were associated with the NR6A1, PLAG1, and LCORL genes. The latter two have repeatedly been associated with loci controlling stature in other domestic animals and in humans. Most European domestic pigs are homozygous for the same haplotype at these three loci. We found an excess of derived nonsynonymous substitutions in domestic pigs, most likely reflecting both positive selection and relaxed purifying selection after domestication. Our analysis of structural variation revealed four duplications at the KIT locus that were exclusively present in white or white-spotted pigs, carrying the Dominant white, Patch, or Belt alleles. This discovery illustrates how structural changes have contributed to rapid phenotypic evolution in domestic animals and how alleles in domestic animals may evolve by the accumulation of multiple causative mutations as a response to strong directional selection.",
+    "published": "2012-11-27",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Carl-Johan",
+        "family": "Rubin",
+        "initials": "C"
+      },
+      {
+        "given": "Hendrik-Jan",
+        "family": "Megens",
+        "initials": "H"
+      },
+      {
+        "given": "Alvaro",
+        "family": "Martinez Barrio",
+        "initials": "A"
+      },
+      {
+        "given": "Khurram",
+        "family": "Maqbool",
+        "initials": "K"
+      },
+      {
+        "given": "Shumaila",
+        "family": "Sayyab",
+        "initials": "S"
+      },
+      {
+        "given": "Doreen",
+        "family": "Schwochow",
+        "initials": "D"
+      },
+      {
+        "given": "Chao",
+        "family": "Wang",
+        "initials": "C"
+      },
+      {
+        "given": "Örjan",
+        "family": "Carlborg",
+        "initials": "Ö"
+      },
+      {
+        "given": "Patric",
+        "family": "Jern",
+        "initials": "P"
+      },
+      {
+        "given": "Claus B",
+        "family": "Jørgensen",
+        "initials": "CB"
+      },
+      {
+        "given": "Alan L",
+        "family": "Archibald",
+        "initials": "AL"
+      },
+      {
+        "given": "Merete",
+        "family": "Fredholm",
+        "initials": "M"
+      },
+      {
+        "given": "Martien A M",
+        "family": "Groenen",
+        "initials": "MAM"
+      },
+      {
+        "given": "Leif",
+        "family": "Andersson",
+        "initials": "L"
+      }
+    ],
+    "journal": {
+      "title": "Proc. Natl. Acad. Sci. U.S.A.",
+      "volume": "109",
+      "issue": "48",
+      "issn": "1091-6490",
+      "issn-l": "0027-8424",
+      "pages": "19529-19536"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null,
+      "NGI Uppsala (Uppsala Genome Center)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/3e2a7ef25d704e5587e03e2786f4d552.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/3e2a7ef25d704e5587e03e2786f4d552"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "1217149109"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3511700"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:57:40.051Z",
+    "modified": "2020-01-21T13:56:10.645Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "2736819dd2974cf7ae1ed7a88f420b76",
+    "doi": "10.1038/ng.2480",
+    "pmid": "23202125",
+    "title": "Large-scale association analysis identifies new risk loci for coronary artery disease.",
+    "abstract": "Coronary artery disease (CAD) is the commonest cause of death. Here, we report an association analysis in 63,746 CAD cases and 130,681 controls identifying 15 loci reaching genome-wide significance, taking the number of susceptibility loci for CAD to 46, and a further 104 independent variants (r(2) < 0.2) strongly associated with CAD at a 5% false discovery rate (FDR). Together, these variants explain approximately 10.6% of CAD heritability. Of the 46 genome-wide significant lead SNPs, 12 show a significant association with a lipid trait, and 5 show a significant association with blood pressure, but none is significantly associated with diabetes. Network analysis with 233 candidate genes (loci at 10% FDR) generated 5 interaction networks comprising 85% of these putative genes involved in CAD. The four most significant pathways mapping to these networks are linked to lipid metabolism and inflammation, underscoring the causal role of these activities in the genetic etiology of CAD. Our study provides insights into the genetic basis of CAD and identifies key biological pathways.",
+    "published": "2013-01-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "None",
+        "family": "CARDIoGRAMplusC4D Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Panos",
+        "family": "Deloukas",
+        "initials": "P"
+      },
+      {
+        "given": "Stavroula",
+        "family": "Kanoni",
+        "initials": "S"
+      },
+      {
+        "given": "Christina",
+        "family": "Willenborg",
+        "initials": "C"
+      },
+      {
+        "given": "Martin",
+        "family": "Farrall",
+        "initials": "M"
+      },
+      {
+        "given": "Themistocles L",
+        "family": "Assimes",
+        "initials": "TL"
+      },
+      {
+        "given": "John R",
+        "family": "Thompson",
+        "initials": "JR"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Danish",
+        "family": "Saleheen",
+        "initials": "D"
+      },
+      {
+        "given": "Jeanette",
+        "family": "Erdmann",
+        "initials": "J"
+      },
+      {
+        "given": "Benjamin A",
+        "family": "Goldstein",
+        "initials": "BA"
+      },
+      {
+        "given": "Kathleen",
+        "family": "Stirrups",
+        "initials": "K"
+      },
+      {
+        "given": "Inke R",
+        "family": "König",
+        "initials": "IR"
+      },
+      {
+        "given": "Jean-Baptiste",
+        "family": "Cazier",
+        "initials": "J"
+      },
+      {
+        "given": "Asa",
+        "family": "Johansson",
+        "initials": "A"
+      },
+      {
+        "given": "Alistair S",
+        "family": "Hall",
+        "initials": "AS"
+      },
+      {
+        "given": "Jong-Young",
+        "family": "Lee",
+        "initials": "J"
+      },
+      {
+        "given": "Cristen J",
+        "family": "Willer",
+        "initials": "CJ"
+      },
+      {
+        "given": "John C",
+        "family": "Chambers",
+        "initials": "JC"
+      },
+      {
+        "given": "Tõnu",
+        "family": "Esko",
+        "initials": "T"
+      },
+      {
+        "given": "Lasse",
+        "family": "Folkersen",
+        "initials": "L"
+      },
+      {
+        "given": "Anuj",
+        "family": "Goel",
+        "initials": "A"
+      },
+      {
+        "given": "Elin",
+        "family": "Grundberg",
+        "initials": "E"
+      },
+      {
+        "given": "Aki S",
+        "family": "Havulinna",
+        "initials": "AS"
+      },
+      {
+        "given": "Weang K",
+        "family": "Ho",
+        "initials": "WK"
+      },
+      {
+        "given": "Jemma C",
+        "family": "Hopewell",
+        "initials": "JC"
+      },
+      {
+        "given": "Niclas",
+        "family": "Eriksson",
+        "initials": "N"
+      },
+      {
+        "given": "Marcus E",
+        "family": "Kleber",
+        "initials": "ME"
+      },
+      {
+        "given": "Kati",
+        "family": "Kristiansson",
+        "initials": "K"
+      },
+      {
+        "given": "Per",
+        "family": "Lundmark",
+        "initials": "P"
+      },
+      {
+        "given": "Leo-Pekka",
+        "family": "Lyytikäinen",
+        "initials": "L"
+      },
+      {
+        "given": "Suzanne",
+        "family": "Rafelt",
+        "initials": "S"
+      },
+      {
+        "given": "Dmitry",
+        "family": "Shungin",
+        "initials": "D"
+      },
+      {
+        "given": "Rona J",
+        "family": "Strawbridge",
+        "initials": "RJ"
+      },
+      {
+        "given": "Gudmar",
+        "family": "Thorleifsson",
+        "initials": "G"
+      },
+      {
+        "given": "Emmi",
+        "family": "Tikkanen",
+        "initials": "E"
+      },
+      {
+        "given": "Natalie",
+        "family": "Van Zuydam",
+        "initials": "N"
+      },
+      {
+        "given": "Benjamin F",
+        "family": "Voight",
+        "initials": "BF"
+      },
+      {
+        "given": "Lindsay L",
+        "family": "Waite",
+        "initials": "LL"
+      },
+      {
+        "given": "Weihua",
+        "family": "Zhang",
+        "initials": "W"
+      },
+      {
+        "given": "Andreas",
+        "family": "Ziegler",
+        "initials": "A"
+      },
+      {
+        "given": "Devin",
+        "family": "Absher",
+        "initials": "D"
+      },
+      {
+        "given": "David",
+        "family": "Altshuler",
+        "initials": "D"
+      },
+      {
+        "given": "Anthony J",
+        "family": "Balmforth",
+        "initials": "AJ"
+      },
+      {
+        "given": "Inês",
+        "family": "Barroso",
+        "initials": "I"
+      },
+      {
+        "given": "Peter S",
+        "family": "Braund",
+        "initials": "PS"
+      },
+      {
+        "given": "Christof",
+        "family": "Burgdorf",
+        "initials": "C"
+      },
+      {
+        "given": "Simone",
+        "family": "Claudi-Boehm",
+        "initials": "S"
+      },
+      {
+        "given": "David",
+        "family": "Cox",
+        "initials": "D"
+      },
+      {
+        "given": "Maria",
+        "family": "Dimitriou",
+        "initials": "M"
+      },
+      {
+        "given": "Ron",
+        "family": "Do",
+        "initials": "R"
+      },
+      {
+        "given": "None",
+        "family": "DIAGRAM Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "None",
+        "family": "CARDIOGENICS Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Alex S F",
+        "family": "Doney",
+        "initials": "ASF"
+      },
+      {
+        "given": "NourEddine",
+        "family": "El Mokhtari",
+        "initials": "N"
+      },
+      {
+        "given": "Per",
+        "family": "Eriksson",
+        "initials": "P"
+      },
+      {
+        "given": "Krista",
+        "family": "Fischer",
+        "initials": "K"
+      },
+      {
+        "given": "Pierre",
+        "family": "Fontanillas",
+        "initials": "P"
+      },
+      {
+        "given": "Anders",
+        "family": "Franco-Cereceda",
+        "initials": "A"
+      },
+      {
+        "given": "Bruna",
+        "family": "Gigante",
+        "initials": "B"
+      },
+      {
+        "given": "Leif",
+        "family": "Groop",
+        "initials": "L"
+      },
+      {
+        "given": "Stefan",
+        "family": "Gustafsson",
+        "initials": "S"
+      },
+      {
+        "given": "Jörg",
+        "family": "Hager",
+        "initials": "J"
+      },
+      {
+        "given": "Göran",
+        "family": "Hallmans",
+        "initials": "G"
+      },
+      {
+        "given": "Bok-Ghee",
+        "family": "Han",
+        "initials": "B"
+      },
+      {
+        "given": "Sarah E",
+        "family": "Hunt",
+        "initials": "SE"
+      },
+      {
+        "given": "Hyun M",
+        "family": "Kang",
+        "initials": "HM"
+      },
+      {
+        "given": "Thomas",
+        "family": "Illig",
+        "initials": "T"
+      },
+      {
+        "given": "Thorsten",
+        "family": "Kessler",
+        "initials": "T"
+      },
+      {
+        "given": "Joshua W",
+        "family": "Knowles",
+        "initials": "JW"
+      },
+      {
+        "given": "Genovefa",
+        "family": "Kolovou",
+        "initials": "G"
+      },
+      {
+        "given": "Johanna",
+        "family": "Kuusisto",
+        "initials": "J"
+      },
+      {
+        "given": "Claudia",
+        "family": "Langenberg",
+        "initials": "C"
+      },
+      {
+        "given": "Cordelia",
+        "family": "Langford",
+        "initials": "C"
+      },
+      {
+        "given": "Karin",
+        "family": "Leander",
+        "initials": "K"
+      },
+      {
+        "given": "Marja-Liisa",
+        "family": "Lokki",
+        "initials": "M"
+      },
+      {
+        "given": "Anders",
+        "family": "Lundmark",
+        "initials": "A"
+      },
+      {
+        "given": "Mark I",
+        "family": "McCarthy",
+        "initials": "MI"
+      },
+      {
+        "given": "Christa",
+        "family": "Meisinger",
+        "initials": "C"
+      },
+      {
+        "given": "Olle",
+        "family": "Melander",
+        "initials": "O"
+      },
+      {
+        "given": "Evelin",
+        "family": "Mihailov",
+        "initials": "E"
+      },
+      {
+        "given": "Seraya",
+        "family": "Maouche",
+        "initials": "S"
+      },
+      {
+        "given": "Andrew D",
+        "family": "Morris",
+        "initials": "AD"
+      },
+      {
+        "given": "Martina",
+        "family": "Müller-Nurasyid",
+        "initials": "M"
+      },
+      {
+        "given": "None",
+        "family": "MuTHER Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Kjell",
+        "family": "Nikus",
+        "initials": "K"
+      },
+      {
+        "given": "John F",
+        "family": "Peden",
+        "initials": "JF"
+      },
+      {
+        "given": "N William",
+        "family": "Rayner",
+        "initials": "NW"
+      },
+      {
+        "given": "Asif",
+        "family": "Rasheed",
+        "initials": "A"
+      },
+      {
+        "given": "Silke",
+        "family": "Rosinger",
+        "initials": "S"
+      },
+      {
+        "given": "Diana",
+        "family": "Rubin",
+        "initials": "D"
+      },
+      {
+        "given": "Moritz P",
+        "family": "Rumpf",
+        "initials": "MP"
+      },
+      {
+        "given": "Arne",
+        "family": "Schäfer",
+        "initials": "A"
+      },
+      {
+        "given": "Mohan",
+        "family": "Sivananthan",
+        "initials": "M"
+      },
+      {
+        "given": "Ci",
+        "family": "Song",
+        "initials": "C"
+      },
+      {
+        "given": "Alexandre F R",
+        "family": "Stewart",
+        "initials": "AFR"
+      },
+      {
+        "given": "Sian-Tsung",
+        "family": "Tan",
+        "initials": "S"
+      },
+      {
+        "given": "Gudmundur",
+        "family": "Thorgeirsson",
+        "initials": "G"
+      },
+      {
+        "given": "C Ellen",
+        "family": "van der Schoot",
+        "initials": "CE"
+      },
+      {
+        "given": "Peter J",
+        "family": "Wagner",
+        "initials": "PJ"
+      },
+      {
+        "given": "None",
+        "family": "Wellcome Trust Case Control Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "George A",
+        "family": "Wells",
+        "initials": "GA"
+      },
+      {
+        "given": "Philipp S",
+        "family": "Wild",
+        "initials": "PS"
+      },
+      {
+        "given": "Tsun-Po",
+        "family": "Yang",
+        "initials": "T"
+      },
+      {
+        "given": "Philippe",
+        "family": "Amouyel",
+        "initials": "P"
+      },
+      {
+        "given": "Dominique",
+        "family": "Arveiler",
+        "initials": "D"
+      },
+      {
+        "given": "Hanneke",
+        "family": "Basart",
+        "initials": "H"
+      },
+      {
+        "given": "Michael",
+        "family": "Boehnke",
+        "initials": "M"
+      },
+      {
+        "given": "Eric",
+        "family": "Boerwinkle",
+        "initials": "E"
+      },
+      {
+        "given": "Paolo",
+        "family": "Brambilla",
+        "initials": "P"
+      },
+      {
+        "given": "Francois",
+        "family": "Cambien",
+        "initials": "F"
+      },
+      {
+        "given": "Adrienne L",
+        "family": "Cupples",
+        "initials": "AL"
+      },
+      {
+        "given": "Ulf",
+        "family": "de Faire",
+        "initials": "U"
+      },
+      {
+        "given": "Abbas",
+        "family": "Dehghan",
+        "initials": "A"
+      },
+      {
+        "given": "Patrick",
+        "family": "Diemert",
+        "initials": "P"
+      },
+      {
+        "given": "Stephen E",
+        "family": "Epstein",
+        "initials": "SE"
+      },
+      {
+        "given": "Alun",
+        "family": "Evans",
+        "initials": "A"
+      },
+      {
+        "given": "Marco M",
+        "family": "Ferrario",
+        "initials": "MM"
+      },
+      {
+        "given": "Jean",
+        "family": "Ferrières",
+        "initials": "J"
+      },
+      {
+        "given": "Dominique",
+        "family": "Gauguier",
+        "initials": "D"
+      },
+      {
+        "given": "Alan S",
+        "family": "Go",
+        "initials": "AS"
+      },
+      {
+        "given": "Alison H",
+        "family": "Goodall",
+        "initials": "AH"
+      },
+      {
+        "given": "Villi",
+        "family": "Gudnason",
+        "initials": "V"
+      },
+      {
+        "given": "Stanley L",
+        "family": "Hazen",
+        "initials": "SL"
+      },
+      {
+        "given": "Hilma",
+        "family": "Holm",
+        "initials": "H"
+      },
+      {
+        "given": "Carlos",
+        "family": "Iribarren",
+        "initials": "C"
+      },
+      {
+        "given": "Yangsoo",
+        "family": "Jang",
+        "initials": "Y"
+      },
+      {
+        "given": "Mika",
+        "family": "Kähönen",
+        "initials": "M"
+      },
+      {
+        "given": "Frank",
+        "family": "Kee",
+        "initials": "F"
+      },
+      {
+        "given": "Hyo-Soo",
+        "family": "Kim",
+        "initials": "H"
+      },
+      {
+        "given": "Norman",
+        "family": "Klopp",
+        "initials": "N"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Koenig",
+        "initials": "W"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Kratzer",
+        "initials": "W"
+      },
+      {
+        "given": "Kari",
+        "family": "Kuulasmaa",
+        "initials": "K"
+      },
+      {
+        "given": "Markku",
+        "family": "Laakso",
+        "initials": "M"
+      },
+      {
+        "given": "Reijo",
+        "family": "Laaksonen",
+        "initials": "R"
+      },
+      {
+        "given": "Ji-Young",
+        "family": "Lee",
+        "initials": "J"
+      },
+      {
+        "given": "Lars",
+        "family": "Lind",
+        "initials": "L"
+      },
+      {
+        "given": "Willem H",
+        "family": "Ouwehand",
+        "initials": "WH"
+      },
+      {
+        "given": "Sarah",
+        "family": "Parish",
+        "initials": "S"
+      },
+      {
+        "given": "Jeong E",
+        "family": "Park",
+        "initials": "JE"
+      },
+      {
+        "given": "Nancy L",
+        "family": "Pedersen",
+        "initials": "NL"
+      },
+      {
+        "given": "Annette",
+        "family": "Peters",
+        "initials": "A"
+      },
+      {
+        "given": "Thomas",
+        "family": "Quertermous",
+        "initials": "T"
+      },
+      {
+        "given": "Daniel J",
+        "family": "Rader",
+        "initials": "DJ"
+      },
+      {
+        "given": "Veikko",
+        "family": "Salomaa",
+        "initials": "V"
+      },
+      {
+        "given": "Eric",
+        "family": "Schadt",
+        "initials": "E"
+      },
+      {
+        "given": "Svati H",
+        "family": "Shah",
+        "initials": "SH"
+      },
+      {
+        "given": "Juha",
+        "family": "Sinisalo",
+        "initials": "J"
+      },
+      {
+        "given": "Klaus",
+        "family": "Stark",
+        "initials": "K"
+      },
+      {
+        "given": "Kari",
+        "family": "Stefansson",
+        "initials": "K"
+      },
+      {
+        "given": "David-Alexandre",
+        "family": "Trégouët",
+        "initials": "D"
+      },
+      {
+        "given": "Jarmo",
+        "family": "Virtamo",
+        "initials": "J"
+      },
+      {
+        "given": "Lars",
+        "family": "Wallentin",
+        "initials": "L"
+      },
+      {
+        "given": "Nicholas",
+        "family": "Wareham",
+        "initials": "N"
+      },
+      {
+        "given": "Martina E",
+        "family": "Zimmermann",
+        "initials": "ME"
+      },
+      {
+        "given": "Markku S",
+        "family": "Nieminen",
+        "initials": "MS"
+      },
+      {
+        "given": "Christian",
+        "family": "Hengstenberg",
+        "initials": "C"
+      },
+      {
+        "given": "Manjinder S",
+        "family": "Sandhu",
+        "initials": "MS"
+      },
+      {
+        "given": "Tomi",
+        "family": "Pastinen",
+        "initials": "T"
+      },
+      {
+        "given": "Ann-Christine",
+        "family": "Syvänen",
+        "initials": "A",
+        "orcid": "0000-0002-9681-9146",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7012e35025543379380cb90efd71243.json"
+        }
+      },
+      {
+        "given": "G Kees",
+        "family": "Hovingh",
+        "initials": "GK"
+      },
+      {
+        "given": "George",
+        "family": "Dedoussis",
+        "initials": "G"
+      },
+      {
+        "given": "Paul W",
+        "family": "Franks",
+        "initials": "PW"
+      },
+      {
+        "given": "Terho",
+        "family": "Lehtimäki",
+        "initials": "T"
+      },
+      {
+        "given": "Andres",
+        "family": "Metspalu",
+        "initials": "A"
+      },
+      {
+        "given": "Pierre A",
+        "family": "Zalloua",
+        "initials": "PA"
+      },
+      {
+        "given": "Agneta",
+        "family": "Siegbahn",
+        "initials": "A"
+      },
+      {
+        "given": "Stefan",
+        "family": "Schreiber",
+        "initials": "S"
+      },
+      {
+        "given": "Samuli",
+        "family": "Ripatti",
+        "initials": "S"
+      },
+      {
+        "given": "Stefan S",
+        "family": "Blankenberg",
+        "initials": "SS"
+      },
+      {
+        "given": "Markus",
+        "family": "Perola",
+        "initials": "M"
+      },
+      {
+        "given": "Robert",
+        "family": "Clarke",
+        "initials": "R"
+      },
+      {
+        "given": "Bernhard O",
+        "family": "Boehm",
+        "initials": "BO"
+      },
+      {
+        "given": "Christopher",
+        "family": "O'Donnell",
+        "initials": "C"
+      },
+      {
+        "given": "Muredach P",
+        "family": "Reilly",
+        "initials": "MP"
+      },
+      {
+        "given": "Winfried",
+        "family": "März",
+        "initials": "W"
+      },
+      {
+        "given": "Rory",
+        "family": "Collins",
+        "initials": "R"
+      },
+      {
+        "given": "Sekar",
+        "family": "Kathiresan",
+        "initials": "S"
+      },
+      {
+        "given": "Anders",
+        "family": "Hamsten",
+        "initials": "A"
+      },
+      {
+        "given": "Jaspal S",
+        "family": "Kooner",
+        "initials": "JS"
+      },
+      {
+        "given": "Unnur",
+        "family": "Thorsteinsdottir",
+        "initials": "U"
+      },
+      {
+        "given": "John",
+        "family": "Danesh",
+        "initials": "J"
+      },
+      {
+        "given": "Colin N A",
+        "family": "Palmer",
+        "initials": "CNA"
+      },
+      {
+        "given": "Robert",
+        "family": "Roberts",
+        "initials": "R"
+      },
+      {
+        "given": "Hugh",
+        "family": "Watkins",
+        "initials": "H"
+      },
+      {
+        "given": "Heribert",
+        "family": "Schunkert",
+        "initials": "H"
+      },
+      {
+        "given": "Nilesh J",
+        "family": "Samani",
+        "initials": "NJ"
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": "45",
+      "issue": "1",
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": "25-33"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/2736819dd2974cf7ae1ed7a88f420b76.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/2736819dd2974cf7ae1ed7a88f420b76"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ng.2480"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3679547"
+      },
+      {
+        "db": "mid",
+        "key": "NIHMS468575"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:58:05.536Z",
+    "modified": "2021-07-07T15:11:02.159Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "ae3a382a13904f12ac5031e9de859704",
+    "doi": "10.1038/ng.3011",
+    "pmid": "24929828",
+    "title": "Genome-wide association analysis identifies six new loci associated with forced vital capacity.",
+    "abstract": "Forced vital capacity (FVC), a spirometric measure of pulmonary function, reflects lung volume and is used to diagnose and monitor lung diseases. We performed genome-wide association study meta-analysis of FVC in 52,253 individuals from 26 studies and followed up the top associations in 32,917 additional individuals of European ancestry. We found six new regions associated at genome-wide significance (P < 5 × 10(-8)) with FVC in or near EFEMP1, BMP6, MIR129-2-HSD17B12, PRDM11, WWOX and KCNJ2. Two loci previously associated with spirometric measures (GSTCD and PTCH1) were related to FVC. Newly implicated regions were followed up in samples from African-American, Korean, Chinese and Hispanic individuals. We detected transcripts for all six newly implicated genes in human lung tissue. The new loci may inform mechanisms involved in lung development and the pathogenesis of restrictive lung disease.",
+    "published": "2014-07-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Daan W",
+        "family": "Loth",
+        "initials": "DW"
+      },
+      {
+        "given": "María",
+        "family": "Soler Artigas",
+        "initials": "M"
+      },
+      {
+        "given": "Sina A",
+        "family": "Gharib",
+        "initials": "SA"
+      },
+      {
+        "given": "Louise V",
+        "family": "Wain",
+        "initials": "LV"
+      },
+      {
+        "given": "Nora",
+        "family": "Franceschini",
+        "initials": "N"
+      },
+      {
+        "given": "Beate",
+        "family": "Koch",
+        "initials": "B"
+      },
+      {
+        "given": "Tess D",
+        "family": "Pottinger",
+        "initials": "TD"
+      },
+      {
+        "given": "Albert Vernon",
+        "family": "Smith",
+        "initials": "AV"
+      },
+      {
+        "given": "Qing",
+        "family": "Duan",
+        "initials": "Q"
+      },
+      {
+        "given": "Chris",
+        "family": "Oldmeadow",
+        "initials": "C"
+      },
+      {
+        "given": "Mi Kyeong",
+        "family": "Lee",
+        "initials": "MK"
+      },
+      {
+        "given": "David P",
+        "family": "Strachan",
+        "initials": "DP"
+      },
+      {
+        "given": "Alan L",
+        "family": "James",
+        "initials": "AL"
+      },
+      {
+        "given": "Jennifer E",
+        "family": "Huffman",
+        "initials": "JE"
+      },
+      {
+        "given": "Veronique",
+        "family": "Vitart",
+        "initials": "V"
+      },
+      {
+        "given": "Adaikalavan",
+        "family": "Ramasamy",
+        "initials": "A"
+      },
+      {
+        "given": "Nicholas J",
+        "family": "Wareham",
+        "initials": "NJ"
+      },
+      {
+        "given": "Jaakko",
+        "family": "Kaprio",
+        "initials": "J"
+      },
+      {
+        "given": "Xin-Qun",
+        "family": "Wang",
+        "initials": "X"
+      },
+      {
+        "given": "Holly",
+        "family": "Trochet",
+        "initials": "H"
+      },
+      {
+        "given": "Mika",
+        "family": "Kähönen",
+        "initials": "M"
+      },
+      {
+        "given": "Claudia",
+        "family": "Flexeder",
+        "initials": "C"
+      },
+      {
+        "given": "Eva",
+        "family": "Albrecht",
+        "initials": "E"
+      },
+      {
+        "given": "Lorna M",
+        "family": "Lopez",
+        "initials": "LM"
+      },
+      {
+        "given": "Kim",
+        "family": "de Jong",
+        "initials": "K"
+      },
+      {
+        "given": "Bharat",
+        "family": "Thyagarajan",
+        "initials": "B"
+      },
+      {
+        "given": "Alexessander Couto",
+        "family": "Alves",
+        "initials": "AC"
+      },
+      {
+        "given": "Stefan",
+        "family": "Enroth",
+        "initials": "S"
+      },
+      {
+        "given": "Ernst",
+        "family": "Omenaas",
+        "initials": "E"
+      },
+      {
+        "given": "Peter K",
+        "family": "Joshi",
+        "initials": "PK"
+      },
+      {
+        "given": "Tove",
+        "family": "Fall",
+        "initials": "T"
+      },
+      {
+        "given": "Ana",
+        "family": "Viñuela",
+        "initials": "A"
+      },
+      {
+        "given": "Lenore J",
+        "family": "Launer",
+        "initials": "LJ"
+      },
+      {
+        "given": "Laura R",
+        "family": "Loehr",
+        "initials": "LR"
+      },
+      {
+        "given": "Myriam",
+        "family": "Fornage",
+        "initials": "M"
+      },
+      {
+        "given": "Guo",
+        "family": "Li",
+        "initials": "G"
+      },
+      {
+        "given": "Jemma B",
+        "family": "Wilk",
+        "initials": "JB"
+      },
+      {
+        "given": "Wenbo",
+        "family": "Tang",
+        "initials": "W"
+      },
+      {
+        "given": "Ani",
+        "family": "Manichaikul",
+        "initials": "A"
+      },
+      {
+        "given": "Lies",
+        "family": "Lahousse",
+        "initials": "L"
+      },
+      {
+        "given": "Tamara B",
+        "family": "Harris",
+        "initials": "TB"
+      },
+      {
+        "given": "Kari E",
+        "family": "North",
+        "initials": "KE"
+      },
+      {
+        "given": "Alicja R",
+        "family": "Rudnicka",
+        "initials": "AR"
+      },
+      {
+        "given": "Jennie",
+        "family": "Hui",
+        "initials": "J"
+      },
+      {
+        "given": "Xiangjun",
+        "family": "Gu",
+        "initials": "X"
+      },
+      {
+        "given": "Thomas",
+        "family": "Lumley",
+        "initials": "T"
+      },
+      {
+        "given": "Alan F",
+        "family": "Wright",
+        "initials": "AF"
+      },
+      {
+        "given": "Nicholas D",
+        "family": "Hastie",
+        "initials": "ND"
+      },
+      {
+        "given": "Susan",
+        "family": "Campbell",
+        "initials": "S"
+      },
+      {
+        "given": "Rajesh",
+        "family": "Kumar",
+        "initials": "R"
+      },
+      {
+        "given": "Isabelle",
+        "family": "Pin",
+        "initials": "I"
+      },
+      {
+        "given": "Robert A",
+        "family": "Scott",
+        "initials": "RA"
+      },
+      {
+        "given": "Kirsi H",
+        "family": "Pietiläinen",
+        "initials": "KH"
+      },
+      {
+        "given": "Ida",
+        "family": "Surakka",
+        "initials": "I"
+      },
+      {
+        "given": "Yongmei",
+        "family": "Liu",
+        "initials": "Y"
+      },
+      {
+        "given": "Elizabeth G",
+        "family": "Holliday",
+        "initials": "EG"
+      },
+      {
+        "given": "Holger",
+        "family": "Schulz",
+        "initials": "H"
+      },
+      {
+        "given": "Joachim",
+        "family": "Heinrich",
+        "initials": "J"
+      },
+      {
+        "given": "Gail",
+        "family": "Davies",
+        "initials": "G"
+      },
+      {
+        "given": "Judith M",
+        "family": "Vonk",
+        "initials": "JM"
+      },
+      {
+        "given": "Mary",
+        "family": "Wojczynski",
+        "initials": "M"
+      },
+      {
+        "given": "Anneli",
+        "family": "Pouta",
+        "initials": "A"
+      },
+      {
+        "given": "Asa",
+        "family": "Johansson",
+        "initials": "A"
+      },
+      {
+        "given": "Sarah H",
+        "family": "Wild",
+        "initials": "SH"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Fernando",
+        "family": "Rivadeneira",
+        "initials": "F"
+      },
+      {
+        "given": "Henry",
+        "family": "Völzke",
+        "initials": "H"
+      },
+      {
+        "given": "Pirro G",
+        "family": "Hysi",
+        "initials": "PG"
+      },
+      {
+        "given": "Gudny",
+        "family": "Eiriksdottir",
+        "initials": "G"
+      },
+      {
+        "given": "Alanna C",
+        "family": "Morrison",
+        "initials": "AC"
+      },
+      {
+        "given": "Jerome I",
+        "family": "Rotter",
+        "initials": "JI"
+      },
+      {
+        "given": "Wei",
+        "family": "Gao",
+        "initials": "W"
+      },
+      {
+        "given": "Dirkje S",
+        "family": "Postma",
+        "initials": "DS"
+      },
+      {
+        "given": "Wendy B",
+        "family": "White",
+        "initials": "WB"
+      },
+      {
+        "given": "Stephen S",
+        "family": "Rich",
+        "initials": "SS"
+      },
+      {
+        "given": "Albert",
+        "family": "Hofman",
+        "initials": "A"
+      },
+      {
+        "given": "Thor",
+        "family": "Aspelund",
+        "initials": "T"
+      },
+      {
+        "given": "David",
+        "family": "Couper",
+        "initials": "D"
+      },
+      {
+        "given": "Lewis J",
+        "family": "Smith",
+        "initials": "LJ"
+      },
+      {
+        "given": "Bruce M",
+        "family": "Psaty",
+        "initials": "BM"
+      },
+      {
+        "given": "Kurt",
+        "family": "Lohman",
+        "initials": "K"
+      },
+      {
+        "given": "Esteban G",
+        "family": "Burchard",
+        "initials": "EG"
+      },
+      {
+        "given": "André G",
+        "family": "Uitterlinden",
+        "initials": "AG"
+      },
+      {
+        "given": "Melissa",
+        "family": "Garcia",
+        "initials": "M"
+      },
+      {
+        "given": "Bonnie R",
+        "family": "Joubert",
+        "initials": "BR"
+      },
+      {
+        "given": "Wendy L",
+        "family": "McArdle",
+        "initials": "WL"
+      },
+      {
+        "given": "A Bill",
+        "family": "Musk",
+        "initials": "AB"
+      },
+      {
+        "given": "Nadia",
+        "family": "Hansel",
+        "initials": "N"
+      },
+      {
+        "given": "Susan R",
+        "family": "Heckbert",
+        "initials": "SR"
+      },
+      {
+        "given": "Lina",
+        "family": "Zgaga",
+        "initials": "L"
+      },
+      {
+        "given": "Joyce B J",
+        "family": "van Meurs",
+        "initials": "JBJ"
+      },
+      {
+        "given": "Pau",
+        "family": "Navarro",
+        "initials": "P"
+      },
+      {
+        "given": "Igor",
+        "family": "Rudan",
+        "initials": "I"
+      },
+      {
+        "given": "Yeon-Mok",
+        "family": "Oh",
+        "initials": "Y"
+      },
+      {
+        "given": "Susan",
+        "family": "Redline",
+        "initials": "S"
+      },
+      {
+        "given": "Deborah L",
+        "family": "Jarvis",
+        "initials": "DL"
+      },
+      {
+        "given": "Jing Hua",
+        "family": "Zhao",
+        "initials": "JH"
+      },
+      {
+        "given": "Taina",
+        "family": "Rantanen",
+        "initials": "T"
+      },
+      {
+        "given": "George T",
+        "family": "O'Connor",
+        "initials": "GT"
+      },
+      {
+        "given": "Samuli",
+        "family": "Ripatti",
+        "initials": "S"
+      },
+      {
+        "given": "Rodney J",
+        "family": "Scott",
+        "initials": "RJ"
+      },
+      {
+        "given": "Stefan",
+        "family": "Karrasch",
+        "initials": "S"
+      },
+      {
+        "given": "Harald",
+        "family": "Grallert",
+        "initials": "H"
+      },
+      {
+        "given": "Nathan C",
+        "family": "Gaddis",
+        "initials": "NC"
+      },
+      {
+        "given": "John M",
+        "family": "Starr",
+        "initials": "JM"
+      },
+      {
+        "given": "Cisca",
+        "family": "Wijmenga",
+        "initials": "C"
+      },
+      {
+        "given": "Ryan L",
+        "family": "Minster",
+        "initials": "RL"
+      },
+      {
+        "given": "David J",
+        "family": "Lederer",
+        "initials": "DJ"
+      },
+      {
+        "given": "Juha",
+        "family": "Pekkanen",
+        "initials": "J"
+      },
+      {
+        "given": "Ulf",
+        "family": "Gyllensten",
+        "initials": "U"
+      },
+      {
+        "given": "Harry",
+        "family": "Campbell",
+        "initials": "H"
+      },
+      {
+        "given": "Andrew P",
+        "family": "Morris",
+        "initials": "AP"
+      },
+      {
+        "given": "Sven",
+        "family": "Gläser",
+        "initials": "S"
+      },
+      {
+        "given": "Christopher J",
+        "family": "Hammond",
+        "initials": "CJ"
+      },
+      {
+        "given": "Kristin M",
+        "family": "Burkart",
+        "initials": "KM"
+      },
+      {
+        "given": "John",
+        "family": "Beilby",
+        "initials": "J"
+      },
+      {
+        "given": "Stephen B",
+        "family": "Kritchevsky",
+        "initials": "SB"
+      },
+      {
+        "given": "Vilmundur",
+        "family": "Gudnason",
+        "initials": "V"
+      },
+      {
+        "given": "Dana B",
+        "family": "Hancock",
+        "initials": "DB"
+      },
+      {
+        "given": "O Dale",
+        "family": "Williams",
+        "initials": "OD"
+      },
+      {
+        "given": "Ozren",
+        "family": "Polasek",
+        "initials": "O"
+      },
+      {
+        "given": "Tatijana",
+        "family": "Zemunik",
+        "initials": "T"
+      },
+      {
+        "given": "Ivana",
+        "family": "Kolcic",
+        "initials": "I"
+      },
+      {
+        "given": "Marcy F",
+        "family": "Petrini",
+        "initials": "MF"
+      },
+      {
+        "given": "Matthias",
+        "family": "Wjst",
+        "initials": "M"
+      },
+      {
+        "given": "Woo Jin",
+        "family": "Kim",
+        "initials": "WJ"
+      },
+      {
+        "given": "David J",
+        "family": "Porteous",
+        "initials": "DJ"
+      },
+      {
+        "given": "Generation",
+        "family": "Scotland",
+        "initials": "G"
+      },
+      {
+        "given": "Blair H",
+        "family": "Smith",
+        "initials": "BH"
+      },
+      {
+        "given": "Anne",
+        "family": "Viljanen",
+        "initials": "A"
+      },
+      {
+        "given": "Markku",
+        "family": "Heliövaara",
+        "initials": "M"
+      },
+      {
+        "given": "John R",
+        "family": "Attia",
+        "initials": "JR"
+      },
+      {
+        "given": "Ian",
+        "family": "Sayers",
+        "initials": "I"
+      },
+      {
+        "given": "Regina",
+        "family": "Hampel",
+        "initials": "R"
+      },
+      {
+        "given": "Christian",
+        "family": "Gieger",
+        "initials": "C"
+      },
+      {
+        "given": "Ian J",
+        "family": "Deary",
+        "initials": "IJ"
+      },
+      {
+        "given": "H Marike",
+        "family": "Boezen",
+        "initials": "HM"
+      },
+      {
+        "given": "Anne",
+        "family": "Newman",
+        "initials": "A"
+      },
+      {
+        "given": "Marjo-Riitta",
+        "family": "Jarvelin",
+        "initials": "M"
+      },
+      {
+        "given": "James F",
+        "family": "Wilson",
+        "initials": "JF"
+      },
+      {
+        "given": "Lars",
+        "family": "Lind",
+        "initials": "L"
+      },
+      {
+        "given": "Bruno H",
+        "family": "Stricker",
+        "initials": "BH"
+      },
+      {
+        "given": "Alexander",
+        "family": "Teumer",
+        "initials": "A"
+      },
+      {
+        "given": "Timothy D",
+        "family": "Spector",
+        "initials": "TD"
+      },
+      {
+        "given": "Erik",
+        "family": "Melén",
+        "initials": "E"
+      },
+      {
+        "given": "Marjolein J",
+        "family": "Peters",
+        "initials": "MJ"
+      },
+      {
+        "given": "Leslie A",
+        "family": "Lange",
+        "initials": "LA"
+      },
+      {
+        "given": "R Graham",
+        "family": "Barr",
+        "initials": "RG"
+      },
+      {
+        "given": "Ken R",
+        "family": "Bracke",
+        "initials": "KR"
+      },
+      {
+        "given": "Fien M",
+        "family": "Verhamme",
+        "initials": "FM"
+      },
+      {
+        "given": "Joohon",
+        "family": "Sung",
+        "initials": "J"
+      },
+      {
+        "given": "Pieter S",
+        "family": "Hiemstra",
+        "initials": "PS"
+      },
+      {
+        "given": "Patricia A",
+        "family": "Cassano",
+        "initials": "PA"
+      },
+      {
+        "given": "Akshay",
+        "family": "Sood",
+        "initials": "A"
+      },
+      {
+        "given": "Caroline",
+        "family": "Hayward",
+        "initials": "C"
+      },
+      {
+        "given": "Josée",
+        "family": "Dupuis",
+        "initials": "J"
+      },
+      {
+        "given": "Ian P",
+        "family": "Hall",
+        "initials": "IP"
+      },
+      {
+        "given": "Guy G",
+        "family": "Brusselle",
+        "initials": "GG"
+      },
+      {
+        "given": "Martin D",
+        "family": "Tobin",
+        "initials": "MD"
+      },
+      {
+        "given": "Stephanie J",
+        "family": "London",
+        "initials": "SJ"
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": "46",
+      "issue": "7",
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": "669-677"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/ae3a382a13904f12ac5031e9de859704.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/ae3a382a13904f12ac5031e9de859704"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ng.3011"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC4140093"
+      },
+      {
+        "db": "mid",
+        "key": "NIHMS608728"
+      },
+      {
+        "db": "GEO",
+        "key": "GSE14334"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:58:47.768Z",
+    "modified": "2020-01-21T13:56:08.852Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "d50ec332292c46de9fbbc0817311ab32",
+    "doi": "10.1161/CIRCGENETICS.112.962852",
+    "pmid": "23139254",
+    "title": "Integration of genetics into a systems model of electrocardiographic traits using HumanCVD BeadChip.",
+    "abstract": "Electrocardiographic traits are important, substantially heritable determinants of risk of arrhythmias and sudden cardiac death.\n\nIn this study, 3 population-based cohorts (n=10,526) genotyped with the Illumina HumanCVD Beadchip and 4 quantitative electrocardiographic traits (PR interval, QRS axis, QRS duration, and QTc interval) were evaluated for single-nucleotide polymorphism associations. Six gene regions contained single nucleotide polymorphisms associated with these traits at P<10(-6), including SCN5A (PR interval and QRS duration), CAV1-CAV2 locus (PR interval), CDKN1A (QRS duration), NOS1AP, KCNH2, and KCNQ1 (QTc interval). Expression quantitative trait loci analyses of top associated single-nucleotide polymorphisms were undertaken in human heart and aortic tissues. NOS1AP, SCN5A, IGFBP3, CYP2C9, and CAV1 showed evidence of differential allelic expression. We modeled the effects of ion channel activity on electrocardiographic parameters, estimating the change in gene expression that would account for our observed associations, thus relating epidemiological observations and expression quantitative trait loci data to a systems model of the ECG.\n\nThese association results replicate and refine the mapping of previous genome-wide association study findings for electrocardiographic traits, while the expression analysis and modeling approaches offer supporting evidence for a functional role of some of these loci in cardiac excitation/conduction.",
+    "published": "2012-12-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Tom R",
+        "family": "Gaunt",
+        "initials": "TR"
+      },
+      {
+        "given": "Sonia",
+        "family": "Shah",
+        "initials": "S"
+      },
+      {
+        "given": "Christopher P",
+        "family": "Nelson",
+        "initials": "CP"
+      },
+      {
+        "given": "Fotios",
+        "family": "Drenos",
+        "initials": "F"
+      },
+      {
+        "given": "Peter S",
+        "family": "Braund",
+        "initials": "PS"
+      },
+      {
+        "given": "Ismail",
+        "family": "Adeniran",
+        "initials": "I"
+      },
+      {
+        "given": "Lasse",
+        "family": "Folkersen",
+        "initials": "L"
+      },
+      {
+        "given": "Debbie A",
+        "family": "Lawlor",
+        "initials": "DA"
+      },
+      {
+        "given": "Juan-Pablo",
+        "family": "Casas",
+        "initials": "JP"
+      },
+      {
+        "given": "Antoinette",
+        "family": "Amuzu",
+        "initials": "A"
+      },
+      {
+        "given": "Mika",
+        "family": "Kivimaki",
+        "initials": "M"
+      },
+      {
+        "given": "John",
+        "family": "Whittaker",
+        "initials": "J"
+      },
+      {
+        "given": "Per",
+        "family": "Eriksson",
+        "initials": "P"
+      },
+      {
+        "given": "Henggui",
+        "family": "Zhang",
+        "initials": "H"
+      },
+      {
+        "given": "Jules C",
+        "family": "Hancox",
+        "initials": "JC"
+      },
+      {
+        "given": "Maciej",
+        "family": "Tomaszewski",
+        "initials": "M"
+      },
+      {
+        "given": "Paul R",
+        "family": "Burton",
+        "initials": "PR"
+      },
+      {
+        "given": "Martin D",
+        "family": "Tobin",
+        "initials": "MD"
+      },
+      {
+        "given": "Steve E",
+        "family": "Humphries",
+        "initials": "SE"
+      },
+      {
+        "given": "Philippa J",
+        "family": "Talmud",
+        "initials": "PJ"
+      },
+      {
+        "given": "Peter W",
+        "family": "Macfarlane",
+        "initials": "PW"
+      },
+      {
+        "given": "Aroon D",
+        "family": "Hingorani",
+        "initials": "AD"
+      },
+      {
+        "given": "Nilesh J",
+        "family": "Samani",
+        "initials": "NJ"
+      },
+      {
+        "given": "Meena",
+        "family": "Kumari",
+        "initials": "M"
+      },
+      {
+        "given": "Ian N M",
+        "family": "Day",
+        "initials": "IN"
+      }
+    ],
+    "journal": {
+      "title": "Circ Cardiovasc Genet",
+      "volume": "5",
+      "issue": "6",
+      "issn": "1942-3268",
+      "issn-l": null,
+      "pages": "630-638"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/d50ec332292c46de9fbbc0817311ab32.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/d50ec332292c46de9fbbc0817311ab32"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "CIRCGENETICS.112.962852"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T15:00:55.940Z",
+    "modified": "2020-01-21T13:56:05.450Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "21d45deb0da74422b84ce38ad7d1ecd9",
+    "doi": "10.1038/ng.2610",
+    "pmid": "23583979",
+    "title": "Identification of heart rate-associated loci and their effects on cardiac conduction and rhythm disorders.",
+    "abstract": "Elevated resting heart rate is associated with greater risk of cardiovascular disease and mortality. In a 2-stage meta-analysis of genome-wide association studies in up to 181,171 individuals, we identified 14 new loci associated with heart rate and confirmed associations with all 7 previously established loci. Experimental downregulation of gene expression in Drosophila melanogaster and Danio rerio identified 20 genes at 11 loci that are relevant for heart rate regulation and highlight a role for genes involved in signal transmission, embryonic cardiac development and the pathophysiology of dilated cardiomyopathy, congenital heart failure and/or sudden cardiac death. In addition, genetic susceptibility to increased heart rate is associated with altered cardiac conduction and reduced risk of sick sinus syndrome, and both heart rate-increasing and heart rate-decreasing variants associate with risk of atrial fibrillation. Our findings provide fresh insights into the mechanisms regulating heart rate and identify new therapeutic targets.",
+    "published": "2013-06-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Marcel",
+        "family": "den Hoed",
+        "initials": "M"
+      },
+      {
+        "given": "Mark",
+        "family": "Eijgelsheim",
+        "initials": "M"
+      },
+      {
+        "given": "Tõnu",
+        "family": "Esko",
+        "initials": "T"
+      },
+      {
+        "given": "Bianca J J M",
+        "family": "Brundel",
+        "initials": "BJJM"
+      },
+      {
+        "given": "David S",
+        "family": "Peal",
+        "initials": "DS"
+      },
+      {
+        "given": "David M",
+        "family": "Evans",
+        "initials": "DM"
+      },
+      {
+        "given": "Ilja M",
+        "family": "Nolte",
+        "initials": "IM"
+      },
+      {
+        "given": "Ayellet V",
+        "family": "Segrè",
+        "initials": "AV"
+      },
+      {
+        "given": "Hilma",
+        "family": "Holm",
+        "initials": "H"
+      },
+      {
+        "given": "Robert E",
+        "family": "Handsaker",
+        "initials": "RE"
+      },
+      {
+        "given": "Harm-Jan",
+        "family": "Westra",
+        "initials": "H"
+      },
+      {
+        "given": "Toby",
+        "family": "Johnson",
+        "initials": "T"
+      },
+      {
+        "given": "Aaron",
+        "family": "Isaacs",
+        "initials": "A"
+      },
+      {
+        "given": "Jian",
+        "family": "Yang",
+        "initials": "J"
+      },
+      {
+        "given": "Alicia",
+        "family": "Lundby",
+        "initials": "A"
+      },
+      {
+        "given": "Jing Hua",
+        "family": "Zhao",
+        "initials": "JH"
+      },
+      {
+        "given": "Young Jin",
+        "family": "Kim",
+        "initials": "YJ"
+      },
+      {
+        "given": "Min Jin",
+        "family": "Go",
+        "initials": "MJ"
+      },
+      {
+        "given": "Peter",
+        "family": "Almgren",
+        "initials": "P"
+      },
+      {
+        "given": "Murielle",
+        "family": "Bochud",
+        "initials": "M"
+      },
+      {
+        "given": "Gabrielle",
+        "family": "Boucher",
+        "initials": "G"
+      },
+      {
+        "given": "Marilyn C",
+        "family": "Cornelis",
+        "initials": "MC"
+      },
+      {
+        "given": "Daniel",
+        "family": "Gudbjartsson",
+        "initials": "D"
+      },
+      {
+        "given": "David",
+        "family": "Hadley",
+        "initials": "D"
+      },
+      {
+        "given": "Pim",
+        "family": "van der Harst",
+        "initials": "P"
+      },
+      {
+        "given": "Caroline",
+        "family": "Hayward",
+        "initials": "C"
+      },
+      {
+        "given": "Martin",
+        "family": "den Heijer",
+        "initials": "M"
+      },
+      {
+        "given": "Wilmar",
+        "family": "Igl",
+        "initials": "W"
+      },
+      {
+        "given": "Anne U",
+        "family": "Jackson",
+        "initials": "AU"
+      },
+      {
+        "given": "Zoltán",
+        "family": "Kutalik",
+        "initials": "Z"
+      },
+      {
+        "given": "Jian'an",
+        "family": "Luan",
+        "initials": "J"
+      },
+      {
+        "given": "John P",
+        "family": "Kemp",
+        "initials": "JP"
+      },
+      {
+        "given": "Kati",
+        "family": "Kristiansson",
+        "initials": "K"
+      },
+      {
+        "given": "Claes",
+        "family": "Ladenvall",
+        "initials": "C"
+      },
+      {
+        "given": "Mattias",
+        "family": "Lorentzon",
+        "initials": "M"
+      },
+      {
+        "given": "May E",
+        "family": "Montasser",
+        "initials": "ME"
+      },
+      {
+        "given": "Omer T",
+        "family": "Njajou",
+        "initials": "OT"
+      },
+      {
+        "given": "Paul F",
+        "family": "O'Reilly",
+        "initials": "PF"
+      },
+      {
+        "given": "Sandosh",
+        "family": "Padmanabhan",
+        "initials": "S"
+      },
+      {
+        "given": "Beate",
+        "family": "St Pourcain",
+        "initials": "B"
+      },
+      {
+        "given": "Tuomo",
+        "family": "Rankinen",
+        "initials": "T"
+      },
+      {
+        "given": "Perttu",
+        "family": "Salo",
+        "initials": "P"
+      },
+      {
+        "given": "Toshiko",
+        "family": "Tanaka",
+        "initials": "T"
+      },
+      {
+        "given": "Nicholas J",
+        "family": "Timpson",
+        "initials": "NJ"
+      },
+      {
+        "given": "Veronique",
+        "family": "Vitart",
+        "initials": "V"
+      },
+      {
+        "given": "Lindsay",
+        "family": "Waite",
+        "initials": "L"
+      },
+      {
+        "given": "William",
+        "family": "Wheeler",
+        "initials": "W"
+      },
+      {
+        "given": "Weihua",
+        "family": "Zhang",
+        "initials": "W"
+      },
+      {
+        "given": "Harmen H M",
+        "family": "Draisma",
+        "initials": "HHM"
+      },
+      {
+        "given": "Mary F",
+        "family": "Feitosa",
+        "initials": "MF"
+      },
+      {
+        "given": "Kathleen F",
+        "family": "Kerr",
+        "initials": "KF"
+      },
+      {
+        "given": "Penelope A",
+        "family": "Lind",
+        "initials": "PA"
+      },
+      {
+        "given": "Evelin",
+        "family": "Mihailov",
+        "initials": "E"
+      },
+      {
+        "given": "N Charlotte",
+        "family": "Onland-Moret",
+        "initials": "NC"
+      },
+      {
+        "given": "Ci",
+        "family": "Song",
+        "initials": "C"
+      },
+      {
+        "given": "Michael N",
+        "family": "Weedon",
+        "initials": "MN"
+      },
+      {
+        "given": "Weijia",
+        "family": "Xie",
+        "initials": "W"
+      },
+      {
+        "given": "Loic",
+        "family": "Yengo",
+        "initials": "L"
+      },
+      {
+        "given": "Devin",
+        "family": "Absher",
+        "initials": "D"
+      },
+      {
+        "given": "Christine M",
+        "family": "Albert",
+        "initials": "CM"
+      },
+      {
+        "given": "Alvaro",
+        "family": "Alonso",
+        "initials": "A"
+      },
+      {
+        "given": "Dan E",
+        "family": "Arking",
+        "initials": "DE"
+      },
+      {
+        "given": "Paul I W",
+        "family": "de Bakker",
+        "initials": "PIW"
+      },
+      {
+        "given": "Beverley",
+        "family": "Balkau",
+        "initials": "B"
+      },
+      {
+        "given": "Cristina",
+        "family": "Barlassina",
+        "initials": "C"
+      },
+      {
+        "given": "Paola",
+        "family": "Benaglio",
+        "initials": "P"
+      },
+      {
+        "given": "Joshua C",
+        "family": "Bis",
+        "initials": "JC"
+      },
+      {
+        "given": "Nabila",
+        "family": "Bouatia-Naji",
+        "initials": "N"
+      },
+      {
+        "given": "Søren",
+        "family": "Brage",
+        "initials": "S"
+      },
+      {
+        "given": "Stephen J",
+        "family": "Chanock",
+        "initials": "SJ"
+      },
+      {
+        "given": "Peter S",
+        "family": "Chines",
+        "initials": "PS"
+      },
+      {
+        "given": "Mina",
+        "family": "Chung",
+        "initials": "M"
+      },
+      {
+        "given": "Dawood",
+        "family": "Darbar",
+        "initials": "D"
+      },
+      {
+        "given": "Christian",
+        "family": "Dina",
+        "initials": "C"
+      },
+      {
+        "given": "Marcus",
+        "family": "Dörr",
+        "initials": "M"
+      },
+      {
+        "given": "Paul",
+        "family": "Elliott",
+        "initials": "P"
+      },
+      {
+        "given": "Stephan B",
+        "family": "Felix",
+        "initials": "SB"
+      },
+      {
+        "given": "Krista",
+        "family": "Fischer",
+        "initials": "K"
+      },
+      {
+        "given": "Christian",
+        "family": "Fuchsberger",
+        "initials": "C"
+      },
+      {
+        "given": "Eco J C",
+        "family": "de Geus",
+        "initials": "EJC"
+      },
+      {
+        "given": "Philippe",
+        "family": "Goyette",
+        "initials": "P"
+      },
+      {
+        "given": "Vilmundur",
+        "family": "Gudnason",
+        "initials": "V"
+      },
+      {
+        "given": "Tamara B",
+        "family": "Harris",
+        "initials": "TB"
+      },
+      {
+        "given": "Anna-Liisa",
+        "family": "Hartikainen",
+        "initials": "A"
+      },
+      {
+        "given": "Aki S",
+        "family": "Havulinna",
+        "initials": "AS"
+      },
+      {
+        "given": "Susan R",
+        "family": "Heckbert",
+        "initials": "SR"
+      },
+      {
+        "given": "Andrew A",
+        "family": "Hicks",
+        "initials": "AA"
+      },
+      {
+        "given": "Albert",
+        "family": "Hofman",
+        "initials": "A"
+      },
+      {
+        "given": "Suzanne",
+        "family": "Holewijn",
+        "initials": "S"
+      },
+      {
+        "given": "Femke",
+        "family": "Hoogstra-Berends",
+        "initials": "F"
+      },
+      {
+        "given": "Jouke-Jan",
+        "family": "Hottenga",
+        "initials": "J"
+      },
+      {
+        "given": "Majken K",
+        "family": "Jensen",
+        "initials": "MK"
+      },
+      {
+        "given": "Asa",
+        "family": "Johansson",
+        "initials": "A"
+      },
+      {
+        "given": "Juhani",
+        "family": "Junttila",
+        "initials": "J"
+      },
+      {
+        "given": "Stefan",
+        "family": "Kääb",
+        "initials": "S"
+      },
+      {
+        "given": "Bart",
+        "family": "Kanon",
+        "initials": "B"
+      },
+      {
+        "given": "Shamika",
+        "family": "Ketkar",
+        "initials": "S"
+      },
+      {
+        "given": "Kay-Tee",
+        "family": "Khaw",
+        "initials": "K"
+      },
+      {
+        "given": "Joshua W",
+        "family": "Knowles",
+        "initials": "JW"
+      },
+      {
+        "given": "Angrad S",
+        "family": "Kooner",
+        "initials": "AS"
+      },
+      {
+        "given": "Jan A",
+        "family": "Kors",
+        "initials": "JA"
+      },
+      {
+        "given": "Meena",
+        "family": "Kumari",
+        "initials": "M"
+      },
+      {
+        "given": "Lili",
+        "family": "Milani",
+        "initials": "L"
+      },
+      {
+        "given": "Päivi",
+        "family": "Laiho",
+        "initials": "P"
+      },
+      {
+        "given": "Edward G",
+        "family": "Lakatta",
+        "initials": "EG"
+      },
+      {
+        "given": "Claudia",
+        "family": "Langenberg",
+        "initials": "C"
+      },
+      {
+        "given": "Maarten",
+        "family": "Leusink",
+        "initials": "M"
+      },
+      {
+        "given": "Yongmei",
+        "family": "Liu",
+        "initials": "Y"
+      },
+      {
+        "given": "Robert N",
+        "family": "Luben",
+        "initials": "RN"
+      },
+      {
+        "given": "Kathryn L",
+        "family": "Lunetta",
+        "initials": "KL"
+      },
+      {
+        "given": "Stacey N",
+        "family": "Lynch",
+        "initials": "SN"
+      },
+      {
+        "given": "Marcello R P",
+        "family": "Markus",
+        "initials": "MRP"
+      },
+      {
+        "given": "Pedro",
+        "family": "Marques-Vidal",
+        "initials": "P"
+      },
+      {
+        "given": "Irene",
+        "family": "Mateo Leach",
+        "initials": "I"
+      },
+      {
+        "given": "Wendy L",
+        "family": "McArdle",
+        "initials": "WL"
+      },
+      {
+        "given": "Steven A",
+        "family": "McCarroll",
+        "initials": "SA"
+      },
+      {
+        "given": "Sarah E",
+        "family": "Medland",
+        "initials": "SE"
+      },
+      {
+        "given": "Kathryn A",
+        "family": "Miller",
+        "initials": "KA"
+      },
+      {
+        "given": "Grant W",
+        "family": "Montgomery",
+        "initials": "GW"
+      },
+      {
+        "given": "Alanna C",
+        "family": "Morrison",
+        "initials": "AC"
+      },
+      {
+        "given": "Martina",
+        "family": "Müller-Nurasyid",
+        "initials": "M"
+      },
+      {
+        "given": "Pau",
+        "family": "Navarro",
+        "initials": "P"
+      },
+      {
+        "given": "Mari",
+        "family": "Nelis",
+        "initials": "M"
+      },
+      {
+        "given": "Jeffrey R",
+        "family": "O'Connell",
+        "initials": "JR"
+      },
+      {
+        "given": "Christopher J",
+        "family": "O'Donnell",
+        "initials": "CJ"
+      },
+      {
+        "given": "Ken K",
+        "family": "Ong",
+        "initials": "KK"
+      },
+      {
+        "given": "Anne B",
+        "family": "Newman",
+        "initials": "AB"
+      },
+      {
+        "given": "Annette",
+        "family": "Peters",
+        "initials": "A"
+      },
+      {
+        "given": "Ozren",
+        "family": "Polasek",
+        "initials": "O"
+      },
+      {
+        "given": "Anneli",
+        "family": "Pouta",
+        "initials": "A"
+      },
+      {
+        "given": "Peter P",
+        "family": "Pramstaller",
+        "initials": "PP"
+      },
+      {
+        "given": "Bruce M",
+        "family": "Psaty",
+        "initials": "BM"
+      },
+      {
+        "given": "Dabeeru C",
+        "family": "Rao",
+        "initials": "DC"
+      },
+      {
+        "given": "Susan M",
+        "family": "Ring",
+        "initials": "SM"
+      },
+      {
+        "given": "Elizabeth J",
+        "family": "Rossin",
+        "initials": "EJ"
+      },
+      {
+        "given": "Diana",
+        "family": "Rudan",
+        "initials": "D"
+      },
+      {
+        "given": "Serena",
+        "family": "Sanna",
+        "initials": "S"
+      },
+      {
+        "given": "Robert A",
+        "family": "Scott",
+        "initials": "RA"
+      },
+      {
+        "given": "Jaban S",
+        "family": "Sehmi",
+        "initials": "JS"
+      },
+      {
+        "given": "Stephen",
+        "family": "Sharp",
+        "initials": "S"
+      },
+      {
+        "given": "Jordan T",
+        "family": "Shin",
+        "initials": "JT"
+      },
+      {
+        "given": "Andrew B",
+        "family": "Singleton",
+        "initials": "AB"
+      },
+      {
+        "given": "Albert V",
+        "family": "Smith",
+        "initials": "AV"
+      },
+      {
+        "given": "Nicole",
+        "family": "Soranzo",
+        "initials": "N"
+      },
+      {
+        "given": "Tim D",
+        "family": "Spector",
+        "initials": "TD"
+      },
+      {
+        "given": "Chip",
+        "family": "Stewart",
+        "initials": "C"
+      },
+      {
+        "given": "Heather M",
+        "family": "Stringham",
+        "initials": "HM"
+      },
+      {
+        "given": "Kirill V",
+        "family": "Tarasov",
+        "initials": "KV"
+      },
+      {
+        "given": "André G",
+        "family": "Uitterlinden",
+        "initials": "AG"
+      },
+      {
+        "given": "Liesbeth",
+        "family": "Vandenput",
+        "initials": "L"
+      },
+      {
+        "given": "Shih-Jen",
+        "family": "Hwang",
+        "initials": "S"
+      },
+      {
+        "given": "John B",
+        "family": "Whitfield",
+        "initials": "JB"
+      },
+      {
+        "given": "Cisca",
+        "family": "Wijmenga",
+        "initials": "C"
+      },
+      {
+        "given": "Sarah H",
+        "family": "Wild",
+        "initials": "SH"
+      },
+      {
+        "given": "Gonneke",
+        "family": "Willemsen",
+        "initials": "G"
+      },
+      {
+        "given": "James F",
+        "family": "Wilson",
+        "initials": "JF"
+      },
+      {
+        "given": "Jacqueline C M",
+        "family": "Witteman",
+        "initials": "JCM"
+      },
+      {
+        "given": "Andrew",
+        "family": "Wong",
+        "initials": "A"
+      },
+      {
+        "given": "Quenna",
+        "family": "Wong",
+        "initials": "Q"
+      },
+      {
+        "given": "Yalda",
+        "family": "Jamshidi",
+        "initials": "Y"
+      },
+      {
+        "given": "Paavo",
+        "family": "Zitting",
+        "initials": "P"
+      },
+      {
+        "given": "Jolanda M A",
+        "family": "Boer",
+        "initials": "JMA"
+      },
+      {
+        "given": "Dorret I",
+        "family": "Boomsma",
+        "initials": "DI"
+      },
+      {
+        "given": "Ingrid B",
+        "family": "Borecki",
+        "initials": "IB"
+      },
+      {
+        "given": "Cornelia M",
+        "family": "van Duijn",
+        "initials": "CM"
+      },
+      {
+        "given": "Ulf",
+        "family": "Ekelund",
+        "initials": "U"
+      },
+      {
+        "given": "Nita G",
+        "family": "Forouhi",
+        "initials": "NG"
+      },
+      {
+        "given": "Philippe",
+        "family": "Froguel",
+        "initials": "P"
+      },
+      {
+        "given": "Aroon",
+        "family": "Hingorani",
+        "initials": "A"
+      },
+      {
+        "given": "Erik",
+        "family": "Ingelsson",
+        "initials": "E"
+      },
+      {
+        "given": "Mika",
+        "family": "Kivimaki",
+        "initials": "M"
+      },
+      {
+        "given": "Richard A",
+        "family": "Kronmal",
+        "initials": "RA"
+      },
+      {
+        "given": "Diana",
+        "family": "Kuh",
+        "initials": "D"
+      },
+      {
+        "given": "Lars",
+        "family": "Lind",
+        "initials": "L"
+      },
+      {
+        "given": "Nicholas G",
+        "family": "Martin",
+        "initials": "NG"
+      },
+      {
+        "given": "Ben A",
+        "family": "Oostra",
+        "initials": "BA"
+      },
+      {
+        "given": "Nancy L",
+        "family": "Pedersen",
+        "initials": "NL"
+      },
+      {
+        "given": "Thomas",
+        "family": "Quertermous",
+        "initials": "T"
+      },
+      {
+        "given": "Jerome I",
+        "family": "Rotter",
+        "initials": "JI"
+      },
+      {
+        "given": "Yvonne T",
+        "family": "van der Schouw",
+        "initials": "YT"
+      },
+      {
+        "given": "W M Monique",
+        "family": "Verschuren",
+        "initials": "WMM"
+      },
+      {
+        "given": "Mark",
+        "family": "Walker",
+        "initials": "M"
+      },
+      {
+        "given": "Demetrius",
+        "family": "Albanes",
+        "initials": "D"
+      },
+      {
+        "given": "David O",
+        "family": "Arnar",
+        "initials": "DO"
+      },
+      {
+        "given": "Themistocles L",
+        "family": "Assimes",
+        "initials": "TL"
+      },
+      {
+        "given": "Stefania",
+        "family": "Bandinelli",
+        "initials": "S"
+      },
+      {
+        "given": "Michael",
+        "family": "Boehnke",
+        "initials": "M"
+      },
+      {
+        "given": "Rudolf A",
+        "family": "de Boer",
+        "initials": "RA"
+      },
+      {
+        "given": "Claude",
+        "family": "Bouchard",
+        "initials": "C"
+      },
+      {
+        "given": "W L Mark",
+        "family": "Caulfield",
+        "initials": "WLM"
+      },
+      {
+        "given": "John C",
+        "family": "Chambers",
+        "initials": "JC"
+      },
+      {
+        "given": "Gary",
+        "family": "Curhan",
+        "initials": "G"
+      },
+      {
+        "given": "Daniele",
+        "family": "Cusi",
+        "initials": "D"
+      },
+      {
+        "given": "Johan",
+        "family": "Eriksson",
+        "initials": "J"
+      },
+      {
+        "given": "Luigi",
+        "family": "Ferrucci",
+        "initials": "L"
+      },
+      {
+        "given": "Wiek H",
+        "family": "van Gilst",
+        "initials": "WH"
+      },
+      {
+        "given": "Nicola",
+        "family": "Glorioso",
+        "initials": "N"
+      },
+      {
+        "given": "Jacqueline",
+        "family": "de Graaf",
+        "initials": "J"
+      },
+      {
+        "given": "Leif",
+        "family": "Groop",
+        "initials": "L"
+      },
+      {
+        "given": "Ulf",
+        "family": "Gyllensten",
+        "initials": "U"
+      },
+      {
+        "given": "Wen-Chi",
+        "family": "Hsueh",
+        "initials": "W"
+      },
+      {
+        "given": "Frank B",
+        "family": "Hu",
+        "initials": "FB"
+      },
+      {
+        "given": "Heikki V",
+        "family": "Huikuri",
+        "initials": "HV"
+      },
+      {
+        "given": "David J",
+        "family": "Hunter",
+        "initials": "DJ"
+      },
+      {
+        "given": "Carlos",
+        "family": "Iribarren",
+        "initials": "C"
+      },
+      {
+        "given": "Bo",
+        "family": "Isomaa",
+        "initials": "B"
+      },
+      {
+        "given": "Marjo-Riitta",
+        "family": "Jarvelin",
+        "initials": "M"
+      },
+      {
+        "given": "Antti",
+        "family": "Jula",
+        "initials": "A"
+      },
+      {
+        "given": "Mika",
+        "family": "Kähönen",
+        "initials": "M"
+      },
+      {
+        "given": "Lambertus A",
+        "family": "Kiemeney",
+        "initials": "LA"
+      },
+      {
+        "given": "Melanie M",
+        "family": "van der Klauw",
+        "initials": "MM"
+      },
+      {
+        "given": "Jaspal S",
+        "family": "Kooner",
+        "initials": "JS"
+      },
+      {
+        "given": "Peter",
+        "family": "Kraft",
+        "initials": "P"
+      },
+      {
+        "given": "Licia",
+        "family": "Iacoviello",
+        "initials": "L"
+      },
+      {
+        "given": "Terho",
+        "family": "Lehtimäki",
+        "initials": "T"
+      },
+      {
+        "given": "Marja-Liisa L",
+        "family": "Lokki",
+        "initials": "ML"
+      },
+      {
+        "given": "Braxton D",
+        "family": "Mitchell",
+        "initials": "BD"
+      },
+      {
+        "given": "Gerjan",
+        "family": "Navis",
+        "initials": "G"
+      },
+      {
+        "given": "Markku S",
+        "family": "Nieminen",
+        "initials": "MS"
+      },
+      {
+        "given": "Claes",
+        "family": "Ohlsson",
+        "initials": "C"
+      },
+      {
+        "given": "Neil R",
+        "family": "Poulter",
+        "initials": "NR"
+      },
+      {
+        "given": "Lu",
+        "family": "Qi",
+        "initials": "L"
+      },
+      {
+        "given": "Olli T",
+        "family": "Raitakari",
+        "initials": "OT"
+      },
+      {
+        "given": "Eric B",
+        "family": "Rimm",
+        "initials": "EB"
+      },
+      {
+        "given": "John D",
+        "family": "Rioux",
+        "initials": "JD"
+      },
+      {
+        "given": "Federica",
+        "family": "Rizzi",
+        "initials": "F"
+      },
+      {
+        "given": "Igor",
+        "family": "Rudan",
+        "initials": "I"
+      },
+      {
+        "given": "Veikko",
+        "family": "Salomaa",
+        "initials": "V"
+      },
+      {
+        "given": "Peter S",
+        "family": "Sever",
+        "initials": "PS"
+      },
+      {
+        "given": "Denis C",
+        "family": "Shields",
+        "initials": "DC"
+      },
+      {
+        "given": "Alan R",
+        "family": "Shuldiner",
+        "initials": "AR"
+      },
+      {
+        "given": "Juha",
+        "family": "Sinisalo",
+        "initials": "J"
+      },
+      {
+        "given": "Alice V",
+        "family": "Stanton",
+        "initials": "AV"
+      },
+      {
+        "given": "Ronald P",
+        "family": "Stolk",
+        "initials": "RP"
+      },
+      {
+        "given": "David P",
+        "family": "Strachan",
+        "initials": "DP"
+      },
+      {
+        "given": "Jean-Claude",
+        "family": "Tardif",
+        "initials": "J"
+      },
+      {
+        "given": "Unnur",
+        "family": "Thorsteinsdottir",
+        "initials": "U"
+      },
+      {
+        "given": "Jaako",
+        "family": "Tuomilehto",
+        "initials": "J"
+      },
+      {
+        "given": "Dirk J",
+        "family": "van Veldhuisen",
+        "initials": "DJ"
+      },
+      {
+        "given": "Jarmo",
+        "family": "Virtamo",
+        "initials": "J"
+      },
+      {
+        "given": "Jorma",
+        "family": "Viikari",
+        "initials": "J"
+      },
+      {
+        "given": "Peter",
+        "family": "Vollenweider",
+        "initials": "P"
+      },
+      {
+        "given": "Gérard",
+        "family": "Waeber",
+        "initials": "G"
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Widen",
+        "initials": "E"
+      },
+      {
+        "given": "Yoon Shin",
+        "family": "Cho",
+        "initials": "YS"
+      },
+      {
+        "given": "Jesper V",
+        "family": "Olsen",
+        "initials": "JV"
+      },
+      {
+        "given": "Peter M",
+        "family": "Visscher",
+        "initials": "PM"
+      },
+      {
+        "given": "Cristen",
+        "family": "Willer",
+        "initials": "C"
+      },
+      {
+        "given": "Lude",
+        "family": "Franke",
+        "initials": "L"
+      },
+      {
+        "given": "None",
+        "family": "Global BPgen Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "None",
+        "family": "CARDIoGRAM Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Jeanette",
+        "family": "Erdmann",
+        "initials": "J"
+      },
+      {
+        "given": "John R",
+        "family": "Thompson",
+        "initials": "JR"
+      },
+      {
+        "given": "None",
+        "family": "PR GWAS Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Arne",
+        "family": "Pfeufer",
+        "initials": "A"
+      },
+      {
+        "given": "None",
+        "family": "QRS GWAS Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Nona",
+        "family": "Sotoodehnia",
+        "initials": "N"
+      },
+      {
+        "given": "None",
+        "family": "QT-IGC Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Christopher",
+        "family": "Newton-Cheh",
+        "initials": "C"
+      },
+      {
+        "given": "None",
+        "family": "CHARGE-AF Consortium",
+        "initials": "N"
+      },
+      {
+        "given": "Patrick T",
+        "family": "Ellinor",
+        "initials": "PT"
+      },
+      {
+        "given": "Bruno H Ch",
+        "family": "Stricker",
+        "initials": "BHC"
+      },
+      {
+        "given": "Andres",
+        "family": "Metspalu",
+        "initials": "A"
+      },
+      {
+        "given": "Markus",
+        "family": "Perola",
+        "initials": "M"
+      },
+      {
+        "given": "Jacques S",
+        "family": "Beckmann",
+        "initials": "JS"
+      },
+      {
+        "given": "George Davey",
+        "family": "Smith",
+        "initials": "GD"
+      },
+      {
+        "given": "Kari",
+        "family": "Stefansson",
+        "initials": "K"
+      },
+      {
+        "given": "Nicholas J",
+        "family": "Wareham",
+        "initials": "NJ"
+      },
+      {
+        "given": "Patricia B",
+        "family": "Munroe",
+        "initials": "PB"
+      },
+      {
+        "given": "Ody C M",
+        "family": "Sibon",
+        "initials": "OCM"
+      },
+      {
+        "given": "David J",
+        "family": "Milan",
+        "initials": "DJ"
+      },
+      {
+        "given": "Harold",
+        "family": "Snieder",
+        "initials": "H"
+      },
+      {
+        "given": "Nilesh J",
+        "family": "Samani",
+        "initials": "NJ"
+      },
+      {
+        "given": "Ruth J F",
+        "family": "Loos",
+        "initials": "RJF"
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": "45",
+      "issue": "6",
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": "621-631"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Uppsala (SNP&SEQ Technology Platform)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/21d45deb0da74422b84ce38ad7d1ecd9.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/21d45deb0da74422b84ce38ad7d1ecd9"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "ng.2610"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC3696959"
+      },
+      {
+        "db": "mid",
+        "key": "NIHMS473857"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:58:06.694Z",
+    "modified": "2020-01-21T13:56:08.711Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  }
+]
