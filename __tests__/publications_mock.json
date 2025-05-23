@@ -1,0 +1,242 @@
+{
+  "entity": "label",
+  "iuid": "4c193e4a4f234e338c55024d2e457497",
+  "timestamp": "2025-05-21T15:33:15.067Z",
+  "links": {
+    "self": {
+      "href": "https://publications.scilifelab.se/label/NGI%20Stockholm%20%28Genomics%20Applications%29.json"
+    },
+    "display": {
+      "href": "https://publications.scilifelab.se/label/NGI%20Stockholm%20%28Genomics%20Applications%29"
+    }
+  },
+  "value": "NGI Stockholm (Genomics Applications)",
+  "started": "2013",
+  "ended": "2019",
+  "created": "2017-05-02T12:10:02.259Z",
+  "modified": "2021-03-15T14:23:50.975Z",
+  "accounts": [
+    {
+      "entity": "account",
+      "iuid": "2f6a790641494ea3b821ab973dca82db",
+      "timestamp": "2025-05-21T15:33:15.067Z",
+      "links": {
+        "self": {
+          "href": "https://publications.scilifelab.se/account/carl.linne%40scilifelab.se.json"
+        },
+        "display": {
+          "href": "https://publications.scilifelab.se/account/carl.linne%40scilifelab.se"
+        }
+      },
+      "email": "carl.linne@scilifelab.se",
+      "name": "Carl von Linné",
+      "orcid": "",
+      "role": "curator",
+      "status": "enabled",
+      "login": "2025-04-07T08:30:03.817Z",
+      "created": "2022-12-21T17:28:59.690Z",
+      "modified": "2025-04-07T08:30:03.817Z"
+    },
+    {
+      "entity": "account",
+      "iuid": "b68b03ae2bcb43febbfa33e1e675efc3",
+      "timestamp": "2025-05-21T15:33:15.067Z",
+      "links": {
+        "self": {
+          "href": "https://publications.scilifelab.se/account/anders.celsius%40scilifelab.se.json"
+        },
+        "display": {
+          "href": "https://publications.scilifelab.se/account/anders.celsius%40scilifelab.se"
+        }
+      },
+      "email": "anders.celsius@scilifelab.se",
+      "name": "Anders Celsius",
+      "orcid": "",
+      "role": "curator",
+      "status": "enabled",
+      "login": "2023-02-22T16:10:22.529Z",
+      "created": "2021-10-04T07:44:19.507Z",
+      "modified": "2023-02-22T16:10:22.529Z"
+    }
+  ],
+  "publications_count": 1070,
+  "publications": [
+    {
+      "entity": "publication",
+      "iuid": "2c7db473960c4c7fa52c676e6bfc84e0",
+      "links": {
+        "self": {
+          "href": "https://publications.scilifelab.se/publication/2c7db473960c4c7fa52c676e6bfc84e0.json"
+        },
+        "display": {
+          "href": "https://publications.scilifelab.se/publication/2c7db473960c4c7fa52c676e6bfc84e0"
+        }
+      },
+      "title": "Shared requirement for MYC upstream super-enhancer region in tissue regeneration and cancer.",
+      "authors": [
+        {
+          "family": "Berzelius",
+          "given": "Jöns Jacob",
+          "initials": "JJ",
+          "orcid": "0000-0002-9976-1605",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/b595931cc9c045dbbeb2dba7f3913d05.json"
+          }
+        },
+        {
+          "family": "Arrhenius",
+          "given": "Svante",
+          "initials": "S",
+          "orcid": "0000-0001-6045-415X",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/909754226aa04eb0824fc87c9efc628a.json"
+          }
+        },
+        {
+          "family": "Scheele",
+          "given": "Carl Wilhelm",
+          "initials": "CW"
+        },
+        {
+          "family": "Retzius",
+          "given": "Anders",
+          "initials": "A",
+          "orcid": "0000-0002-3033-4189",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/68045c70bad544b68bbe913e7bf0ded8.json"
+          }
+        },
+        {
+          "family": "Hildebrand",
+          "given": "Hans",
+          "initials": "H"
+        },
+        {
+          "family": "Hildebrand",
+          "given": "Olof",
+          "initials": "O"
+        },
+        {
+          "family": "von Euler",
+          "given": "Ulf",
+          "initials": "U",
+          "orcid": "0000-0003-4204-0951",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/43111333f8a84b2cbbceb64d4e1e3bc5.json"
+          }
+        }
+      ],
+      "type": "journal article",
+      "published": "2025-06-00",
+      "journal": {
+        "title": "Life Sci. Alliance",
+        "issn": "2575-1077",
+        "volume": "8",
+        "issue": "6",
+        "issn-l": "2575-1077"
+      },
+      "abstract": "Cancer has been characterized as a wound that does not heal. Malignant cells are morphologically distinct from normal proliferating cells but have extensive similarities to tissues undergoing wound healing and/or regeneration. The mechanistic basis of this similarity has, however, remained enigmatic. Here, we show that the genomic region upstream of Myc, which carries more cancer susceptibility in humans than any other genomic region, is required for intestinal regeneration after radiation damage. Failure to regenerate is associated with inefficient Ly6a/Sca1+ stem/progenitor cell mobilization, and almost complete failure to re-establish Lgr5+ cell compartment in the intestinal crypts. The Myc upstream region is also critical for growth of adult intestinal cells in 3D organoid culture. We show that culture conditions recapitulating most aspects of adult normal tissue architecture still reprogram normal cells to proliferate using a mechanism similar to that employed by cancer cells. Our results establish a function for the Myc super-enhancer region as the genetic link between tissue regeneration and tumorigenesis, and demonstrates that normal tissue renewal and regeneration of tissues after severe damage are mechanistically distinct.2-540",
+      "doi": "10.26508/lsa.202403090",
+      "pmid": "40180576",
+      "labels": {
+        "NGI Single cell": "Service",
+        "NGI Stockholm (Genomics Production)": "Service",
+        "National Genomics Infrastructure": "Service",
+        "NGI Stockholm (Genomics Applications)": "Service"
+      },
+      "xrefs": [
+        {
+          "db": "pmc",
+          "key": "PMC11969384"
+        },
+        {
+          "db": "pii",
+          "key": "8/6/e202403090"
+        }
+      ],
+      "notes": [],
+      "created": "2025-04-07T08:30:27.159Z",
+      "modified": "2025-04-07T08:30:27.535Z"
+    },
+    {
+      "entity": "publication",
+      "iuid": "9b81114066764b15946e9e8731fac1e5",
+      "links": {
+        "self": {
+          "href": "https://publications.scilifelab.se/publication/9b81114066764b15946e9e8731fac1e5.json"
+        },
+        "display": {
+          "href": "https://publications.scilifelab.se/publication/9b81114066764b15946e9e8731fac1e5"
+        }
+      },
+      "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+      "authors": [
+        {
+          "family": "Tiselius",
+          "given": "Arne",
+          "initials": "A",
+          "orcid": "0009-0005-9380-2428",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/835cc139cbbd4e08afd433a817f74ac6.json"
+          }
+        },
+        {
+          "family": "Theorell",
+          "given": "Axel Hugo",
+          "initials": "AH"
+        },
+        {
+          "family": "Granit",
+          "given": "Ragnar",
+          "initials": "R",
+          "orcid": "0009-0001-0790-1616",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/c1880c8da747467795a011858ca2c9bf.json"
+          }
+        },
+        {
+          "family": "von Heidenstam",
+          "given": "Verner",
+          "initials": "V",
+          "orcid": "0000-0001-7953-8396",
+          "researcher": {
+            "href": "https://publications.scilifelab.se/researcher/ed79ab77088f43859e11b75dcae33d73.json"
+          }
+        }
+      ],
+      "type": "journal article",
+      "published": "2024-10-04",
+      "journal": {
+        "title": "Nat Commun",
+        "issn": "2041-1723",
+        "volume": "15",
+        "issue": "1",
+        "pages": "8585",
+        "issn-l": "2041-1723"
+      },
+      "abstract": "Chronic pain remains a significant medical challenge with complex underlying mechanisms, and an urgent need for new treatments. Our research built and utilized the iPain single-cell atlas to study chronic pain progression in dorsal root and trigeminal ganglia. We discovered that senescence of a small subset of pain-sensing neurons may be a driver of chronic pain. This mechanism was observed in animal models after nerve injury and in human patients diagnosed with chronic pain or diabetic painful neuropathy. Notably, treatment with senolytics, drugs that remove senescent cells, reversed pain symptoms in mice post-injury. These findings highlight the role of cellular senescence in chronic pain development, demonstrate the therapeutic potential of senolytic treatments, and underscore the value of the iPain atlas for future pain research.",
+      "doi": "10.1038/s41467-024-52052-8",
+      "pmid": "39362841",
+      "labels": {
+        "NGI Single cell": "Service",
+        "NGI Stockholm (Genomics Production)": "Service",
+        "National Genomics Infrastructure": "Service",
+        "NGI Stockholm (Genomics Applications)": "Service",
+        "Bioinformatics Support for Computational Resources": "Service"
+      },
+      "xrefs": [
+        {
+          "db": "pmc",
+          "key": "PMC11450014"
+        },
+        {
+          "db": "pii",
+          "key": "10.1038/s41467-024-52052-8"
+        }
+      ],
+      "notes": [],
+      "created": "2024-10-16T12:42:25.382Z",
+      "modified": "2024-11-25T10:17:57.934Z"
+    }
+  ]
+}
