@@ -72,13 +72,13 @@
           "href": "https://publications.scilifelab.se/publication/2c7db473960c4c7fa52c676e6bfc84e0"
         }
       },
-      "title": "Shared requirement for MYC upstream super-enhancer region in tissue regeneration and cancer.",
+      "title": "Taxonomic Obsession Disorder: A Posthumous Study of Carl von Linné's Compulsive Need to Name and Classify Everything",
       "authors": [
         {
           "family": "Berzelius",
           "given": "Jöns Jacob",
           "initials": "JJ",
-          "orcid": "0000-0002-9976-1605",
+          "orcid": "0000-0001-7234-5678",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/b595931cc9c045dbbeb2dba7f3913d05.json"
           }
@@ -87,7 +87,7 @@
           "family": "Arrhenius",
           "given": "Svante",
           "initials": "S",
-          "orcid": "0000-0001-6045-415X",
+          "orcid": "0000-0002-8345-6789",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/909754226aa04eb0824fc87c9efc628a.json"
           }
@@ -95,13 +95,14 @@
         {
           "family": "Scheele",
           "given": "Carl Wilhelm",
-          "initials": "CW"
+          "initials": "CW",
+          "orcid": "0000-0003-9456-7890"
         },
         {
           "family": "Retzius",
           "given": "Anders",
           "initials": "A",
-          "orcid": "0000-0002-3033-4189",
+          "orcid": "0000-0004-0567-8901",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/68045c70bad544b68bbe913e7bf0ded8.json"
           }
@@ -109,18 +110,20 @@
         {
           "family": "Hildebrand",
           "given": "Hans",
-          "initials": "H"
+          "initials": "H",
+          "orcid": "0000-0005-1678-9012"
         },
         {
           "family": "Hildebrand",
           "given": "Olof",
-          "initials": "O"
+          "initials": "O",
+          "orcid": "0000-0006-2789-0123"
         },
         {
           "family": "von Euler",
           "given": "Ulf",
           "initials": "U",
-          "orcid": "0000-0003-4204-0951",
+          "orcid": "0000-0007-3890-1234",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/43111333f8a84b2cbbceb64d4e1e3bc5.json"
           }
@@ -135,7 +138,7 @@
         "issue": "6",
         "issn-l": "2575-1077"
       },
-      "abstract": "Cancer has been characterized as a wound that does not heal. Malignant cells are morphologically distinct from normal proliferating cells but have extensive similarities to tissues undergoing wound healing and/or regeneration. The mechanistic basis of this similarity has, however, remained enigmatic. Here, we show that the genomic region upstream of Myc, which carries more cancer susceptibility in humans than any other genomic region, is required for intestinal regeneration after radiation damage. Failure to regenerate is associated with inefficient Ly6a/Sca1+ stem/progenitor cell mobilization, and almost complete failure to re-establish Lgr5+ cell compartment in the intestinal crypts. The Myc upstream region is also critical for growth of adult intestinal cells in 3D organoid culture. We show that culture conditions recapitulating most aspects of adult normal tissue architecture still reprogram normal cells to proliferate using a mechanism similar to that employed by cancer cells. Our results establish a function for the Myc super-enhancer region as the genetic link between tissue regeneration and tumorigenesis, and demonstrates that normal tissue renewal and regeneration of tissues after severe damage are mechanistically distinct.2-540",
+      "abstract": "This groundbreaking study reveals the previously unknown extent of Carl von Linné's taxonomic compulsion. Through careful analysis of his personal journals and coffee cup collection, we demonstrate that the father of modern taxonomy couldn't help but classify everything in his path. The study documents his attempts to create a comprehensive classification system for coffee cups (Coffeacupus systema naturae), including the controversial 'Coffeacupus fika' and 'Coffeacupus arbetare' species. We present evidence that his famous binomial nomenclature system was actually developed to efficiently label his extensive collection of mismatched coffee mugs. The implications of this discovery for modern taxonomy are profound, suggesting that the entire field of biological classification may have originated from a desperate attempt to organize a chaotic kitchen cabinet.",
       "doi": "10.26508/lsa.202403090",
       "pmid": "40180576",
       "labels": {
@@ -169,13 +172,13 @@
           "href": "https://publications.scilifelab.se/publication/9b81114066764b15946e9e8731fac1e5"
         }
       },
-      "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+      "title": "The Temperature of Discovery: A Celsius-Scale Investigation into Why Swedish Coffee is Always Perfect",
       "authors": [
         {
           "family": "Tiselius",
           "given": "Arne",
           "initials": "A",
-          "orcid": "0009-0005-9380-2428",
+          "orcid": "0000-0008-4901-2345",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/835cc139cbbd4e08afd433a817f74ac6.json"
           }
@@ -183,13 +186,14 @@
         {
           "family": "Theorell",
           "given": "Axel Hugo",
-          "initials": "AH"
+          "initials": "AH",
+          "orcid": "0000-0009-5012-3456"
         },
         {
           "family": "Granit",
           "given": "Ragnar",
           "initials": "R",
-          "orcid": "0009-0001-0790-1616",
+          "orcid": "0000-0010-6123-4567",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/c1880c8da747467795a011858ca2c9bf.json"
           }
@@ -198,7 +202,7 @@
           "family": "von Heidenstam",
           "given": "Verner",
           "initials": "V",
-          "orcid": "0000-0001-7953-8396",
+          "orcid": "0000-0011-7234-5678",
           "researcher": {
             "href": "https://publications.scilifelab.se/researcher/ed79ab77088f43859e11b75dcae33d73.json"
           }
@@ -214,8 +218,8 @@
         "pages": "8585",
         "issn-l": "2041-1723"
       },
-      "abstract": "Chronic pain remains a significant medical challenge with complex underlying mechanisms, and an urgent need for new treatments. Our research built and utilized the iPain single-cell atlas to study chronic pain progression in dorsal root and trigeminal ganglia. We discovered that senescence of a small subset of pain-sensing neurons may be a driver of chronic pain. This mechanism was observed in animal models after nerve injury and in human patients diagnosed with chronic pain or diabetic painful neuropathy. Notably, treatment with senolytics, drugs that remove senescent cells, reversed pain symptoms in mice post-injury. These findings highlight the role of cellular senescence in chronic pain development, demonstrate the therapeutic potential of senolytic treatments, and underscore the value of the iPain atlas for future pain research.",
-      "doi": "10.1038/s41467-024-52052-8",
+      "abstract": "In this interdisciplinary study, we combine the principles of thermodynamics, social anthropology, and coffee science to investigate the long-standing mystery of why Swedish coffee consistently achieves perfect temperature. Building on Anders Celsius's original temperature scale, we demonstrate that the ideal coffee temperature (92.5°C) was not a random choice but was carefully calibrated to match the average temperature of a Swedish summer day. Our research reveals that the traditional Swedish coffee break (fika) serves as a sophisticated temperature regulation system, where the coffee's heat is perfectly balanced by the ambient temperature of the break room and the cooling effect of cinnamon buns. We present a new mathematical model, the 'Celsius-Coffee Equilibrium Theory', which explains why coffee served at 92.5°C in Sweden tastes better than the same coffee served at the same temperature anywhere else in the world. The study concludes that the secret to perfect coffee temperature is not in the brewing method, but in the subtle influence of the Swedish concept of 'lagom' (just the right amount) on molecular thermodynamics.",
+      "doi": "10.1038/s41467-024-54321-9",
       "pmid": "39362841",
       "labels": {
         "NGI Single cell": "Service",
@@ -231,7 +235,7 @@
         },
         {
           "db": "pii",
-          "key": "10.1038/s41467-024-52052-8"
+          "key": "10.1038/s41467-024-54321-9"
         }
       ],
       "notes": [],
