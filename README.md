@@ -176,48 +176,49 @@ example, [`ci.yml`](./.github/workflows/ci.yml) demonstrates how to reference an
 action in the same repository.
 
 ```yaml
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10
-          run_install: false
+- uses: actions/checkout@v4
+- uses: pnpm/action-setup@v4
+  with:
+    version: 10
+    run_install: false
 
-      - uses: actions/cache@v4
-        with:
-          path: |
-            ~/.pnpm-store
-            node_modules
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
+- uses: actions/cache@v4
+  with:
+    path: |
+      ~/.pnpm-store
+      node_modules
+    key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+    restore-keys: |
+      ${{ runner.os }}-pnpm-
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-      - name: Test Local Action
-        id: test-action
-        uses: ./
-        with:
-          download-limit: '10'
-          num-publications: '2'
-          commit: 'false'
+- name: Install dependencies
+  run: pnpm install --frozen-lockfile
+- name: Test Local Action
+  id: test-action
+  uses: ./
+  with:
+    download-limit: '10'
+    num-publications: '2'
+    commit: 'false'
 
-      - name: Write outputs to files
-        run: |
-          node -e "
-            const fs = require('fs');
-            fs.writeFileSync('publications.html', process.env.HTML_OUTPUT);
-            fs.writeFileSync('publications.json', process.env.JSON_OUTPUT);
-          "
-        env:
-          HTML_OUTPUT: ${{ steps.test-action.outputs.html }}
-          JSON_OUTPUT: ${{ steps.test-action.outputs.json }}
+- name: Write outputs to files
+  run: |
+    node -e "
+      const fs = require('fs');
+      fs.writeFileSync('publications.html', process.env.HTML_OUTPUT);
+      fs.writeFileSync('publications.json', process.env.JSON_OUTPUT);
+    "
+  env:
+    HTML_OUTPUT: ${{ steps.test-action.outputs.html }}
+    JSON_OUTPUT: ${{ steps.test-action.outputs.json }}
 
-      - name: Upload outputs for inspection
-        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
-        with:
-          name: publications
-          path: publications*
+- name: Upload outputs for inspection
+  uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
+  with:
+    name: publications
+    path: publications*
 ```
 
 For example workflow runs, check out the
-[Actions tab](https://github.com/NationalGenomicsInfrastructure/ngisweden.se-publications/actions)! :rocket:
+[Actions tab](https://github.com/NationalGenomicsInfrastructure/ngisweden.se-publications/actions)!
+:rocket:

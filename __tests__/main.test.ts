@@ -16,37 +16,55 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Mock Octokit
-const mockOctokit = {
-  rest: {
-    repos: {
-      get: jest.fn().mockImplementation(async () => ({
-        data: {
+jest.mock('@actions/github', () => ({
+  getOctokit: jest.fn()
+}))
+
+// Mock the rateLimit.get function from '@actions/github'
+
+jest.mock('@actions/github', () => {
+  const originalModule = jest.requireActual('@actions/github')
+  return {
+    ...originalModule,
+    getOctokit: (token: string) => {
+      const octoKitInstance = originalModule.getOctokit(token)
+      octoKitInstance.rest.repos.get = async () => {
+        // Return a Promise with the expected data structure
+        return Promise.resolve({
           default_branch: 'main',
           name: 'repo',
           owner: { login: 'owner' }
-        }
-      }))
-    },
-    git: {
-      getRef: jest.fn().mockImplementation(async () => ({
-        data: { object: { sha: 'abc123' } }
-      })),
-      createTree: jest
-        .fn()
-        .mockImplementation(async () => ({ data: { sha: 'def456' } })),
-      createCommit: jest
-        .fn()
-        .mockImplementation(async () => ({ data: { sha: 'ghi789' } })),
-      updateRef: jest.fn().mockImplementation(async () => ({ data: {} }))
+        })
+      },
+      octoKitInstance.rest.git.getRef = async () => {
+        // Return a Promise with the expected data structure
+        return Promise.resolve({
+          data: { object: { sha: 'abc123' } }
+        })
+      },
+      octoKitInstance.rest.git.createTree = async () => {
+        // Return a Promise with the expected data structure
+        return Promise.resolve({
+          data: { sha: 'def456' }
+        })
+      },
+      octoKitInstance.rest.git.createCommit = async () => {
+        // Return a Promise with the expected data structure
+        return Promise.resolve({
+          data: { sha: 'ghi789' }
+        })
+      },
+      octoKitInstance.rest.git.updateRef = async () => {
+        // Return a Promise with the expected data structure
+        return Promise.resolve({
+          data: { sha: 'jkl012' }
+        })
+      }
+      return octoKitInstance
     }
   }
-}
+})
 
-const mockOctokitConstructor = jest.fn().mockImplementation(() => mockOctokit)
-
-jest.mock('@octokit/rest', () => ({
-  Octokit: mockOctokitConstructor
-}))
 
 // Mock fetch for the publications API
 const mockFetch = jest.fn() as jest.Mock<

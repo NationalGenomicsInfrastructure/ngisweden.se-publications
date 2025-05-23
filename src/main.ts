@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-import { Octokit } from '@octokit/rest'
+import * as github from '@actions/github'
 import { getPublications } from './publications.js'
 
 /**
@@ -61,21 +61,22 @@ export async function run(): Promise<void> {
         throw new Error('GITHUB_TOKEN is required when commit is enabled')
       }
 
-      const octokit = new Octokit({ auth: token })
       const [owner, repo] = (commitRepo || '').split('/')
       if (!owner || !repo) {
         throw new Error('GITHUB_REPOSITORY is not set')
       }
 
+      const octoKit = github.getOctokit(token)
+
       // Get the default branch
-      const { data: repoData } = await octokit.rest.repos.get({
+      const { data: repoData } = await octoKit.rest.repos.get({
         owner,
         repo
       })
       const branch = repoData.default_branch
 
       // Get the current commit SHA
-      const { data: refData } = await octokit.rest.git.getRef({
+      const { data: refData } = await octoKit.rest.git.getRef({
         owner,
         repo,
         ref: `heads/${branch}`
@@ -83,7 +84,7 @@ export async function run(): Promise<void> {
       const commitSha = refData.object.sha
 
       // Create a tree with the new files
-      const { data: treeData } = await octokit.rest.git.createTree({
+      const { data: treeData } = await octoKit.rest.git.createTree({
         owner,
         repo,
         base_tree: commitSha,
@@ -104,7 +105,7 @@ export async function run(): Promise<void> {
       })
 
       // Create a new commit
-      const { data: commitData } = await octokit.rest.git.createCommit({
+      const { data: commitData } = await octoKit.rest.git.createCommit({
         owner,
         repo,
         message: commitMessage,
@@ -113,7 +114,7 @@ export async function run(): Promise<void> {
       })
 
       // Update the branch reference
-      await octokit.rest.git.updateRef({
+      await octoKit.rest.git.updateRef({
         owner,
         repo,
         ref: `heads/${branch}`,
