@@ -1,62 +1,57 @@
 [
   {
     "entity": "publication",
-    "iuid": "f8811c010db549ebaddaf2f594d12dcd",
-    "doi": "10.1371/journal.pone.0060974",
-    "pmid": "23565293",
-    "title": "β-thymosins and hemocyte homeostasis in a crustacean.",
-    "abstract": "Thymosin proteins are well known for their actin-binding activity. Thymosin beta 4 (Tβ4) has been associated with biological activities in tissue repair and cell migration via interaction with ATP-synthase in vertebrates, while the information of similar thymosin functions in invertebrates is limited. We have shown previously that ATP-synthase is present on the surface of crayfish hematopoietic tissue (HPT) cells, and that astakine 1 (Ast1, an invertebrate cytokine) was found to interact with this β-subunit of ATP synthase. Here, we identified five different β-thymosins from Pacifastacus leniusculus, designated Pl-β-thymosin1-5. The two dominant isoforms in brain, HPT and hemocytes, Pl-β-thymosin1 and 2, were chosen for functional studies. Both isoforms could bind to the β-subunit of ATP-synthase, and Pl-β-thymosin1, but not Pl-β-thymosin2, significantly increased extracellular ATP formation. Moreover, Pl-β-thymosin1 stimulated HPT cell migration in vitro and Ast1 blocked this effect. Pl-β-thymosin2 increased the circulating hemocyte number at an early stage after injection. Additionally, in vivo injection of Pl-β-thymosin1 resulted in significant reduction of reactive oxygen species (ROS) production in crayfish HPT whereas Pl-β-thymosin2 had a similar but transient effect. Both Pl-β-thymosins induced the expression of Ast1 and superoxide dismutase (SOD) transcripts, while silencing of endogenous Pl-β-thymosin 1 and 2 by RNAi resulted in significant reduction of the Ast1 and SOD transcripts. The diverse effects exhibited by Pl-β-thymosin1 and Pl-β-thymosin2 indicates that these proteins are involved in a complex interaction that regulates the hematopoietic stem cell proliferation and differentiation.",
-    "published": "2013-04-02",
+    "iuid": "b8147baeed3043a69713f4f1ac2f613a",
+    "doi": "10.1186/1471-2105-11-6",
+    "pmid": "20047656",
+    "title": "A computational screen for site selective A-to-I editing detects novel sites in neuron specific Hu proteins.",
+    "abstract": "Several bioinformatic approaches have previously been used to find novel sites of ADAR mediated A-to-I RNA editing in human. These studies have discovered thousands of genes that are hyper-edited in their non-coding intronic regions, especially in alu retrotransposable elements, but very few substrates that are site-selectively edited in coding regions. Known RNA edited substrates suggest, however, that site selective A-to-I editing is particularly important for normal brain development in mammals.\n\nWe have compiled a screen that enables the identification of new sites of site-selective editing, primarily in coding sequences. To avoid hyper-edited repeat regions, we applied our screen to the alu-free mouse genome. Focusing on the mouse also facilitated better experimental verification. To identify candidate sites of RNA editing, we first performed an explorative screen based on RNA structure and genomic sequence conservation. We further evaluated the results of the explorative screen by determining which transcripts were enriched for A-G mismatches between the genomic template and the expressed sequence since the editing product, inosine (I), is read as guanosine (G) by the translational machinery. For expressed sequences, we only considered coding regions to focus entirely on re-coding events. Lastly, we refined the results from the explorative screen using a novel scoring scheme based on characteristics for known A-to-I edited sites. The extent of editing in the final candidate genes was verified using total RNA from mouse brain and 454 sequencing.\n\nUsing this method, we identified and confirmed efficient editing at one site in the Gabra3 gene. Editing was also verified at several other novel sites within candidates predicted to be edited. Five of these sites are situated in genes coding for the neuron-specific RNA binding proteins HuB and HuD.",
+    "published": "2010-01-04",
     "type": "journal article",
     "authors": [
       {
-        "given": "Netnapa",
-        "family": "Saelee",
-        "initials": "N"
+        "given": "Mats",
+        "family": "Ensterö",
+        "initials": "M"
       },
       {
-        "given": "Chadanat",
-        "family": "Noonin",
-        "initials": "C"
+        "given": "Orjan",
+        "family": "Akerborg",
+        "initials": "O"
       },
       {
-        "given": "Benjamas",
-        "family": "Nupan",
+        "given": "Daniel",
+        "family": "Lundin",
+        "initials": "D"
+      },
+      {
+        "given": "Bei",
+        "family": "Wang",
         "initials": "B"
       },
       {
-        "given": "Kingkamon",
-        "family": "Junkunlo",
-        "initials": "K"
+        "given": "Terrence S",
+        "family": "Furey",
+        "initials": "TS"
       },
       {
-        "given": "Amornrat",
-        "family": "Phongdara",
-        "initials": "A"
+        "given": "Marie",
+        "family": "Ohman",
+        "initials": "M"
       },
       {
-        "given": "Xionghui",
-        "family": "Lin",
-        "initials": "X"
-      },
-      {
-        "given": "Kenneth",
-        "family": "Söderhäll",
-        "initials": "K"
-      },
-      {
-        "given": "Irene",
-        "family": "Söderhäll",
-        "initials": "I"
+        "given": "Jens",
+        "family": "Lagergren",
+        "initials": "J"
       }
     ],
     "journal": {
-      "title": "PLoS ONE",
-      "volume": "8",
-      "issue": "4",
-      "issn": "1932-6203",
-      "issn-l": "1932-6203",
-      "pages": "e60974"
+      "title": "BMC Bioinformatics",
+      "volume": "11",
+      "issue": null,
+      "issn": "1471-2105",
+      "issn-l": "1471-2105",
+      "pages": "6"
     },
     "labels": {
       "National Genomics Infrastructure": null,
@@ -65,338 +60,491 @@
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/f8811c010db549ebaddaf2f594d12dcd.json"
+        "href": "https://publications.scilifelab.se/publication/b8147baeed3043a69713f4f1ac2f613a.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/f8811c010db549ebaddaf2f594d12dcd"
+        "href": "https://publications.scilifelab.se/publication/b8147baeed3043a69713f4f1ac2f613a"
       }
     },
     "xrefs": [
       {
         "db": "pii",
-        "key": "PONE-D-13-03793"
+        "key": "1471-2105-11-6"
       },
       {
         "db": "pmc",
-        "key": "PMC3614969"
+        "key": "PMC2831006"
       }
     ],
     "notes": [],
-    "created": "2017-05-04T14:58:16.459Z",
-    "modified": "2020-01-21T13:56:06.406Z",
+    "created": "2017-05-04T14:57:09.643Z",
+    "modified": "2020-01-21T13:56:04.822Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "c1b33788aae54878be32e5126d6426ea",
-    "doi": "10.3389/fpls.2018.01818",
-    "pmid": "30687338",
-    "title": "Diplodia Tip Blight on Its Way to the North: Drivers of Disease Emergence in Northern Europe.",
-    "abstract": "Disease emergence in northern and boreal forests has been mostly due to tree-pathogen encounters lacking a co-evolutionary past. However, outbreaks involving novel interactions of the host or the pathogen with the environment have been less well documented. Following an increase of records in Northern Europe, the first large outbreak of Diplodia sapinea on Pinus sylvestris was discovered in Sweden in 2016. By reconstructing the development of the epidemic, we found that the attacks started approx. 10 years back from several isolated trees in the stand and ended up affecting almost 90% of the trees in 2016. Limited damage was observed in other plantations in the surroundings of the affected stand, pointing to a new introduced pathogen as the cause of the outbreak. Nevertheless, no genetic differences based on SSR markers were found between isolates of the outbreak area and other Swedish isolates predating the outbreak or from other populations in Europe and Asia Minor. On a temporal scale, we saw that warm May and June temperatures were associated with higher damage and low tree growth, while cold and rainy conditions seemed to favor growth and deter disease. At a spatial scale, we saw that spread occurred predominantly in the SW aspect-area of the stand. Within that area and based on tree-ring and isotope (δ13C) analyses, we saw that disease occurred on trees that over the years had shown a lower water-use efficiency (WUE). Spore traps showed that highly infected trees were those producing the largest amount of inoculum. D. sapinea impaired latewood growth and reduced C reserves in needles and branches. D. sapinea attacks can cause serious economic damage by killing new shoots, disrupting the crown, and affecting the quality of stems. Our results show that D. sapinea has no limitations in becoming a serious pathogen in Northern Europe. Management should focus on reducing inoculum, especially since climate change may bring more favorable conditions for this pathogen. Seedlings for planting should be carefully inspected as D. sapinea may be present in a latent stage in asymptomatic tissues.",
-    "published": "2019-01-09",
+    "iuid": "3fbc0fe2d60b4395bfbd219d0da586df",
+    "doi": "10.1016/j.cancergen.2014.02.007",
+    "pmid": "24721441",
+    "title": "Investigation of a putative melanoma susceptibility locus at chromosome 3q29.",
+    "abstract": "Malignant melanoma, the most fatal form of skin cancer, is currently increasing in incidence in many populations. Approximately 10% of all cases occur in families with an inherited predisposition for melanoma. In Sweden, only a minor portion of such melanoma families carry a mutation in the known melanoma gene CDKN2A, and there is a need to identify additional melanoma susceptibility genes. In a recently performed genome-wide linkage screen, novel loci with suggestive evidence of linkage to melanoma were detected. In this study, we have further analyzed one region on chromosome 3q29. In all, 89 affected and 15 nonaffected family members from 42 melanoma-prone families were genotyped for 34 genetic markers. In a pooled linkage analysis of all 42 families, we detected significant evidence of linkage, with a maximum heterogeneity logarithm of odds (HLOD) score of 3.1 with 83% of the families contributing to the linkage score. The minimum critical region of linkage (defined by a 1LOD score support interval) maps to chromosome 3q29, spans 3.5 Mb of genomic sequence, and harbors 44 identified genes. Sequence variants within this region have previously been associated with cancer susceptibility. This study reports the presence of a putative novel melanoma susceptibility locus in the Swedish population, a finding that needs to be replicated in an independent study on other individuals with familial melanoma. Sequencing of genes in the region may identify novel melanoma-associated mutations.",
+    "published": "2014-03-00",
     "type": "journal article",
     "authors": [
       {
-        "given": "Laura",
-        "family": "Brodde",
-        "initials": "L"
-      },
-      {
-        "given": "Kalev",
-        "family": "Adamson",
-        "initials": "K"
-      },
-      {
-        "given": "J",
-        "family": "Julio Camarero",
-        "initials": "J"
-      },
-      {
-        "given": "Carles",
-        "family": "Castaño",
-        "initials": "C"
-      },
-      {
-        "given": "Rein",
-        "family": "Drenkhan",
+        "given": "Rainer",
+        "family": "Tuominen",
         "initials": "R"
       },
       {
-        "given": "Asko",
-        "family": "Lehtijärvi",
-        "initials": "A"
+        "given": "Göran",
+        "family": "Jönsson",
+        "initials": "G"
       },
       {
-        "given": "Nicola",
-        "family": "Luchi",
-        "initials": "N"
-      },
-      {
-        "given": "Duccio",
-        "family": "Migliorini",
-        "initials": "D"
-      },
-      {
-        "given": "Ángela",
-        "family": "Sánchez-Miranda",
-        "initials": "Á"
-      },
-      {
-        "given": "Jan",
-        "family": "Stenlid",
-        "initials": "J"
-      },
-      {
-        "given": "Şule",
-        "family": "Özdağ",
-        "initials": "Ş"
-      },
-      {
-        "given": "Jonàs",
-        "family": "Oliva",
-        "initials": "J"
-      }
-    ],
-    "journal": {
-      "title": "Front Plant Sci",
-      "volume": "9",
-      "issue": null,
-      "issn": "1664-462X",
-      "issn-l": "1664-462X",
-      "pages": "1818"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Uppsala (Uppsala Genome Center)": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/c1b33788aae54878be32e5126d6426ea.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/c1b33788aae54878be32e5126d6426ea"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC6334237"
-      }
-    ],
-    "notes": [],
-    "created": "2019-11-25T15:06:47.043Z",
-    "modified": "2021-06-21T13:43:01.570Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "7da881e6bd1c41e59a6db035fcd40b87",
-    "doi": "10.1016/j.ygeno.2021.10.006",
-    "pmid": "34648882",
-    "title": "Chromosome-level genome assembly and transcriptome-based annotation of the oleaginous yeast Rhodotorula toruloides CBS 14.",
-    "abstract": "Rhodotorula toruloides is an oleaginous yeast with high biotechnological potential. In order to understand the molecular physiology of lipid synthesis in R. toruloides and to advance metabolic engineering, a high-resolution genome is required. We constructed a genome draft of R. toruloides CBS 14, using a hybrid assembly approach, consisting of short and long reads generated by Illumina and Nanopore sequencing, respectively. The genome draft consists of 23 contigs and 3 scaffolds, with a N50 length of 1,529,952 bp, thus largely representing chromosomal organization. The total size of the genome is 20,534,857 bp and the overall GC content is 61.83%. Transcriptomic data from different growth conditions was used to aid species-specific gene annotation. We annotated 9464 genes and identified 11,691 transcripts. Furthermore, we demonstrated the presence of a potential plasmid, an extrachromosomal circular structure of about 11 kb with a copy number about three times as high as the other chromosomes.",
-    "published": "2021-10-11",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Giselle C",
-        "family": "Martín-Hernández",
-        "initials": "GC"
-      },
-      {
-        "given": "Bettina",
-        "family": "Müller",
-        "initials": "B"
-      },
-      {
-        "given": "Mikołaj",
-        "family": "Chmielarz",
-        "initials": "M"
-      },
-      {
-        "given": "Christian",
-        "family": "Brandt",
+        "given": "Charlotta",
+        "family": "Enerbäck",
         "initials": "C"
       },
       {
-        "given": "Martin",
-        "family": "Hölzer",
-        "initials": "M"
+        "given": "Frida",
+        "family": "Appelqvist",
+        "initials": "F"
       },
       {
-        "given": "Adrian",
-        "family": "Viehweger",
-        "initials": "A"
+        "given": "Håkan",
+        "family": "Olsson",
+        "initials": "H"
       },
       {
-        "given": "Volkmar",
-        "family": "Passoth",
+        "given": "Christian",
+        "family": "Ingvar",
+        "initials": "C"
+      },
+      {
+        "given": "Johan",
+        "family": "Hansson",
+        "initials": "J"
+      },
+      {
+        "given": "Veronica",
+        "family": "Höiom",
         "initials": "V"
       }
     ],
     "journal": {
-      "title": "Genomics",
-      "volume": "113",
-      "issue": "6",
-      "issn": "1089-8646",
-      "issn-l": "0888-7543",
-      "pages": "4022-4027"
+      "title": "Cancer Genet",
+      "volume": "207",
+      "issue": "3",
+      "issn": "2210-7762",
+      "issn-l": null,
+      "pages": "70-74"
     },
     "labels": {
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service"
+      "National Genomics Infrastructure": null,
+      "NGI Stockholm (Genomics Applications)": null,
+      "NGI Stockholm (Genomics Production)": null
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/7da881e6bd1c41e59a6db035fcd40b87.json"
+        "href": "https://publications.scilifelab.se/publication/3fbc0fe2d60b4395bfbd219d0da586df.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/7da881e6bd1c41e59a6db035fcd40b87"
+        "href": "https://publications.scilifelab.se/publication/3fbc0fe2d60b4395bfbd219d0da586df"
       }
     },
     "xrefs": [
       {
         "db": "pii",
-        "key": "S0888-7543(21)00369-4"
+        "key": "S2210-7762(14)00040-4"
       }
     ],
     "notes": [],
-    "created": "2021-12-08T13:55:49.083Z",
-    "modified": "2021-12-08T13:55:49.096Z",
+    "created": "2017-05-04T14:58:27.073Z",
+    "modified": "2020-01-21T13:56:01.841Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "999556e1041547b49d0a807a80249103",
-    "doi": "10.1186/s12864-024-10044-4",
-    "pmid": "38287279",
-    "title": "Single-cell RNA-seq mapping of chicken peripheral blood leukocytes.",
-    "abstract": "Single-cell transcriptomics provides means to study cell populations at the level of individual cells. In leukocyte biology this approach could potentially aid the identification of subpopulations and functions without the need to develop species-specific reagents. The present study aimed to evaluate single-cell RNA-seq as a tool for identification of chicken peripheral blood leukocytes. For this purpose, purified and thrombocyte depleted leukocytes from 4 clinically healthy hens were subjected to single-cell 3' RNA-seq. Bioinformatic analysis of data comprised unsupervised clustering of the cells, and annotation of clusters based on expression profiles. Immunofluorescence phenotyping of the cell preparations used was also performed.\n\nComputational analysis identified 31 initial cell clusters and based on expression of defined marker genes 28 cluster were identified as comprising mainly B-cells, T-cells, monocytes, thrombocytes and red blood cells. Of the remaining clusters, two were putatively identified as basophils and eosinophils, and one as proliferating cells of mixed origin. In depth analysis on gene expression profiles within and between the initial cell clusters allowed further identification of cell identity and possible functions for some of them. For example, analysis of the group of monocyte clusters revealed subclusters comprising heterophils, as well as putative monocyte subtypes. Also, novel aspects of TCRγ/δ + T-cell subpopulations could be inferred such as evidence of at least two subtypes based on e.g., different expression of transcription factors MAF, SOX13 and GATA3. Moreover, a novel subpopulation of chicken peripheral B-cells with high SOX5 expression was identified. An overall good correlation between mRNA and cell surface phenotypic cell identification was shown.\n\nTaken together, we were able to identify and infer functional aspects of both previously well known as well as novel chicken leukocyte populations although some cell types. e.g., T-cell subtypes, proved more challenging to decipher. Although this methodology to some extent is limited by incomplete annotation of the chicken genome, it definitively has benefits in chicken immunology by expanding the options to distinguish identity and functions of immune cells also without access to species specific reagents.",
-    "published": "2024-01-29",
-    "type": "journal article",
+    "iuid": "74b25d02bcc9431e857482349c2c97ea",
+    "doi": "10.1093/femsec/fiy121",
+    "pmid": "29931252",
+    "title": "Investigation of viable taxa in the deep terrestrial biosphere suggests high rates of nutrient recycling",
+    "abstract": null,
+    "published": "2018-08-01",
+    "type": "journal-article",
     "authors": [
       {
-        "given": "Matilda",
-        "family": "Maxwell",
+        "given": "Margarita",
+        "family": "Lopez-Fernandez",
         "initials": "M"
       },
       {
-        "given": "Robert",
-        "family": "Söderlund",
-        "initials": "R"
+        "given": "Elias",
+        "family": "Broman",
+        "initials": "E"
       },
       {
-        "given": "Sonja",
-        "family": "Härtle",
+        "given": "Stephanie",
+        "family": "Turner",
         "initials": "S"
       },
       {
-        "given": "Eva",
-        "family": "Wattrang",
-        "initials": "E"
-      }
-    ],
-    "journal": {
-      "title": "BMC Genomics",
-      "volume": "25",
-      "issue": "1",
-      "issn": "1471-2164",
-      "issn-l": "1471-2164",
-      "pages": "124"
-    },
-    "labels": {
-      "NGI Single cell": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "Bioinformatics Support for Computational Resources": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/999556e1041547b49d0a807a80249103.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/999556e1041547b49d0a807a80249103"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC10826067"
+        "given": "Xiaofen",
+        "family": "Wu",
+        "initials": "X"
       },
       {
-        "db": "pii",
-        "key": "10.1186/s12864-024-10044-4"
-      }
-    ],
-    "notes": [],
-    "created": "2024-01-31T13:03:41.480Z",
-    "modified": "2024-11-25T10:29:46.749Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "b0fc64bb3f354c23a4cefe81c8290ef8",
-    "doi": "10.1093/femsec/fiad095",
-    "pmid": "37586889",
-    "title": "Contrasting response of microeukaryotic and bacterial communities to the interplay of seasonality and local stressors in shallow soda lakes.",
-    "abstract": "Seasonal environmental variation is a leading driver of microbial planktonic community assembly and interactions. However, departures from usual seasonal trends are often reported. To understand the role of local stressors in modifying seasonal succession, we sampled fortnightly, throughout three seasons, five nearby shallow soda lakes exposed to identical seasonal and meteorological changes. We characterised their microeukaryotic and bacterial communities by amplicon sequencing of the 16S and 18S rRNA gene, respectively. Biological interactions were inferred by analyses of synchronous and time-shifted interaction networks, and the keystone taxa of the communities were topologically identified. The lakes showed similar succession patterns during the study period with spring being characterised by the relevance of trophic interactions and a certain level of community stability followed by a more dynamic and variable summer-autumn period. Adaptation to general seasonal changes happened through shared core microbiome of the lakes. Stochastic events such as desiccation disrupted common network attributes and introduced shifts from the prevalent seasonal trajectory. Our results demonstrated that, despite being extreme and highly variable habitats, shallow soda lakes exhibit certain similarities in the seasonality of their planktonic communities, yet local stressors such as droughts instigate deviations from prevalent trends to a greater extent for microeukaryotic than for bacterial communities.",
-    "published": "2023-08-22",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Zsuzsanna",
-        "family": "Márton",
-        "initials": "Z"
+        "given": "Stefan",
+        "family": "Bertilsson",
+        "initials": "S"
       },
       {
-        "given": "Bianka",
-        "family": "Csitári",
-        "initials": "B"
-      },
-      {
-        "given": "Tamás",
-        "family": "Felföldi",
-        "initials": "T",
-        "orcid": "0000-0003-2009-2478",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/3a452e1d353649bc860f59485fc8bf03.json"
-        }
-      },
-      {
-        "given": "András",
-        "family": "Hidas",
-        "initials": "A"
-      },
-      {
-        "given": "Ferenc",
-        "family": "Jordán",
-        "initials": "F"
-      },
-      {
-        "given": "Attila",
-        "family": "Szabó",
-        "initials": "A"
-      },
-      {
-        "given": "Anna J",
-        "family": "Székely",
-        "initials": "AJ",
-        "orcid": "0000-0001-8063-7156",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/c9b2d69cfd6a4f41a978b38ddf66c8d5.json"
-        }
+        "given": "Mark",
+        "family": "Dopson",
+        "initials": "M"
       }
     ],
     "journal": {
       "title": "FEMS Microbiol. Ecol.",
-      "volume": "99",
-      "issue": "9",
+      "volume": "94",
+      "issue": "8",
       "issn": "1574-6941",
-      "issn-l": "0168-6496"
+      "issn-l": "0168-6496",
+      "pages": null
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/74b25d02bcc9431e857482349c2c97ea.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/74b25d02bcc9431e857482349c2c97ea"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "BioProject",
+        "key": "PRJNA431355"
+      },
+      {
+        "db": "SRA",
+        "key": "SRP131350"
+      }
+    ],
+    "notes": [],
+    "created": "2018-09-14T11:55:42.051Z",
+    "modified": "2024-01-16T13:48:45.817Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "79209a0da0ed46bfac15fb20ace04226",
+    "doi": "10.1016/j.jtho.2016.11.647",
+    "pmid": null,
+    "title": "P1.02-063 Mutation Profiling by Targeted Next-Generation Sequencing of an Unselected NSCLC Cohort",
+    "abstract": null,
+    "published": "2017-01-00",
+    "type": "journal-article",
+    "authors": [
+      {
+        "given": "Linnea",
+        "family": "La Fleur",
+        "initials": "L"
+      },
+      {
+        "given": "Elin",
+        "family": "Falk-Sorqvist",
+        "initials": "E"
+      },
+      {
+        "given": "Patrik",
+        "family": "Smeds",
+        "initials": "P"
+      },
+      {
+        "given": "Magnus",
+        "family": "Sundstrom",
+        "initials": "M"
+      },
+      {
+        "given": "Johanna",
+        "family": "Mattsson",
+        "initials": "J"
+      },
+      {
+        "given": "Eva",
+        "family": "Brandén",
+        "initials": "E"
+      },
+      {
+        "given": "Hirsh",
+        "family": "Koyi",
+        "initials": "H"
+      },
+      {
+        "given": "Johan",
+        "family": "Isaksson",
+        "initials": "J"
+      },
+      {
+        "given": "Hans",
+        "family": "Brunnström",
+        "initials": "H"
+      },
+      {
+        "given": "Martin",
+        "family": "Sandelin",
+        "initials": "M"
+      },
+      {
+        "given": "Kristina",
+        "family": "Lamberg",
+        "initials": "K"
+      },
+      {
+        "given": "Per",
+        "family": "Landelius",
+        "initials": "P"
+      },
+      {
+        "given": "Mats",
+        "family": "Nilsson",
+        "initials": "M",
+        "orcid": "0000-0001-9985-0387",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/197cf8ba83ba430f9712b2f4d94dc3e5.json"
+        }
+      },
+      {
+        "given": "Patrick",
+        "family": "Micke",
+        "initials": "P"
+      },
+      {
+        "given": "Lotte",
+        "family": "Moens",
+        "initials": "L"
+      },
+      {
+        "given": "Johan",
+        "family": "Botling",
+        "initials": "J"
+      }
+    ],
+    "journal": {
+      "title": "Journal of Thoracic Oncology",
+      "volume": "12",
+      "issue": "1",
+      "issn": "1556-0864",
+      "issn-l": "1556-0864",
+      "pages": "S526-S527"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/79209a0da0ed46bfac15fb20ace04226.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/79209a0da0ed46bfac15fb20ace04226"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2017-11-03T15:53:40.001Z",
+    "modified": "2024-01-16T13:48:48.725Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "2a5e3e148f1049dbb785459de68467cd",
+    "doi": "10.3390/v11090806",
+    "pmid": "31480341",
+    "title": "MiDRM pol: A High-Throughput Multiplexed Amplicon Sequencing Workflow to Quantify HIV-1 Drug Resistance Mutations against Protease, Reverse Transcriptase, and Integrase Inhibitors.",
+    "abstract": "The detection of drug resistance mutations (DRMs) in minor viral populations is of potential clinical importance. However, sophisticated computational infrastructure and competence for analysis of high-throughput sequencing (HTS) data lack at most diagnostic laboratories. Thus, we have proposed a new pipeline, MiDRM pol, to quantify DRM from the HIV-1 pol region. The gag-vpu region of 87 plasma samples from HIV-infected individuals from three cohorts was amplified and sequenced by Illumina HiSeq2500. The sequence reads were adapter-trimmed, followed by analysis using in-house scripts. Samples from Swedish and Ethiopian cohorts were also sequenced by Sanger sequencing. The pipeline was validated against the online tool PASeq (Polymorphism Analysis by Sequencing). Based on an error rate of <1%, a value of >1% was set as reliable to consider a minor variant. Both pipelines detected the mutations in the dominant viral populations, while discrepancies were observed in minor viral populations. In five HIV-1 subtype C samples, minor mutations were detected at the <5% level by MiDRMpol but not by PASeq. MiDRMpol is a computationally as well as labor efficient bioinformatics pipeline for the detection of DRM from HTS data. It identifies minor viral populations (<20%) of DRMs. Our method can be incorporated into large-scale surveillance of HIV-1 DRM.",
+    "published": "2019-08-30",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Shambhu G",
+        "family": "Aralaguppe",
+        "initials": "SG"
+      },
+      {
+        "given": "Anoop T",
+        "family": "Ambikan",
+        "initials": "AT"
+      },
+      {
+        "given": "Manickam",
+        "family": "Ashokkumar",
+        "initials": "M"
+      },
+      {
+        "given": "Milner M",
+        "family": "Kumar",
+        "initials": "MM"
+      },
+      {
+        "given": "Luke Elizabeth",
+        "family": "Hanna",
+        "initials": "LE"
+      },
+      {
+        "given": "Wondwossen",
+        "family": "Amogne",
+        "initials": "W"
+      },
+      {
+        "given": "Anders",
+        "family": "Sönnerborg",
+        "initials": "A"
+      },
+      {
+        "given": "Ujjwal",
+        "family": "Neogi",
+        "initials": "U"
+      }
+    ],
+    "journal": {
+      "title": "Viruses",
+      "volume": "11",
+      "issue": "9",
+      "issn": "1999-4915",
+      "issn-l": "1999-4915"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/2a5e3e148f1049dbb785459de68467cd.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/2a5e3e148f1049dbb785459de68467cd"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "v11090806"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC6784143"
+      }
+    ],
+    "notes": [],
+    "created": "2020-01-08T16:47:44.108Z",
+    "modified": "2020-01-21T13:56:16.401Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "48bf04137ea64df1b6b70285f4f67cd2",
+    "doi": "10.1111/jvim.16791",
+    "pmid": "37293695",
+    "title": "Mutations in the CYP27B1 gene cause vitamin D dependent rickets in pugs.",
+    "abstract": "Rickets is a disorder of bone development and can be the result of either dietary or genetic causes. Here, related pugs from 2 litters were included. Three pugs had clinical signs including, lameness, bone deformities, and dyspnea. One other pug was found dead. Radiographs of 2 affected pugs, 5 and 6 months old, showed generalized widening, and irregular margination of the physes of both the appendicular and the axial skeleton with generalized decrease in bone opacity and bulbous swelling of the costochondral junctions. Two pugs had low serum calcium and 1,25 (OH)2 D3 concentrations. Test results further indicated secondary hyperparathyroidism with adequate concentrations of 25-hydroxyvitamin D. Necropsy revealed tongue-like projections of cartilage extending into the metaphysis consistent with rickets, loss of metaphyseal mineralization and lung pathology. Vitamin D-dependent rickets was diagnosed. A truncating mutation in the 1α-hydroxylase gene (CYP27B1) was identified by genome sequence analysis of the pugs with VDDR type 1A. Vitamin D-dependent rickets type 1A can occur in young pugs, and if left untreated is a life-threatening condition. Early medical intervention can reverse clinical signs and should be instituted as soon as possible.",
+    "published": "2023-06-09",
+    "type": "case reports",
+    "authors": [
+      {
+        "given": "Cecilia",
+        "family": "Rohdin",
+        "initials": "C",
+        "orcid": "0000-0002-7698-550X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c17d3c315f7149bb93ac86f48a18ab99.json"
+        }
+      },
+      {
+        "given": "Chao",
+        "family": "Wang",
+        "initials": "C"
+      },
+      {
+        "given": "Gustaf",
+        "family": "Brander",
+        "initials": "G"
+      },
+      {
+        "given": "Veronica",
+        "family": "Rondahl",
+        "initials": "V"
+      },
+      {
+        "given": "Åsa",
+        "family": "Karlsson",
+        "initials": "Å"
+      },
+      {
+        "given": "Lisa",
+        "family": "Friling",
+        "initials": "L"
+      },
+      {
+        "given": "Anthony",
+        "family": "Fischetti",
+        "initials": "A"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Meadows",
+        "initials": "J"
+      },
+      {
+        "given": "Jens",
+        "family": "Häggström",
+        "initials": "J",
+        "orcid": "0000-0003-3402-023X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5e1779188e20402294f12861a8232e71.json"
+        }
+      },
+      {
+        "given": "Karin Hultin",
+        "family": "Jäderlund",
+        "initials": "KH"
+      },
+      {
+        "given": "Ingrid",
+        "family": "Ljungvall",
+        "initials": "I",
+        "orcid": "0000-0002-6617-0454",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/12b19ecb541c4d13a685b574390e8104.json"
+        }
+      },
+      {
+        "given": "Kerstin",
+        "family": "Lindblad-Toh",
+        "initials": "K"
+      }
+    ],
+    "journal": {
+      "title": "J. Vet. Intern. Med.",
+      "volume": "37",
+      "issue": "4",
+      "issn": "1939-1676",
+      "issn-l": "0891-6640",
+      "pages": "1507-1513"
     },
     "labels": {
       "NGI Short read": "Service",
@@ -406,64 +554,59 @@
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/b0fc64bb3f354c23a4cefe81c8290ef8.json"
+        "href": "https://publications.scilifelab.se/publication/48bf04137ea64df1b6b70285f4f67cd2.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/b0fc64bb3f354c23a4cefe81c8290ef8"
+        "href": "https://publications.scilifelab.se/publication/48bf04137ea64df1b6b70285f4f67cd2"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC10449373"
-      },
-      {
-        "db": "pii",
-        "key": "7243381"
+        "key": "PMC10365047"
       }
     ],
     "notes": [],
-    "created": "2023-11-29T11:26:09.024Z",
-    "modified": "2024-01-16T13:48:32.450Z",
+    "created": "2023-11-29T10:49:54.098Z",
+    "modified": "2024-01-16T13:48:33.185Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "56fbf8aaced9497f957befcc3c5c0dbb",
-    "doi": "10.1111/1755-0998.13923",
-    "pmid": "38189173",
-    "title": "A pan-genomic approach reveals novel Sulfurimonas clade in the ferruginous meromictic Lake Pavin.",
-    "abstract": "The permanently anoxic waters in meromictic lakes create suitable niches for the growth of bacteria using sulphur metabolisms like sulphur oxidation. In Lake Pavin, the anoxic water mass hosts an active cryptic sulphur cycle that interacts narrowly with iron cycling, however the metabolisms of the microorganisms involved are poorly known. Here we combined metagenomics, single-cell genomics, and pan-genomics to further expand our understanding of the bacteria and the corresponding metabolisms involved in sulphur oxidation in this ferruginous sulphide- and sulphate-poor meromictic lake. We highlighted two new species within the genus Sulfurimonas that belong to a novel clade of chemotrophic sulphur oxidisers exclusive to freshwaters. We moreover conclude that this genus holds a key-role not only in limiting sulphide accumulation in the upper part of the anoxic layer but also constraining carbon, phosphate and iron cycling.",
-    "published": "2024-01-08",
-    "type": "journal article",
+    "iuid": "55a655ce643f48fa87e39fd46539cd1f",
+    "doi": "10.1038/s41597-023-02722-x",
+    "pmid": "37978200",
+    "title": "Shotgun metagenomes from productive lakes in an urban region of Sweden.",
+    "abstract": "Urban lakes provide multiple benefits to society while influencing life quality. Moreover, lakes and their microbiomes are sentinels of anthropogenic impact and can be used for natural resource management and planning. Here, we release original metagenomic data from several well-characterized and anthropogenically impacted eutrophic lakes in the vicinity of Stockholm (Sweden). Our goal was to collect representative microbial community samples and use shotgun sequencing to provide a broad view on microbial diversity of productive urban lakes. Our dataset has an emphasis on Lake Mälaren as a major drinking water reservoir under anthropogenic impact. This dataset includes short-read sequence data and metagenome assemblies from each of 17 samples collected from eutrophic lakes near the greater Stockholm area. We used genome-resolved metagenomics and obtained 2378 metagenome assembled genomes that de-replicated into 514 species representative genomes. This dataset adds new datapoints to previously sequenced lakes and it includes the first sequenced set of metagenomes from Lake Mälaren. Our dataset serves as a baseline for future monitoring of drinking water reservoirs and urban lakes.",
+    "published": "2023-11-17",
+    "type": "dataset",
     "authors": [
       {
-        "given": "Corinne",
-        "family": "Biderre-Petit",
-        "initials": "C",
-        "orcid": "0000-0001-7962-4171",
+        "given": "Alejandro",
+        "family": "Rodríguez-Gijón",
+        "initials": "A",
+        "orcid": "0000-0002-1649-6894",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/8199e3021db54bb9b2f9124a682ac305.json"
+          "href": "https://publications.scilifelab.se/researcher/d25dfecc53e94af0b79799621f131631.json"
         }
       },
       {
-        "given": "Damien",
-        "family": "Courtine",
-        "initials": "D"
-      },
-      {
-        "given": "Claire",
-        "family": "Hennequin",
-        "initials": "C"
-      },
-      {
-        "given": "Pierre E",
-        "family": "Galand",
-        "initials": "PE",
-        "orcid": "0000-0002-2238-3247",
+        "given": "Justyna J",
+        "family": "Hampel",
+        "initials": "JJ",
+        "orcid": "0000-0002-2869-5807",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/a36433c063bf4305afd6ac1ba7a67ddf.json"
+          "href": "https://publications.scilifelab.se/researcher/6400f81d7ac04606abe86b28400576dd.json"
+        }
+      },
+      {
+        "given": "Jennah",
+        "family": "Dharamshi",
+        "initials": "J",
+        "orcid": "0000-0003-4563-3939",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/04c4fab7c00a48b29be068ac41016947.json"
         }
       },
       {
@@ -476,457 +619,185 @@
         }
       },
       {
-        "given": "Didier",
-        "family": "Debroas",
-        "initials": "D",
-        "orcid": "0000-0002-9915-1268",
+        "given": "Sarahi L",
+        "family": "Garcia",
+        "initials": "SL",
+        "orcid": "0000-0002-8622-0308",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/6146106a7ee449e5bda7d6e8773b60dc.json"
-        }
-      },
-      {
-        "given": "Arthur",
-        "family": "Monjot",
-        "initials": "A",
-        "orcid": "0000-0002-6978-4785",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/46d5728dbea84c50bf7f2b183558f7c2.json"
-        }
-      },
-      {
-        "given": "Cécile",
-        "family": "Lepère",
-        "initials": "C",
-        "orcid": "0000-0003-4767-0477",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/796cc43ff3074c069d822502ad0e3449.json"
-        }
-      },
-      {
-        "given": "Anna-Maria",
-        "family": "Divne",
-        "initials": "A"
-      },
-      {
-        "given": "Corentin",
-        "family": "Hochart",
-        "initials": "C"
-      }
-    ],
-    "journal": {
-      "title": "Mol Ecol Resour",
-      "volume": null,
-      "issue": null,
-      "issn": "1755-0998",
-      "issn-l": "1755-098X",
-      "pages": "e13923"
-    },
-    "labels": {
-      "Microbial Single Cell Genomics": "Collaborative",
-      "NGI Short read": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/56fbf8aaced9497f957befcc3c5c0dbb.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/56fbf8aaced9497f957befcc3c5c0dbb"
-      }
-    },
-    "xrefs": [],
-    "notes": [],
-    "created": "2024-01-15T10:09:02.759Z",
-    "modified": "2024-02-27T08:39:51.267Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "c6ee9d682b4440b98f597b4ff57d6037",
-    "doi": "10.1016/j.jaut.2023.103166",
-    "pmid": "38219652",
-    "title": "A survey of ficolin-3 activity in Systemic Lupus Erythematosus reveals a link to hematological disease manifestations and autoantibody profile.",
-    "abstract": "The complement system plays a central role in the pathogenesis of Systemic Lupus Erythematosus (SLE), but most studies have focused on the classical pathway. Ficolin-3 is the main initiator of the lectin pathway of complement in humans, but its role in systemic autoimmune disease has not been conclusively determined. Here, we combined biochemical and genetic approaches to assess the contribution of ficolin-3 to SLE risk and disease manifestations. Ficolin-3 activity was measured by a functional assay in serum or plasma samples from Swedish SLE patients (n = 786) and controls matched for age and sex (n = 566). Genetic variants in an extended 300 kb genomic region spanning the FCN3 locus were analyzed for their association with ficolin-3 activity and SLE manifestations in a Swedish multicenter cohort (n = 985). Patients with ficolin-3 activity in the highest tertile showed a strong enrichment in an SLE cluster defined by anti-Sm/DNA/nucleosome antibodies (OR 3.0, p < 0.001) and had increased rates of hematological disease (OR 1.4, p = 0.078) and lymphopenia (OR = 1.6, p = 0.039). Genetic variants associated with low ficolin-3 activity mapped to an extended haplotype in high linkage disequilibrium upstream of the FCN3 gene. Patients carrying the lead genetic variant associated with low ficolin-3 activity had a lower frequency of hematological disease (OR 0.67, p = 0.018) and lymphopenia (OR 0.63, p = 0.031) and fewer autoantibodies (p = 0.0019). Loss-of-function variants in the FCN3 gene were not associated with SLE, but four (0.5 %) SLE patients developed acquired ficolin-3 deficiency where ficolin-3 activity in serum was depleted following diagnosis of SLE. Taken together, our results provide genetic and biochemical evidence that implicate the lectin pathway in hematological SLE manifestations. We also identify lectin pathway activation through ficolin-3 as a factor that contributes to the autoantibody response in SLE.",
-    "published": "2024-02-00",
-    "type": "multicenter study",
-    "authors": [
-      {
-        "given": "Linnea",
-        "family": "Lindelöf",
-        "initials": "L"
-      },
-      {
-        "given": "Solbritt",
-        "family": "Rantapää-Dahlqvist",
-        "initials": "S"
-      },
-      {
-        "given": "Christian",
-        "family": "Lundtoft",
-        "initials": "C"
-      },
-      {
-        "given": "Johanna K",
-        "family": "Sandling",
-        "initials": "JK"
-      },
-      {
-        "given": "Dag",
-        "family": "Leonard",
-        "initials": "D"
-      },
-      {
-        "given": "Ahmed",
-        "family": "Sayadi",
-        "initials": "A"
-      },
-      {
-        "given": "Lars",
-        "family": "Rönnblom",
-        "initials": "L"
-      },
-      {
-        "given": "Helena",
-        "family": "Enocsson",
-        "initials": "H"
-      },
-      {
-        "given": "Christopher",
-        "family": "Sjöwall",
-        "initials": "C"
-      },
-      {
-        "given": "Andreas",
-        "family": "Jönsen",
-        "initials": "A"
-      },
-      {
-        "given": "Anders A",
-        "family": "Bengtsson",
-        "initials": "AA"
-      },
-      {
-        "given": "Mun-Gwan",
-        "family": "Hong",
-        "initials": "MG"
-      },
-      {
-        "given": "Lina-Marcela",
-        "family": "Diaz-Gallo",
-        "initials": "LM"
-      },
-      {
-        "given": "Matteo",
-        "family": "Bianchi",
-        "initials": "M"
-      },
-      {
-        "given": "Sergey V",
-        "family": "Kozyrev",
-        "initials": "SV"
-      },
-      {
-        "given": "Kerstin",
-        "family": "Lindblad-Toh",
-        "initials": "K"
-      },
-      {
-        "given": "",
-        "family": "DISSECT consortium",
-        "initials": ""
-      },
-      {
-        "given": "",
-        "family": "ImmunoArray consortium",
-        "initials": ""
-      },
-      {
-        "given": "Kristina",
-        "family": "Nilsson Ekdahl",
-        "initials": "K"
-      },
-      {
-        "given": "Bo",
-        "family": "Nilsson",
-        "initials": "B"
-      },
-      {
-        "given": "Iva",
-        "family": "Gunnarsson",
-        "initials": "I"
-      },
-      {
-        "given": "Elisabet",
-        "family": "Svenungsson",
-        "initials": "E"
-      },
-      {
-        "given": "Oskar",
-        "family": "Eriksson",
-        "initials": "O"
-      }
-    ],
-    "journal": {
-      "title": "J. Autoimmun.",
-      "volume": "143",
-      "issue": null,
-      "issn": "1095-9157",
-      "issn-l": "0896-8411",
-      "pages": "103166"
-    },
-    "labels": {
-      "Bioinformatics Support and Infrastructure": "Collaborative",
-      "Bioinformatics Support, Infrastructure and Training": "Collaborative",
-      "NGI Short read": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "Bioinformatics Support for Computational Resources": "Service",
-      "Bioinformatics (NBIS)": "Collaborative"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/c6ee9d682b4440b98f597b4ff57d6037.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/c6ee9d682b4440b98f597b4ff57d6037"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "S0896-8411(23)00175-0"
-      }
-    ],
-    "notes": [],
-    "created": "2024-01-16T08:53:44.077Z",
-    "modified": "2025-02-28T14:12:16.457Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "644ff655a61e46c08a5438a23c82830c",
-    "doi": "10.1186/s12864-023-09807-2",
-    "pmid": "38007417",
-    "title": "RecView: an interactive R application for locating recombination positions using pedigree data.",
-    "abstract": "Recombination reshuffles alleles at linked loci, allowing genes to evolve independently and consequently enhancing the efficiency of selection. This makes quantifying recombination along chromosomes an important goal for understanding how selection and drift are acting on genes and chromosomes.\n\nWe present RecView, an interactive R application and its homonymous R package, to facilitate locating recombination positions along chromosomes or scaffolds using whole-genome genotype data of a three-generation pedigree. RecView analyses and plots the grandparent-of-origin of all informative alleles along each chromosome of the offspring in the pedigree, and infers recombination positions with either of two built-in algorithms: one based on change in the proportion of the alleles with specific grandparent-of-origin, and one on the degree of continuity of alleles with the same grandparent-of-origin. RecView handles multiple offspring and chromosomes simultaneously, and all putative recombination positions are reported in base pairs together with an estimated precision based on the local density of informative alleles. We demonstrate RecView using genotype data of a passerine bird with an available reference genome, the great reed warbler (Acrocephalus arundinaceus), and show that recombination events can be located to specific positions.\n\nRecView is an easy-to-use and highly effective application for locating recombination positions with high precision. RecView is available on GitHub ( https://github.com/HKyleZhang/RecView.git ).",
-    "published": "2023-11-25",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Hongkai",
-        "family": "Zhang",
-        "initials": "H",
-        "orcid": "0000-0001-7371-9612",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/33b4db2c681b400c9106f8d27b6fb714.json"
-        }
-      },
-      {
-        "given": "Bengt",
-        "family": "Hansson",
-        "initials": "B",
-        "orcid": "0000-0001-6694-8169",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/01f0144e207c41dcbc4d5aec68690e4b.json"
+          "href": "https://publications.scilifelab.se/researcher/8aabc8c17d5b4ad7872c7380301d4562.json"
         }
       }
     ],
     "journal": {
-      "title": "BMC Genomics",
-      "volume": "24",
+      "title": "Sci Data",
+      "volume": "10",
       "issue": "1",
-      "issn": "1471-2164",
-      "issn-l": "1471-2164",
-      "pages": "712"
+      "issn": "2052-4463",
+      "issn-l": "2052-4463",
+      "pages": "810"
     },
     "labels": {
       "NGI Short read": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
       "National Genomics Infrastructure": "Service",
       "Bioinformatics Support for Computational Resources": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/644ff655a61e46c08a5438a23c82830c.json"
+        "href": "https://publications.scilifelab.se/publication/55a655ce643f48fa87e39fd46539cd1f.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/644ff655a61e46c08a5438a23c82830c"
+        "href": "https://publications.scilifelab.se/publication/55a655ce643f48fa87e39fd46539cd1f"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC10676570"
+        "key": "PMC10656542"
       },
       {
         "db": "pii",
-        "key": "10.1186/s12864-023-09807-2"
+        "key": "10.1038/s41597-023-02722-x"
       }
     ],
     "notes": [],
-    "created": "2024-01-08T16:11:18.459Z",
-    "modified": "2024-01-16T13:48:31.644Z",
+    "created": "2024-01-02T13:30:18.895Z",
+    "modified": "2024-11-25T10:19:55.700Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "9343655379b04dd9a0b4d89466148dab",
-    "doi": "10.1038/s42003-023-05237-8",
-    "pmid": "37596339",
-    "title": "Bacterial bioindicators enable biological status classification along the continental Danube river.",
-    "abstract": "Despite the importance of bacteria in aquatic ecosystems and their predictable diversity patterns across space and time, biomonitoring tools for status assessment relying on these organisms are widely lacking. This is partly due to insufficient data and models to identify reliable microbial predictors. Here, we show metabarcoding in combination with multivariate statistics and machine learning allows to identify bacterial bioindicators for existing biological status classification systems. Bacterial beta-diversity dynamics follow environmental gradients and the observed associations highlight potential bioindicators for ecological outcomes. Spatio-temporal links spanning the microbial communities along the river allow accurate prediction of downstream biological status from upstream information. Network analysis on amplicon sequence veariants identify as good indicators genera Fluviicola, Acinetobacter, Flavobacterium, and Rhodoluna, and reveal informational redundancy among taxa, which coincides with taxonomic relatedness. The redundancy among bacterial bioindicators reveals mutually exclusive taxa, which allow accurate biological status modeling using as few as 2-3 amplicon sequence variants. As such our models show that using a few bacterial amplicon sequence variants from globally distributed genera allows for biological status assessment along river systems.",
-    "published": "2023-08-18",
+    "iuid": "97352b4103e94523b7562e842be4a358",
+    "doi": "10.1111/j.1751-7915.2009.00148.x",
+    "pmid": "21255339",
+    "title": "Revolutionizing membrane protein overexpression in bacteria.",
+    "abstract": "The bacterium Escherichia coli is the most widely used expression host for overexpression trials of membrane proteins. Usually, different strains, culture conditions and expression regimes are screened for to identify the optimal overexpression strategy. However, yields are often not satisfactory, especially for eukaryotic membrane proteins. This has initiated a revolution of membrane protein overexpression in bacteria. Recent studies have shown that it is feasible to (i) engineer or select for E. coli strains with strongly improved membrane protein overexpression characteristics, (ii) use bacteria other than E. coli for the expression of membrane proteins, (iii) engineer or select for membrane protein variants that retain functionality but express better than the wild-type protein, and (iv) express membrane proteins using E. coli-based cell-free systems.",
+    "published": "2010-07-00",
     "type": "journal article",
     "authors": [
       {
-        "given": "Laurent",
-        "family": "Fontaine",
-        "initials": "L"
+        "given": "Susan",
+        "family": "Schlegel",
+        "initials": "S"
       },
       {
-        "given": "Lorenzo",
-        "family": "Pin",
-        "initials": "L"
-      },
-      {
-        "given": "Domenico",
-        "family": "Savio",
-        "initials": "D"
-      },
-      {
-        "given": "Nikolai",
-        "family": "Friberg",
-        "initials": "N"
-      },
-      {
-        "given": "Alexander K T",
-        "family": "Kirschner",
-        "initials": "AKT"
-      },
-      {
-        "given": "Andreas H",
-        "family": "Farnleitner",
-        "initials": "AH"
-      },
-      {
-        "given": "Alexander",
-        "family": "Eiler",
-        "initials": "A",
-        "orcid": "0000-0001-9916-9567",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/e7286785c9334dcba90273b69f81c018.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Commun Biol",
-      "volume": "6",
-      "issue": "1",
-      "issn": "2399-3642",
-      "issn-l": "2399-3642",
-      "pages": "862"
-    },
-    "labels": {
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "NGI Short read": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/9343655379b04dd9a0b4d89466148dab.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/9343655379b04dd9a0b4d89466148dab"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "10.1038/s42003-023-05237-8"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC10439154"
-      }
-    ],
-    "notes": [],
-    "created": "2023-08-21T05:58:55.824Z",
-    "modified": "2023-08-21T05:58:55.835Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "3943cafd8d924224afc0aedc6b4c267e",
-    "doi": "10.1053/j.gastro.2010.08.049",
-    "pmid": "20816835",
-    "title": "A pyrosequencing study in twins shows that gastrointestinal microbial profiles vary with inflammatory bowel disease phenotypes.",
-    "abstract": "The composition of the gastrointestinal microbiota is thought to have an important role in the etiology of inflammatory bowel diseases (IBDs) such as Crohn's disease (CD) and ulcerative colitis (UC). Interindividual variation and an inability to detect less abundant bacteria have made it difficult to correlate specific bacteria with disease.\n\nWe used 454 pyrotag sequencing to determine the compositions of microbial communities in feces samples collected from a cohort of 40 twin pairs who were concordant or discordant for CD or UC, and in mucosal samples from a subset of the cohort. The cohort primarily comprised patients who were in remission, but also some with active disease.\n\nThe profiles of the microbial community differed with disease phenotypes; relative amounts of bacterial populations correlated with IBD phenotypes. The microbial compositions of individuals with CD differed from those of healthy individuals, but were similar between healthy individuals and individuals with UC. Profiles from individuals with CD that predominantly involved the ileum differed from those with CD that predominantly involved the colon; several bacterial populations increased or decreased with disease type. Changes specific to patients with ileal CD included the disappearance of core bacteria, such as Faecalibacterium and Roseburia, and increased amounts of Enterobacteriaceae and Ruminococcus gnavus.\n\nBacterial populations differ in abundance among individuals with different phenotypes of CD. Specific species of bacteria are associated with ileal CD; further studies should investigate their role in pathogenesis.",
-    "published": "2010-12-00",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Ben P",
-        "family": "Willing",
-        "initials": "BP"
-      },
-      {
-        "given": "Johan",
-        "family": "Dicksved",
-        "initials": "J"
-      },
-      {
-        "given": "Jonas",
-        "family": "Halfvarson",
-        "initials": "J"
-      },
-      {
-        "given": "Anders F",
-        "family": "Andersson",
-        "initials": "AF"
-      },
-      {
-        "given": "Marianna",
-        "family": "Lucio",
+        "given": "Mirjam",
+        "family": "Klepsch",
         "initials": "M"
       },
       {
-        "given": "Zongli",
-        "family": "Zheng",
-        "initials": "Z"
+        "given": "Dimitra",
+        "family": "Gialama",
+        "initials": "D"
       },
       {
-        "given": "Gunnar",
-        "family": "Järnerot",
-        "initials": "G"
+        "given": "David",
+        "family": "Wickström",
+        "initials": "D"
       },
       {
-        "given": "Curt",
-        "family": "Tysk",
-        "initials": "C"
+        "given": "Dirk Jan",
+        "family": "Slotboom",
+        "initials": "DJ"
       },
       {
-        "given": "Janet K",
-        "family": "Jansson",
-        "initials": "JK"
+        "given": "Jan-Willem",
+        "family": "de Gier",
+        "initials": "JW"
+      }
+    ],
+    "journal": {
+      "title": "Microb Biotechnol",
+      "volume": "3",
+      "issue": "4",
+      "issn": "1751-7915",
+      "issn-l": "1751-7915",
+      "pages": "403-411"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Stockholm (Genomics Applications)": null,
+      "NGI Stockholm (Genomics Production)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/97352b4103e94523b7562e842be4a358.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/97352b4103e94523b7562e842be4a358"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC3815807"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:57:12.269Z",
+    "modified": "2020-01-21T13:56:03.893Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "e1352691e91f443f83f2e05fa911e0a2",
+    "doi": "10.1128/AEM.01403-14",
+    "pmid": "24928874",
+    "title": "DegePrime, a program for degenerate primer design for broad-taxonomic-range PCR in microbial ecology studies.",
+    "abstract": "The taxonomic composition of a microbial community can be deduced by analyzing its rRNA gene content by, e.g., high-throughput DNA sequencing or DNA chips. Such methods typically are based on PCR amplification of rRNA gene sequences using broad-taxonomic-range PCR primers. In these analyses, the use of optimal primers is crucial for achieving an unbiased representation of community composition. Here, we present the computer program DegePrime that, for each position of a multiple sequence alignment, finds a degenerate oligomer of as high coverage as possible and outputs its coverage among taxonomic divisions. We show that our novel heuristic, which we call weighted randomized combination, performs better than previously described algorithms for solving the maximum coverage degenerate primer design problem. We previously used DegePrime to design a broad-taxonomic-range primer pair that targets the bacterial V3-V4 region (341F-805R) (D. P. Herlemann, M. Labrenz, K. Jurgens, S. Bertilsson, J. J. Waniek, and A. F. Andersson, ISME J. 5:1571-1579, 2011, http://dx.doi.org/10.1038/ismej.2011.41), and here we use the program to significantly increase the coverage of a primer pair (515F-806R) widely used for Illumina-based surveys of bacterial and archaeal diversity. By comparison with shotgun metagenomics, we show that the primers give an accurate representation of microbial diversity in natural samples.",
+    "published": "2014-08-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Luisa W",
+        "family": "Hugerth",
+        "initials": "LW"
+      },
+      {
+        "given": "Hugo A",
+        "family": "Wefer",
+        "initials": "HA"
+      },
+      {
+        "given": "Sverker",
+        "family": "Lundin",
+        "initials": "S"
+      },
+      {
+        "given": "Hedvig E",
+        "family": "Jakobsson",
+        "initials": "HE"
+      },
+      {
+        "given": "Mathilda",
+        "family": "Lindberg",
+        "initials": "M"
+      },
+      {
+        "given": "Sandra",
+        "family": "Rodin",
+        "initials": "S"
       },
       {
         "given": "Lars",
         "family": "Engstrand",
         "initials": "L"
+      },
+      {
+        "given": "Anders F",
+        "family": "Andersson",
+        "initials": "AF"
       }
     ],
     "journal": {
-      "title": "Gastroenterology",
-      "volume": "139",
-      "issue": "6",
-      "issn": "1528-0012",
-      "issn-l": "0016-5085",
-      "pages": "1844-1854.e1"
+      "title": "Appl. Environ. Microbiol.",
+      "volume": "80",
+      "issue": "16",
+      "issn": "1098-5336",
+      "issn-l": "0099-2240",
+      "pages": "5116-5123"
     },
     "labels": {
       "National Genomics Infrastructure": null,
@@ -935,131 +806,408 @@
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/3943cafd8d924224afc0aedc6b4c267e.json"
+        "href": "https://publications.scilifelab.se/publication/e1352691e91f443f83f2e05fa911e0a2.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/3943cafd8d924224afc0aedc6b4c267e"
+        "href": "https://publications.scilifelab.se/publication/e1352691e91f443f83f2e05fa911e0a2"
       }
     },
     "xrefs": [
       {
         "db": "pii",
-        "key": "S0016-5085(10)01299-0"
+        "key": "AEM.01403-14"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC4135748"
       }
     ],
     "notes": [],
-    "created": "2017-05-04T14:57:10.454Z",
-    "modified": "2020-01-21T13:56:01.605Z",
+    "created": "2017-05-04T14:58:22.068Z",
+    "modified": "2020-01-21T13:56:05.770Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "859f1ea1d197479ebdf6b48216eba94c",
-    "doi": "10.3389/fcell.2024.1341373",
-    "pmid": null,
-    "title": "Sex-biased gene expression during neural differentiation of human embryonic stem cells",
-    "abstract": null,
-    "published": "2024-05-01",
-    "type": "journal-article",
-    "authors": [
-      {
-        "given": "Philipp",
-        "family": "Pottmeier",
-        "initials": "P"
-      },
-      {
-        "given": "Danai",
-        "family": "Nikolantonaki",
-        "initials": "D"
-      },
-      {
-        "given": "Fredrik",
-        "family": "Lanner",
-        "initials": "F"
-      },
-      {
-        "given": "Christiane",
-        "family": "Peuckert",
-        "initials": "C"
-      },
-      {
-        "given": "Elena",
-        "family": "Jazin",
-        "initials": "E"
-      }
-    ],
-    "journal": {
-      "title": "Front Cell Dev Biol",
-      "volume": "12",
-      "issn": "2296-634X",
-      "issn-l": null
-    },
-    "labels": {
-      "NGI Short read": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/859f1ea1d197479ebdf6b48216eba94c.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/859f1ea1d197479ebdf6b48216eba94c"
-      }
-    },
-    "xrefs": [],
-    "notes": [],
-    "created": "2024-05-16T06:33:09.053Z",
-    "modified": "2024-05-16T06:33:09.058Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "4796f3b649884ebe8b7d620cde0382ac",
-    "doi": "10.1136/jmedgenet-2014-102320",
-    "pmid": "24935963",
-    "title": "High risk of tobacco-related cancers in CDKN2A mutation-positive melanoma families.",
-    "abstract": "Germline mutations in the tumour suppressor gene CDKN2A occur in 5-20% of familial melanoma cases. A single founder mutation, p.Arg112dup, accounts for the majority of CDKN2A mutations in Swedish carriers. In a national program, carriers of p.Arg112dup mutation have been identified. The aim of this study was to assess cancer risks in p.Arg112dup carriers and their first degree relatives (FDRs) and second degree relatives (SDRs).\n\nIn this prospective cohort study, cancer diagnoses in carriers (n=120), non-carriers (n=111), carriers' FDRs (n=275) and SDRs (n=321) and controls (n=3976) were obtained from the Swedish Cancer Registry. Relative risks (RRs) for cancers were calculated (number of cancers/person years). Two-sided 95% CIs were calculated for all RRs.\n\nIn carriers prospective RR for non-melanoma cancers was 5.0 (95% CI 3.7 to 7.3), for pancreatic cancer 43.8 (95% CI 13.8 to 139.0), for cancers in upper digestive tissues 17.1 (95% CI 6.3 to 46.5), and in respiratory tissues 15.6 (5.4 to 46.0). In FDRs and SDRs RRs were significantly elevated for cancers in pancreas, respiratory and upper digestive tissues. In ever-smoking carriers compared with never-smoking carriers, the odds ratio (OR) of cancers in pancreas, respiratory or upper digestive tissues was 9.3 (95% CI 1.9 to 44.7).\n\nCDKN2A p.Arg112dup mutation carriers from melanoma-prone families and their FDRs and SDRs have elevated risk for pancreatic, lung, head and neck and gastro-oesophageal carcinomas. These cancers were mainly seen in ever-smoking carriers. Germline CDKN2A mutations may confer an increased sensitivity to carcinogens in tobacco smoke. CDKN2A mutation carriers should be counselled to abstain from smoking.",
-    "published": "2014-08-00",
+    "iuid": "c3696d7ec9684a9d947af102e6b2c93a",
+    "doi": "10.3389/fmicb.2019.02632",
+    "pmid": "31803163",
+    "title": "Effects of the Antimicrobial Peptide LL-37 and Innate Effector Mechanisms in Colistin-Resistant Klebsiella pneumoniae With mgrB Insertions.",
+    "abstract": "Colistin is a polypeptide antibiotic drug that targets lipopolysaccharides in the outer membrane of Gram-negative bacteria. Inactivation of the mgrB-gene is a common mechanism behind colistin-resistance in Klebsiella pneumoniae (Kpn). Since colistin is a cyclic polypeptide, it may exhibit cross-resistance with the antimicrobial peptide LL-37, and with other innate effector mechanisms, but previous results are inconclusive.\n\nTo study potential cross-resistance between colistin and LL-37, as well as with other innate effector mechanisms, and to compare virulence of colistin-resistant and susceptible Kpn strains.\n\nCarbapenemase-producing Kpn from Oman ( n = 17) were subjected to antimicrobial susceptibility testing and whole genome sequencing. Susceptibility to colistin and LL-37 was studied. The surface charge was determined by zeta-potential measurements and the morphology of treated bacteria was analyzed with electron microscopy. Bacterial survival was assessed in human whole blood and serum, as well as in a zebrafish infection-model.\n\nGenome-analysis revealed insertion-sequences in the mgrB gene, as a cause of colistin resistance in 8/17 isolates. Colistin-resistant (Col-R) isolates were found to be more resistant to LL-37 compared to colistin-susceptible (Col-S) isolates, but only at concentrations ≥50 μg/ml. There was no significant difference in surface charge between the isolates. The morphological changes were similar in both Col-R and Col-S isolates after exposure to LL-37. Finally, no survival difference between the Col-R and Col-S isolates was observed in whole blood or serum, or in zebrafish embryos.\n\nCross-resistance between colistin and LL-37 was observed at elevated concentrations of LL-37. However, Col-R and Col-S isolates exhibited similar survival in serum and whole blood, and in a zebrafish infection-model, suggesting that cross-resistance most likely play a limited role during physiological conditions. However, it cannot be ruled out that the observed cross-resistance could be relevant in conditions where LL-37 levels reach high concentrations, such as during infection or inflammation.",
+    "published": "2019-11-14",
     "type": "journal article",
     "authors": [
       {
-        "given": "Hildur",
-        "family": "Helgadottir",
-        "initials": "H"
+        "given": "Hissa M",
+        "family": "Al-Farsi",
+        "initials": "HM"
       },
       {
-        "given": "Veronica",
-        "family": "Höiom",
-        "initials": "V"
+        "given": "Salma",
+        "family": "Al-Adwani",
+        "initials": "S"
       },
       {
-        "given": "Göran",
-        "family": "Jönsson",
-        "initials": "G"
+        "given": "Sultan",
+        "family": "Ahmed",
+        "initials": "S"
       },
       {
-        "given": "Rainer",
-        "family": "Tuominen",
-        "initials": "R"
-      },
-      {
-        "given": "Christian",
-        "family": "Ingvar",
+        "given": "Carmen",
+        "family": "Vogt",
         "initials": "C"
       },
       {
-        "given": "Ake",
-        "family": "Borg",
+        "given": "Anoop T",
+        "family": "Ambikan",
+        "initials": "AT"
+      },
+      {
+        "given": "Anna",
+        "family": "Leber",
         "initials": "A"
       },
       {
-        "given": "Håkan",
-        "family": "Olsson",
-        "initials": "H"
+        "given": "Amina",
+        "family": "Al-Jardani",
+        "initials": "A"
       },
+      {
+        "given": "Saleh",
+        "family": "Al-Azri",
+        "initials": "S"
+      },
+      {
+        "given": "Zakariya",
+        "family": "Al-Muharmi",
+        "initials": "Z"
+      },
+      {
+        "given": "Muhammet S",
+        "family": "Toprak",
+        "initials": "MS"
+      },
+      {
+        "given": "Christian G",
+        "family": "Giske",
+        "initials": "CG"
+      },
+      {
+        "given": "Peter",
+        "family": "Bergman",
+        "initials": "P"
+      }
+    ],
+    "journal": {
+      "title": "Front Microbiol",
+      "volume": "10",
+      "issue": null,
+      "issn": "1664-302X",
+      "issn-l": "1664-302X",
+      "pages": "2632"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/c3696d7ec9684a9d947af102e6b2c93a.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/c3696d7ec9684a9d947af102e6b2c93a"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC6870453"
+      }
+    ],
+    "notes": [],
+    "created": "2020-01-08T16:48:50.186Z",
+    "modified": "2020-01-21T13:56:16.503Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "52d17bcd67b34305a5fe00573dccf416",
+    "doi": "10.1002/ece3.9050",
+    "pmid": "35813906",
+    "title": "Genomic dynamics of brown trout populations released to a novel environment.",
+    "abstract": "Population translocations occur for a variety of reasons, from displacement due to climate change to human-induced transfers. Such actions have adverse effects on genetic variation and understanding their microevolutionary consequences requires monitoring. Here, we return to an experimental release of brown trout (Salmo trutta) in order to monitor the genomic effects of population translocations. In 1979, fish from each of two genetically (F ST = 0.16) and ecologically separate populations were simultaneously released, at one point in time, to a lake system previously void of brown trout. Here, whole-genome sequencing of pooled DNA (Pool-seq) is used to characterize diversity within and divergence between the introduced populations and fish inhabiting two lakes downstream of the release sites, sampled 30 years later (c. 5 generations). Present results suggest that while extensive hybridization has occurred, the two introduced populations are unequally represented in the lakes downstream of the release sites. One population, which is ecologically resident in its original habitat, mainly contributes to the lake closest to the release site. The other population, migratory in its natal habitat, is genetically more represented in the lake further downstream. Genomic regions putatively under directional selection in the new habitat are identified, where allele frequencies in both established populations are more similar to the introduced population stemming from a resident population than the migratory one. Results suggest that the microevolutionary consequences of population translocations, for example, hybridization and adaptation, can be rapid and that Pool-seq can be used as an initial tool to monitor genome-wide effects.",
+    "published": "2022-07-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Sara",
+        "family": "Kurland",
+        "initials": "S",
+        "orcid": "0000-0002-5370-1236",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fdfc16fe9c7c4065b3e3d3f6877424f7.json"
+        }
+      },
+      {
+        "given": "Nima",
+        "family": "Rafati",
+        "initials": "N",
+        "orcid": "0000-0002-3687-9745",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8b5c32bab72f430a80485c0312ca0e21.json"
+        }
+      },
+      {
+        "given": "Nils",
+        "family": "Ryman",
+        "initials": "N",
+        "orcid": "0000-0003-3342-8479",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/97201873ea354e959e294d8d2d69be13.json"
+        }
+      },
+      {
+        "given": "Linda",
+        "family": "Laikre",
+        "initials": "L",
+        "orcid": "0000-0001-9286-3361",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b7c7ebbb5d7a4af582746b6ab2c2d132.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Ecol Evol",
+      "volume": "12",
+      "issue": "7",
+      "issn": "2045-7758",
+      "issn-l": "2045-7758",
+      "pages": "e9050"
+    },
+    "labels": {
+      "Bioinformatics Support, Infrastructure and Training": "Collaborative",
+      "Bioinformatics Long-term Support WABI": "Service",
+      "Bioinformatics Support and Infrastructure": "Collaborative",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "Bioinformatics Support for Computational Resources": "Service",
+      "Bioinformatics (NBIS)": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/52d17bcd67b34305a5fe00573dccf416.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/52d17bcd67b34305a5fe00573dccf416"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC9251865"
+      },
+      {
+        "db": "pii",
+        "key": "ECE39050"
+      }
+    ],
+    "notes": [],
+    "created": "2022-08-01T12:29:56.905Z",
+    "modified": "2024-01-16T13:48:36.012Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "6295ee8d911c4628865b4228aa2fcc16",
+    "doi": "10.1016/j.ijfoodmicro.2010.06.027",
+    "pmid": "20826036",
+    "title": "Bioinformatic tools for using whole genome sequencing as a rapid high resolution diagnostic typing tool when tracing bioterror organisms in the food and feed chain.",
+    "abstract": "The rapid technological development in the field of parallel sequencing offers new opportunities when tracing and tracking microorganisms in the food and feed chain. If a bioterror organism is deliberately spread it is of crucial importance to get as much information as possible regarding the strain as fast as possible to aid the decision process and select suitable controls, tracing and tracking tools. A lot of efforts have been made to sequence multiple strains of potential bioterror organisms so there is a relatively large set of reference genomes available. This study is focused on how to use parallel sequencing for rapid phylogenomic analysis and screen for genetic modifications. A bioinformatic methodology has been developed to rapidly analyze sequence data with minimal post-processing. Instead of assembling the genome, defining genes, defining orthologous relations and calculating distances, the present method can achieve a similar high resolution directly from the raw sequence data. The method defines orthologous sequence reads instead of orthologous genes and the average similarity of the core genome (ASC) is calculated. The sequence reads from the core and from the non-conserved genomic regions can also be separated for further analysis. Finally, the comparison algorithm is used to visualize the phylogenomic diversity of the bacterial bioterror organisms Bacillus anthracis and Clostridium botulinum using heat plot diagrams.",
+    "published": "2011-03-01",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Bo",
+        "family": "Segerman",
+        "initials": "B"
+      },
+      {
+        "given": "Dario",
+        "family": "De Medici",
+        "initials": "D"
+      },
+      {
+        "given": "Monika",
+        "family": "Ehling Schulz",
+        "initials": "M"
+      },
+      {
+        "given": "Patrick",
+        "family": "Fach",
+        "initials": "P"
+      },
+      {
+        "given": "Lucia",
+        "family": "Fenicia",
+        "initials": "L"
+      },
+      {
+        "given": "Martina",
+        "family": "Fricker",
+        "initials": "M"
+      },
+      {
+        "given": "Peter",
+        "family": "Wielinga",
+        "initials": "P"
+      },
+      {
+        "given": "Bart",
+        "family": "Van Rotterdam",
+        "initials": "B"
+      },
+      {
+        "given": "Rickard",
+        "family": "Knutsson",
+        "initials": "R"
+      }
+    ],
+    "journal": {
+      "title": "Int. J. Food Microbiol.",
+      "volume": "145 Suppl 1",
+      "issue": null,
+      "issn": "1879-3460",
+      "issn-l": "0168-1605",
+      "pages": "S167-S176"
+    },
+    "labels": {
+      "National Genomics Infrastructure": null,
+      "NGI Stockholm (Genomics Applications)": null,
+      "NGI Stockholm (Genomics Production)": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/6295ee8d911c4628865b4228aa2fcc16.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/6295ee8d911c4628865b4228aa2fcc16"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "S0168-1605(10)00369-7"
+      }
+    ],
+    "notes": [],
+    "created": "2017-05-04T14:57:19.825Z",
+    "modified": "2020-01-21T13:56:02.651Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "cae2c19d93fe471eac4b766e6643b20a",
+    "doi": "10.1186/s12870-019-2137-8",
+    "pmid": "31931695",
+    "title": "Development and characterization of an EMS-mutagenized wheat population and identification of salt-tolerant wheat lines.",
+    "abstract": "Triticum aestivum (wheat) is one of the world's oldest crops and has been used for >8000 years as a food crop in North Africa, West Asia and Europe. Today, wheat is one of the most important sources of grain for humans, and is cultivated on greater areas of land than any other crop. As the human population increases and soil salinity becomes more prevalent, there is increased pressure on wheat breeders to develop salt-tolerant varieties in order to meet growing demands for yield and grain quality. Here we developed a mutant wheat population using the moderately salt-tolerant Bangladeshi variety BARI Gom-25, with the primary goal of further increasing salt tolerance.\n\nAfter titrating the optimal ethyl methanesulfonate (EMS) concentration, ca 30,000 seeds were treated with 1% EMS, and 1676 lines, all originating from single seeds, survived through the first four generations. Most mutagenized lines showed a similar phenotype to BARI Gom-25, although visual differences such as dwarfing, giant plants, early and late flowering and altered leaf morphology were seen in some lines. By developing an assay for salt tolerance, and by screening the mutagenized population, we identified 70 lines exhibiting increased salt tolerance. The selected lines typically showed a 70% germination rate on filter paper soaked in 200 mM NaCl, compared to 0-30% for BARI Gom-25. From two of the salt-tolerant OlsAro lines (OA42 and OA70), genomic DNA was sequenced to 15x times coverage. A comparative analysis against the BARI Gom-25 genomic sequence identified a total of 683,201 (OA42), and 768,954 (OA70) SNPs distributed throughout the three sub-genomes (A, B and D). The mutation frequency was determined to be approximately one per 20,000 bp. All the 70 selected salt-tolerant lines were tested for root growth in the laboratory, and under saline field conditions in Bangladesh. The results showed that all the lines selected for tolerance showed a better salt tolerance phenotype than both BARI Gom-25 and other local wheat varieties tested.\n\nThe mutant wheat population developed here will be a valuable resource in the development of novel salt-tolerant varieties for the benefit of saline farming.",
+    "published": "2020-01-13",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Johanna",
+        "family": "Lethin",
+        "initials": "J"
+      },
+      {
+        "given": "Shahriar S M",
+        "family": "Shakil",
+        "initials": "SSM"
+      },
+      {
+        "given": "Sameer",
+        "family": "Hassan",
+        "initials": "S"
+      },
+      {
+        "given": "Nick",
+        "family": "Sirijovski",
+        "initials": "N"
+      },
+      {
+        "given": "Mats",
+        "family": "Töpel",
+        "initials": "M"
+      },
+      {
+        "given": "Olof",
+        "family": "Olsson",
+        "initials": "O"
+      },
+      {
+        "given": "Henrik",
+        "family": "Aronsson",
+        "initials": "H",
+        "orcid": "0000-0003-4424-8481",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0227592dd1174af4a8a8dc39183b0f19.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "BMC Plant Biol.",
+      "volume": "20",
+      "issue": "1",
+      "issn": "1471-2229",
+      "issn-l": "1471-2229",
+      "pages": "18"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/cae2c19d93fe471eac4b766e6643b20a.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/cae2c19d93fe471eac4b766e6643b20a"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1186/s12870-019-2137-8"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC6958588"
+      }
+    ],
+    "notes": [],
+    "created": "2020-07-08T13:03:36.627Z",
+    "modified": "2024-01-16T13:48:43.079Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "6e72f003dd044238899adec74a9c8680",
+    "doi": "10.1007/978-1-4419-6448-9_13",
+    "pmid": "20687502",
+    "title": "Familial cutaneous melanoma.",
+    "abstract": "Approximately 5-10 % of all cutaneous melanomas occur in families with hereditary melanoma predisposition. Worldwide, approximately 20-40% of kindreds with familial elanoma harbor germline mutations in the CDKN2A gene, located on chromosome 9p21, which encodes two different proteins, p16INK4 and p14ARF, both involved in regulation of cell cycle progression and induction of senescence. In different populations several recurring CDKN2A founder mutations have been described. The risk of melanoma in CDKN2A mutations carriers varies between populations and is higher in regions with high sun exposure and high incidence of melanoma in the general population. Some CDKN2A mutations have been associated not only with melanoma but also with increased risk of other malignancies--most notably pancreatic carcinoma. A much smaller number of families have germline mutations in the CDK4 gene on chromosome 12q14, encoding a cyclin dependent kinase which normally interacts with p16INK4A. The management of families with hereditary melanoma is discussed.",
+    "published": "2010-08-07",
+    "type": "journal article",
+    "authors": [
       {
         "given": "Johan",
         "family": "Hansson",
@@ -1067,12 +1215,12 @@
       }
     ],
     "journal": {
-      "title": "J. Med. Genet.",
-      "volume": "51",
-      "issue": "8",
-      "issn": "1468-6244",
-      "issn-l": "0022-2593",
-      "pages": "545-552"
+      "title": "Adv. Exp. Med. Biol.",
+      "volume": "685",
+      "issue": null,
+      "issn": "0065-2598",
+      "issn-l": null,
+      "pages": "134-145"
     },
     "labels": {
       "National Genomics Infrastructure": null,
@@ -1081,245 +1229,706 @@
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/4796f3b649884ebe8b7d620cde0382ac.json"
+        "href": "https://publications.scilifelab.se/publication/6e72f003dd044238899adec74a9c8680.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/4796f3b649884ebe8b7d620cde0382ac"
+        "href": "https://publications.scilifelab.se/publication/6e72f003dd044238899adec74a9c8680"
       }
     },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "jmedgenet-2014-102320"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC4112445"
-      }
-    ],
+    "xrefs": [],
     "notes": [],
-    "created": "2017-05-04T14:58:42.346Z",
-    "modified": "2020-01-21T13:56:02.071Z",
+    "created": "2017-05-04T14:57:09.045Z",
+    "modified": "2020-01-21T13:56:09.194Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "9b508c1fd9064736b2a6e61b2a90718a",
-    "doi": "10.1111/eva.13704",
-    "pmid": "38770102",
-    "title": "Unlocking the secret life of blue mussels: Exploring connectivity in the Skagerrak through biophysical modeling and population genomics.",
-    "abstract": "Knowledge of functional dispersal barriers in the marine environment can be used to inform a wide variety of management actions, such as marine spatial planning, restoration efforts, fisheries regulations, and invasive species management. Locations and causes of dispersal barriers can be studied through various methods, including movement tracking, biophysical modeling, demographic models, and genetics. Combining methods illustrating potential dispersal, such as biophysical modeling, with realized dispersal through, e.g., genetic connectivity estimates, provides particularly useful information for teasing apart potential causes of observed barriers. In this study, we focus on blue mussels (Mytilus edulis) in the Skagerrak-a marginal sea connected to the North Sea in Northern Europe-and combine biophysical models of larval dispersal with genomic data to infer locations and causes of dispersal barriers in the area. Results from both methods agree; patterns of ocean currents are a major structuring factor in the area. We find a complex pattern of source-sink dynamics with several dispersal barriers and show that some areas can be isolated despite an overall high dispersal capability. Finally, we translate our finding into management advice that can be used to sustainably manage this ecologically and economically important species in the future.",
-    "published": "2024-05-00",
+    "iuid": "dbc92553ebbe4a27bb1181acdc5a493e",
+    "doi": "10.1038/s41467-019-13558-8",
+    "pmid": "31836703",
+    "title": "BEN-solo factors partition active chromatin to ensure proper gene activation in Drosophila.",
+    "abstract": "The Drosophila genome encodes three BEN-solo proteins including Insensitive (Insv), Elba1 and Elba2 that possess activities in transcriptional repression and chromatin insulation. A fourth protein-Elba3-bridges Elba1 and Elba2 to form an ELBA complex. Here, we report comprehensive investigation of these proteins in Drosophila embryos. We assess common and distinct binding sites for Insv and ELBA and their genetic interdependencies. While Elba1 and Elba2 binding generally requires the ELBA complex, Elba3 can associate with chromatin independently of Elba1 and Elba2. We further demonstrate that ELBA collaborates with other insulators to regulate developmental patterning. Finally, we find that adjacent gene pairs separated by an ELBA bound sequence become less differentially expressed in ELBA mutants. Transgenic reporters confirm the insulating activity of ELBA- and Insv-bound sites. These findings define ELBA and Insv as general insulator proteins in Drosophila and demonstrate the functional importance of insulators to partition transcription units.",
+    "published": "2019-12-13",
     "type": "journal article",
     "authors": [
       {
         "given": "Malin",
-        "family": "Gustafsson",
+        "family": "Ueberschär",
         "initials": "M"
       },
       {
-        "given": "Åsa",
-        "family": "Strand",
-        "initials": "Å",
-        "orcid": "0000-0002-9029-4123",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/9702edaf28fe4a56b9d345f0045d6165.json"
-        }
+        "given": "Huazhen",
+        "family": "Wang",
+        "initials": "H"
       },
       {
-        "given": "Ane T",
-        "family": "Laugen",
-        "initials": "AT",
-        "orcid": "0000-0001-6196-8304",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ed598dee082844f8b057abe7c4902ab3.json"
-        }
+        "given": "Chun",
+        "family": "Zhang",
+        "initials": "C"
       },
       {
-        "given": "Jon",
-        "family": "Albretsen",
-        "initials": "J",
-        "orcid": "0000-0001-5863-2439",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/fc5786b0b2f64052a1288038dc5a6310.json"
-        }
+        "given": "Shu",
+        "family": "Kondo",
+        "initials": "S"
       },
       {
-        "given": "Carl",
-        "family": "André",
-        "initials": "C",
-        "orcid": "0000-0003-4404-7292",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/66e1d059567644a7b7080eb10d209723.json"
-        }
+        "given": "Tsutomu",
+        "family": "Aoki",
+        "initials": "T"
       },
       {
-        "given": "Göran",
-        "family": "Broström",
-        "initials": "G"
+        "given": "Paul",
+        "family": "Schedl",
+        "initials": "P"
       },
       {
-        "given": "Per Erik",
-        "family": "Jorde",
-        "initials": "PE",
-        "orcid": "0000-0001-5515-7257",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/0466e9d7fdff40718e81e9bd530510f9.json"
-        }
+        "given": "Eric C",
+        "family": "Lai",
+        "initials": "EC"
       },
       {
-        "given": "Halvor",
-        "family": "Knutsen",
-        "initials": "H",
-        "orcid": "0000-0002-7627-7634",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/a822f994fed046018a713105bc5e03a0.json"
-        }
+        "given": "Jiayu",
+        "family": "Wen",
+        "initials": "J"
       },
       {
-        "given": "Olga",
-        "family": "Ortega-Martinez",
-        "initials": "O",
-        "orcid": "0000-0003-2734-6434",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/bc84f54ca2cc49bc869cd23adeffc7ac.json"
-        }
-      },
-      {
-        "given": "Marte",
-        "family": "Sodeland",
-        "initials": "M",
-        "orcid": "0000-0001-6703-3972",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/577d007c219b48f3919ca2d62c3303d3.json"
-        }
-      },
-      {
-        "given": "Malin",
-        "family": "Waern",
-        "initials": "M",
-        "orcid": "0000-0002-2459-040X",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/15f48c8e09ab4b0880b4ed44feacbd87.json"
-        }
-      },
-      {
-        "given": "Anna-Lisa",
-        "family": "Wrange",
-        "initials": "AL",
-        "orcid": "0000-0002-3574-1779",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/359e203f84144c26878b1dcbf1657dda.json"
-        }
-      },
-      {
-        "given": "Pierre",
-        "family": "De Wit",
-        "initials": "P",
-        "orcid": "0000-0003-4709-3438",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/95b69d4724ce4b69819c0a1578cd56eb.json"
-        }
+        "given": "Qi",
+        "family": "Dai",
+        "initials": "Q"
       }
     ],
     "journal": {
-      "title": "Evol Appl",
-      "volume": "17",
-      "issue": "5",
-      "issn": "1752-4571",
-      "issn-l": "1752-4571",
-      "pages": "e13704"
+      "title": "Nat Commun",
+      "volume": "10",
+      "issue": "1",
+      "issn": "2041-1723",
+      "issn-l": "2041-1723",
+      "pages": "5700"
     },
     "labels": {
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "NGI Short read": "Service",
       "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Stockholm (Genomics Production)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/dbc92553ebbe4a27bb1181acdc5a493e.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/dbc92553ebbe4a27bb1181acdc5a493e"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s41467-019-13558-8"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC6911014"
+      }
+    ],
+    "notes": [],
+    "created": "2020-01-08T16:48:51.677Z",
+    "modified": "2020-01-21T13:56:16.511Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "93dff8562c4a43bf9052f0be7d1f2716",
+    "doi": "10.1038/s41398-022-02248-7",
+    "pmid": "36379924",
+    "title": "Meta-analysis of genome-wide association studies of hoarding symptoms in 27,537 individuals.",
+    "abstract": "Hoarding Disorder (HD) is a mental disorder characterized by persistent difficulties discarding or parting with possessions, often resulting in cluttered living spaces, distress, and impairment. Its etiology is largely unknown, but twin studies suggest that it is moderately heritable. In this study, we pooled phenotypic and genomic data from seven international cohorts (N = 27,537 individuals) and conducted a genome wide association study (GWAS) meta-analysis of parent- or self-reported hoarding symptoms (HS). We followed up the results with gene-based and gene-set analyses, as well as leave-one-out HS polygenic risk score (PRS) analyses. To examine a possible genetic association between hoarding symptoms and other phenotypes we conducted cross-trait PRS analyses. Though we did not report any genome-wide significant SNPs, we report heritability estimates for the twin-cohorts between 26-48%, and a SNP-heritability of 11% for an unrelated sub-cohort. Cross-trait PRS analyses showed that the genetic risk for schizophrenia and autism spectrum disorder were significantly associated with hoarding symptoms. We also found suggestive evidence for an association with educational attainment. There were no significant associations with other phenotypes previously linked to HD, such as obsessive-compulsive disorder, depression, anxiety, or attention-deficit hyperactivity disorder. To conclude, we found that HS are heritable, confirming and extending previous twin studies but we had limited power to detect any genome-wide significant loci. Much larger samples will be needed to further extend these findings and reach a \"gene discovery zone\". To move the field forward, future research should not only include genetic analyses of quantitative hoarding traits in larger samples, but also in samples of individuals meeting strict diagnostic criteria for HD, and more ethnically diverse samples.",
+    "published": "2022-11-15",
+    "type": "meta-analysis",
+    "authors": [
+      {
+        "given": "Nora I",
+        "family": "Strom",
+        "initials": "NI",
+        "orcid": "0000-0002-5261-8852",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/bcd18b76d8d948dfb5529a2be294ecab.json"
+        }
+      },
+      {
+        "given": "Dirk J A",
+        "family": "Smit",
+        "initials": "DJA",
+        "orcid": "0000-0001-8301-8860",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fe64f7980537495aba79c0eca978e95d.json"
+        }
+      },
+      {
+        "given": "Talisa",
+        "family": "Silzer",
+        "initials": "T"
+      },
+      {
+        "given": "Conrad",
+        "family": "Iyegbe",
+        "initials": "C"
+      },
+      {
+        "given": "Christie L",
+        "family": "Burton",
+        "initials": "CL",
+        "orcid": "0000-0002-8955-6528",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4607f407ac9d4213a81b4a77b4cce4ad.json"
+        }
+      },
+      {
+        "given": "René",
+        "family": "Pool",
+        "initials": "R",
+        "orcid": "0000-0001-5579-0933",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fc33e91c50654a6a88a44db4b6755f73.json"
+        }
+      },
+      {
+        "given": "Mathieu",
+        "family": "Lemire",
+        "initials": "M"
+      },
+      {
+        "given": "James J",
+        "family": "Crowley",
+        "initials": "JJ",
+        "orcid": "0000-0001-9051-1557",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/14ecad66262b47dcadebcc8c7e759024.json"
+        }
+      },
+      {
+        "given": "Jouke-Jan",
+        "family": "Hottenga",
+        "initials": "JJ",
+        "orcid": "0000-0002-5668-2368",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/75553b594b1f4255833de730f7f7d170.json"
+        }
+      },
+      {
+        "given": "Volen Z",
+        "family": "Ivanov",
+        "initials": "VZ"
+      },
+      {
+        "given": "Henrik",
+        "family": "Larsson",
+        "initials": "H",
+        "orcid": "0000-0002-6851-3297",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/21f2cca2f6b74c5393c0fc33bcf15ee6.json"
+        }
+      },
+      {
+        "given": "Paul",
+        "family": "Lichtenstein",
+        "initials": "P",
+        "orcid": "0000-0003-3037-5287",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4db67c51837b4cdfa18cacbc3fca1173.json"
+        }
+      },
+      {
+        "given": "Patrik",
+        "family": "Magnusson",
+        "initials": "P",
+        "orcid": "0000-0002-7315-7899",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b277b6387de142bbab91fad82d9eff09.json"
+        }
+      },
+      {
+        "given": "Christian",
+        "family": "Rück",
+        "initials": "C",
+        "orcid": "0000-0002-8742-0168",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/496a782babf3403ba32f805f360d246f.json"
+        }
+      },
+      {
+        "given": "Russell J",
+        "family": "Schachar",
+        "initials": "RJ"
+      },
+      {
+        "given": "Hei Man",
+        "family": "Wu",
+        "initials": "HM",
+        "orcid": "0000-0003-1559-7586",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1578fafcb32642609d408fcff09cd91e.json"
+        }
+      },
+      {
+        "given": "Sandra M",
+        "family": "Meier",
+        "initials": "SM"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Crosbie",
+        "initials": "J"
+      },
+      {
+        "given": "Paul D",
+        "family": "Arnold",
+        "initials": "PD",
+        "orcid": "0000-0003-2496-4624",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c21fa35b3bf246ab8a96866510fc069b.json"
+        }
+      },
+      {
+        "given": "Manuel",
+        "family": "Mattheisen",
+        "initials": "M",
+        "orcid": "0000-0002-8442-493X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c38fef539c2c4cebb81eff917aa3d4ef.json"
+        }
+      },
+      {
+        "given": "Dorret I",
+        "family": "Boomsma",
+        "initials": "DI",
+        "orcid": "0000-0002-7099-7972",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4b66ab2525fd4a468e7a4ad14c955cb4.json"
+        }
+      },
+      {
+        "given": "David",
+        "family": "Mataix-Cols",
+        "initials": "D",
+        "orcid": "0000-0002-4545-0924",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9954431e50b749aeb6957835ae1632f3.json"
+        }
+      },
+      {
+        "given": "Danielle",
+        "family": "Cath",
+        "initials": "D"
+      }
+    ],
+    "journal": {
+      "title": "Transl Psychiatry",
+      "volume": "12",
+      "issue": "1",
+      "issn": "2158-3188",
+      "issn-l": "2158-3188",
+      "pages": "479"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI SNP genotyping": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
       "Bioinformatics Support for Computational Resources": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/9b508c1fd9064736b2a6e61b2a90718a.json"
+        "href": "https://publications.scilifelab.se/publication/93dff8562c4a43bf9052f0be7d1f2716.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/9b508c1fd9064736b2a6e61b2a90718a"
+        "href": "https://publications.scilifelab.se/publication/93dff8562c4a43bf9052f0be7d1f2716"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC11104481"
+        "key": "PMC9666541"
       },
       {
         "db": "pii",
-        "key": "EVA13704"
+        "key": "10.1038/s41398-022-02248-7"
       }
     ],
     "notes": [],
-    "created": "2024-10-21T11:15:54.793Z",
-    "modified": "2024-11-25T10:26:53.880Z",
+    "created": "2022-12-23T11:26:48.889Z",
+    "modified": "2024-01-16T13:48:34.470Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "dc9a30bd8f0e49a59ae2fc54afee5c1c",
-    "doi": "10.1186/s13104-023-06537-2",
-    "pmid": "37817248",
-    "title": "Genomic, transcriptomic and epigenomic sequencing data of the B-cell leukemia cell line REH.",
-    "abstract": "The aim of this data paper is to describe a collection of 33 genomic, transcriptomic and epigenomic sequencing datasets of the B-cell acute lymphoblastic leukemia (ALL) cell line REH. REH is one of the most frequently used cell lines for functional studies of pediatric ALL, and these data provide a multi-faceted characterization of its molecular features. The datasets described herein, generated with short- and long-read sequencing technologies, can both provide insights into the complex aberrant karyotype of REH, and be used as reference datasets for sequencing data quality assessment or for methods development.\r\n\r\nThis paper describes 33 datasets corresponding to 867 gigabases of raw sequencing data generated from the REH cell line. These datasets include five different approaches for whole genome sequencing (WGS) on four sequencing platforms, two RNA sequencing (RNA-seq) techniques on two different sequencing platforms, DNA methylation sequencing, and single-cell ATAC-sequencing.",
-    "published": "2023-10-10",
+    "iuid": "503a270c509f483ba14d05ddc08c1626",
+    "doi": "10.1016/j.cub.2021.03.084",
+    "pmid": "33848458",
+    "title": "African and Asian leopards are highly differentiated at the genomic level.",
+    "abstract": "Leopards are the only big cats still widely distributed across the continents of Africa and Asia. They occur in a wide range of habitats and are often found in close proximity to humans. But despite their ubiquity, leopard phylogeography and population history have not yet been studied with genomic tools. Here, we present population-genomic data from 26 modern and historical samples encompassing the vast geographical distribution of this species. We find that Asian leopards are broadly monophyletic with respect to African leopards across almost their entire nuclear genomes. This profound genetic pattern persists despite the animals' high potential mobility, and despite evidence of transfer of African alleles into Middle Eastern and Central Asian leopard populations within the last 100,000 years. Our results further suggest that Asian leopards originated from a single out-of-Africa dispersal event 500-600 thousand years ago and are characterized by higher population structuring, stronger isolation by distance, and lower heterozygosity than African leopards. Taxonomic categories do not take into account the variability in depth of divergence among subspecies. The deep divergence between the African subspecies and Asian populations contrasts with the much shallower divergence among putative Asian subspecies. Reconciling genomic variation and taxonomy is likely to be a growing challenge in the genomics era.",
+    "published": "2021-05-10",
     "type": "journal article",
     "authors": [
       {
-        "given": "Mariya",
-        "family": "Lysenkova Wiklander",
-        "initials": "M"
+        "given": "Johanna L A",
+        "family": "Paijmans",
+        "initials": "JLA"
       },
       {
-        "given": "Elin",
-        "family": "Övernäs",
-        "initials": "E"
+        "given": "Axel",
+        "family": "Barlow",
+        "initials": "A"
+      },
+      {
+        "given": "Matthew S",
+        "family": "Becker",
+        "initials": "MS"
+      },
+      {
+        "given": "James A",
+        "family": "Cahill",
+        "initials": "JA"
+      },
+      {
+        "given": "Joerns",
+        "family": "Fickel",
+        "initials": "J",
+        "orcid": "0000-0002-0593-5820",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/40018134351a481ab2d00b4113404c47.json"
+        }
+      },
+      {
+        "given": "Daniel W G",
+        "family": "Förster",
+        "initials": "DWG",
+        "orcid": "0000-0002-6934-0404",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/71cd2161c82547d7a0bb7d4049a41473.json"
+        }
+      },
+      {
+        "given": "Katrin",
+        "family": "Gries",
+        "initials": "K",
+        "orcid": "0000-0001-9441-1465",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b95bd682636c4becb3e977da6b5f221e.json"
+        }
+      },
+      {
+        "given": "Stefanie",
+        "family": "Hartmann",
+        "initials": "S",
+        "orcid": "0000-0002-3476-0169",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0d5ae4f0b70c4c33a7070830804670f8.json"
+        }
+      },
+      {
+        "given": "Rasmus Worsøe",
+        "family": "Havmøller",
+        "initials": "RW"
+      },
+      {
+        "given": "Kirstin",
+        "family": "Henneberger",
+        "initials": "K"
+      },
+      {
+        "given": "Christian",
+        "family": "Kern",
+        "initials": "C",
+        "orcid": "0000-0003-0298-064X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/268334dc599142d0929293626d4d35c3.json"
+        }
+      },
+      {
+        "given": "Andrew C",
+        "family": "Kitchener",
+        "initials": "AC"
+      },
+      {
+        "given": "Eline D",
+        "family": "Lorenzen",
+        "initials": "ED"
+      },
+      {
+        "given": "Frieder",
+        "family": "Mayer",
+        "initials": "F"
+      },
+      {
+        "given": "Stephen J",
+        "family": "OBrien",
+        "initials": "SJ",
+        "orcid": "0000-0001-7857-0757",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/261799ba7d5b4989b5f0f7b0388e3f32.json"
+        }
       },
       {
         "given": "Johanna",
-        "family": "Lagensjö",
+        "family": "von Seth",
+        "initials": "J",
+        "orcid": "0000-0002-1324-7489",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/caeaa61758c4474ebd104ec232041341.json"
+        }
+      },
+      {
+        "given": "Mikkel-Holder S",
+        "family": "Sinding",
+        "initials": "MS"
+      },
+      {
+        "given": "Göran",
+        "family": "Spong",
+        "initials": "G"
+      },
+      {
+        "given": "Olga",
+        "family": "Uphyrkina",
+        "initials": "O",
+        "orcid": "0000-0002-4436-1647",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/649667810d2849a4957d5d9f475eb225.json"
+        }
+      },
+      {
+        "given": "Bettina",
+        "family": "Wachter",
+        "initials": "B",
+        "orcid": "0000-0002-0414-2298",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/a28e4139fcf84006a6b132d49edddbce.json"
+        }
+      },
+      {
+        "given": "Michael V",
+        "family": "Westbury",
+        "initials": "MV"
+      },
+      {
+        "given": "Love",
+        "family": "Dalén",
+        "initials": "L",
+        "orcid": "0000-0001-8270-7613",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/48ecf726779249ac9d12f4f7a1cc62bf.json"
+        }
+      },
+      {
+        "given": "Jong",
+        "family": "Bhak",
         "initials": "J"
       },
       {
-        "given": "Amanda",
-        "family": "Raine",
-        "initials": "A"
+        "given": "Andrea",
+        "family": "Manica",
+        "initials": "A",
+        "orcid": "0000-0003-1895-450X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d9332f04a6854ba18fad50c5fca8891c.json"
+        }
       },
       {
-        "given": "Anna",
-        "family": "Petri",
-        "initials": "A"
+        "given": "Michael",
+        "family": "Hofreiter",
+        "initials": "M"
+      }
+    ],
+    "journal": {
+      "title": "Curr. Biol.",
+      "volume": "31",
+      "issue": "9",
+      "issn": "1879-0445",
+      "issn-l": "0960-9822",
+      "pages": "1872-1882.e5"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": null,
+      "NGI Stockholm (Genomics Applications)": null,
+      "National Genomics Infrastructure": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/503a270c509f483ba14d05ddc08c1626.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/503a270c509f483ba14d05ddc08c1626"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "S0960-9822(21)00457-7"
+      }
+    ],
+    "notes": [],
+    "created": "2021-06-09T12:14:28.866Z",
+    "modified": "2021-11-10T12:24:57.977Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "58eb7a843c0344258c15ea9349bdbe5a",
+    "doi": "10.1186/s40478-021-01234-2",
+    "pmid": "34344473",
+    "title": "Single-cell multimodal analysis in a case with reduced penetrance of Progranulin-Frontotemporal Dementia.",
+    "abstract": "We identified an autosomal dominant progranulin mutation carrier without symptoms of dementia in her lifetime (Reduced Penetrance Mutation Carrier, RedPenMC). This resistance to develop expected pathology presents a unique opportunity to interrogate neurodegenerative mechanisms. We performed multimodal single-nuclei analyses of post-mortem frontal cortex from RedPenMC, including transcriptomics and global levels of chromatin marks. RedPenMC had an increased ratio of GRN-expressing microglia, higher levels of activating histone mark H3k4me3 in microglia and lower levels of the repressive chromatin marks H3k9me1 and H3k9me3 in the frontal cortex than her affected mutation carrier son and evidence of higher protein levels of progranulin in both plasma and brain homogenates. Although the study is limited to one case, the results support that restoring brain progranulin levels may be sufficient to escape neurodegeneration and FTD. In addition to previously identified modifier genes, it is possible that epigenetic marks may contribute to the increased progranulin expression in cases of reduced penetrance. These findings may stimulate similar follow-up studies and new therapeutic approaches.",
+    "published": "2021-08-03",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Karthick",
+        "family": "Natarajan",
+        "initials": "K",
+        "orcid": "0000-0001-5335-875X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/389c50cf68cc43c2bd154addeafe768a.json"
+        }
       },
       {
-        "given": "Ann-Christin",
-        "family": "Wiman",
-        "initials": "A"
-      },
-      {
-        "given": "Jon",
-        "family": "Ramsell",
+        "given": "Jesper",
+        "family": "Eisfeldt",
         "initials": "J"
       },
       {
-        "given": "Yanara",
-        "family": "Marincevic-Zuniga",
-        "initials": "Y"
+        "given": "Maria",
+        "family": "Hammond",
+        "initials": "M"
       },
       {
-        "given": "Henrik",
-        "family": "Gezelius",
-        "initials": "H"
+        "given": "José Miguel",
+        "family": "Laffita-Mesa",
+        "initials": "JM"
       },
       {
-        "given": "Tom",
-        "family": "Martin",
-        "initials": "T"
+        "given": "Kalicharan",
+        "family": "Patra",
+        "initials": "K"
+      },
+      {
+        "given": "Behzad",
+        "family": "Khoshnood",
+        "initials": "B"
+      },
+      {
+        "given": "Linn",
+        "family": "Öijerstedt",
+        "initials": "L"
+      },
+      {
+        "given": "Caroline",
+        "family": "Graff",
+        "initials": "C"
+      }
+    ],
+    "journal": {
+      "title": "Acta Neuropathol Commun",
+      "volume": "9",
+      "issue": "1",
+      "issn": "2051-5960",
+      "issn-l": "2051-5960",
+      "pages": "132"
+    },
+    "labels": {
+      "Bioinformatics Support and Infrastructure": "Service",
+      "Bioinformatics Support, Infrastructure and Training": "Service",
+      "Affinity Proteomics Uppsala": "Technology development",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "Bioinformatics Support for Computational Resources": "Service",
+      "Bioinformatics (NBIS)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/58eb7a843c0344258c15ea9349bdbe5a.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/58eb7a843c0344258c15ea9349bdbe5a"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1186/s40478-021-01234-2"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC8336016"
+      }
+    ],
+    "notes": [],
+    "created": "2021-08-25T09:08:35.655Z",
+    "modified": "2024-01-16T13:48:38.876Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "0477d212635a4177b3e68b39e3fa2f20",
+    "doi": "10.1093/gbe/evae133",
+    "pmid": "38918882",
+    "title": "Limited Parallelism in Genetic Adaptation to Brackish Water Bodies in European Sprat and Atlantic Herring.",
+    "abstract": "The European sprat is a small plankton-feeding clupeid present in the northeastern Atlantic Ocean, in the Mediterranean Sea, and in the brackish Baltic Sea and Black Sea. This species is the target of a major fishery and, therefore, an accurate characterization of its genetic population structure is crucial to delineate proper stock assessments that aid ensuring the fishery's sustainability. Here, we present (i) a draft genome assembly, (ii) pooled whole genome sequencing of 19 population samples covering most of the species' distribution range, and (iii) the design and test of a single nucleotide polymorphism (SNP)-chip resource and use this to validate the population structure inferred from pooled sequencing. These approaches revealed, using the populations sampled here, three major groups of European sprat: Oceanic, Coastal, and Brackish with limited differentiation within groups even over wide geographical stretches. Genetic structure is largely driven by six large putative inversions that differentiate Oceanic and Brackish sprats, while Coastal populations display intermediate frequencies of haplotypes at each locus. Interestingly, populations from the Baltic and the Black Seas share similar frequencies of haplotypes at these putative inversions despite their distant geographic location. The closely related clupeids European sprat and Atlantic herring both show genetic adaptation to the brackish Baltic Sea, providing an opportunity to explore the extent of genetic parallelism. This analysis revealed limited parallelism because out of 125 independent loci detected in the Atlantic herring, three showed sharp signals of selection that overlapped between the two species and contained single genes such as PRLRA, which encodes the receptor for prolactin, a freshwater-adapting hormone in euryhaline species, and THRB, a receptor for thyroid hormones, important both for metabolic regulation and the development of red cone photoreceptors.",
+    "published": "2024-07-03",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Mats E",
+        "family": "Pettersson",
+        "initials": "ME",
+        "orcid": "0000-0002-7372-9076",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/27011c7fbb8a44dda536a4fc876675b0.json"
+        }
+      },
+      {
+        "given": "María",
+        "family": "Quintela",
+        "initials": "M"
+      },
+      {
+        "given": "François",
+        "family": "Besnier",
+        "initials": "F"
+      },
+      {
+        "given": "Qiaoling",
+        "family": "Deng",
+        "initials": "Q"
+      },
+      {
+        "given": "Florian",
+        "family": "Berg",
+        "initials": "F",
+        "orcid": "0000-0003-1543-8112",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/902b6c39c4f5463ea25888c17732fc3e.json"
+        }
+      },
+      {
+        "given": "Cecilie",
+        "family": "Kvamme",
+        "initials": "C"
+      },
+      {
+        "given": "Dorte",
+        "family": "Bekkevold",
+        "initials": "D",
+        "orcid": "0000-0002-5297-032X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/38c62afa02e94554ba1c3afcfc622555.json"
+        }
+      },
+      {
+        "given": "Mai-Britt",
+        "family": "Mosbech",
+        "initials": "MB"
       },
       {
         "given": "Ignas",
@@ -1327,628 +1936,238 @@
         "initials": "I"
       },
       {
-        "given": "Sara",
-        "family": "Ekberg",
-        "initials": "S"
-      },
-      {
-        "given": "Rikard",
-        "family": "Erlandsson",
+        "given": "Roger",
+        "family": "Lille-Langøy",
         "initials": "R"
       },
       {
-        "given": "Pontus",
-        "family": "Larsson",
-        "initials": "P"
+        "given": "Iole",
+        "family": "Leonori",
+        "initials": "I",
+        "orcid": "0000-0001-7673-1684",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/abf52b64cdde43838c36347af47ea670.json"
+        }
       },
       {
-        "given": "Mai-Britt",
-        "family": "Mosbech",
-        "initials": "M"
+        "given": "Andreas",
+        "family": "Wallberg",
+        "initials": "A",
+        "orcid": "0000-0002-9081-9663",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b67a52aca631482d8b8f58e525a82d14.json"
+        }
       },
       {
-        "given": "Susana",
-        "family": "Häggqvist",
-        "initials": "S"
+        "given": "Kevin A",
+        "family": "Glover",
+        "initials": "KA"
       },
       {
-        "given": "Susanne",
-        "family": "Hellstedt Kerje",
-        "initials": "S"
-      },
-      {
-        "given": "Lars",
-        "family": "Feuk",
-        "initials": "L"
-      },
-      {
-        "given": "Adam",
-        "family": "Ameur",
-        "initials": "A"
-      },
-      {
-        "given": "Ulrika",
-        "family": "Liljedahl",
-        "initials": "U"
-      },
-      {
-        "given": "Jessica",
-        "family": "Nordlund",
-        "initials": "J"
+        "given": "Leif",
+        "family": "Andersson",
+        "initials": "L",
+        "orcid": "0000-0002-4085-6968",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/bd3343c12f994b1fabcae23027d3a76d.json"
+        }
       }
     ],
     "journal": {
-      "title": "BMC Res Notes",
+      "title": "Genome Biol Evol",
       "volume": "16",
-      "issue": "1",
-      "issn": "1756-0500",
-      "issn-l": "1756-0500",
-      "pages": "265"
+      "issue": "7",
+      "issn": "1759-6653",
+      "issn-l": "1759-6653",
+      "pages": null
     },
     "labels": {
-      "National Genomics Infrastructure": "Collaborative",
       "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
-      "NGI Short read": "Collaborative",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Collaborative",
+      "NGI Long read": "Collaborative",
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "NGI Short read": "Service",
       "Bioinformatics Support for Computational Resources": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/dc9a30bd8f0e49a59ae2fc54afee5c1c.json"
+        "href": "https://publications.scilifelab.se/publication/0477d212635a4177b3e68b39e3fa2f20.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/dc9a30bd8f0e49a59ae2fc54afee5c1c"
+        "href": "https://publications.scilifelab.se/publication/0477d212635a4177b3e68b39e3fa2f20"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC10566058"
+        "key": "PMC11226789"
       },
       {
         "db": "pii",
-        "key": "10.1186/s13104-023-06537-2"
+        "key": "7699122"
       }
     ],
     "notes": [],
-    "created": "2023-10-12T11:13:24.427Z",
-    "modified": "2024-01-16T13:48:31.989Z",
+    "created": "2024-11-04T20:50:27.197Z",
+    "modified": "2024-11-25T10:24:21.553Z",
     "is_collab": true,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "bc1e3776d31d4aeb994e45d42f982b6f",
-    "doi": "10.1038/ismej.2011.84",
-    "pmid": "21716306",
-    "title": "High-throughput single-cell sequencing identifies photoheterotrophs and chemoautotrophs in freshwater bacterioplankton.",
-    "abstract": "Recent discoveries suggest that photoheterotrophs (rhodopsin-containing bacteria (RBs) and aerobic anoxygenic phototrophs (AAPs)) and chemoautotrophs may be significant for marine and freshwater ecosystem productivity. However, their abundance and taxonomic identities remain largely unknown. We used a combination of single-cell and metagenomic DNA sequencing to study the predominant photoheterotrophs and chemoautotrophs inhabiting the euphotic zone of temperate, physicochemically diverse freshwater lakes. Multi-locus sequencing of 712 single amplified genomes, generated by fluorescence-activated cell sorting and whole genome multiple displacement amplification, showed that most of the cosmopolitan freshwater clusters contain photoheterotrophs. These comprised at least 10-23% of bacterioplankton, and RBs were the dominant fraction. Our data demonstrate that Actinobacteria, including clusters acI, Luna and acSTL, are the predominant freshwater RBs. We significantly broaden the known taxonomic range of freshwater RBs, to include Alpha-, Beta-, Gamma- and Deltaproteobacteria, Verrucomicrobia and Sphingobacteria. By sequencing single cells, we found evidence for inter-phyla horizontal gene transfer and recombination of rhodopsin genes and identified specific taxonomic groups involved in these evolutionary processes. Our data suggest that members of the ubiquitous betaproteobacteria Polynucleobacter spp. are the dominant AAPs in temperate freshwater lakes. Furthermore, the RuBisCO (ribulose 1,5-bisphosphate carboxylase/oxygenase) gene was found in several single cells of Betaproteobacteria, Bacteroidetes and Gammaproteobacteria, suggesting that chemoautotrophs may be more prevalent among aerobic bacterioplankton than previously thought. This study demonstrates the power of single-cell DNA sequencing addressing previously unresolved questions about the metabolic potential and evolutionary histories of uncultured microorganisms, which dominate most natural environments.",
-    "published": "2012-01-00",
+    "iuid": "dcfeee20dac44d149e7456edf098d297",
+    "doi": "10.1016/j.xgen.2025.100761",
+    "pmid": "39874962",
+    "title": "Chromosome-scale genome assembly reveals how repeat elements shape non-coding RNA landscapes active during newt limb regeneration.",
+    "abstract": "Newts have large genomes harboring many repeat elements. How these elements shape the genome and relate to newts' unique regeneration ability remains unknown. We present here the chromosome-scale assembly of the 20.3 Gb genome of the Iberian ribbed newt, Pleurodeles waltl, with a hitherto unprecedented contiguity and completeness among giant genomes. Utilizing this assembly, we demonstrate conserved synteny as well as genetic rearrangements, such as in the major histocompatibility complex locus. We provide evidence suggesting that intronic repeat elements drive newt-specific circular RNA (circRNA) biogenesis and show their regeneration-specific expression. We also present a comprehensive in-depth annotation and chromosomal mapping of microRNAs, highlighting genomic expansion profiles as well as a distinct regulatory pattern in the regenerating limb. These data reveal links between repeat elements, non-coding RNAs, and adult regeneration and provide key resources for addressing developmental, regenerative, and evolutionary principles.",
+    "published": "2025-01-22",
     "type": "journal article",
     "authors": [
       {
-        "given": "Manuel",
-        "family": "Martinez-Garcia",
-        "initials": "M"
-      },
-      {
-        "given": "Brandon K",
-        "family": "Swan",
-        "initials": "BK"
-      },
-      {
-        "given": "Nicole J",
-        "family": "Poulton",
-        "initials": "NJ"
-      },
-      {
-        "given": "Monica Lluesma",
-        "family": "Gomez",
-        "initials": "ML"
-      },
-      {
-        "given": "Dashiell",
-        "family": "Masland",
-        "initials": "D"
-      },
-      {
-        "given": "Michael E",
-        "family": "Sieracki",
-        "initials": "ME"
-      },
-      {
-        "given": "Ramunas",
-        "family": "Stepanauskas",
-        "initials": "R"
-      }
-    ],
-    "journal": {
-      "title": "ISME J",
-      "volume": "6",
-      "issue": "1",
-      "issn": "1751-7370",
-      "issn-l": "1751-7362",
-      "pages": "113-123"
-    },
-    "labels": {
-      "National Genomics Infrastructure": null,
-      "NGI Stockholm (Genomics Applications)": null,
-      "NGI Stockholm (Genomics Production)": null
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/bc1e3776d31d4aeb994e45d42f982b6f.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/bc1e3776d31d4aeb994e45d42f982b6f"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "ismej201184"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC3246240"
-      }
-    ],
-    "notes": [],
-    "created": "2017-05-04T14:57:36.282Z",
-    "modified": "2020-01-21T13:56:04.913Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "a66d093637414a70b17413710bda1d35",
-    "doi": "10.1161/STROKEAHA.123.043551",
-    "pmid": "37465995",
-    "title": "Mosaic Loss of Chromosome Y Is Associated With Functional Outcome After Ischemic Stroke.",
-    "abstract": "Mosaic loss of chromosome Y (LOY) is associated with cardiovascular and neurodegenerative diseases in men, and genetic predisposition to LOY is associated with poor poststroke outcome. We, therefore, tested the hypothesis that LOY itself is associated with functional outcome after ischemic stroke.\n\nThe study comprised male patients with ischemic stroke from the cohort studies SAHLSIS2 (Sahlgrenska Academy Study on Ischemic Stroke Phase 2; n=588) and LSR (Lund Stroke Register; n=735). We used binary logistic regression to analyze associations between LOY, determined by DNA microarray intensity data, and poor 3-month functional outcome (modified Rankin Scale score, >2) in each cohort separately and combined. Patients who received recanalization therapy were excluded from sensitivity analyses.\n\nLOY was associated with about 2.5-fold increased risk of poor outcome in univariable analyses (P<0.001). This association withstood separate adjustment for stroke severity and diabetes in both cohorts but not age. In sensitivity analyses restricted to the nonrecanalization group (n=987 in the combined cohort), the association was significant also after separate adjustment for age (odds ratio, 1.6 [95% CI, 1.1-2.4]) and when additionally adjusting for stroke severity and diabetes (odds ratio, 1.6 [95% CI, 1.1-2.5]).\n\nWe observed an association between LOY and poor outcome after ischemic stroke in patients not receiving recanalization therapy. Future studies on LOY and other somatic genetic alterations in larger stroke cohorts are warranted.",
-    "published": "2023-09-00",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Malin",
-        "family": "Dorvall",
-        "initials": "M",
-        "orcid": "0009-0009-4646-5130",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/fc024352284b481180f888ff19d03627.json"
-        }
-      },
-      {
-        "given": "Annie",
-        "family": "Pedersen",
-        "initials": "A",
-        "orcid": "0000-0002-7498-7755",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/596f0e19af284f1b83c1e3de24f64526.json"
-        }
-      },
-      {
-        "given": "Jan P",
-        "family": "Dumanski",
-        "initials": "JP",
-        "orcid": "0000-0002-1489-1452",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/15b14282209342cfa9c82cdbf02999f6.json"
-        }
-      },
-      {
-        "given": "Martin",
-        "family": "Söderholm",
-        "initials": "M",
-        "orcid": "0009-0001-3129-9581",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/c7c0a66eb28644deb98160c4c94fe737.json"
-        }
-      },
-      {
-        "given": "Arne G",
-        "family": "Lindgren",
-        "initials": "AG",
-        "orcid": "0000-0003-1942-7330",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/94b604b14f1f4776a19010f5ac2a575c.json"
-        }
-      },
-      {
-        "given": "Tara M",
-        "family": "Stanne",
-        "initials": "TM",
-        "orcid": "0000-0001-9668-0407",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f3c967b386124a3199b2373de1111d03.json"
-        }
-      },
-      {
-        "given": "Christina",
-        "family": "Jern",
-        "initials": "C",
-        "orcid": "0000-0002-7531-2354",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/13e58d6c4a2e44cd9067f38a2ff2ea32.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Stroke",
-      "volume": "54",
-      "issue": "9",
-      "issn": "1524-4628",
-      "issn-l": "0039-2499",
-      "pages": "2434-2437"
-    },
-    "labels": {
-      "NGI SNP genotyping": "Service",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "Clinical Genomics Gothenburg": "Service",
-      "Clinical Genomics": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/a66d093637414a70b17413710bda1d35.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/a66d093637414a70b17413710bda1d35"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "mid",
-        "key": "NIHMS1915501"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC10453343"
-      }
-    ],
-    "notes": [],
-    "created": "2023-11-29T11:19:36.243Z",
-    "modified": "2023-11-30T22:29:53.328Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "6020ba73a1074d6781fddb32a0955729",
-    "doi": "10.1186/1471-2164-12-185",
-    "pmid": "21486474",
-    "title": "Clostridium botulinum group III: a group with dual identity shaped by plasmids, phages and mobile elements.",
-    "abstract": "Clostridium botulinum strains can be divided into four physiological groups that are sufficiently diverged to be considered as separate species. Here we present the first complete genome of a C. botulinum strain from physiological group III, causing animal botulism. We also compare the sequence to three new draft genomes from the same physiological group.\n\nThe 2.77 Mb chromosome was highly conserved between the isolates and also closely related to that of C. novyi. However, the sequence was very different from the human C. botulinum group genomes. Replication-directed translocations were rare and conservation of synteny was high. The largest difference between C. botulinum group III isolates occurred within their surprisingly large plasmidomes and in the pattern of mobile elements insertions. Five plasmids, constituting 13.5% of the total genetic material, were present in the completed genome. Interestingly, the set of plasmids differed compared to other isolates. The largest plasmid, the botulinum-neurotoxin carrying prophage, was conserved at a level similar to that of the chromosome while the medium-sized plasmids seemed to be undergoing faster genetic drift. These plasmids also contained more mobile elements than other replicons. Several toxins and resistance genes were identified, many of which were located on the plasmids.\n\nThe completion of the genome of C. botulinum group III has revealed it to be a genome with dual identity. It belongs to the pathogenic species C. botulinum, but as a genotypic species it should also include C. novyi and C. haemolyticum. The genotypic species share a conserved chromosomal core that can be transformed into various pathogenic variants by modulation of the highly plastic plasmidome.",
-    "published": "2011-04-12",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Hanna",
-        "family": "Skarin",
-        "initials": "H"
-      },
-      {
-        "given": "Therese",
-        "family": "Håfström",
+        "given": "Thomas",
+        "family": "Brown",
         "initials": "T"
       },
       {
-        "given": "Josefina",
-        "family": "Westerberg",
-        "initials": "J"
+        "given": "Ketan",
+        "family": "Mishra",
+        "initials": "K"
       },
       {
-        "given": "Bo",
-        "family": "Segerman",
-        "initials": "B"
-      }
-    ],
-    "journal": {
-      "title": "BMC Genomics",
-      "volume": "12",
-      "issue": null,
-      "issn": "1471-2164",
-      "issn-l": "1471-2164",
-      "pages": "185"
-    },
-    "labels": {
-      "National Genomics Infrastructure": null,
-      "NGI Stockholm (Genomics Applications)": null,
-      "NGI Stockholm (Genomics Production)": null
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/6020ba73a1074d6781fddb32a0955729.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/6020ba73a1074d6781fddb32a0955729"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "1471-2164-12-185"
+        "given": "Ahmed",
+        "family": "Elewa",
+        "initials": "A"
       },
       {
-        "db": "pmc",
-        "key": "PMC3098183"
-      }
-    ],
-    "notes": [],
-    "created": "2017-05-04T14:57:16.786Z",
-    "modified": "2020-01-21T13:56:02.619Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "f4999c33ba544b25a7bc3636c70d4f15",
-    "doi": "10.1371/journal.pone.0020794",
-    "pmid": "21698250",
-    "title": "Translational database selection and multiplexed sequence capture for up front filtering of reliable breast cancer biomarker candidates.",
-    "abstract": "Biomarker identification is of utmost importance for the development of novel diagnostics and therapeutics. Here we make use of a translational database selection strategy, utilizing data from the Human Protein Atlas (HPA) on differentially expressed protein patterns in healthy and breast cancer tissues as a means to filter out potential biomarkers for underlying genetic causatives of the disease. DNA was isolated from ten breast cancer biopsies, and the protein coding and flanking non-coding genomic regions corresponding to the selected proteins were extracted in a multiplexed format from the samples using a single DNA sequence capture array. Deep sequencing revealed an even enrichment of the multiplexed samples and a great variation of genetic alterations in the tumors of the sampled individuals. Benefiting from the upstream filtering method, the final set of biomarker candidates could be completely verified through bidirectional Sanger sequencing, revealing a 40 percent false positive rate despite high read coverage. Of the variants encountered in translated regions, nine novel non-synonymous variations were identified and verified, two of which were present in more than one of the ten tumor samples.",
-    "published": "2011-06-15",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Patrik L",
-        "family": "Ståhl",
-        "initials": "PL"
-      },
-      {
-        "given": "Magnus K",
-        "family": "Bjursell",
-        "initials": "MK"
-      },
-      {
-        "given": "Hovsep",
-        "family": "Mahdessian",
-        "initials": "H"
-      },
-      {
-        "given": "Sophia",
-        "family": "Hober",
+        "given": "Svetlana",
+        "family": "Iarovenko",
         "initials": "S"
       },
       {
-        "given": "Karin",
-        "family": "Jirström",
-        "initials": "K"
-      },
-      {
-        "given": "Joakim",
-        "family": "Lundeberg",
-        "initials": "J",
-        "orcid": "0000-0003-4313-1601",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/4a4e6ca0f29b4ead8569e2729481c3e0.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "PLoS ONE",
-      "volume": "6",
-      "issue": "6",
-      "issn": "1932-6203",
-      "issn-l": "1932-6203",
-      "pages": "e20794"
-    },
-    "labels": {
-      "National Genomics Infrastructure": null,
-      "NGI Stockholm (Genomics Applications)": null,
-      "NGI Stockholm (Genomics Production)": null
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/f4999c33ba544b25a7bc3636c70d4f15.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/f4999c33ba544b25a7bc3636c70d4f15"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "PONE-D-11-04237"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC3115972"
-      }
-    ],
-    "notes": [],
-    "created": "2017-05-04T14:57:27.086Z",
-    "modified": "2021-07-08T13:26:08.411Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "6f66c32e0a7d4aad85c42f03129b7ebf",
-    "doi": "10.1097/PAS.0000000000000158",
-    "pmid": "24441665",
-    "title": "Recurrent EWSR1-CREB3L1 gene fusions in sclerosing epithelioid fibrosarcoma.",
-    "abstract": "Sclerosing epithelioid fibrosarcoma (SEF) and low-grade fibromyxoid sarcoma (LGFMS) are 2 distinct types of sarcoma, with a subset of cases showing overlapping morphologic and immunohistochemical features. LGFMS is characterized by expression of the MUC4 protein, and about 90% of cases display a distinctive FUS-CREB3L2 gene fusion. In addition, SEF is often MUC4 positive, but is genetically less well studied. Fluorescence in situ hybridization (FISH) studies have shown involvement of the FUS gene in the majority of so-called hybrid LGFMS/SEF and in 10% to 25% of sarcomas with pure SEF morphology. In this study, we investigated a series of 10 primary tumors showing pure SEF morphology, 4 cases of LGFMS that at local or distant relapse showed predominant SEF morphology, and 1 primary hybrid LGFMS/SEF. All but 1 case showed diffuse expression for MUC4. Using FISH, reverse transcription polymerase chain reaction, and/or mRNA sequencing in selected cases, we found recurrent EWSR1-CREB3L1 fusion transcripts by reverse transcription polymerase chain reaction in 3/10 pure SEF cases and splits and deletions of the EWSR1 and/or CREB3L1 genes by FISH in 6 additional cases. All 5 cases of LGFMS with progression to SEF morphology or hybrid features had FUS-CREB3L2 fusion transcripts. Our results indicate that EWSR1 and CREB3L1 rearrangements are predominant over FUS and CREB3L2 rearrangements in pure SEF, highlighting that SEF and LGFMS are different tumor types, with different impacts on patient outcome.",
-    "published": "2014-06-00",
-    "type": "comparative study",
-    "authors": [
-      {
-        "given": "Elsa",
-        "family": "Arbajian",
+        "given": "Elaiyaraja",
+        "family": "Subramanian",
         "initials": "E"
       },
       {
-        "given": "Florian",
-        "family": "Puls",
-        "initials": "F"
+        "given": "Alberto Joven",
+        "family": "Araus",
+        "initials": "AJ"
       },
       {
-        "given": "Linda",
-        "family": "Magnusson",
+        "given": "Andreas",
+        "family": "Petzold",
+        "initials": "A"
+      },
+      {
+        "given": "Bastian",
+        "family": "Fromm",
+        "initials": "B",
+        "orcid": "0000-0003-0352-3037",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f29dd3593b894c5e9d233da6049d59e8.json"
+        }
+      },
+      {
+        "given": "Marc R",
+        "family": "Friedländer",
+        "initials": "MR",
+        "orcid": "0000-0001-6577-4363",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/744f7c6d0a884d9daa2e7303ed1779b8.json"
+        }
+      },
+      {
+        "given": "Lennart",
+        "family": "Rikk",
         "initials": "L"
       },
       {
-        "given": "Khin",
-        "family": "Thway",
-        "initials": "K"
+        "given": "Miyuki",
+        "family": "Suzuki",
+        "initials": "M"
       },
       {
-        "given": "Cyril",
-        "family": "Fisher",
-        "initials": "C"
+        "given": "Ken-Ichi T",
+        "family": "Suzuki",
+        "initials": "KT"
       },
       {
-        "given": "Vaiyapuri P",
-        "family": "Sumathi",
-        "initials": "VP"
+        "given": "Toshinori",
+        "family": "Hayashi",
+        "initials": "T"
       },
       {
-        "given": "Johnbosco",
-        "family": "Tayebwa",
-        "initials": "J"
+        "given": "Atsushi",
+        "family": "Toyoda",
+        "initials": "A"
       },
       {
-        "given": "Karolin H",
-        "family": "Nord",
-        "initials": "KH"
+        "given": "Catarina R",
+        "family": "Oliveira",
+        "initials": "CR"
       },
       {
-        "given": "Lars-Gunnar",
-        "family": "Kindblom",
-        "initials": "LG"
-      },
-      {
-        "given": "Fredrik",
-        "family": "Mertens",
-        "initials": "F"
-      }
-    ],
-    "journal": {
-      "title": "Am. J. Surg. Pathol.",
-      "volume": "38",
-      "issue": "6",
-      "issn": "1532-0979",
-      "issn-l": "0147-5185",
-      "pages": "801-808"
-    },
-    "labels": {
-      "National Genomics Infrastructure": null,
-      "NGI Stockholm (Genomics Applications)": null,
-      "NGI Stockholm (Genomics Production)": null
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/6f66c32e0a7d4aad85c42f03129b7ebf.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/6f66c32e0a7d4aad85c42f03129b7ebf"
-      }
-    },
-    "xrefs": [],
-    "notes": [],
-    "created": "2017-05-04T14:58:21.158Z",
-    "modified": "2020-01-21T13:56:02.906Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "caa37fd92a5c432fbea7349ddc016e59",
-    "doi": "10.1038/s41597-024-03465-z",
-    "pmid": "38866801",
-    "title": "Integrative transcriptomic and proteomic profiling of the effects of cell confluency on gene expression.",
-    "abstract": "In this study we examine the impact of cell confluency on gene expression. We focused on Argonaute (AGO) protein dynamics and associated gene and protein expression in HEK293, A375, and SHSY5Y cell lines. As a consequence of cell confluency, AGO2 protein translocates into the nucleus. Therefore, we generated transcriptomic data using RNA sequencing to compare gene expression in subconfluent versus confluent cells, which highlighted significant alterations in gene regulation patterns directly corresponding to changes in cell density. Our study also encompasses miRNA profiling data obtained through small RNA sequencing, revealing miRNA expressional changes dependent on cellular confluency, as well as cellular localization. Finally, we derived proteomic data from mass spectrometry analyses following AGO1-4 immunoprecipitation, providing a comprehensive view of AGO interactome in both nuclear and cytoplasmic compartments under varying confluency. These datasets offer a detailed exploration of the cellular and molecular dynamics, influenced by cell confluency, presenting a valuable resource for further research in cellular biology, particularly in understanding the basic mechanisms of cell density in cancer cells.",
-    "published": "2024-06-12",
-    "type": "dataset",
-    "authors": [
-      {
-        "given": "Vivian",
-        "family": "Lobo",
-        "initials": "V"
-      },
-      {
-        "given": "Evgeniia",
-        "family": "Shcherbinina",
-        "initials": "E"
-      },
-      {
-        "given": "Jakub O",
-        "family": "Westholm",
-        "initials": "JO"
-      },
-      {
-        "given": "Iwona",
-        "family": "Nowak",
-        "initials": "I"
-      },
-      {
-        "given": "Hsiang-Chi",
-        "family": "Huang",
-        "initials": "HC"
-      },
-      {
-        "given": "Davide",
-        "family": "Angeletti",
-        "initials": "D",
-        "orcid": "0000-0002-5256-1972",
+        "given": "Ekaterina",
+        "family": "Osipova",
+        "initials": "E",
+        "orcid": "0000-0002-6769-7223",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ae59c12bf82b4ad9a8d9ad8603d03d9c.json"
+          "href": "https://publications.scilifelab.se/researcher/f048ee0785094c2fa3e5b79eba6d1900.json"
         }
       },
       {
-        "given": "Dimitrios G",
-        "family": "Anastasakis",
-        "initials": "DG"
+        "given": "Nicholas D",
+        "family": "Leigh",
+        "initials": "ND",
+        "orcid": "0000-0002-6978-6254",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ef7856432de344f3a2443bea13e157f8.json"
+        }
       },
       {
-        "given": "Aishe A",
-        "family": "Sarshad",
-        "initials": "AA",
-        "orcid": "0000-0001-7153-5959",
+        "given": "Maximina H",
+        "family": "Yun",
+        "initials": "MH"
+      },
+      {
+        "given": "András",
+        "family": "Simon",
+        "initials": "A",
+        "orcid": "0000-0002-1018-1891",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/42c62bd8dbe34b5da39de17d6a2a06ab.json"
+          "href": "https://publications.scilifelab.se/researcher/96bdae99574843959cede3393f727ee0.json"
         }
       }
     ],
     "journal": {
-      "title": "Sci Data",
-      "volume": "11",
-      "issue": "1",
-      "issn": "2052-4463",
-      "issn-l": "2052-4463",
-      "pages": "617"
+      "title": "Cell Genomics",
+      "issn": "2666-979X",
+      "issn-l": null,
+      "pages": "100761"
     },
     "labels": {
-      "Bioinformatics Long-term Support WABI": "Collaborative",
-      "Bioinformatics Support, Infrastructure and Training": "Collaborative",
-      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
-      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
       "National Genomics Infrastructure": "Service",
-      "Bioinformatics Support for Computational Resources": "Service",
-      "Glycoproteomics and MS Proteomics": "Service",
-      "Bioinformatics (NBIS)": "Collaborative"
+      "NGI Short read": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/caa37fd92a5c432fbea7349ddc016e59.json"
+        "href": "https://publications.scilifelab.se/publication/dcfeee20dac44d149e7456edf098d297.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/caa37fd92a5c432fbea7349ddc016e59"
+        "href": "https://publications.scilifelab.se/publication/dcfeee20dac44d149e7456edf098d297"
       }
     },
     "xrefs": [
       {
-        "db": "pmc",
-        "key": "PMC11169490"
-      },
-      {
         "db": "pii",
-        "key": "10.1038/s41597-024-03465-z"
+        "key": "S2666-979X(25)00017-5"
       }
     ],
     "notes": [],
-    "created": "2024-06-14T17:35:54.427Z",
-    "modified": "2024-11-27T15:37:51.552Z",
+    "created": "2025-01-30T10:51:47.306Z",
+    "modified": "2025-03-24T08:23:30.188Z",
     "is_collab": false,
     "is_tech_dev": false
   }
