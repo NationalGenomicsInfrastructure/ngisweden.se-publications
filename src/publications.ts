@@ -6,7 +6,14 @@ const FACILITY_LABELS = [
   'NGI Stockholm (Genomics Production)',
   'NGI Uppsala (SNP&SEQ Technology Platform)',
   'NGI Uppsala (Uppsala Genome Center)',
-  'National Genomics Infrastructure'
+  'National Genomics Infrastructure',
+  'NGI Short read',
+  'NGI Long read',
+  'NGI Other',
+  'NGI Proteomics',
+  'NGI Single cell',
+  'NGI SNP genotyping',
+  'NGI Spatial omics'
 ]
 
 async function fetchPublicationsFromAPI(

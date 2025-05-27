@@ -2,7 +2,7 @@ name: Publications Cronjob
 
 on:
   schedule:
-    - cron: 0 5 * * * # At 5am every day
+    - cron: '17 5 * * 1' # At 5.17am every Monday
   workflow_dispatch:
 
 permissions:
@@ -35,8 +35,8 @@ jobs:
         id: run-publications-cronjob
         uses: ./
         with:
-          download-limit: '10'
-          num-publications: '20'
+          download-limit: '15'
+          num-publications: '50'
           commit: 'true'
           'commit-repo': 'NationalGenomicsInfrastructure/ngisweden.se-publications'
           'commit-token': ${{ secrets.TOKEN_FOR_PUBLICATION_COMMITS }}
