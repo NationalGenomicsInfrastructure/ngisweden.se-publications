@@ -117,7 +117,7 @@ describe('main.ts', () => {
 
     // Reset mocks before test
     jest.clearAllMocks()
-    
+
     // Re-setup the getOctokit mock after clearing
     const mockOctokitInstance = {
       rest: {
@@ -176,10 +176,10 @@ describe('main.ts', () => {
 
     // Log calls to console for debugging
     console.log('Input calls:', inputCalls)
-    
+
     // Verify getOctokit was called
     expect(github.getOctokit).toHaveBeenCalledWith('test-token')
-    
+
     // Verify Octokit was used to commit files
     expect(mockOctokitInstance.rest.repos.get).toHaveBeenCalledWith({
       owner: 'owner',
