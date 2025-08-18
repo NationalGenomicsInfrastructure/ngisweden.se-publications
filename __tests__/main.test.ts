@@ -8,6 +8,7 @@ import * as fs from 'fs/promises'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
 import type { ApiResponse } from '../src/schemas.js'
+import type * as githubTypes from '@actions/github'
 
 // Mock the core module
 jest.unstable_mockModule('@actions/core', () => core)
@@ -21,7 +22,7 @@ const __dirname = path.dirname(__filename)
 
 jest.mock('@actions/github', () => {
   const originalModule = jest.requireActual('@actions/github') as {
-    getOctokit: (token: string) => any
+    getOctokit: (token: string) => ReturnType<typeof githubTypes.getOctokit>
   }
   // Create mock functions for each Octokit method we need to test
   const mockGet = jest.fn(async () =>
@@ -54,7 +55,7 @@ jest.mock('@actions/github', () => {
 
   return {
     ...originalModule,
-    getOctokit: (token: string) => {
+    getOctokit: () => {
       // We don't actually need the original getOctokit for the mock
       // We just need to return an object that has the `rest` property
       // with our mocked methods.
