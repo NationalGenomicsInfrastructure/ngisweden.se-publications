@@ -224,7 +224,8 @@ export async function getPublications(
 
       // Combine and re-sort by date to interleave them chronologically
       publications = [...selectedCollabs, ...selectedNonCollabs].sort(
-        (a, b) => new Date(b.published).getTime() - new Date(a.published).getTime()
+        (a, b) =>
+          new Date(b.published).getTime() - new Date(a.published).getTime()
       )
     }
 
