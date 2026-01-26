@@ -189,26 +189,44 @@ export async function getPublications(
     // Process publications
     let publications = processPublications(allPublications, defaultOptions)
 
-    // Apply collaboration filters
-    let numCollabs = 0
-    publications = publications.filter((pub) => {
-      const maxCollabs = defaultOptions.max_collabs ?? -1
-      if (maxCollabs >= 0 && numCollabs >= maxCollabs && pub.is_collab) {
-        return false
-      }
-      if (pub.is_collab) {
-        numCollabs++
-      }
-      return true
-    })
-
-    // Randomize the full set of publications
     if (defaultOptions.randomise) {
-      publications = publications.sort(() => Math.random() - 0.5)
-    }
+      // Apply collaboration filters (only when randomizing)
+      let numCollabs = 0
+      publications = publications.filter((pub) => {
+        const maxCollabs = defaultOptions.max_collabs ?? -1
+        if (maxCollabs >= 0 && numCollabs >= maxCollabs && pub.is_collab) {
+          return false
+        }
+        if (pub.is_collab) {
+          numCollabs++
+        }
+        return true
+      })
 
-    // Apply the num limit after randomization, to get n random or newest (if randomize is false) publications
-    publications = publications.slice(0, defaultOptions.num)
+      // Randomize the full set of publications
+      publications = publications.sort(() => Math.random() - 0.5)
+
+      // Apply the num limit after randomization
+      publications = publications.slice(0, defaultOptions.num ?? 5)
+    } else {
+      // When not randomizing, ensure equal numbers of collabs and non-collabs
+      const collabs = publications.filter((pub) => pub.is_collab)
+      const nonCollabs = publications.filter((pub) => !pub.is_collab)
+
+      // Calculate how many of each type to include (split num evenly)
+      const num = defaultOptions.num ?? 5
+      const numEach = Math.floor(num / 2)
+      const remainder = num % 2
+
+      // Take latest n collabs and latest n non-collabs
+      const selectedCollabs = collabs.slice(0, numEach + remainder) // Give remainder to collabs if odd
+      const selectedNonCollabs = nonCollabs.slice(0, numEach)
+
+      // Combine and re-sort by date to interleave them chronologically
+      publications = [...selectedCollabs, ...selectedNonCollabs].sort(
+        (a, b) => new Date(b.published).getTime() - new Date(a.published).getTime()
+      )
+    }
 
     // Generate HTML
     const modals = publications.map(formatPublicationHTML).join('\n')
