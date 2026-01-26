@@ -1,0 +1,2815 @@
+[
+  {
+    "entity": "publication",
+    "iuid": "20af1880766c43ec92b67618ebf96e75",
+    "doi": "10.1111/all.70209",
+    "pmid": "41498390",
+    "title": "Single-Cell Omics Analysis of Human Basophils Reveals Two Transcriptionally Distinct Populations.",
+    "abstract": "Basophils are implicated in various diseases including allergies, but a comprehensive single-cell characterization of human basophils has yet to be performed. Here, we aimed to generate a single-cell omics-based reference resource of circulating human basophils, integrating transcriptomic and large-scale immunoprofiling data. We also sought to investigate basophil heterogeneity at the molecular level.\n\nCirculating basophils were analyzed using cellular indexing of transcriptomes and epitopes by sequencing (CITE-seq). Both short- and long-read single-cell RNA-sequencing platforms were used to capture the transcriptomic data.\n\nCITE-seq enabled accurate identification and profiling of side scatterlow lineage- CCR3+ FcεRI+ basophils. Short-read single-cell RNA-sequencing data revealed two previously unresolved basophil populations, defined by 66 differentially expressed genes and reproducibly identified across donors. Despite the transcriptional differences, the populations displayed similar immunophenotypes based on more than 100 investigated cell surface markers. Long-read single-cell RNA-sequencing analysis confirmed the existence of the two populations and provided further insights into their gene expression profiles.\n\nWe present a multimodal single-cell resource that defines two novel transcriptionally distinct basophil populations. This resource, accessible through a user-friendly web interface, constitutes a cellular and molecular reference map for future studies of basophils in health and disease.",
+    "published": "2026-01-07",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Sofia",
+        "family": "Papavasileiou",
+        "initials": "S",
+        "orcid": "0000-0002-4066-5715",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/79bdcde693814787b551baca99852eb7.json"
+        }
+      },
+      {
+        "given": "Jiezhen",
+        "family": "Mo",
+        "initials": "J"
+      },
+      {
+        "given": "Daryl",
+        "family": "Boey",
+        "initials": "D"
+      },
+      {
+        "given": "Chenyan",
+        "family": "Wu",
+        "initials": "C"
+      },
+      {
+        "given": "Magnus",
+        "family": "Tronstad",
+        "initials": "M"
+      },
+      {
+        "given": "Lucille",
+        "family": "Margerie",
+        "initials": "L",
+        "orcid": "0000-0001-9537-1231",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d5acd66266474d168d31cc60aa92294a.json"
+        }
+      },
+      {
+        "given": "Remi-André",
+        "family": "Olsen",
+        "initials": "RA"
+      },
+      {
+        "given": "Jörg A",
+        "family": "Bachmann",
+        "initials": "JA"
+      },
+      {
+        "given": "Jing Hui",
+        "family": "Low",
+        "initials": "JH"
+      },
+      {
+        "given": "Jocelyn",
+        "family": "Ong",
+        "initials": "J"
+      },
+      {
+        "given": "Lars Heede",
+        "family": "Blom",
+        "initials": "LH",
+        "orcid": "0000-0003-2027-727X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1a5bcf890d60428b9e6569c0d435c08d.json"
+        }
+      },
+      {
+        "given": "Anand Kumar",
+        "family": "Andiappan",
+        "initials": "AK"
+      },
+      {
+        "given": "Gunnar",
+        "family": "Nilsson",
+        "initials": "G",
+        "orcid": "0000-0001-6795-5512",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/258ef97611dd4441a38e1baf2b517ecd.json"
+        }
+      },
+      {
+        "given": "Joakim S",
+        "family": "Dahlin",
+        "initials": "JS",
+        "orcid": "0000-0003-3007-9875",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3d022071f86a451aba84b18fb0774461.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Allergy",
+      "issn": "1398-9995",
+      "issn-l": "0105-4538"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Single cell": "Collaborative",
+      "NGI Short read": "Service",
+      "NGI Long read": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/20af1880766c43ec92b67618ebf96e75.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/20af1880766c43ec92b67618ebf96e75"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2026-01-08T07:58:10.538Z",
+    "modified": "2026-01-08T07:58:10.841Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "eaf9b454889b42e98966f350d0a69e84",
+    "doi": "10.1126/science.ado8005",
+    "pmid": "41100596",
+    "title": "A mosaic of modular variation at a single gene underpins convergent plumage coloration.",
+    "abstract": "The reshuffling of genomic variation from multiple origins is an important contributor to phenotypic diversification, yet insights into the evolutionary trajectories of this combinatorial process and their interplay with genetic architecture remain scarce. We show that convergent plumage color evolution in wheatears involves a monogenic architecture with modular variation introgressed at the agouti signaling protein (ASIP) locus. Introgression of a new transposable element insertion and linked protein-coding variation underpin a transspecific throat color polymorphism, which stable isotopes suggest is associated with alternative foraging niches. Cointrogression of linked regulatory ASIP variation resulted in mantle color convergence in one species, whereas convergent color evolution at the genus level required new variation. Our results demonstrate evolutionary trajectories from introgressed variation realized within the constraints of a monogenic architecture.",
+    "published": "2025-10-16",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Dave",
+        "family": "Lutgen",
+        "initials": "D",
+        "orcid": "0000-0003-0793-3930",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/68173a10b32e4dca953933b92e0cec4e.json"
+        }
+      },
+      {
+        "given": "Valentina",
+        "family": "Peona",
+        "initials": "V",
+        "orcid": "0000-0001-5119-1837",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d4903a935025452f88e4f1c02483829b.json"
+        }
+      },
+      {
+        "given": "Madeline A",
+        "family": "Chase",
+        "initials": "MA",
+        "orcid": "0000-0002-7916-3560",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3053121df4b64418bc1dcc2d7e50d87c.json"
+        }
+      },
+      {
+        "given": "Niloofar Alaei",
+        "family": "Kakhki",
+        "initials": "NA"
+      },
+      {
+        "given": "Fritjof",
+        "family": "Lammers",
+        "initials": "F",
+        "orcid": "0000-0002-3110-8220",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/40a13a19d3594543a30c5146011aaa3a.json"
+        }
+      },
+      {
+        "given": "Stacey G",
+        "family": "de Souza",
+        "initials": "SG",
+        "orcid": "0000-0001-6596-5522",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/63b19ded18de4742b8b0e63408500bc7.json"
+        }
+      },
+      {
+        "given": "Anne-Lyse",
+        "family": "Ducrest",
+        "initials": "AL",
+        "orcid": "0000-0001-6412-2769",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/020a4c63ac834ff1a09234094ff552d2.json"
+        }
+      },
+      {
+        "given": "Marta",
+        "family": "Burri",
+        "initials": "M"
+      },
+      {
+        "given": "Pavlos",
+        "family": "Andriopoulos",
+        "initials": "P",
+        "orcid": "0000-0002-5377-2974",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ef8407f9cb79440d80f580cef8536175.json"
+        }
+      },
+      {
+        "given": "Sifiso M",
+        "family": "Lukhele",
+        "initials": "SM",
+        "orcid": "0000-0003-0638-0641",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/67a4a265644e452898bd89600ca081d8.json"
+        }
+      },
+      {
+        "given": "Michaella",
+        "family": "Moysi",
+        "initials": "M"
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Yohannes",
+        "initials": "E"
+      },
+      {
+        "given": "Abdin",
+        "family": "Abbasov",
+        "initials": "A",
+        "orcid": "0009-0002-6370-9167",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/de8b1ae2193849cc956e9750bfc47ead.json"
+        }
+      },
+      {
+        "given": "Tamer",
+        "family": "Albayrak",
+        "initials": "T",
+        "orcid": "0000-0003-4115-3946",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/36f1ec59f0da42d89af256efda6c7db5.json"
+        }
+      },
+      {
+        "given": "Mansour",
+        "family": "Aliabadian",
+        "initials": "M",
+        "orcid": "0000-0002-3200-4853",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/cf133d36d2ec42bba680538cd5e69151.json"
+        }
+      },
+      {
+        "given": "Nicolas",
+        "family": "Auchli",
+        "initials": "N"
+      },
+      {
+        "given": "Vasileios",
+        "family": "Bontzorlos",
+        "initials": "V",
+        "orcid": "0000-0002-1276-3385",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ebafa22103ec46ab87ce2b5fa878519d.json"
+        }
+      },
+      {
+        "given": "Ioulios",
+        "family": "Christoforou",
+        "initials": "I"
+      },
+      {
+        "given": "José Luis",
+        "family": "Copete",
+        "initials": "JL",
+        "orcid": "0000-0001-8542-0351",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/e18b36757e804e0fb00a2f13015e79b6.json"
+        }
+      },
+      {
+        "given": "Egidio",
+        "family": "Fulco",
+        "initials": "E"
+      },
+      {
+        "given": "Jesus T",
+        "family": "Garcia",
+        "initials": "JT"
+      },
+      {
+        "given": "Zura",
+        "family": "Javakhishvili",
+        "initials": "Z",
+        "orcid": "0000-0001-7587-4974",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f15c16f36f8d407d8b3c69723f6470e2.json"
+        }
+      },
+      {
+        "given": "Anna",
+        "family": "Kazazou",
+        "initials": "A",
+        "orcid": "0009-0003-6518-8833",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/dcdef2602fe44fd98f1b36f83acde23a.json"
+        }
+      },
+      {
+        "given": "Fumin",
+        "family": "Lei",
+        "initials": "F",
+        "orcid": "0000-0001-9920-8167",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1e9cc44c016c4d099f674d182c08fbaa.json"
+        }
+      },
+      {
+        "given": "Yang",
+        "family": "Liu",
+        "initials": "Y",
+        "orcid": "0000-0003-4580-5518",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/abd2de623f33467b89b1cf800db4b3f5.json"
+        }
+      },
+      {
+        "given": "Nika",
+        "family": "Paposhvili",
+        "initials": "N"
+      },
+      {
+        "given": "Robert",
+        "family": "Patchett",
+        "initials": "R",
+        "orcid": "0000-0003-4105-3136",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/787404ed66114f6ca1df945d9110ca8a.json"
+        }
+      },
+      {
+        "given": "Áron",
+        "family": "Péter",
+        "initials": "Á",
+        "orcid": "0000-0003-3219-9344",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2b840805e45a4e0e95ade7ce7d0bdb99.json"
+        }
+      },
+      {
+        "given": "Raphael",
+        "family": "Ritter",
+        "initials": "R",
+        "orcid": "0009-0000-3060-1622",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4b0db805e7214250b7df8d01e0803641.json"
+        }
+      },
+      {
+        "given": "Attila D",
+        "family": "Sándor",
+        "initials": "AD",
+        "orcid": "0000-0001-8852-8341",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/6db813f6be6943cc93dfbb9222bd112f.json"
+        }
+      },
+      {
+        "given": "Fabian",
+        "family": "Schneider",
+        "initials": "F"
+      },
+      {
+        "given": "Petar",
+        "family": "Shurulinkov",
+        "initials": "P"
+      },
+      {
+        "given": "Sergey",
+        "family": "Sklyarenko",
+        "initials": "S",
+        "orcid": "0000-0002-7443-347X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0de4c8591f1b4929ae73d3ea81ca2c17.json"
+        }
+      },
+      {
+        "given": "Borut",
+        "family": "Stumberger",
+        "initials": "B"
+      },
+      {
+        "given": "Abulfaz",
+        "family": "Tagiyev",
+        "initials": "A"
+      },
+      {
+        "given": "Alessia",
+        "family": "Uboldi",
+        "initials": "A",
+        "orcid": "0009-0001-3940-3697",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/53c73538105e441eb6a5402ad0883799.json"
+        }
+      },
+      {
+        "given": "Nikitas",
+        "family": "Vogiatzis",
+        "initials": "N",
+        "orcid": "0009-0008-9592-923X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9be0f74759fd4d429c3cb891c51d6e83.json"
+        }
+      },
+      {
+        "given": "Fanny",
+        "family": "Taborsak-Lines",
+        "initials": "F"
+      },
+      {
+        "given": "Joel",
+        "family": "Gruselius",
+        "initials": "J"
+      },
+      {
+        "given": "Liqun",
+        "family": "Yao",
+        "initials": "L"
+      },
+      {
+        "given": "Catherine L",
+        "family": "Peichel",
+        "initials": "CL",
+        "orcid": "0000-0002-7731-8944",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3b4d7c680f69458dbde56257ff4820c5.json"
+        }
+      },
+      {
+        "given": "Alexander",
+        "family": "Suh",
+        "initials": "A",
+        "orcid": "0000-0002-8979-9992",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4e39e1313d894596a6c4ed949e43e019.json"
+        }
+      },
+      {
+        "given": "Pierre-Alexandre",
+        "family": "Gagnaire",
+        "initials": "PA",
+        "orcid": "0000-0002-1908-3235",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/10f9487cea1d40938b3f9f00f72e6433.json"
+        }
+      },
+      {
+        "given": "Alexander N G",
+        "family": "Kirschel",
+        "initials": "ANG",
+        "orcid": "0000-0003-4379-7956",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d533e6378c094ef7bf44e570bcbb1145.json"
+        }
+      },
+      {
+        "given": "Manuel",
+        "family": "Schweizer",
+        "initials": "M",
+        "orcid": "0000-0002-7555-8450",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5a043d6f016b46709ace7f181d8cd3b8.json"
+        }
+      },
+      {
+        "given": "Holger",
+        "family": "Schielzeth",
+        "initials": "H",
+        "orcid": "0000-0002-9124-2261",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/56d7e24b36a24560bafa92f08848ac46.json"
+        }
+      },
+      {
+        "given": "Reto",
+        "family": "Burri",
+        "initials": "R",
+        "orcid": "0000-0002-1813-0079",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/68f21e70e2864b42ab9fc532c14c069c.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Science",
+      "volume": "390",
+      "issue": "6770",
+      "issn": "1095-9203",
+      "issn-l": "0036-8075",
+      "pages": "eado8005"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Short read": "Service",
+      "NGI Other": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/eaf9b454889b42e98966f350d0a69e84.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/eaf9b454889b42e98966f350d0a69e84"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2026-01-26T14:53:27.788Z",
+    "modified": "2026-01-26T14:53:31.469Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "04e9d7eb6fd041648cef2ac003bdaae7",
+    "doi": "10.1093/g3journal/jkaf231",
+    "pmid": "41029998",
+    "title": "Chromosome-level assembly of the club-legged grasshopper (Gomphocerus sibiricus) genome.",
+    "abstract": "Grasshoppers represent true outliers in genome sizes, both within insects and within animals in general. Their genomes are large and generally variable in sizes and feature a high abundance of repetitive DNA sequences. This has hampered the assembly of grasshopper genomes to chromosome level. Here we present a chromosome-level reference genome for the club-legged grasshopper (Gomphocerus sibiricus, Acrididae: Gomphocerinae) using PacBio HiFi long-read and Hi-C sequencing technologies. In male haploid cells, the species has a chromosome set of n = 9 with an X0 sex-determination system, characterized by an absence of a Y chromosome. Our assembly spans 9.57 Gb in total, with 8.87 Gb organized into nine chromosomes-eight autosomes and the X chromosome. The final assembly has a scaffold N50 value of 1.58 Gb, covers 96.7% single copy Insecta orthologs, and contains 42,665 predicted protein-coding genes and 43,385 mRNA transcripts. We compiled a curated, non-redundant, species-specific repeat library and used it to annotate repetitive DNA, covering 81.69% of the genome, mostly DNA transposons, LINE and LTR retrotransposons. The genome of the club-legged grasshopper shows high degree of synteny with the locusts Schistocerca gregaria and Locusta migratoria, and the analysis strongly indicates three autosome-autosome centric fusions in Gomphocerinae. The genome offers a valuable resource for grasshopper genomics and for exploring the genetic basis of a transspecies color polymorphism.",
+    "published": "2025-10-01",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Octavio M",
+        "family": "Palacios-Gimenez",
+        "initials": "OM",
+        "orcid": "0000-0002-1472-9949",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f90e29ecd5724ff19509983e65891915.json"
+        }
+      },
+      {
+        "given": "Mahendra",
+        "family": "Varma",
+        "initials": "M"
+      },
+      {
+        "given": "Xinyi",
+        "family": "Cheng",
+        "initials": "X"
+      },
+      {
+        "given": "Mai-Britt",
+        "family": "Mosbech",
+        "initials": "MB"
+      },
+      {
+        "given": "Alexander",
+        "family": "Suh",
+        "initials": "A"
+      },
+      {
+        "given": "Holger",
+        "family": "Schielzeth",
+        "initials": "H",
+        "orcid": "0000-0002-9124-2261",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/56d7e24b36a24560bafa92f08848ac46.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "G3 (Bethesda)",
+      "issn": "2160-1836",
+      "issn-l": "2160-1836"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
+      "NGI Long read": "Collaborative",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/04e9d7eb6fd041648cef2ac003bdaae7.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/04e9d7eb6fd041648cef2ac003bdaae7"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "8269502"
+      }
+    ],
+    "notes": [],
+    "created": "2025-10-03T08:05:05.113Z",
+    "modified": "2025-11-14T11:07:48.365Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "ebe4355205e54bc3b50d10a1a62fb6e8",
+    "doi": "10.1111/mec.70094",
+    "pmid": "40903929",
+    "title": "Genetic Adaptation to Brackish Water and Spawning Season in European Cisco.",
+    "abstract": "How species adapt to diverse environmental conditions is essential for understanding evolution and the maintenance of biodiversity. The European cisco (Coregonus albula) is a salmonid that occurs in both fresh and brackish water, and this together with the presence of sympatric spring- and autumn-spawning lacustrine populations provides an opportunity for studying the genetics of adaptation in relation to salinity and timing of reproduction. Here, we present a high-quality reference genome of the European cisco based on PacBio HiFi long read sequencing and HiC-directed scaffolding. We generated low-coverage whole-genome sequencing data from 336 individuals across 12 population samples to explore population structure and genetics of ecological adaptation. We found a major subdivision between two groups of populations most likely reflecting colonisation from different glacial refugia. Within the two major groups, we detected further genetic differentiation between spring- and autumn-spawning populations and between populations from freshwater lakes, rivers and brackish water (Bothnian Bay). A genome-wide screen for genetic differentiation among populations identified a set of outlier SNPs strongly correlated with spawning timing and salinity. Several of the genes associated with spawning time, including BHLHE40, TIMELESS and CPT1A, have previously been shown to have a role in circadian rhythm biology. As many as 17 loci were associated with genetic differentiation between populations reproducing in fresh and brackish water. This study provides insights into the genomic basis of ecological adaptation in European cisco with implications for sustainable fishery management.",
+    "published": "2025-09-03",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Qiaoling",
+        "family": "Deng",
+        "initials": "Q",
+        "orcid": "0000-0002-3776-1132",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/bdfda2d3f64742e8a09bbded5f322f96.json"
+        }
+      },
+      {
+        "given": "Jake",
+        "family": "Goodall",
+        "initials": "J",
+        "orcid": "0000-0003-0960-4241",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/457d1a2733cc4a569ffeb70750999199.json"
+        }
+      },
+      {
+        "given": "Mikaela",
+        "family": "Bergenius Nord",
+        "initials": "M"
+      },
+      {
+        "given": "Ignas",
+        "family": "Bunikis",
+        "initials": "I"
+      },
+      {
+        "given": "Arianna",
+        "family": "Cocco",
+        "initials": "A"
+      },
+      {
+        "given": "Bo",
+        "family": "Delling",
+        "initials": "B",
+        "orcid": "0000-0001-9148-9574",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9c1c3f7ddf0945d18660ecbaa85303b0.json"
+        }
+      },
+      {
+        "given": "Elisabet",
+        "family": "Einarsdottir",
+        "initials": "E",
+        "orcid": "0000-0003-3101-2285",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0db39539bdd94519a418e6dd7a287cc8.json"
+        }
+      },
+      {
+        "given": "Julia",
+        "family": "Heintz",
+        "initials": "J"
+      },
+      {
+        "given": "Henrik",
+        "family": "Lantz",
+        "initials": "H"
+      },
+      {
+        "given": "Kerstin",
+        "family": "Lindblad-Toh",
+        "initials": "K",
+        "orcid": "0000-0001-8338-0253",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/e0063145f7d6476f80ab42f94833f4cf.json"
+        }
+      },
+      {
+        "given": "Mai-Britt",
+        "family": "Mosbech",
+        "initials": "M"
+      },
+      {
+        "given": "Remi-Andre",
+        "family": "Olsen",
+        "initials": "R"
+      },
+      {
+        "given": "Stefan",
+        "family": "Palm",
+        "initials": "S",
+        "orcid": "0000-0002-9890-8265",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0ebffe35bae646eb8a15163b0cb0820f.json"
+        }
+      },
+      {
+        "given": "Mats E",
+        "family": "Pettersson",
+        "initials": "ME",
+        "orcid": "0000-0002-7372-9076",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/27011c7fbb8a44dda536a4fc876675b0.json"
+        }
+      },
+      {
+        "given": "Martin",
+        "family": "Pippel",
+        "initials": "M",
+        "orcid": "0000-0002-8134-5929",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1f59d0c98de64ac1a62234792258ee62.json"
+        }
+      },
+      {
+        "given": "Lucile",
+        "family": "Soler",
+        "initials": "L"
+      },
+      {
+        "given": "Anti",
+        "family": "Vasemägi",
+        "initials": "A",
+        "orcid": "0000-0002-2184-5534",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ad9186f5720d493980b92869fb504cb8.json"
+        }
+      },
+      {
+        "given": "Olga Vinnere",
+        "family": "Pettersson",
+        "initials": "OV"
+      },
+      {
+        "given": "Leif",
+        "family": "Andersson",
+        "initials": "L",
+        "orcid": "0000-0002-4085-6968",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/bd3343c12f994b1fabcae23027d3a76d.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Mol. Ecol.",
+      "volume": null,
+      "issue": null,
+      "issn": "1365-294X",
+      "issn-l": "0962-1083",
+      "pages": "e70094"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
+      "NGI Long read": "Collaborative",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Other": null,
+      "NGI Stockholm (Genomics Production)": "Service",
+      "Bioinformatics (NBIS)": "Collaborative",
+      "Bioinformatics Support and Infrastructure": "Collaborative",
+      "Bioinformatics Support, Infrastructure and Training": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/ebe4355205e54bc3b50d10a1a62fb6e8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/ebe4355205e54bc3b50d10a1a62fb6e8"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2025-09-08T14:16:37.667Z",
+    "modified": "2025-11-21T12:48:41.202Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "19a4115c6ad14acaaf738a62c51e4f69",
+    "doi": "10.1073/pnas.2424333122",
+    "pmid": "40587810",
+    "title": "Genome analyses suggest recent speciation and postglacial isolation in the Norwegian lemming.",
+    "abstract": "The Norwegian lemming (Lemmus lemmus) is a small rodent distributed across the Fennoscandian mountain tundra and the Kola Peninsula. The Norwegian lemming likely evolved during the Late Pleistocene and inhabited Fennoscandia shortly prior to the Last Glacial Maximum. However, the exact timing and origins of the species, and its phylogenetic position relative to the closely related Siberian lemming (Lemmus sibiricus) remain disputed. Moreover, the presence of ancient or contemporary gene flow between both species is largely untested. The Norwegian lemming displays characteristic phenotypic and behavioral adaptations (e.g., coat color, aggression) that are not present in other Lemmus species. We generated a de novo genome assembly for the Norwegian lemming and resequenced nine modern and two ancient Lemmus spp. genomes. We show that all Lemmus species form distinct monophyletic clades, with concordant topology between the mitochondrial and nuclear genome phylogenies. The Siberian lemming is divided into two distinct but paraphyletic clades, one in the east and one in the west, where the western clade represents a sister taxon to the Norwegian lemming. We estimate that the Norwegian and western Siberian lemming diverged shortly before the Last Glacial Maximum, making the Norwegian lemming one of the youngest known mammalian species. We did not find any indication of gene flow between L. lemmus and L. sibiricus, suggesting postglacial isolation of L. lemmus. Furthermore, we identify species-specific genomic differences in genes related to coat color and fat transport, which are likely associated with the distinctive coloration and overwintering behavior observed in the Norwegian lemming.",
+    "published": "2025-07-15",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Edana",
+        "family": "Lord",
+        "initials": "E",
+        "orcid": "0000-0002-4717-1988",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/05d936191b3c4ff3acbe71db566da595.json"
+        }
+      },
+      {
+        "given": "Isabelle S",
+        "family": "Feinauer",
+        "initials": "IS",
+        "orcid": "0009-0004-4615-0810",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/18d95245a50e408a9643a18b7c0fc3d2.json"
+        }
+      },
+      {
+        "given": "André E R",
+        "family": "Soares",
+        "initials": "AER"
+      },
+      {
+        "given": "Vendela K",
+        "family": "Lagerholm",
+        "initials": "VK"
+      },
+      {
+        "given": "Karin",
+        "family": "Näsvall",
+        "initials": "K",
+        "orcid": "0000-0002-2970-4189",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9173164aadbe47b0b4132d2c6e654cf3.json"
+        }
+      },
+      {
+        "given": "Erik",
+        "family": "Ersmark",
+        "initials": "E"
+      },
+      {
+        "given": "Remi-André",
+        "family": "Olsen",
+        "initials": "RA",
+        "orcid": "0009-0002-8357-5186",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5419b796720a47c8aa7a26ca663a96bd.json"
+        }
+      },
+      {
+        "given": "Stefan",
+        "family": "Prost",
+        "initials": "S",
+        "orcid": "0000-0002-6229-3596",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/809ba200bb864ec9abf0d0cad09c5a42.json"
+        }
+      },
+      {
+        "given": "Elena A",
+        "family": "Kuzmina",
+        "initials": "EA"
+      },
+      {
+        "given": "Nickolay G",
+        "family": "Smirnov",
+        "initials": "NG"
+      },
+      {
+        "given": "John R",
+        "family": "Stewart",
+        "initials": "JR",
+        "orcid": "0000-0002-3506-5264",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/62e8f2e54f1a4f1d96d8f4ae1de97a93.json"
+        }
+      },
+      {
+        "given": "Monika V",
+        "family": "Knul",
+        "initials": "MV",
+        "orcid": "0000-0002-0650-0992",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ff550d1088bb4857a28277ae1db41452.json"
+        }
+      },
+      {
+        "given": "Pierre",
+        "family": "Noiret",
+        "initials": "P"
+      },
+      {
+        "given": "Mietje",
+        "family": "Germonpré",
+        "initials": "M",
+        "orcid": "0000-0001-8865-0937",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/79253311b1c64b599c8987b947459391.json"
+        }
+      },
+      {
+        "given": "Dorothee",
+        "family": "Ehrich",
+        "initials": "D"
+      },
+      {
+        "given": "Ivan",
+        "family": "Pokrovsky",
+        "initials": "I"
+      },
+      {
+        "given": "Vadim B",
+        "family": "Fedorov",
+        "initials": "VB",
+        "orcid": "0000-0003-3938-4200",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/017b3cc7d41e46feb13e4e919b0c2dd5.json"
+        }
+      },
+      {
+        "given": "Anna V",
+        "family": "Goropashnaya",
+        "initials": "AV",
+        "orcid": "0009-0005-4712-6297",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7e89f839e5c24f0dbef8deadb3a17f8d.json"
+        }
+      },
+      {
+        "given": "Love",
+        "family": "Dalén",
+        "initials": "L",
+        "orcid": "0000-0001-8270-7613",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/48ecf726779249ac9d12f4f7a1cc62bf.json"
+        }
+      },
+      {
+        "given": "David",
+        "family": "Díez-Del-Molino",
+        "initials": "D",
+        "orcid": "0000-0002-9701-5940",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/abb3bf815a954e039100104597097b68.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Proc. Natl. Acad. Sci. U.S.A.",
+      "volume": "122",
+      "issue": "28",
+      "issn": "1091-6490",
+      "issn-l": "0027-8424",
+      "pages": "e2424333122"
+    },
+    "labels": {
+      "Bioinformatics Support and Infrastructure": "Collaborative",
+      "Bioinformatics (NBIS)": "Collaborative",
+      "Bioinformatics Support, Infrastructure and Training": "Collaborative",
+      "NGI Short read": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/19a4115c6ad14acaaf738a62c51e4f69.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/19a4115c6ad14acaaf738a62c51e4f69"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12280882"
+      }
+    ],
+    "notes": [],
+    "created": "2025-07-01T06:45:31.166Z",
+    "modified": "2025-11-14T11:07:37.863Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "784df73e8dc84ac78534a0c33e5aec03",
+    "doi": "10.1038/s41598-025-96298-8",
+    "pmid": "40221584",
+    "title": "Cytoskeletal alterations in neuronal cells implicate Toxoplasma gondii secretory machinery and host microRNA-containing extracellular vesicles.",
+    "abstract": "The widespread protozoan Toxoplasma gondii chronically infects neural tissue in vertebrates and is linked to various neurological and neuropsychiatric disorders in humans. However, its effects on sparsely infected neurons and on broader neural circuits remain elusive. Our study reveals that T. gondii infection disrupts cytoskeletal dynamics in SH-SY5Y neuronal cells and primary cortical neurons. Infected neuronal cells undergo significant cytomorphological changes, including retraction of dendritic extensions and alterations in microtubule and F-actin networks, across both parasite genotypes I and II. These cytoskeletal alterations were notably diminished in cells exposed to T. gondii mutants with impaired secretion via the MYR translocon, and were independent of intraneuronal parasite replication. Moreover, a bystander effect was observed, with supernatants from T. gondii-challenged cells inducing similar cytoskeletal changes in uninfected cells. Analyses of extracellular vesicles (EVs) in supernatants revealed differential expression of host microRNAs in response to infection, most notably the upregulation of miR-221-3p, a microRNA not previously associated with T. gondii. The data indicate that unidentified parasite-derived effector(s) secreted via the MYR translocon, in conjunction with MYR-independently induced EV-associated host microRNAs, mediate cytoskeletal alterations in both infected and bystander neuronal cells. The findings provide new insights into molecular mechanisms by which T. gondii infection may disrupt neural networks, shedding light on its potential role in neuronal dysregulation.",
+    "published": "2025-04-12",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Thomas",
+        "family": "Mazza",
+        "initials": "T"
+      },
+      {
+        "given": "Morteza",
+        "family": "Aslanzadeh",
+        "initials": "M"
+      },
+      {
+        "given": "Lïse",
+        "family": "Berentsen",
+        "initials": "L"
+      },
+      {
+        "given": "Franziska",
+        "family": "Bonath",
+        "initials": "F"
+      },
+      {
+        "given": "Marc R",
+        "family": "Friedländer",
+        "initials": "MR"
+      },
+      {
+        "given": "Antonio",
+        "family": "Barragan",
+        "initials": "A",
+        "orcid": "0000-0001-7746-9964",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4eefb95f00db42e3891769f384269c6c.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Sci Rep",
+      "volume": "15",
+      "issue": "1",
+      "issn": "2045-2322",
+      "issn-l": "2045-2322",
+      "pages": "12606"
+    },
+    "labels": {
+      "NGI Short read": "Collaborative",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Other": "Collaborative",
+      "NGI Stockholm (Genomics Production)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/784df73e8dc84ac78534a0c33e5aec03.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/784df73e8dc84ac78534a0c33e5aec03"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC11993698"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41598-025-96298-8"
+      }
+    ],
+    "notes": [],
+    "created": "2025-06-03T09:17:07.614Z",
+    "modified": "2025-06-03T09:17:07.717Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "c42cf07b07844cabbe0ad109571234eb",
+    "doi": "10.1093/ismejo/wraf046",
+    "pmid": "40057978",
+    "title": "Cellular heterogeneity in metabolism and associated microbiome of a non-model phytoflagellate.",
+    "abstract": "Single-cell transcriptomics is a key tool for unravelling metabolism and tissue diversity in model organisms. Its potential for elucidating the ecological roles of microeukaryotes, especially non-model ones, remains largely unexplored. This study employed the Smart-seq2 protocol on Ochromonas triangulata, a microeukaryote lacking a reference genome, showcasing how transcriptional states align with two distinct growth phases: a fast-growing phase and a slow-growing phase. Besides the two expected expression clusters, each corresponding to either growth phase, a third transcriptional state was identified across both growth phases. Metabolic mapping revealed a boost of photosynthetic activity in the fast growth over the slow growth stage, as well as downregulation trend in pathways associated with ribosome functioning, CO2 fixation, and carbohydrate catabolism characteristic of the third transcriptional state. In addition, carry-over rRNA reads recapitulated the taxonomic identity of the target while revealing distinct bacterial communities, in co-culture with the eukaryote, each associated with distinct transcriptional states. This study underscores single-cell transcriptomics as a powerful tool for characterizing metabolic states in microeukaryotes without a reference genome, offering insights into unknown physiological states and individual-level interactions with different bacterial taxa. This approach holds broad applicability to describe the ecological roles of environmental microeukaryotes, culture-free, and reference-free, surpassing alternative methods like metagenomics or metatranscriptomics.",
+    "published": "2025-01-02",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Aditya",
+        "family": "Jeevannavar",
+        "initials": "A"
+      },
+      {
+        "given": "Javier",
+        "family": "Florenza",
+        "initials": "J"
+      },
+      {
+        "given": "Anna-Maria",
+        "family": "Divne",
+        "initials": "A"
+      },
+      {
+        "given": "Manu",
+        "family": "Tamminen",
+        "initials": "M"
+      },
+      {
+        "given": "Stefan",
+        "family": "Bertilsson",
+        "initials": "S"
+      }
+    ],
+    "journal": {
+      "title": "ISME J",
+      "volume": "19",
+      "issue": "1",
+      "issn": "1751-7370",
+      "issn-l": "1751-7362",
+      "pages": null
+    },
+    "labels": {
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Single cell": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/c42cf07b07844cabbe0ad109571234eb.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/c42cf07b07844cabbe0ad109571234eb"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC11973420"
+      },
+      {
+        "db": "pii",
+        "key": "8064733"
+      }
+    ],
+    "notes": [],
+    "created": "2025-09-08T06:54:54.550Z",
+    "modified": "2025-11-21T14:35:21.491Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "94a6617807b3431a961787b517bc63a0",
+    "doi": "10.1111/mec.17567",
+    "pmid": "39475093",
+    "title": "Orthopteran Neo-Sex Chromosomes Reveal Dynamics of Recombination Suppression and Evolution of Supergenes.",
+    "abstract": "The early evolution of sex chromosomes has remained obscure for more than a century. The Vandiemenella viatica species group of morabine grasshoppers is highly suited for studying the early stages of sex chromosome divergence and degeneration of the Y chromosome. This stems from the fact that neo-XY sex chromosomes have independently evolved multiple times by X-autosome fusions with different autosomes. Here, we generated new chromosome-level assemblies for two chromosomal races representing karyotypes with and without neo-sex chromosomes (P24XY and P24X0), and sequence data of a third chromosomal race with a different neo-XY chromosome system (P25XY). Interestingly, these two neo-XY chromosomal races are formed by different X-autosome fusions (involving chr1 and chrB, respectively), and we found that both neo-Y chromosomes have partly ceased to recombine with their neo-X counterpart. We show that the neo-XY chromosomes have diverged through accumulation of SNPs and structural mutations, and that many neo-Y-linked genes have degenerated since recombination ceased. However, the non-recombining regions of neo-Y chromosomes host non-degenerated genes crucial for sex determination, such as sex-lethal and transformer, alongside genes associated with spermatogenesis, fertility, and reproduction, illustrating their integrative role as a masculinizing supergene. Contrary to expectations, the neo-Y chromosomes showed (slightly) lower density of transposable elements (TEs) compared to other genomic regions. The study reveals the unique dynamics of young sex chromosomes, with evolution of recombination suppression and pronounced decay of (some) neo-sex chromosome genes, and provides a compelling case illustrating how chromosomal fusions and post-fusion mutational processes contribute to the evolution of supergenes.",
+    "published": "2024-10-30",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Suvratha",
+        "family": "Jayaprasad",
+        "initials": "S"
+      },
+      {
+        "given": "Valentina",
+        "family": "Peona",
+        "initials": "V",
+        "orcid": "0000-0001-5119-1837",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d4903a935025452f88e4f1c02483829b.json"
+        }
+      },
+      {
+        "given": "Simon J",
+        "family": "Ellerstrand",
+        "initials": "SJ",
+        "orcid": "0000-0003-2674-6997",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5ed13c7732674cc992f2356848b97a7b.json"
+        }
+      },
+      {
+        "given": "Roberto",
+        "family": "Rossini",
+        "initials": "R"
+      },
+      {
+        "given": "Ignas",
+        "family": "Bunikis",
+        "initials": "I"
+      },
+      {
+        "given": "Olga V",
+        "family": "Pettersson",
+        "initials": "OV",
+        "orcid": "0000-0002-5597-1870",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/31689f508a984d0680d285c294669615.json"
+        }
+      },
+      {
+        "given": "Remi-André",
+        "family": "Olsen",
+        "initials": "RA",
+        "orcid": "0009-0002-8357-5186",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5419b796720a47c8aa7a26ca663a96bd.json"
+        }
+      },
+      {
+        "given": "Carl-Johan",
+        "family": "Rubin",
+        "initials": "CJ",
+        "orcid": "0000-0001-8238-5052",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0bd98ada4083444e8336ef3ec53df488.json"
+        }
+      },
+      {
+        "given": "Elisabet",
+        "family": "Einarsdottir",
+        "initials": "E",
+        "orcid": "0000-0003-3101-2285",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0db39539bdd94519a418e6dd7a287cc8.json"
+        }
+      },
+      {
+        "given": "Franziska",
+        "family": "Bonath",
+        "initials": "F"
+      },
+      {
+        "given": "Tessa M",
+        "family": "Bradford",
+        "initials": "TM",
+        "orcid": "0000-0003-0607-1398",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d434c308f143443b864dfb1137c9d549.json"
+        }
+      },
+      {
+        "given": "Steven J B",
+        "family": "Cooper",
+        "initials": "SJB",
+        "orcid": "0000-0002-7843-8438",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8df76e7fede64a0294cf68a3ae20a07c.json"
+        }
+      },
+      {
+        "given": "Bengt",
+        "family": "Hansson",
+        "initials": "B",
+        "orcid": "0000-0001-6694-8169",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/01f0144e207c41dcbc4d5aec68690e4b.json"
+        }
+      },
+      {
+        "given": "Alexander",
+        "family": "Suh",
+        "initials": "A",
+        "orcid": "0000-0002-8979-9992",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4e39e1313d894596a6c4ed949e43e019.json"
+        }
+      },
+      {
+        "given": "Takeshi",
+        "family": "Kawakami",
+        "initials": "T",
+        "orcid": "0000-0002-9204-6852",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/424031a0011f4e77bbb6f64a1d369b8b.json"
+        }
+      },
+      {
+        "given": "Holger",
+        "family": "Schielzeth",
+        "initials": "H",
+        "orcid": "0000-0002-9124-2261",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/56d7e24b36a24560bafa92f08848ac46.json"
+        }
+      },
+      {
+        "given": "Octavio M",
+        "family": "Palacios-Gimenez",
+        "initials": "OM",
+        "orcid": "0000-0002-1472-9949",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f90e29ecd5724ff19509983e65891915.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Mol. Ecol.",
+      "issn": "1365-294X",
+      "issn-l": "0962-1083",
+      "pages": "e17567"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
+      "NGI Long read": "Collaborative",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/94a6617807b3431a961787b517bc63a0.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/94a6617807b3431a961787b517bc63a0"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2024-10-31T12:37:22.766Z",
+    "modified": "2024-11-25T10:27:35.236Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "06092f1c02924d8da8dd7a4929fd5ac3",
+    "doi": "10.1126/sciadv.adn0597",
+    "pmid": "39141739",
+    "title": "Origin, structure, and composition of the spider major ampullate silk fiber revealed by genomics, proteomics, and single-cell and spatial transcriptomics.",
+    "abstract": "Spiders produce nature's toughest fiber using renewable components at ambient temperatures and with water as solvent, making it highly interesting to replicate for the materials industry. Despite this, much remains to be understood about the bioprocessing and composition of spider silk fibers. Here, we identify 18 proteins that make up the spiders' strongest silk type, the major ampullate fiber. Single-cell RNA sequencing and spatial transcriptomics revealed that the secretory epithelium of the gland harbors six cell types. These cell types are confined to three distinct glandular zones that produce specific combinations of silk proteins. Image analysis of histological sections showed that the secretions from the three zones do not mix, and proteomics analysis revealed that these secretions form layers in the final fiber. Using a multi-omics approach, we provide substantial advancements in the understanding of the structure and function of the major ampullate silk gland as well as of the architecture and composition of the fiber it produces.",
+    "published": "2024-08-16",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Sumalata",
+        "family": "Sonavane",
+        "initials": "S",
+        "orcid": "0000-0002-0728-4822",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8c951e7727ce4f1a9dc0abc3b62019f8.json"
+        }
+      },
+      {
+        "given": "Sameer",
+        "family": "Hassan",
+        "initials": "S"
+      },
+      {
+        "given": "Urmimala",
+        "family": "Chatterjee",
+        "initials": "U",
+        "orcid": "0000-0002-6681-1696",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/418ed6f1f8a440efb4df1c0b4f2dd265.json"
+        }
+      },
+      {
+        "given": "Lucile",
+        "family": "Soler",
+        "initials": "L",
+        "orcid": "0000-0002-0121-2393",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f701059f90fe4c7c9b969079e74aac57.json"
+        }
+      },
+      {
+        "given": "Lena",
+        "family": "Holm",
+        "initials": "L",
+        "orcid": "0000-0002-7717-4370",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3b769bc4b7e74ce48c1f26bc5d647e18.json"
+        }
+      },
+      {
+        "given": "Annelie",
+        "family": "Mollbrink",
+        "initials": "A",
+        "orcid": "0009-0007-0542-0695",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/64c67099378344c8b7d1ff66a7bfdc48.json"
+        }
+      },
+      {
+        "given": "Gabriele",
+        "family": "Greco",
+        "initials": "G",
+        "orcid": "0000-0003-3356-7081",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/924046db702c424f8296265c8d6599fd.json"
+        }
+      },
+      {
+        "given": "Noah",
+        "family": "Fereydouni",
+        "initials": "N",
+        "orcid": "0000-0002-1786-4337",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/bc54e88c9a724eecb2a2c68e9f025a97.json"
+        }
+      },
+      {
+        "given": "Olga",
+        "family": "Vinnere Pettersson",
+        "initials": "O",
+        "orcid": "0000-0002-5597-1870",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/31689f508a984d0680d285c294669615.json"
+        }
+      },
+      {
+        "given": "Ignas",
+        "family": "Bunikis",
+        "initials": "I"
+      },
+      {
+        "given": "Allison",
+        "family": "Churcher",
+        "initials": "A",
+        "orcid": "0000-0003-1902-3002",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d97e6fb500a043f08d4f882e802cd91b.json"
+        }
+      },
+      {
+        "given": "Henrik",
+        "family": "Lantz",
+        "initials": "H"
+      },
+      {
+        "given": "Jan",
+        "family": "Johansson",
+        "initials": "J"
+      },
+      {
+        "given": "Johan",
+        "family": "Reimegård",
+        "initials": "J",
+        "orcid": "0000-0003-1518-2014",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/db7ebacfd8764a988ee41f2e5ab23e50.json"
+        }
+      },
+      {
+        "given": "Anna",
+        "family": "Rising",
+        "initials": "A",
+        "orcid": "0000-0002-1872-1207",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/6f120d653e7c47d7833be7a44c21dbaa.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Sci Adv",
+      "volume": "10",
+      "issue": "33",
+      "issn": "2375-2548",
+      "issn-l": "2375-2548",
+      "pages": "eadn0597"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "National Genomics Infrastructure": "Service",
+      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
+      "Bioinformatics Support, Infrastructure and Training": "Collaborative",
+      "Bioinformatics Long-term Support WABI": "Collaborative",
+      "NGI Short read": "Service",
+      "NGI Spatial omics": "Collaborative",
+      "Bioinformatics Support for Computational Resources": "Service",
+      "Bioinformatics (NBIS)": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/06092f1c02924d8da8dd7a4929fd5ac3.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/06092f1c02924d8da8dd7a4929fd5ac3"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC11323941"
+      }
+    ],
+    "notes": [],
+    "created": "2024-08-15T12:15:23.174Z",
+    "modified": "2024-11-25T10:28:17.415Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "7d3c4336130e450099e81cfa741064ec",
+    "doi": "10.1126/sciadv.adk9315",
+    "pmid": "38569035",
+    "title": "Adaptive introgression reveals the genetic basis of a sexually selected syndrome in wall lizards.",
+    "abstract": "The joint expression of particular colors, morphologies, and behaviors is a common feature of adaptation, but the genetic basis for such \"phenotypic syndromes\" remains poorly understood. Here, we identified a complex genetic architecture associated with a sexually selected syndrome in common wall lizards, by capitalizing on the adaptive introgression of coloration and morphology into a distantly related lineage. Consistent with the hypothesis that the evolution of phenotypic syndromes in vertebrates is facilitated by developmental linkage through neural crest cells, most of the genes associated with the syndrome are involved in neural crest cell regulation. A major locus was a ~400-kb region, characterized by standing structural genetic variation and previously implied in the evolutionary innovation of coloration and beak size in birds. We conclude that features of the developmental and genetic architecture contribute to maintaining trait integration, facilitating the extensive and rapid introgressive spread of suites of sexually selected characters.",
+    "published": "2024-04-05",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Nathalie",
+        "family": "Feiner",
+        "initials": "N",
+        "orcid": "0000-0003-4648-6950",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4dfa523d52b348359775994be5d69640.json"
+        }
+      },
+      {
+        "given": "Weizhao",
+        "family": "Yang",
+        "initials": "W"
+      },
+      {
+        "given": "Ignas",
+        "family": "Bunikis",
+        "initials": "I"
+      },
+      {
+        "given": "Geoffrey M",
+        "family": "While",
+        "initials": "GM",
+        "orcid": "0000-0001-8122-9322",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b40ba32f8185473fa3543815e8a539fe.json"
+        }
+      },
+      {
+        "given": "Tobias",
+        "family": "Uller",
+        "initials": "T",
+        "orcid": "0000-0003-1293-5842",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/6346267a5c3e41c6a6825b7b20a53fa5.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Sci Adv",
+      "volume": "10",
+      "issue": "14",
+      "issn": "2375-2548",
+      "issn-l": "2375-2548",
+      "pages": "eadk9315"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
+      "NGI Long read": "Collaborative",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/7d3c4336130e450099e81cfa741064ec.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/7d3c4336130e450099e81cfa741064ec"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC10990284"
+      }
+    ],
+    "notes": [],
+    "created": "2024-04-09T12:41:11.047Z",
+    "modified": "2024-11-25T10:28:12.121Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "a1a66eb9378f48bcbb9c32923b5503e3",
+    "doi": "10.1111/mec.70204",
+    "pmid": "41387163",
+    "title": "Genome Variation in Three Anthophora Bee Species Reflects Divergent Demographic Histories",
+    "abstract": "Population genomics can reveal trends and drivers of biodiversity loss, but it is still unclear how best to use measures of genome variation to understand population vulnerability in insects. Here we study genome variation in three species of Anthophora bees that show contrasting population trends in northern Europe. Two species, Anthophora plagiata and Anthophora retusa , have experienced declines and recoveries of different magnitudes in the last 50 years, whereas a third species, Anthophora quadrimaculata , has relative population stability. We generate highly contiguous genome assemblies and use them to study genome variation in 136 samples of these species collected throughout Sweden. We find exceedingly low genetic variation in A. plagiata , which has experienced a severe recent bottleneck, but high genetic variation in A. retusa , despite a similar recent population trajectory. Fragmented populations of the threatened species A. plagiata appear isolated from each other, but in A. retusa, there is a lack of deep population structure among geographically separated subpopulations. We infer population size in the distant past using MSMC2 and recent past using GONE. These methods are remarkably concordant and indicate ancient fluctuations in population size dating back to the Pleistocene, with moderate expansions in the past century in all three species. These results are comparable to some other studies of endangered insects, which have experienced population declines that predate the modern era. We detect long blocks of identity-by-state in A. plagiata , indicative of severe recent inbreeding. Translocations between isolated populations of this species could have a positive effect on their resilience.",
+    "published": "2025-12-00",
+    "type": "journal-article",
+    "authors": [
+      {
+        "given": "Demetris",
+        "family": "Taliadoros",
+        "initials": "D"
+      },
+      {
+        "given": "André E R",
+        "family": "Soares",
+        "initials": "AER",
+        "orcid": "0000-0002-7768-2199",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2270d42b20f6456a8db81f41503b0063.json"
+        }
+      },
+      {
+        "given": "Guilherme",
+        "family": "Dias",
+        "initials": "G",
+        "orcid": "0000-0002-1459-3148",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/73778a1096e04b5d94f8d5c6f3584d99.json"
+        }
+      },
+      {
+        "given": "Ignas",
+        "family": "Bunikis",
+        "initials": "I",
+        "orcid": "0009-0008-8375-0451",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d2a9c139b7d64681a5712250d3cf63ff.json"
+        }
+      },
+      {
+        "given": "Martin",
+        "family": "Pippel",
+        "initials": "M",
+        "orcid": "0000-0002-8134-5929",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1f59d0c98de64ac1a62234792258ee62.json"
+        }
+      },
+      {
+        "given": "Anna",
+        "family": "Olsson",
+        "initials": "A",
+        "orcid": "0000-0002-5438-7293",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/57ec91022afd4c1390433d6383a06fc0.json"
+        }
+      },
+      {
+        "given": "Mai‐Britt",
+        "family": "Mosbech",
+        "initials": "M",
+        "orcid": "0000-0002-6068-0971",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/efde81e53e6e48cba694e82e6fa8d38c.json"
+        }
+      },
+      {
+        "given": "Julia",
+        "family": "Heintz",
+        "initials": "J",
+        "orcid": "0009-0001-9345-1358",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f7ebbb1f975844f7910676091d05a61e.json"
+        }
+      },
+      {
+        "given": "Nina",
+        "family": "Lager",
+        "initials": "N"
+      },
+      {
+        "given": "Anna‐Sofi",
+        "family": "Strand",
+        "initials": "A"
+      },
+      {
+        "given": "Mats",
+        "family": "Pettersson",
+        "initials": "M",
+        "orcid": "0000-0002-7372-9076",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/27011c7fbb8a44dda536a4fc876675b0.json"
+        }
+      },
+      {
+        "given": "Olga Vinnere",
+        "family": "Pettersson",
+        "initials": "OV"
+      },
+      {
+        "given": "Henrik",
+        "family": "Lantz",
+        "initials": "H",
+        "orcid": "0000-0003-2419-0075",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/85fa15d934214e00bb7818b865c4d754.json"
+        }
+      },
+      {
+        "given": "Björn",
+        "family": "Cederberg",
+        "initials": "B"
+      },
+      {
+        "given": "Kerstin",
+        "family": "Lindblad‐Toh",
+        "initials": "K"
+      },
+      {
+        "given": "Matthew T",
+        "family": "Webster",
+        "initials": "MT",
+        "orcid": "0000-0003-1141-2863",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/579df0da95b94e5087512b76d7f1c058.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Mol Ecol",
+      "volume": "34",
+      "issue": "24",
+      "issn": "0962-1083",
+      "issn-l": "0962-1083",
+      "pages": "e70204"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Short read": "Service",
+      "NGI Long read": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/a1a66eb9378f48bcbb9c32923b5503e3.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/a1a66eb9378f48bcbb9c32923b5503e3"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2025-12-17T11:40:16.625Z",
+    "modified": "2025-12-21T19:08:10.173Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "fdb2a58a717e4bbca202566f67f5792b",
+    "doi": "10.1186/s12864-025-12340-z",
+    "pmid": "41366724",
+    "title": "A co-speciation dilemma and a lifestyle transition with genomic consequences in Wolbachia of Neotropical Drosophila",
+    "abstract": "Long-term persistent symbiotic associations may result in co-speciation and can be inferred if species trees of hosts and symbionts are congruent in topology and divergence times. Co-speciation has been seen to occur relatively frequently in obligate associations, but is less common in parasitic or facultative ones, mainly due to the difference in horizontal transmission rates. The long-term vertical inheritance and close host association of obligate endosymbionts also generally result in smaller genomes than in facultative endosymbionts. Here, we investigate co-speciation and genome reduction using highly similar strains of the endosymbiont Wolbachia infecting Drosophila species from the willistoni and saltans groups, where only one strain, wPau, infecting D. paulistorum, is obligate.\n\nWe sequenced the Wolbachia genomes from five species of the willistoni and saltans groups and constructed phylogenies. Topological congruence was found between these Wolbachia strains and the nuclear DNA of their hosts, except for wPau and D. paulistorum, but full topological congruence was observed between Wolbachia and the host mitochondrial DNA. However, assuming temporal congruence, we estimated extremely low evolutionary rates in Wolbachia of 10- 10-10- 11 changes/site/year. Additionally, the obligate wPau strain was found to have a larger genome than closely related facultative strains, mainly due to an ongoing expansion of an IS4 element. Furthermore, wPau has lost a large proportion of its prophage WO genes, but the cif genes, known to be involved in the CI phenotype, are intact. Finally, nine of the eleven genes from the prophage WO-associated Undecim cluster are uniquely duplicated.\n\nThe congruent topologies between Wolbachia and their willistoni and saltans group hosts indicate co-speciation. However, the high similarity between Wolbachia strains, which results in low mutation rate estimates, challenges this interpretation. Contrary to the expectations of the genome reduction theory, we observed an increase in genome size in the obligate wPau strain, potentially driven by a decreased population size. Finally, the duplication of the Undecim cluster, despite a major loss of other prophage-associated genes, suggests that the genes in the Undecim cluster are under strong selection and potentially play a role in the obligate association between wPau and their D. paulistorum hosts.",
+    "published": "2025-12-10",
+    "type": "journal-article",
+    "authors": [
+      {
+        "given": "Konstantinos",
+        "family": "Papachristos",
+        "initials": "K",
+        "orcid": "0000-0002-4777-9088",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2bf7a545a218455fa134b3dd8bb1b895.json"
+        }
+      },
+      {
+        "given": "Wolfgang J",
+        "family": "Miller",
+        "initials": "WJ"
+      },
+      {
+        "given": "Lisa",
+        "family": "Klasson",
+        "initials": "L",
+        "orcid": "0000-0002-5874-7153",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/409de77af489419db6d2b599b590d02f.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "BMC Genomics",
+      "volume": "27",
+      "issue": "1",
+      "issn": "1471-2164",
+      "issn-l": "1471-2164",
+      "pages": "41"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/fdb2a58a717e4bbca202566f67f5792b.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/fdb2a58a717e4bbca202566f67f5792b"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12801941"
+      },
+      {
+        "db": "pii",
+        "key": "10.1186/s12864-025-12340-z"
+      }
+    ],
+    "notes": [],
+    "created": "2026-01-19T08:58:08.199Z",
+    "modified": "2026-01-20T07:53:24.298Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "b8ca2a2dba2049ec8de7192c162898c4",
+    "doi": "10.1038/s41586-025-09811-4",
+    "pmid": "41339558",
+    "title": "Homo sapiens-specific evolution unveiled by ancient southern African genomes.",
+    "abstract": "Homo sapiens evolved hundreds of thousands of years ago in Africa, later spreading across the globe1, but the early evolutionary process is debated2-6. Here we present whole-genome sequencing data for 28 ancient southern African individuals, including six individuals with 25× to 7.2× genome coverage, dated to between 10,200 and 150 calibrated years before present (cal. BP). All ancient southern Africans dated to more than 1,400 cal. BP show a genetic make-up that is outside the range of genetic variation in modern-day humans (including southern African Khoe-San people, although some retain up to 80% ancient southern African ancestry), manifesting in a large fraction of Homo sapiens-specific variants that are unique to ancient southern Africans. Homo sapiens-specific variants at amino acid-altering sites fixed for all humans-which are likely to have evolved rapidly on the Homo sapiens branch-were enriched for genes associated with kidney function. Some Homo sapiens-specific variants fixed in ancient southern Africans-which are likely to have adapted rapidly on the southern African branch-were enriched for genes associated with protection against ultraviolet light. The ancient southern Africans show little spatiotemporal stratification for 9,000 years, consistent with a large, stable Holocene population transcending archaeological phases. While southern Africa served as a long-standing geographical refugium, there is outward gene flow over 8,000 years ago; however, inward gene flow manifests only after around 1,400 years ago. The ancient genomes reported here are therefore key to the evolution of Homo sapiens, and are important for advancing our understanding of human genomic variation.",
+    "published": "2025-12-03",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Mattias",
+        "family": "Jakobsson",
+        "initials": "M",
+        "orcid": "0000-0001-7840-7853",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8a4abe0fcb20492d9ec849c9fbf58a71.json"
+        }
+      },
+      {
+        "given": "Carolina",
+        "family": "Bernhardsson",
+        "initials": "C",
+        "orcid": "0000-0002-3258-275X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b8fce67de4e14fa68c0edadfec0de085.json"
+        }
+      },
+      {
+        "given": "James",
+        "family": "McKenna",
+        "initials": "J"
+      },
+      {
+        "given": "Nina",
+        "family": "Hollfelder",
+        "initials": "N",
+        "orcid": "0000-0002-1567-8450",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0f81a63833c146999d73fa38f588ea06.json"
+        }
+      },
+      {
+        "given": "Mario",
+        "family": "Vicente",
+        "initials": "M"
+      },
+      {
+        "given": "Hanna",
+        "family": "Edlund",
+        "initials": "H"
+      },
+      {
+        "given": "Alexandra",
+        "family": "Coutinho",
+        "initials": "A"
+      },
+      {
+        "given": "Per",
+        "family": "Sjödin",
+        "initials": "P"
+      },
+      {
+        "given": "James",
+        "family": "Brink",
+        "initials": "J"
+      },
+      {
+        "given": "Bernhard",
+        "family": "Zipfel",
+        "initials": "B",
+        "orcid": "0000-0002-4251-884X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/74d1041d932a49c9bc2baca44273d4a4.json"
+        }
+      },
+      {
+        "given": "Helena",
+        "family": "Malmström",
+        "initials": "H",
+        "orcid": "0000-0002-6456-8055",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3b3397b2842142bea34c222f6683c0eb.json"
+        }
+      },
+      {
+        "given": "Marlize",
+        "family": "Lombard",
+        "initials": "M",
+        "orcid": "0000-0002-0675-0414",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/e04e97bbc9914f358864988174b9b58d.json"
+        }
+      },
+      {
+        "given": "Carina M",
+        "family": "Schlebusch",
+        "initials": "CM",
+        "orcid": "0000-0002-8160-9621",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/682f10853c1145649b8c76680605dd9b.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nature",
+      "volume": null,
+      "issue": null,
+      "issn": "1476-4687",
+      "issn-l": "0028-0836",
+      "pages": null
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/b8ca2a2dba2049ec8de7192c162898c4.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/b8ca2a2dba2049ec8de7192c162898c4"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s41586-025-09811-4"
+      }
+    ],
+    "notes": [],
+    "created": "2025-12-04T08:12:48.745Z",
+    "modified": "2025-12-05T10:16:26.469Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "bed19b398aa143d28064d622d7f4babf",
+    "doi": "10.1186/s13059-025-03877-z",
+    "pmid": "41327385",
+    "title": "Holotype genome of the lesula provides insights into demography and evolution of a threatened primate lineage.",
+    "abstract": "The development of genome sequencing techniques has revolutionized evolutionary biology, facilitating the study of adaptation and speciation at the genome level. Genomic data has also become a cornerstone in conservation management, allowing inferences of population demography and genetic diversity.\n\nWe sequence the genome of the holotype specimen of the elusive lesula (Cercopithecus lomamiensis), a recently described member of the guenons (tribe Cercopithecini), endemic to the Democratic Republic of the Congo. Using published and novel genomic data, we explore the evolutionary and demographic history of C. lomamiensis and its sister species C. hamlyni. We estimate that the two species split ca. 3–4 million years ago, and find that they both show high genetic diversity despite being listed as Vulnerable on the IUCN Red List. We identify signatures of positive selection in genes involved in pelage coloration and immune functions, as well as skeletal morphology and locomotor behavior, potentially related to the terrestrial lifestyle of C. lomamiensis and C. hamlyni, which stand out among the otherwise arboreal Cercopithecus genus. We specifically explore whether introgression from more distantly related terrestrial guenons was involved in the evolution of terrestriality in the hamlyni group, but found low molecular convergence suggesting that putative terrestrial adaptations occurred largely independently.\n\nThis study provides insights into the demography and evolutionary history in a poorly known, threatened primate lineage. Furthermore, our results suggest that genomic erosion is not an imminent threat to these species, and that conservation management should prioritize actions to prevent further population decline.\n\nThe online version contains supplementary material available at 10.1186/s13059-025-03877-z.",
+    "published": "2025-12-01",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Axel",
+        "family": "Jensen",
+        "initials": "A",
+        "orcid": "0000-0003-1766-560X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7f139b7f3dac49e28ef6430637d88592.json"
+        }
+      },
+      {
+        "given": "Emma R",
+        "family": "Horton",
+        "initials": "ER"
+      },
+      {
+        "given": "Mardoché B",
+        "family": "Koko",
+        "initials": "MB"
+      },
+      {
+        "given": "Kate M",
+        "family": "Detwiler",
+        "initials": "KM"
+      },
+      {
+        "given": "Katerina",
+        "family": "Guschanski",
+        "initials": "K",
+        "orcid": "0000-0002-8493-5457",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/84b8b0757f02429b9bd419acb42ab6a3.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Genome Biol.",
+      "volume": "26",
+      "issue": "1",
+      "issn": "1474-760X",
+      "issn-l": "1474-7596",
+      "pages": "408"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/bed19b398aa143d28064d622d7f4babf.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/bed19b398aa143d28064d622d7f4babf"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12667059"
+      },
+      {
+        "db": "pii",
+        "key": "10.1186/s13059-025-03877-z"
+      }
+    ],
+    "notes": [],
+    "created": "2025-12-04T13:28:29.798Z",
+    "modified": "2025-12-21T19:09:46.579Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "823c71158dcd4b9fb085d01e55d13e48",
+    "doi": "10.1038/s41467-025-66170-4",
+    "pmid": "41238550",
+    "title": "scFFPE-ATAC enables high-throughput single cell chromatin accessibility profiling in formalin-fixed paraffin-embedded samples.",
+    "abstract": "Formalin-fixed paraffin-embedded (FFPE) samples are the gold standard for tissue preservation in clinical and research settings. Current single-cell chromatin accessibility technologies cannot resolve cell-type-specific epigenetic profiles in FFPE tissues due to extensive DNA damage. We present scFFPE-ATAC, a high-throughput single-cell chromatin accessibility assay for FFPE samples that integrates an FFPE-adapted Tn5 transposase, ultra-high-throughput DNA barcoding (>56 million barcodes per run), T7 promoter-mediated DNA damage repair, and in vitro transcription. We benchmark scFFPE-ATAC on FFPE mouse spleen and validate its performance against fresh tissue. We apply it to human lymph node samples archived for 8-12 years and to lung cancer FFPE tissues, revealing distinct regulatory trajectories between tumor center and invasive edge. Analysis of archived follicular lymphoma and transformed diffuse large B-cell lymphoma samples identifies relapse- and transformation-associated epigenetic dynamics. scFFPE-ATAC enables retrospective, spatial, and mechanistic epigenetic studies in long-term archived specimens.",
+    "published": "2025-11-14",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Ram Prakash",
+        "family": "Yadav",
+        "initials": "RP"
+      },
+      {
+        "given": "Pengwei",
+        "family": "Xing",
+        "initials": "P"
+      },
+      {
+        "given": "Miao",
+        "family": "Zhao",
+        "initials": "M",
+        "orcid": "0000-0002-4895-1177",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b9c4e2515b414dee94aaeca71569699b.json"
+        }
+      },
+      {
+        "given": "Peter",
+        "family": "Hollander",
+        "initials": "P"
+      },
+      {
+        "given": "Carina",
+        "family": "Strell",
+        "initials": "C",
+        "orcid": "0000-0002-3783-7256",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/eb77b417ef2b479fb267969c3a557617.json"
+        }
+      },
+      {
+        "given": "Minglu",
+        "family": "Xie",
+        "initials": "M"
+      },
+      {
+        "given": "Maede",
+        "family": "Salehi",
+        "initials": "M"
+      },
+      {
+        "given": "Emma",
+        "family": "Torell",
+        "initials": "E"
+      },
+      {
+        "given": "Tobias",
+        "family": "Sjöblom",
+        "initials": "T",
+        "orcid": "0000-0001-6668-4140",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/909f00a5bf6e465f9ff560b12bcd863a.json"
+        }
+      },
+      {
+        "given": "Gunilla",
+        "family": "Enblad",
+        "initials": "G",
+        "orcid": "0000-0002-0594-724X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/11313af3f4a241ecb93af23ab2652195.json"
+        }
+      },
+      {
+        "given": "Rose-Marie",
+        "family": "Amini",
+        "initials": "RM",
+        "orcid": "0000-0003-0901-5252",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c157abcd61fa4900b5ad502b408d6d95.json"
+        }
+      },
+      {
+        "given": "Fredrik Johansson",
+        "family": "Swartling",
+        "initials": "FJ",
+        "orcid": "0000-0002-8460-4367",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/69679cebbc90496f9c5b32f56d966654.json"
+        }
+      },
+      {
+        "given": "Ingrid",
+        "family": "Glimelius",
+        "initials": "I"
+      },
+      {
+        "given": "Patrick",
+        "family": "Micke",
+        "initials": "P",
+        "orcid": "0000-0003-1210-5961",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fc0cba74e74a4c39a8f96319cb9a3034.json"
+        }
+      },
+      {
+        "given": "Mats",
+        "family": "Hellström",
+        "initials": "M"
+      },
+      {
+        "given": "Xingqi",
+        "family": "Chen",
+        "initials": "X",
+        "orcid": "0000-0002-5657-2839",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ef7ddc09e57745909175e41ac2d1b647.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nat Commun",
+      "volume": "16",
+      "issue": "1",
+      "issn": "2041-1723",
+      "issn-l": "2041-1723",
+      "pages": "10022"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/823c71158dcd4b9fb085d01e55d13e48.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/823c71158dcd4b9fb085d01e55d13e48"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s41467-025-66170-4"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC12618699"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-17T09:00:46.632Z",
+    "modified": "2025-11-17T09:00:47.092Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "5087e22117c64ebbbc4b4299bfc98b9a",
+    "doi": "10.1186/s12974-025-03613-1",
+    "pmid": "41239401",
+    "title": "A [11C]PBR28 PET study on the associations between sleep health and microglial density.",
+    "abstract": "Sleep disturbances and inflammation are interconnected through shared regulatory mechanisms and are both implicated in age-related diseases. However, their connection at the level of brain-specific inflammation remains underexamined in humans. This study investigated whether specific dimensions of sleep are associated with microglial density, as measured by translocator protein (TSPO) levels, a biomarker of neuroinflammation. TSPO levels were measured using a single [11C]PBR28 positron emission tomography (PET) scan in 39 healthy adults aged 50-81 years (Mage = 66.7, SD = 8.9; 19 females, 20 males). Sleep dimensions were assessed using the Karolinska Sleep Questionnaire on three occasions over five years, twice before and once around the time of PET imaging. Shorter sleep, more frequent napping, daytime fatigue, and sleep insufficiency were associated with higher TSPO levels in the middle frontal cortex (MFC). Conversely, longer sleep was associated with higher TSPO levels in the hippocampus and putamen. Exploratory factor analysis and bootstrapping confirmed a negative association between a factor representing shorter sleep and MFC TSPO levels. Additionally, a greater deviation from optimal sleep duration over the five years, in either direction from eight hours, was associated with higher current TSPO levels in all but one examined brain regions. Peripheral C-reactive protein levels did not significantly correlate with the sleep variables or TSPO levels in any of the brain regions. Analyses were adjusted for age and sex. These findings suggest that insufficient and prolonged sleep durations are associated with elevated microglial density in frontostriatal and limbic systems, respectively, among healthy middle-aged and older adults, without any associations with peripheral inflammation. Further longitudinal studies are needed to clarify directionality and whether changes in sleep duration over time may serve as early indicators of brain health.",
+    "published": "2025-11-14",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Leonie Jt",
+        "family": "Balter",
+        "initials": "LJ"
+      },
+      {
+        "given": "Jonatan",
+        "family": "Malmros",
+        "initials": "J"
+      },
+      {
+        "given": "Per",
+        "family": "Stenkrona",
+        "initials": "P"
+      },
+      {
+        "given": "Andrea",
+        "family": "Varrone",
+        "initials": "A"
+      },
+      {
+        "given": "Anton",
+        "family": "Forsberg",
+        "initials": "A"
+      },
+      {
+        "given": "Erik",
+        "family": "Gustavsson",
+        "initials": "E"
+      },
+      {
+        "given": "Cedrique E",
+        "family": "Mouyobo",
+        "initials": "CE"
+      },
+      {
+        "given": "Grégoria",
+        "family": "Kalpouzos",
+        "initials": "G"
+      },
+      {
+        "given": "Goran",
+        "family": "Papenberg",
+        "initials": "G"
+      }
+    ],
+    "journal": {
+      "title": "J Neuroinflammation",
+      "volume": "22",
+      "issue": "1",
+      "issn": "1742-2094",
+      "issn-l": "1742-2094",
+      "pages": "270"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI SNP genotyping": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/5087e22117c64ebbbc4b4299bfc98b9a.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/5087e22117c64ebbbc4b4299bfc98b9a"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12619189"
+      },
+      {
+        "db": "pii",
+        "key": "10.1186/s12974-025-03613-1"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-18T15:39:15.446Z",
+    "modified": "2025-11-18T15:39:15.465Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "f3a1b1396edb4101b0575fbc43ec7415",
+    "doi": "10.1038/s42004-025-01753-2",
+    "pmid": "41188494",
+    "title": "Comparative evaluation of Olink Explore 3072 and mass spectrometry with peptide fractionation for plasma proteomics.",
+    "abstract": "Plasma proteomics technologies are advancing rapidly, offering new opportunities for biomarker discovery and precision medicine. Direct comparisons of available technologies are needed to understand how platform selection affects downstream findings. We compared the performance of a peptide fractionation-based mass spectrometry method (HiRIEF LC-MS/MS) and the Olink Explore 3072 proximity extension assays on 88 plasma samples, analyzing 1129 proteins with both methods. The platforms exhibited complementary proteome coverage, high precision, and concordance in estimating sex differences in protein levels. Quantitative agreement between platforms was moderate (median correlation 0.59, interquartile range 0.33-0.75), mainly influenced by technical factors. Finally, we present a publicly available tool for peptide-level analysis of platform agreement and demonstrate its utility in clarifying cross-platform discrepancies in protein and proteoform measurements. Our findings provide insights for platform selection and study design, and highlight the value of combining mass spectrometry and affinity-based approaches for more comprehensive and reliable plasma proteome profiling.",
+    "published": "2025-11-04",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Noora",
+        "family": "Sissala",
+        "initials": "N",
+        "orcid": "0009-0000-0758-8140",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3a96666a6a2e478fbdd3cf33d7db1e74.json"
+        }
+      },
+      {
+        "given": "Haris",
+        "family": "Babačić",
+        "initials": "H",
+        "orcid": "0000-0003-0813-0005",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/45a1c5d3d2d34a9e96d112877632784c.json"
+        }
+      },
+      {
+        "given": "Isabelle R",
+        "family": "Leo",
+        "initials": "IR",
+        "orcid": "0000-0002-7627-6690",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/21185d9c6a2343f189397cbbb95c6e71.json"
+        }
+      },
+      {
+        "given": "Xiaofang",
+        "family": "Cao",
+        "initials": "X"
+      },
+      {
+        "given": "Jenny",
+        "family": "Forshed",
+        "initials": "J"
+      },
+      {
+        "given": "Lars E",
+        "family": "Eriksson",
+        "initials": "LE",
+        "orcid": "0000-0001-5121-5325",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ebb717a9972245a5b2427a4b8421fe6f.json"
+        }
+      },
+      {
+        "given": "Janne",
+        "family": "Lehtiö",
+        "initials": "J",
+        "orcid": "0000-0002-8100-9562",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8406a97bac744a59b1bc951978994581.json"
+        }
+      },
+      {
+        "given": "Claudia",
+        "family": "Fredolini",
+        "initials": "C",
+        "orcid": "0000-0002-7674-2014",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/40ac3a5823cb4f998cc8bdb96dcbf195.json"
+        }
+      },
+      {
+        "given": "Mikael",
+        "family": "Åberg",
+        "initials": "M",
+        "orcid": "0000-0002-7858-8233",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/90fa86e9aeaa43ea9547e48b4f3f24e3.json"
+        }
+      },
+      {
+        "given": "Maria",
+        "family": "Pernemalm",
+        "initials": "M",
+        "orcid": "0000-0003-4624-031X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f15f303cb2044cfa81719700137e3603.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Commun Chem",
+      "volume": "8",
+      "issue": "1",
+      "issn": "2399-3669",
+      "issn-l": null,
+      "pages": "327"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Proteomics": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "Affinity Proteomics Stockholm": "Collaborative",
+      "Affinity Proteomics Uppsala": "Collaborative",
+      "Global Proteomics and Proteogenomics": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/f3a1b1396edb4101b0575fbc43ec7415.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/f3a1b1396edb4101b0575fbc43ec7415"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12586489"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s42004-025-01753-2"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-07T07:35:27.214Z",
+    "modified": "2025-11-27T13:03:30.885Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "1938da5a9fb54644b9fd03953d33a22d",
+    "doi": "10.1016/j.ard.2025.09.015",
+    "pmid": "41139557",
+    "title": "Autoreactive T cells identified in patients with anti-Jo1+ antisynthetase syndrome recognise a new epitope on histidyl t-RNA synthetase.",
+    "abstract": "Anti-Jo1+ antisynthetase syndrome (ASyS) is characterised by autoantibodies targeting histidyl t-RNA synthetase (HisRS), association with HLA-DRB1*03:01 and a distinct clinical phenotype including interstitial lung disease, myositis, arthritis, and mechanic's hands. Previous studies of autoreactive HisRS-specific CD4+T cells point to yet undiscovered T cell epitopes. We aimed to identify new epitopes on HisRS to investigate the presence of autoreactive T cells and their corresponding T-cell receptor (TCR) repertoire from patients with ASyS.\n\nPeptides from HisRS N-terminal region with appropriate major histocompatibility complex (MHC) anchor residues were selected for in vitro binding assays. The peptide (HisRS41-55) with the highest HLA-DRB1*03:01 binding affinity was selected for studies with HLA-class II tetramers. Peripheral blood mononuclear cells (PBMCs) from patients with ASyS with HLA-DRB1*03:01 (n = 12) were stimulated in vitro with peptide and peptide-HLA-DRB1*03:01 tetramers were used to detect HisRS+CD4+T cells. Single TCR sequencing of captured T cells allowed analyses of the underlying TCR repertoire.\n\nWe identified a new T cell epitope on HisRS with high affinity for HLA-DRB1*03:01. Autoreactive HisRS+CD4+T cells were detected in PBMCs of patients (n = 6/12). TCR repertoire analysis of HisRS+CD4+T cells revealed shared gene V-alpha and beta usages. Moreover, HisRS+CD4+T cells persisted after treatment in 2 patients (P2 and P4) and 2 identical T cell clones were detected between the initial and follow-up time points in 1 patient (P2).\n\nAutoreactive T-cells targeting a new HisRS epitope were identified indicating T cell reactivity to diverse epitopes of the HisRS protein in patients with anti-Jo1 autoantibodies. Furthermore, we demonstrated the TCR repertoire of autoreactive HisRS+CD4+T cells in patients. Persistence of these T-cells and specific clones may be contributing to disease.",
+    "published": "2025-10-25",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Angeles S",
+        "family": "Galindo-Feria",
+        "initials": "AS"
+      },
+      {
+        "given": "Ravi Kumar",
+        "family": "Sharma",
+        "initials": "RK"
+      },
+      {
+        "given": "Anatoly",
+        "family": "Dubnovitsky",
+        "initials": "A"
+      },
+      {
+        "given": "Christina",
+        "family": "Gerstner",
+        "initials": "C"
+      },
+      {
+        "given": "Genadiy",
+        "family": "Kozhukh",
+        "initials": "G"
+      },
+      {
+        "given": "Annika",
+        "family": "Van Vollenhoven",
+        "initials": "A"
+      },
+      {
+        "given": "Juan Sebastian Diaz",
+        "family": "Boada",
+        "initials": "JSD"
+      },
+      {
+        "given": "Daniel",
+        "family": "Ramsköld",
+        "initials": "D",
+        "orcid": "0000-0003-2892-673X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/cc367f2adb7c4379b7dc441be34e7ded.json"
+        }
+      },
+      {
+        "given": "Adnane",
+        "family": "Achour",
+        "initials": "A"
+      },
+      {
+        "given": "Maryam",
+        "family": "Dastmalchi",
+        "initials": "M"
+      },
+      {
+        "given": "Hugh H",
+        "family": "Reid",
+        "initials": "HH"
+      },
+      {
+        "given": "Tatyana",
+        "family": "Sandalova",
+        "initials": "T"
+      },
+      {
+        "given": "Jamie",
+        "family": "Rossjohn",
+        "initials": "J"
+      },
+      {
+        "given": "Karine",
+        "family": "Chemin",
+        "initials": "K"
+      },
+      {
+        "given": "Vivianne",
+        "family": "Malmström",
+        "initials": "V",
+        "orcid": "0000-0001-9251-8082",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/34027fbf97444632a470b33e446d4d67.json"
+        }
+      },
+      {
+        "given": "Ingrid E",
+        "family": "Lundberg",
+        "initials": "IE",
+        "orcid": "0000-0002-6068-9212",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/40f6c8e761a944b78e67f0e04453f78b.json"
+        }
+      },
+      {
+        "given": "Begum",
+        "family": "Horuluoglu",
+        "initials": "B",
+        "orcid": "0000-0003-2241-5170",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/19120340af6c42bd8a359ce39d4a8b99.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Ann. Rheum. Dis.",
+      "issn": "1468-2060",
+      "issn-l": "0003-4967"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Single cell": "Service",
+      "NGI Short read": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/1938da5a9fb54644b9fd03953d33a22d.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/1938da5a9fb54644b9fd03953d33a22d"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "S0003-4967(25)04429-2"
+      }
+    ],
+    "notes": [],
+    "created": "2025-10-29T10:08:57.216Z",
+    "modified": "2025-11-11T13:53:36.238Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "a303b58b4fa1409b9589100fef20ee82",
+    "doi": "10.1038/s41698-025-01145-8",
+    "pmid": "41093965",
+    "title": "Postnatal sustentacular cells as chromaffin progenitors and tumor cells of origin in VHL-related paragangliomas.",
+    "abstract": "The cellular source of chromaffin cell regeneration after birth and its relationship to paraganglioma tumorigenesis remains incompletely defined. Here, we identify a postnatal population of SOX2/SOX10-expressing sustentacular glia-like cells in the organ of Zuckerkandl (OZ) and adrenal gland that give rise to chromaffin cells in vivo. These cells differ transcriptionally from embryonic chromaffin progenitors known as Schwann cell precursors and exhibit a unique progenitor signature. Genetic lineage tracing confirms their postnatal contribution to chromaffin cells, and SOX2+PHOX2B+ transitional cells were observed in both human and mouse OZ and adrenal tissues. Single-nuclei RNA-seq and inferCNA analysis of pheochromocytoma and paraganglioma (PPGL) revealed that while most sustentacular cells exhibit a stromal profile, a subset in VHL-mutated PPGLs harbor the hallmark 3p chromosomal loss shared with chief tumor cells, suggesting a clonal origin. In an additional PPGL, widespread SOX2 expression in PHOX2B+ tumor cells supports this hypothesis. Finally, DLK1-NOTCH signaling was predicted as a central regulator of chromaffin-sustentacular communication, suggesting DLK1 fine-tunes chromaffin regeneration via NOTCH inhibition and may represent a therapeutic target in PPGL.",
+    "published": "2025-10-15",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Petra",
+        "family": "Bullova",
+        "initials": "P"
+      },
+      {
+        "given": "Peng",
+        "family": "Cui",
+        "initials": "P"
+      },
+      {
+        "given": "Maria",
+        "family": "Arceo",
+        "initials": "M"
+      },
+      {
+        "given": "Jiacheng",
+        "family": "Zhu",
+        "initials": "J"
+      },
+      {
+        "given": "Wenyu",
+        "family": "Li",
+        "initials": "W"
+      },
+      {
+        "given": "Monika",
+        "family": "Plescher",
+        "initials": "M"
+      },
+      {
+        "given": "Valentin",
+        "family": "Poltorachenko",
+        "initials": "V"
+      },
+      {
+        "given": "Katerina",
+        "family": "Stripling",
+        "initials": "K"
+      },
+      {
+        "given": "Christian",
+        "family": "Santangeli",
+        "initials": "C"
+      },
+      {
+        "given": "Lidiya",
+        "family": "Mykhaylechko",
+        "initials": "L"
+      },
+      {
+        "given": "Maria Eleni",
+        "family": "Kastriti",
+        "initials": "ME"
+      },
+      {
+        "given": "Catharina",
+        "family": "Larsson",
+        "initials": "C"
+      },
+      {
+        "given": "C Christofer",
+        "family": "Juhlin",
+        "initials": "CC"
+      },
+      {
+        "given": "Michael",
+        "family": "Mints",
+        "initials": "M"
+      },
+      {
+        "given": "Susanne",
+        "family": "Schlisio",
+        "initials": "S"
+      }
+    ],
+    "journal": {
+      "title": "NPJ Precis Oncol",
+      "volume": "9",
+      "issue": "1",
+      "issn": "2397-768X",
+      "issn-l": null,
+      "pages": "324"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Single cell": "Service",
+      "NGI Short read": "Service",
+      "Bioinformatics Support for Computational Resources": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12528426"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41698-025-01145-8"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-21T13:44:18.484Z",
+    "modified": "2025-11-28T10:47:30.359Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "107c7b3b512c45f686868f13aff2dfd8",
+    "doi": "10.1016/j.ard.2025.07.029",
+    "pmid": "41046204",
+    "title": "Innate immune cell subsets are enriched in synovial fluid of ACPA-negative rheumatoid arthritis and characterized by distinct type I IFN gene signatures.",
+    "abstract": "Around 30% of patients with rheumatoid arthritis (RA) lack rheumatoid factor and anti-citrullinated protein antibodies (ACPA) complicating diagnosis and potentially delaying treatment. We hypothesised that innate immune mechanisms might be more prominent in ACPA- RA.\n\nWe performed single-cell RNA sequencing of mononuclear cells from peripheral blood (PBMC) and synovial fluid (SFMC) of patients with ACPA- and ACPA+ RA (n = 4 per group: discovery cohort; n = 8 per group: validation cohort). Dendritic cells and proinflammatory cytokine production were analysed by flow cytometry on SFMC from patients with ACPA- RA, ACPA+ RA, and psoriatic arthritis. Interferon (IFN) levels in synovial fluid (SF) and serum were measured in these groups.\n\nSeveral macrophage subsets and cDC2 were enriched in ACPA- RA SF whereas the frequency of Tph and B cells was increased in ACPA+ RA SF. Type I IFN-stimulated genes were detected in SFMC, but not PBMC, of patients with ACPA- RA. A type I IFN signature was also observed in synovial tissue from two patients with ACPA- RA in an independent dataset. IFN levels were higher in SF than serum but IFN-α/β production did not differ between ACPA+ and ACPA- RA.\n\nThis study identifies a distinct innate cell composition and type I IFN gene response in synovial joints, but not in peripheral blood, of patients with ACPA- RA. Similar IFN levels across groups suggest the IFN signature may have been primed before the cells entered the joints. These findings provide a foundation for future research on type I IFN responses in ACPA- RA.",
+    "published": "2025-10-03",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Alexandra",
+        "family": "Argyriou",
+        "initials": "A"
+      },
+      {
+        "given": "Marc H",
+        "family": "Wadsworth",
+        "initials": "MH"
+      },
+      {
+        "given": "Joshua",
+        "family": "Fienman",
+        "initials": "J"
+      },
+      {
+        "given": "Ana Cristina",
+        "family": "Gonzalez-Sanchez",
+        "initials": "AC"
+      },
+      {
+        "given": "Salim",
+        "family": "Ghannoum",
+        "initials": "S"
+      },
+      {
+        "given": "Chirag",
+        "family": "Krishna",
+        "initials": "C"
+      },
+      {
+        "given": "Christina",
+        "family": "Gerstner",
+        "initials": "C"
+      },
+      {
+        "given": "Begum",
+        "family": "Horuluoglu",
+        "initials": "B"
+      },
+      {
+        "given": "Merel",
+        "family": "Sijbranda",
+        "initials": "M"
+      },
+      {
+        "given": "Lars",
+        "family": "Rönnblom",
+        "initials": "L"
+      },
+      {
+        "given": "Maija-Leena",
+        "family": "Eloranta",
+        "initials": "ML"
+      },
+      {
+        "given": "Marie",
+        "family": "Wahren-Herlenius",
+        "initials": "M"
+      },
+      {
+        "given": "Aase",
+        "family": "Hensvold",
+        "initials": "A"
+      },
+      {
+        "given": "Sara",
+        "family": "Turcinov",
+        "initials": "S"
+      },
+      {
+        "given": "Aaron",
+        "family": "Winkler",
+        "initials": "A"
+      },
+      {
+        "given": "Vivianne",
+        "family": "Malmström",
+        "initials": "V"
+      },
+      {
+        "given": "Karine",
+        "family": "Chemin",
+        "initials": "K"
+      }
+    ],
+    "journal": {
+      "title": "Ann. Rheum. Dis.",
+      "issn": "1468-2060",
+      "issn-l": "0003-4967"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Single cell": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "S0003-4967(25)04299-2"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-19T07:45:45.847Z",
+    "modified": "2025-11-19T07:45:45.871Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  }
+]
