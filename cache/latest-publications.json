@@ -1,6 +1,140 @@
 [
   {
     "entity": "publication",
+    "iuid": "a13b9b2a120741f2af40dbd525b2c748",
+    "doi": "10.1016/j.isci.2025.114611",
+    "pmid": "41630906",
+    "title": "Exploration of immune phenotypes in self-sampling citizens.",
+    "abstract": "Blood proteins have provided essential insights into how humans responded to the recent pandemic. To expand our understanding beyond patients seeking medical care, we conducted a citizen-centric survey with 2,000 random residents (age: 18-69 years) from Sweden's two largest cities in 2021. With self-sampled dried blood spots (DBS) and health information from 437 (22%) volunteers, we performed multi-analyte COVID-19 serology, measured autoantibodies (AAbs) against 22 interferons, and quantified 502 circulating low-abundant immune-related blood proteins. Antibody assays confirmed self-reported infections (26%) and vaccinations (40%), showed timing-dependent discrepancies in the immune response, and revealed anti-type I interferon AAbs co-occurring frequently alongside natural infections. Proteomics data added plausible mechanistic insights into cell-mediated processes: data-driven analyses revealed 24% of participants presented deviating immune phenotypes linked to infections, immunity, respiratory effects, and age. Multi-molecular DBS analysis of random layperson samples captured the broader spectrum of immune system states, adding relevant insights for clinical and public health investigations.",
+    "published": "2026-02-20",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Dahl",
+        "initials": "L"
+      },
+      {
+        "given": "Annika",
+        "family": "Bendes",
+        "initials": "A"
+      },
+      {
+        "given": "María Bueno",
+        "family": "Álvez",
+        "initials": "MB"
+      },
+      {
+        "given": "Vincent",
+        "family": "Albrecht",
+        "initials": "V"
+      },
+      {
+        "given": "Hooman",
+        "family": "Aghelpasand",
+        "initials": "H"
+      },
+      {
+        "given": "Sophia",
+        "family": "Björkander",
+        "initials": "S"
+      },
+      {
+        "given": "Simon Kebede",
+        "family": "Merid",
+        "initials": "SK"
+      },
+      {
+        "given": "Anja",
+        "family": "Mezger",
+        "initials": "A"
+      },
+      {
+        "given": "Max",
+        "family": "Käller",
+        "initials": "M"
+      },
+      {
+        "given": "Claudia",
+        "family": "Fredolini",
+        "initials": "C"
+      },
+      {
+        "given": "Åsa Torinsson",
+        "family": "Naluai",
+        "initials": "ÅT"
+      },
+      {
+        "given": "Olof",
+        "family": "Beck",
+        "initials": "O"
+      },
+      {
+        "given": "Erik",
+        "family": "Melén",
+        "initials": "E"
+      },
+      {
+        "given": "Stefan",
+        "family": "Bauer",
+        "initials": "S"
+      },
+      {
+        "given": "Magnus",
+        "family": "Gisslén",
+        "initials": "M"
+      },
+      {
+        "given": "Niclas",
+        "family": "Roxhed",
+        "initials": "N"
+      },
+      {
+        "given": "Jochen M",
+        "family": "Schwenk",
+        "initials": "JM"
+      }
+    ],
+    "journal": {
+      "title": "iScience",
+      "volume": "29",
+      "issue": "2",
+      "issn": "2589-0042",
+      "issn-l": "2589-0042",
+      "pages": "114611"
+    },
+    "labels": {
+      "National Genomics Infrastructure": "Collaborative",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Short read": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/a13b9b2a120741f2af40dbd525b2c748.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/a13b9b2a120741f2af40dbd525b2c748"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12860695"
+      },
+      {
+        "db": "pii",
+        "key": "S2589-0042(25)02872-X"
+      }
+    ],
+    "notes": [],
+    "created": "2026-02-26T13:37:49.302Z",
+    "modified": "2026-02-26T13:37:49.316Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
     "iuid": "20af1880766c43ec92b67618ebf96e75",
     "doi": "10.1111/all.70209",
     "pmid": "41498390",
@@ -1495,14 +1629,28 @@
   },
   {
     "entity": "publication",
-    "iuid": "7d3c4336130e450099e81cfa741064ec",
-    "doi": "10.1126/sciadv.adk9315",
-    "pmid": "38569035",
-    "title": "Adaptive introgression reveals the genetic basis of a sexually selected syndrome in wall lizards.",
-    "abstract": "The joint expression of particular colors, morphologies, and behaviors is a common feature of adaptation, but the genetic basis for such \"phenotypic syndromes\" remains poorly understood. Here, we identified a complex genetic architecture associated with a sexually selected syndrome in common wall lizards, by capitalizing on the adaptive introgression of coloration and morphology into a distantly related lineage. Consistent with the hypothesis that the evolution of phenotypic syndromes in vertebrates is facilitated by developmental linkage through neural crest cells, most of the genes associated with the syndrome are involved in neural crest cell regulation. A major locus was a ~400-kb region, characterized by standing structural genetic variation and previously implied in the evolutionary innovation of coloration and beak size in birds. We conclude that features of the developmental and genetic architecture contribute to maintaining trait integration, facilitating the extensive and rapid introgressive spread of suites of sexually selected characters.",
-    "published": "2024-04-05",
+    "iuid": "e05c68328fed4b66bdae56b5a53a8183",
+    "doi": "10.1111/ede.70030",
+    "pmid": "41709476",
+    "title": "Enrichment of Neural Crest Cells by Antibody Labeling and Flow Cytometry for Single-Cell Transcriptomics in a Lizard.",
+    "abstract": "Neural crest cells (NCCs) are a key component of the vertebrate body plan and contribute to a variety of different traits. Recent advances in single-cell transcriptomics (scRNA-seq) have significantly improved our understanding of NCC biology. However, their dynamic migratory behavior and spatiotemporal heterogeneity in the developing embryo pose significant challenges for their identification and isolation. Consequently, most studies of NCCs have been confined to model organisms with established transgenic tools or established methods for in ovo manipulation. To overcome this limitation, we present a novel approach that combines antibody labeling with fluorescence activated cell sorting to enrich for NCCs and we demonstrate the approach in the common wall lizard (Podarcis muralis). Through microscopy, reverse transcription quantitative polymerase chain reaction and single-cell RNA sequencing, we show that the method enriches for NCCs as efficiently as methods relying on transgenic animals. Using this technique, we successfully characterize transcriptional profiles of NCCs in wall lizard embryos. We anticipate that this method can be applied to a wide range of vertebrates that lack transgenic tools, enabling deeper insights into the diverse roles of neural crest cells in development and evolution.",
+    "published": "2026-03-00",
     "type": "journal article",
     "authors": [
+      {
+        "given": "Robin",
+        "family": "Pranter",
+        "initials": "R",
+        "orcid": "0000-0003-3615-0281",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/02c2a85e333a477597ff77429646a0a9.json"
+        }
+      },
+      {
+        "given": "Cedric",
+        "family": "Patthey",
+        "initials": "C"
+      },
       {
         "given": "Nathalie",
         "family": "Feiner",
@@ -1511,70 +1659,41 @@
         "researcher": {
           "href": "https://publications.scilifelab.se/researcher/4dfa523d52b348359775994be5d69640.json"
         }
-      },
-      {
-        "given": "Weizhao",
-        "family": "Yang",
-        "initials": "W"
-      },
-      {
-        "given": "Ignas",
-        "family": "Bunikis",
-        "initials": "I"
-      },
-      {
-        "given": "Geoffrey M",
-        "family": "While",
-        "initials": "GM",
-        "orcid": "0000-0001-8122-9322",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/b40ba32f8185473fa3543815e8a539fe.json"
-        }
-      },
-      {
-        "given": "Tobias",
-        "family": "Uller",
-        "initials": "T",
-        "orcid": "0000-0003-1293-5842",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/6346267a5c3e41c6a6825b7b20a53fa5.json"
-        }
       }
     ],
     "journal": {
-      "title": "Sci Adv",
-      "volume": "10",
-      "issue": "14",
-      "issn": "2375-2548",
-      "issn-l": "2375-2548",
-      "pages": "eadk9315"
+      "title": "Evol Dev",
+      "volume": "28",
+      "issue": "1",
+      "issn": "1525-142X",
+      "issn-l": null,
+      "pages": "e70030"
     },
     "labels": {
+      "National Genomics Infrastructure": "Service",
       "NGI Stockholm (Genomics Production)": "Service",
       "NGI Stockholm (Genomics Applications)": "Service",
-      "National Genomics Infrastructure": "Collaborative",
-      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
-      "NGI Long read": "Collaborative",
-      "Bioinformatics Support for Computational Resources": "Service"
+      "NGI Single cell": "Service",
+      "NGI Short read": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/7d3c4336130e450099e81cfa741064ec.json"
+        "href": "https://publications.scilifelab.se/publication/e05c68328fed4b66bdae56b5a53a8183.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/7d3c4336130e450099e81cfa741064ec"
+        "href": "https://publications.scilifelab.se/publication/e05c68328fed4b66bdae56b5a53a8183"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC10990284"
+        "key": "PMC12917300"
       }
     ],
     "notes": [],
-    "created": "2024-04-09T12:41:11.047Z",
-    "modified": "2024-11-25T10:28:12.121Z",
-    "is_collab": true,
+    "created": "2026-02-26T15:21:38.415Z",
+    "modified": "2026-02-26T15:21:38.513Z",
+    "is_collab": false,
     "is_tech_dev": false
   },
   {
@@ -2682,133 +2801,6 @@
     "notes": [],
     "created": "2025-11-21T13:44:18.484Z",
     "modified": "2025-11-28T10:47:30.359Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "107c7b3b512c45f686868f13aff2dfd8",
-    "doi": "10.1016/j.ard.2025.07.029",
-    "pmid": "41046204",
-    "title": "Innate immune cell subsets are enriched in synovial fluid of ACPA-negative rheumatoid arthritis and characterized by distinct type I IFN gene signatures.",
-    "abstract": "Around 30% of patients with rheumatoid arthritis (RA) lack rheumatoid factor and anti-citrullinated protein antibodies (ACPA) complicating diagnosis and potentially delaying treatment. We hypothesised that innate immune mechanisms might be more prominent in ACPA- RA.\n\nWe performed single-cell RNA sequencing of mononuclear cells from peripheral blood (PBMC) and synovial fluid (SFMC) of patients with ACPA- and ACPA+ RA (n = 4 per group: discovery cohort; n = 8 per group: validation cohort). Dendritic cells and proinflammatory cytokine production were analysed by flow cytometry on SFMC from patients with ACPA- RA, ACPA+ RA, and psoriatic arthritis. Interferon (IFN) levels in synovial fluid (SF) and serum were measured in these groups.\n\nSeveral macrophage subsets and cDC2 were enriched in ACPA- RA SF whereas the frequency of Tph and B cells was increased in ACPA+ RA SF. Type I IFN-stimulated genes were detected in SFMC, but not PBMC, of patients with ACPA- RA. A type I IFN signature was also observed in synovial tissue from two patients with ACPA- RA in an independent dataset. IFN levels were higher in SF than serum but IFN-α/β production did not differ between ACPA+ and ACPA- RA.\n\nThis study identifies a distinct innate cell composition and type I IFN gene response in synovial joints, but not in peripheral blood, of patients with ACPA- RA. Similar IFN levels across groups suggest the IFN signature may have been primed before the cells entered the joints. These findings provide a foundation for future research on type I IFN responses in ACPA- RA.",
-    "published": "2025-10-03",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Alexandra",
-        "family": "Argyriou",
-        "initials": "A"
-      },
-      {
-        "given": "Marc H",
-        "family": "Wadsworth",
-        "initials": "MH"
-      },
-      {
-        "given": "Joshua",
-        "family": "Fienman",
-        "initials": "J"
-      },
-      {
-        "given": "Ana Cristina",
-        "family": "Gonzalez-Sanchez",
-        "initials": "AC"
-      },
-      {
-        "given": "Salim",
-        "family": "Ghannoum",
-        "initials": "S"
-      },
-      {
-        "given": "Chirag",
-        "family": "Krishna",
-        "initials": "C"
-      },
-      {
-        "given": "Christina",
-        "family": "Gerstner",
-        "initials": "C"
-      },
-      {
-        "given": "Begum",
-        "family": "Horuluoglu",
-        "initials": "B"
-      },
-      {
-        "given": "Merel",
-        "family": "Sijbranda",
-        "initials": "M"
-      },
-      {
-        "given": "Lars",
-        "family": "Rönnblom",
-        "initials": "L"
-      },
-      {
-        "given": "Maija-Leena",
-        "family": "Eloranta",
-        "initials": "ML"
-      },
-      {
-        "given": "Marie",
-        "family": "Wahren-Herlenius",
-        "initials": "M"
-      },
-      {
-        "given": "Aase",
-        "family": "Hensvold",
-        "initials": "A"
-      },
-      {
-        "given": "Sara",
-        "family": "Turcinov",
-        "initials": "S"
-      },
-      {
-        "given": "Aaron",
-        "family": "Winkler",
-        "initials": "A"
-      },
-      {
-        "given": "Vivianne",
-        "family": "Malmström",
-        "initials": "V"
-      },
-      {
-        "given": "Karine",
-        "family": "Chemin",
-        "initials": "K"
-      }
-    ],
-    "journal": {
-      "title": "Ann. Rheum. Dis.",
-      "issn": "1468-2060",
-      "issn-l": "0003-4967"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "S0003-4967(25)04299-2"
-      }
-    ],
-    "notes": [],
-    "created": "2025-11-19T07:45:45.847Z",
-    "modified": "2025-11-19T07:45:45.871Z",
     "is_collab": false,
     "is_tech_dev": false
   }
