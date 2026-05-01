@@ -284,6 +284,730 @@
   },
   {
     "entity": "publication",
+    "iuid": "01a6b1a78bb54a8f8e4c51b7ca9f3d9b",
+    "doi": "10.1038/s41467-026-72095-3",
+    "pmid": "42020385",
+    "title": "Longitudinal protein profiling of blood during childhood into early adulthood.",
+    "abstract": "Proteomic research enhances our understanding of health- and disease-related biological processes. Protein profiling during healthy childhood provides important insights into normal physiological development. We longitudinally measured 5416 plasma proteins at four follow-ups during childhood (4-, 8-, 16 years) and early adulthood (24 years) in 100 randomly selected subjects participating in a population-based Swedish cohort, using Olink Explore HT. In total, 3509 proteins were included in the analysis. 54% of the proteins were found to be associated with age, and we observed several protein trajectories from childhood to adulthood based on clustering. In addition to proteins involved in bone, teeth and cartilage formation, we identified differences in proteins involved in neural function, drug metabolism, and hormonal control. There were pronounced sex-related differences in protein levels, particularly at follow-ups 16 and 24, characterized by, for example, growth, response to stimuli and regulation of catabolic processes. We demonstrate dynamic age- and sex-related changes in protein levels during the first two decades of life. Our study results may serve as an important resource in understanding human physiological development, disease etiology, and for future protein biomarker research.",
+    "published": "2026-04-22",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Sofia",
+        "family": "Bergström",
+        "initials": "S",
+        "orcid": "0000-0003-2910-4754",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/648c9ed3483a4eb8a1d228cf7e59f6a7.json"
+        }
+      },
+      {
+        "given": "Sophia",
+        "family": "Björkander",
+        "initials": "S",
+        "orcid": "0000-0002-4600-2883",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/310af30b841741a790046af03a3cee6d.json"
+        }
+      },
+      {
+        "given": "María",
+        "family": "Bueno Álvez",
+        "initials": "M",
+        "orcid": "0000-0002-2669-7796",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b6a18cc0ce34429a91758206cedb5d60.json"
+        }
+      },
+      {
+        "given": "Simon",
+        "family": "Kebede Merid",
+        "initials": "S"
+      },
+      {
+        "given": "Hanna",
+        "family": "Danielsson",
+        "initials": "H",
+        "orcid": "0000-0001-6959-7704",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/32e346ce0d514179baea3c97b615e665.json"
+        }
+      },
+      {
+        "given": "Anna",
+        "family": "Bergström",
+        "initials": "A"
+      },
+      {
+        "given": "Inger",
+        "family": "Kull",
+        "initials": "I",
+        "orcid": "0000-0001-6096-3771",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7f248045358c4711b1d10d7b9fe9649c.json"
+        }
+      },
+      {
+        "given": "Anne-Sophie",
+        "family": "Merritt",
+        "initials": "AS"
+      },
+      {
+        "given": "Fredrik",
+        "family": "Edfors",
+        "initials": "F",
+        "orcid": "0000-0002-0017-7987",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3f0e8af0b9144bcd9fd566d316008a62.json"
+        }
+      },
+      {
+        "given": "Susanna",
+        "family": "Klevebro",
+        "initials": "S"
+      },
+      {
+        "given": "Mathias",
+        "family": "Uhlén",
+        "initials": "M",
+        "orcid": "0000-0002-4858-8056",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ff81da3cb0cf4262873b993a1b06798c.json"
+        }
+      },
+      {
+        "given": "Peter",
+        "family": "Nilsson",
+        "initials": "P",
+        "orcid": "0000-0002-4657-8532",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/799bcf1cf8cf451296f4535dd4ca9dc0.json"
+        }
+      },
+      {
+        "given": "Erik",
+        "family": "Melén",
+        "initials": "E",
+        "orcid": "0000-0002-8248-0663",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3af5a23ba0a847778eea300f745cb143.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nat Commun",
+      "volume": "17",
+      "issue": "1",
+      "issn": "2041-1723",
+      "issn-l": "2041-1723"
+    },
+    "labels": {
+      "NGI Proteomics": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/01a6b1a78bb54a8f8e4c51b7ca9f3d9b.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/01a6b1a78bb54a8f8e4c51b7ca9f3d9b"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13102979"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41467-026-72095-3"
+      }
+    ],
+    "notes": [],
+    "created": "2026-04-28T06:03:05.109Z",
+    "modified": "2026-04-28T06:03:05.659Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "b32de9be5435484c9597989fb073c05f",
+    "doi": "10.1016/j.isci.2026.115236",
+    "pmid": "41940329",
+    "title": "RUVBL1 and RUVBL2 are druggable MYC effector regulators in neuroblastoma cells.",
+    "abstract": "High-risk neuroblastoma is characterized by MYCN amplification and high MYCN or MYC gene expression. These patients have a poor prognosis and there is an urgent need for more effective drugs. While strategies to develop inhibitors that directly target the MYC proteins have remained largely unsuccessful, recent preclinical studies have identified ATR, a key protein of the DNA damage response, as a promising alternative therapeutic target. Here, we identified a strong RUVBL1 and RUVBL2 signature in transcriptomics data derived from different MYCN-driven mice tumors treated with ATR inhibitors. The RUVBL proteins form a complex with ATPase activity that has broad cellular functions and we demonstrate that pharmacological inhibition of this protein complex results in a strong reduction of MYC(N) signaling, cell-cycle arrest, DNA damage, and apoptosis. We confirmed the association with MYCN and identified the RUVBL genes as independent prognostic biomarkers in human primary neuroblastoma data.",
+    "published": "2026-04-17",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Joachim Tetteh",
+        "family": "Siaw",
+        "initials": "JT"
+      },
+      {
+        "given": "Arne",
+        "family": "Claeys",
+        "initials": "A"
+      },
+      {
+        "given": "Wei-Yun",
+        "family": "Lai",
+        "initials": "WY"
+      },
+      {
+        "given": "Marcus",
+        "family": "Borenäs",
+        "initials": "M"
+      },
+      {
+        "given": "Elien",
+        "family": "Hilgert",
+        "initials": "E"
+      },
+      {
+        "given": "Sarah-Lee",
+        "family": "Bekaert",
+        "initials": "SL"
+      },
+      {
+        "given": "Ellen",
+        "family": "Sanders",
+        "initials": "E"
+      },
+      {
+        "given": "Irem",
+        "family": "Kaya",
+        "initials": "I"
+      },
+      {
+        "given": "Jo",
+        "family": "Van Dorpe",
+        "initials": "J"
+      },
+      {
+        "given": "Frank",
+        "family": "Speleman",
+        "initials": "F"
+      },
+      {
+        "given": "Kaat",
+        "family": "Durinck",
+        "initials": "K"
+      },
+      {
+        "given": "Bengt",
+        "family": "Hallberg",
+        "initials": "B"
+      },
+      {
+        "given": "Ruth H",
+        "family": "Palmer",
+        "initials": "RH"
+      },
+      {
+        "given": "Jimmy",
+        "family": "Van den Eynden",
+        "initials": "J"
+      }
+    ],
+    "journal": {
+      "title": "iScience",
+      "volume": "29",
+      "issue": "4",
+      "issn": "2589-0042",
+      "issn-l": "2589-0042",
+      "pages": "115236"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/b32de9be5435484c9597989fb073c05f.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/b32de9be5435484c9597989fb073c05f"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13049659"
+      },
+      {
+        "db": "pii",
+        "key": "S2589-0042(26)00611-5"
+      }
+    ],
+    "notes": [],
+    "created": "2026-04-10T13:11:20.241Z",
+    "modified": "2026-04-10T13:11:20.252Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "d28a4f21a24a4775aecb9fff4b468e8a",
+    "doi": "10.1038/s41467-026-71452-6",
+    "pmid": "41951647",
+    "title": "Neoadjuvant palbociclib and endocrine therapy versus chemotherapy in ER + /HER2- breast cancer: a randomized phase II trial.",
+    "abstract": "In PREDIX LumB patients with estrogen receptor positive and human epidermal growth factor receptor negative (ER + /HER2-) breast cancer > 20 mm and/or with lymph node metastasis were randomized 1:1 to receive either paclitaxel weekly for 12 weeks followed by palbociclib and endocrine therapy for 12 weeks (arm A), or the reverse sequence (arm B). Primary endpoint is objective radiologic response at 12 weeks (ORR12), and key secondary endpoints are ORR24, pathologic complete response, event-free survival, safety and correlative studies of tissue and circulating biomarkers. Whole exome sequencing and RNA sequencing were performed on baseline fresh frozen tissue samples. In total, 179 patients comprise the intention-to-treat population. There is no statistically significant difference between the two arms in ORR12 (59% vs 45%, p = 0.058). An exploratory gene expression analysis identified differentially expressed genes and gene sets between responders and non-responders at 12 weeks. A predictive signature, CDKPredX, comprising 31 genes related to proliferation, ER signaling and immune activity was developed to identify patients resistant to chemotherapy but responding to palbociclib plus endocrine therapy (pinteraction=0.03). The predictive signature was independently validated in the CORALLEEN trial (pinteraction=0.048). Clinicaltrials.gov identifier: NCT02603679.",
+    "published": "2026-04-08",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Alexios",
+        "family": "Matikas",
+        "initials": "A",
+        "orcid": "0000-0002-4122-9624",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0af6483a77d746c2b838414692f1f4ed.json"
+        }
+      },
+      {
+        "given": "Evangelos",
+        "family": "Tzoras",
+        "initials": "E"
+      },
+      {
+        "given": "Michail",
+        "family": "Sarafidis",
+        "initials": "M"
+      },
+      {
+        "given": "Emmanouil G",
+        "family": "Sifakis",
+        "initials": "EG",
+        "orcid": "0000-0001-9919-4471",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c8506000a14a4a5286aa557ab67ef690.json"
+        }
+      },
+      {
+        "given": "Judith",
+        "family": "Bjöhle",
+        "initials": "J"
+      },
+      {
+        "given": "Elin",
+        "family": "Barnekow",
+        "initials": "E"
+      },
+      {
+        "given": "Sara",
+        "family": "Margolin",
+        "initials": "S"
+      },
+      {
+        "given": "Erika",
+        "family": "Isaksson-Friman",
+        "initials": "E"
+      },
+      {
+        "given": "Luisa Edman",
+        "family": "Kessler",
+        "initials": "LE"
+      },
+      {
+        "given": "Athanasios",
+        "family": "Zouzos",
+        "initials": "A",
+        "orcid": "0000-0003-2654-827X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/776e7ba8993b4465a27451629b509490.json"
+        }
+      },
+      {
+        "given": "Hemming",
+        "family": "Johansson",
+        "initials": "H"
+      },
+      {
+        "given": "Mats",
+        "family": "Hellström",
+        "initials": "M"
+      },
+      {
+        "given": "Susanne",
+        "family": "Agartz",
+        "initials": "S"
+      },
+      {
+        "given": "Per",
+        "family": "Grybäck",
+        "initials": "P",
+        "orcid": "0000-0002-1141-6234",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7b5986c379cd4d23a0b48ac328faab63.json"
+        }
+      },
+      {
+        "given": "Dimitrios",
+        "family": "Salgkamis",
+        "initials": "D",
+        "orcid": "0000-0002-3020-0359",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/826836fefcf5440ebef1c404e046a0ca.json"
+        }
+      },
+      {
+        "given": "Ioannis",
+        "family": "Zerdes",
+        "initials": "I",
+        "orcid": "0000-0002-8304-2462",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f786763a4a0e4b5bb865ebb199eb6ca2.json"
+        }
+      },
+      {
+        "given": "Kang",
+        "family": "Wang",
+        "initials": "K",
+        "orcid": "0000-0001-5401-1803",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7bdb074014224910b0f34e893b15e660.json"
+        }
+      },
+      {
+        "given": "Johan",
+        "family": "Hartman",
+        "initials": "J",
+        "orcid": "0000-0002-6500-8527",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/da7cefda6e00463d8ba95fc63eeb8f0a.json"
+        }
+      },
+      {
+        "given": "Balazs",
+        "family": "Acs",
+        "initials": "B",
+        "orcid": "0000-0002-0972-4633",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/efe428be3caf4deca0a7839d555f6c33.json"
+        }
+      },
+      {
+        "given": "Wenwen",
+        "family": "Sun",
+        "initials": "W"
+      },
+      {
+        "given": "Ceren",
+        "family": "Boyaci",
+        "initials": "C"
+      },
+      {
+        "given": "Guillermo",
+        "family": "Villacampa",
+        "initials": "G"
+      },
+      {
+        "given": "Tomas",
+        "family": "Pascual",
+        "initials": "T",
+        "orcid": "0000-0001-8431-3183",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c10a027f0fa74b6b9a667edcadf8f50e.json"
+        }
+      },
+      {
+        "given": "Joaquin",
+        "family": "Gavila",
+        "initials": "J"
+      },
+      {
+        "given": "Aleix",
+        "family": "Prat",
+        "initials": "A",
+        "orcid": "0000-0003-2377-540X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/582dfbb079214acbb35af0a0590b2fb3.json"
+        }
+      },
+      {
+        "given": "Charles",
+        "family": "Perou",
+        "initials": "C"
+      },
+      {
+        "given": "Yvonne",
+        "family": "Brandberg",
+        "initials": "Y"
+      },
+      {
+        "given": "Jonas",
+        "family": "Bergh",
+        "initials": "J",
+        "orcid": "0000-0001-5526-1847",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fd38f4f7704144ed9e3f869e197175e6.json"
+        }
+      },
+      {
+        "given": "Thomas",
+        "family": "Hatschek",
+        "initials": "T"
+      },
+      {
+        "given": "Theodoros",
+        "family": "Foukakis",
+        "initials": "T",
+        "orcid": "0000-0001-8952-9987",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7683c0280e9b4145aa54305fb08936a7.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nat Commun",
+      "volume": "17",
+      "issue": "1",
+      "issn": "2041-1723",
+      "issn-l": "2041-1723"
+    },
+    "labels": {
+      "NGI Short read": "Service",
+      "NGI Uppsala (SNP&SEQ Technology Platform)": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/d28a4f21a24a4775aecb9fff4b468e8a.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/d28a4f21a24a4775aecb9fff4b468e8a"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s41467-026-71452-6"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC13069018"
+      },
+      {
+        "db": "ClinicalTrials.gov",
+        "key": "NCT02603679"
+      }
+    ],
+    "notes": [],
+    "created": "2026-04-13T07:03:30.099Z",
+    "modified": "2026-04-13T07:03:31.324Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "fecec34336824e84b6c3dd0f90675ef4",
+    "doi": "10.1111/jfb.70417",
+    "pmid": "41912439",
+    "title": "Contrasting population genomic structuring of northern pike ( Esox lucius L.) in fresh‐ and brackish water environments: Implications for management and conservation",
+    "abstract": "Understanding the factors that shape population genetic structure is crucial for advancing evolutionary studies and developing effective management and conservation strategies. The northern pike (Esox lucius L.) is a top teleost predator that inhabits fresh and brackish water environments in the northern hemisphere. Pike populations in the brackish Baltic Sea typically display strong genetic structuring, with coastal sympatric populations that separate during spring for spawning in either shallow, sheltered brackish bays or in freshwater tributaries and wetlands. In contrast to the Baltic Sea, genomic structuring in freshwater environments, particularly in large lacustrine systems, remains poorly understood. To address this gap, we used restriction site-associated DNA-sequencing to assess the genetic structure and diversity of northern pike in two ecologically contrasting habitats: freshwater Vänern Lake, Sweden (8932 single nucleotide polimorphisms [SNPs]), and the brackish Baltic Sea around Saaremaa, Estonia (6899 SNPs). The results show strong genetic structuring and lower genetic diversity in brackish environment compared to the higher genetic diversity and extremely low genetic structuring observed in freshwater habitat. We found no evidence of divergent selection within environments. However, we identified 187 outlier SNPs and 62 outlier genes distinguishing the brackish and freshwater environments, potentially reflecting adaptation to salinity. Notably, several of these genes are associated with key biological processes, including osmotic stress regulation (akap13), early development (tfap2a) and pathogens response (tlr18). From a fisheries management perspective, our results indicate that the freshwater system can be managed as a single stock, while strong population structuring among Baltic coastal pike likely requires either large-scale solutions and/or population-specific fine-scale management efforts to maintain the genetic and life-history diversity among brackish coastal pike populations.",
+    "published": "2026-03-30",
+    "type": "journal-article",
+    "authors": [
+      {
+        "given": "Alfonso",
+        "family": "Diaz‐Suarez",
+        "initials": "A",
+        "orcid": "0000-0002-1726-2563",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/51f3f9866fe543b78c91c9c62c362cdd.json"
+        }
+      },
+      {
+        "given": "María‐Eugenia",
+        "family": "López",
+        "initials": "M"
+      },
+      {
+        "given": "Göran",
+        "family": "Sundblad",
+        "initials": "G"
+      },
+      {
+        "given": "Anti",
+        "family": "Vasemägi",
+        "initials": "A",
+        "orcid": "0000-0002-2184-5534",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ad9186f5720d493980b92869fb504cb8.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "J. Fish Biol.",
+      "issn": "0022-1112",
+      "issn-l": null
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/fecec34336824e84b6c3dd0f90675ef4.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/fecec34336824e84b6c3dd0f90675ef4"
+      }
+    },
+    "xrefs": [],
+    "notes": [],
+    "created": "2026-04-10T13:09:47.227Z",
+    "modified": "2026-04-16T09:42:58.777Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "dcc99177f164437e8a1a681594fa0445",
+    "doi": "10.1038/s41467-026-70365-8",
+    "pmid": "41876491",
+    "title": "Ribonuclease 4 Functions in Nociceptor-Mediated Nerve Homeostasis.",
+    "abstract": "The regulation of nociceptor identity and function is essential, as disruptions can significantly influence pain sensation, yet our understanding of the molecular mechanisms involved remains incomplete. In this study, we identified ribonuclease 4 (RNase4) as selectively expressed in the unmyelinated nociceptor lineage. Analysis of RNase4-deficient mice and single-cell transcriptomic data revealed a cell-autonomous role for RNase4 in regulating nociceptor function. Moreover, in a neuropathic pain model, RNase4 expression was upregulated in nociceptors during the pain and recovery phases, and its deletion altered mechanical sensation. Additionally, RNase4 exerted non-cell- autonomous effects on the myelin structural organization of adjacent myelinated axons. Together, these findings implicate RNase4 as a dual regulator of nociceptor biology and myelin integrity, revealing a molecular pathway for pain regulation and nerve repair.",
+    "published": "2026-03-24",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Xiaona",
+        "family": "Feng",
+        "initials": "X",
+        "orcid": "0000-0001-6186-1160",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ade5499e48344e448626eef177bf1b27.json"
+        }
+      },
+      {
+        "given": "Kaiwen",
+        "family": "Zhang",
+        "initials": "K",
+        "orcid": "0009-0001-0790-1616",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c1880c8da747467795a011858ca2c9bf.json"
+        }
+      },
+      {
+        "given": "Prach",
+        "family": "Techameena",
+        "initials": "P",
+        "orcid": "0009-0005-9380-2428",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/835cc139cbbd4e08afd433a817f74ac6.json"
+        }
+      },
+      {
+        "given": "Rolen M",
+        "family": "Quadros",
+        "initials": "RM"
+      },
+      {
+        "given": "Csaba",
+        "family": "Adori",
+        "initials": "C"
+      },
+      {
+        "given": "Aliia",
+        "family": "Murtazina",
+        "initials": "A"
+      },
+      {
+        "given": "Igor",
+        "family": "Adameyko",
+        "initials": "I",
+        "orcid": "0000-0001-5471-0356",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/346f484a56cb4ad5b866b194ccd44e4f.json"
+        }
+      },
+      {
+        "given": "Sofia",
+        "family": "Biagini",
+        "initials": "S",
+        "orcid": "0009-0001-8033-1568",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/a6a1c687a2e945c0a01cd9ea4729fcd0.json"
+        }
+      },
+      {
+        "given": "Ozun Gokce",
+        "family": "Bayramlik",
+        "initials": "OG",
+        "orcid": "0009-0006-2130-9674",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ecf0118536354092bddc54ca48594444.json"
+        }
+      },
+      {
+        "given": "Francois",
+        "family": "Lallemend",
+        "initials": "F",
+        "orcid": "0000-0001-5484-0011",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9a9494a8ea444facbf3b564670930ab5.json"
+        }
+      },
+      {
+        "given": "Channabasavaiah B",
+        "family": "Gurumurthy",
+        "initials": "CB"
+      },
+      {
+        "given": "Saida",
+        "family": "Hadjab",
+        "initials": "S",
+        "orcid": "0000-0001-7953-8396",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ed79ab77088f43859e11b75dcae33d73.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nat Commun",
+      "volume": "17",
+      "issue": "1",
+      "issn": "2041-1723",
+      "issn-l": "2041-1723"
+    },
+    "labels": {
+      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Single cell": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/dcc99177f164437e8a1a681594fa0445.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/dcc99177f164437e8a1a681594fa0445"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13022371"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41467-026-70365-8"
+      }
+    ],
+    "notes": [],
+    "created": "2026-04-10T12:49:18.049Z",
+    "modified": "2026-04-10T12:49:18.431Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
     "iuid": "8a88693e35b444ce876a3dd11d760a8e",
     "doi": "10.1038/s41467-026-70842-0",
     "pmid": "41851103",
@@ -1286,259 +2010,6 @@
   },
   {
     "entity": "publication",
-    "iuid": "a303b58b4fa1409b9589100fef20ee82",
-    "doi": "10.1038/s41698-025-01145-8",
-    "pmid": "41093965",
-    "title": "Postnatal sustentacular cells as chromaffin progenitors and tumor cells of origin in VHL-related paragangliomas.",
-    "abstract": "The cellular source of chromaffin cell regeneration after birth and its relationship to paraganglioma tumorigenesis remains incompletely defined. Here, we identify a postnatal population of SOX2/SOX10-expressing sustentacular glia-like cells in the organ of Zuckerkandl (OZ) and adrenal gland that give rise to chromaffin cells in vivo. These cells differ transcriptionally from embryonic chromaffin progenitors known as Schwann cell precursors and exhibit a unique progenitor signature. Genetic lineage tracing confirms their postnatal contribution to chromaffin cells, and SOX2+PHOX2B+ transitional cells were observed in both human and mouse OZ and adrenal tissues. Single-nuclei RNA-seq and inferCNA analysis of pheochromocytoma and paraganglioma (PPGL) revealed that while most sustentacular cells exhibit a stromal profile, a subset in VHL-mutated PPGLs harbor the hallmark 3p chromosomal loss shared with chief tumor cells, suggesting a clonal origin. In an additional PPGL, widespread SOX2 expression in PHOX2B+ tumor cells supports this hypothesis. Finally, DLK1-NOTCH signaling was predicted as a central regulator of chromaffin-sustentacular communication, suggesting DLK1 fine-tunes chromaffin regeneration via NOTCH inhibition and may represent a therapeutic target in PPGL.",
-    "published": "2025-10-15",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Petra",
-        "family": "Bullova",
-        "initials": "P"
-      },
-      {
-        "given": "Peng",
-        "family": "Cui",
-        "initials": "P"
-      },
-      {
-        "given": "Maria",
-        "family": "Arceo",
-        "initials": "M"
-      },
-      {
-        "given": "Jiacheng",
-        "family": "Zhu",
-        "initials": "J"
-      },
-      {
-        "given": "Wenyu",
-        "family": "Li",
-        "initials": "W"
-      },
-      {
-        "given": "Monika",
-        "family": "Plescher",
-        "initials": "M"
-      },
-      {
-        "given": "Valentin",
-        "family": "Poltorachenko",
-        "initials": "V"
-      },
-      {
-        "given": "Katerina",
-        "family": "Stripling",
-        "initials": "K"
-      },
-      {
-        "given": "Christian",
-        "family": "Santangeli",
-        "initials": "C"
-      },
-      {
-        "given": "Lidiya",
-        "family": "Mykhaylechko",
-        "initials": "L"
-      },
-      {
-        "given": "Maria Eleni",
-        "family": "Kastriti",
-        "initials": "ME"
-      },
-      {
-        "given": "Catharina",
-        "family": "Larsson",
-        "initials": "C"
-      },
-      {
-        "given": "C Christofer",
-        "family": "Juhlin",
-        "initials": "CC"
-      },
-      {
-        "given": "Michael",
-        "family": "Mints",
-        "initials": "M"
-      },
-      {
-        "given": "Susanne",
-        "family": "Schlisio",
-        "initials": "S"
-      }
-    ],
-    "journal": {
-      "title": "NPJ Precis Oncol",
-      "volume": "9",
-      "issue": "1",
-      "issn": "2397-768X",
-      "issn-l": null,
-      "pages": "324"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "NGI Short read": "Service",
-      "Bioinformatics Support for Computational Resources": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC12528426"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41698-025-01145-8"
-      }
-    ],
-    "notes": [],
-    "created": "2025-11-21T13:44:18.484Z",
-    "modified": "2025-11-28T10:47:30.359Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "107c7b3b512c45f686868f13aff2dfd8",
-    "doi": "10.1016/j.ard.2025.07.029",
-    "pmid": "41046204",
-    "title": "Innate immune cell subsets are enriched in synovial fluid of ACPA-negative rheumatoid arthritis and characterized by distinct type I IFN gene signatures.",
-    "abstract": "Around 30% of patients with rheumatoid arthritis (RA) lack rheumatoid factor and anti-citrullinated protein antibodies (ACPA) complicating diagnosis and potentially delaying treatment. We hypothesised that innate immune mechanisms might be more prominent in ACPA- RA.\n\nWe performed single-cell RNA sequencing of mononuclear cells from peripheral blood (PBMC) and synovial fluid (SFMC) of patients with ACPA- and ACPA+ RA (n = 4 per group: discovery cohort; n = 8 per group: validation cohort). Dendritic cells and proinflammatory cytokine production were analysed by flow cytometry on SFMC from patients with ACPA- RA, ACPA+ RA, and psoriatic arthritis. Interferon (IFN) levels in synovial fluid (SF) and serum were measured in these groups.\n\nSeveral macrophage subsets and cDC2 were enriched in ACPA- RA SF whereas the frequency of Tph and B cells was increased in ACPA+ RA SF. Type I IFN-stimulated genes were detected in SFMC, but not PBMC, of patients with ACPA- RA. A type I IFN signature was also observed in synovial tissue from two patients with ACPA- RA in an independent dataset. IFN levels were higher in SF than serum but IFN-α/β production did not differ between ACPA+ and ACPA- RA.\n\nThis study identifies a distinct innate cell composition and type I IFN gene response in synovial joints, but not in peripheral blood, of patients with ACPA- RA. Similar IFN levels across groups suggest the IFN signature may have been primed before the cells entered the joints. These findings provide a foundation for future research on type I IFN responses in ACPA- RA.",
-    "published": "2025-10-03",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Alexandra",
-        "family": "Argyriou",
-        "initials": "A"
-      },
-      {
-        "given": "Marc H",
-        "family": "Wadsworth",
-        "initials": "MH"
-      },
-      {
-        "given": "Joshua",
-        "family": "Fienman",
-        "initials": "J"
-      },
-      {
-        "given": "Ana Cristina",
-        "family": "Gonzalez-Sanchez",
-        "initials": "AC"
-      },
-      {
-        "given": "Salim",
-        "family": "Ghannoum",
-        "initials": "S"
-      },
-      {
-        "given": "Chirag",
-        "family": "Krishna",
-        "initials": "C"
-      },
-      {
-        "given": "Christina",
-        "family": "Gerstner",
-        "initials": "C"
-      },
-      {
-        "given": "Begum",
-        "family": "Horuluoglu",
-        "initials": "B"
-      },
-      {
-        "given": "Merel",
-        "family": "Sijbranda",
-        "initials": "M"
-      },
-      {
-        "given": "Lars",
-        "family": "Rönnblom",
-        "initials": "L"
-      },
-      {
-        "given": "Maija-Leena",
-        "family": "Eloranta",
-        "initials": "ML"
-      },
-      {
-        "given": "Marie",
-        "family": "Wahren-Herlenius",
-        "initials": "M"
-      },
-      {
-        "given": "Aase",
-        "family": "Hensvold",
-        "initials": "A"
-      },
-      {
-        "given": "Sara",
-        "family": "Turcinov",
-        "initials": "S"
-      },
-      {
-        "given": "Aaron",
-        "family": "Winkler",
-        "initials": "A"
-      },
-      {
-        "given": "Vivianne",
-        "family": "Malmström",
-        "initials": "V"
-      },
-      {
-        "given": "Karine",
-        "family": "Chemin",
-        "initials": "K"
-      }
-    ],
-    "journal": {
-      "title": "Ann. Rheum. Dis.",
-      "issn": "1468-2060",
-      "issn-l": "0003-4967"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/107c7b3b512c45f686868f13aff2dfd8"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "S0003-4967(25)04299-2"
-      }
-    ],
-    "notes": [],
-    "created": "2025-11-19T07:45:45.847Z",
-    "modified": "2025-11-19T07:45:45.871Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
     "iuid": "04e9d7eb6fd041648cef2ac003bdaae7",
     "doi": "10.1093/g3journal/jkaf231",
     "pmid": "41029998",
@@ -1801,164 +2272,6 @@
   },
   {
     "entity": "publication",
-    "iuid": "8e3c080a6b6f4c1494f64bbfe3ee1dc4",
-    "doi": "10.1038/s41419-025-07876-7",
-    "pmid": "40701975",
-    "title": "Identification of a small molecule targeting EPLIN as a novel strategy for the treatment of pediatric neuroblastoma and medulloblastoma.",
-    "abstract": "Amplification of the MYCN proto-oncogene serves as a key marker of aggressive disease and poor treatment outcomes in certain pediatric tumors originating from the nervous system, including neuroblastoma and medulloblastoma. However, the complex nature of the challenging MYCN protein underscores the urgent need for additional targets and therapies to tackle neuroblastoma and medulloblastoma. In this study, with a primary focus on neuroblastoma and the aim of also benefiting children with medulloblastoma, we identified FLIX5, a small compound that exhibits broad cytotoxicity against both neuroblastoma and medulloblastoma cells, primarily by triggering apoptosis. Furthermore, FLIX5 enhances the cholesterol dependency of neuroblastoma cells under conditions where mitochondrial function is impaired. FLIX5 as well shows a synergistic effect when combined with vincristine, a conventional anticancer drug, against neuroblastoma cells and organoids. Through proteome integral solubility alteration, computational molecular docking predictions, and cellular thermal shift assays for target identification and validation, FLIX5 reveals EPLIN (Epithelial Protein Lost In Neoplasm) as a previously unexplored drug target. EPLIN is involved in several cellular processes, including cholesterol uptake and mitochondrial function. The discovery of FLIX5 targeting EPLIN presents new opportunities for treating malignant pediatric tumors, with the potential to target chemoresistant dormant cancer cells and broaden its therapeutic applications to other tumor types.",
-    "published": "2025-07-23",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Emma",
-        "family": "Lindell",
-        "initials": "E",
-        "orcid": "0009-0001-2785-946X",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/667fca56e7c74aa7984daf5dac4bbc2e.json"
-        }
-      },
-      {
-        "given": "Jing",
-        "family": "Guo",
-        "initials": "J",
-        "orcid": "0000-0002-6399-3877",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/7e778f67395b491daec1b80d805ab6bd.json"
-        }
-      },
-      {
-        "given": "Miao",
-        "family": "Zhao",
-        "initials": "M",
-        "orcid": "0000-0002-4895-1177",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/b9c4e2515b414dee94aaeca71569699b.json"
-        }
-      },
-      {
-        "given": "Natallia",
-        "family": "Rameika",
-        "initials": "N"
-      },
-      {
-        "given": "Xi",
-        "family": "Lu",
-        "initials": "X"
-      },
-      {
-        "given": "Tabea",
-        "family": "Wacker",
-        "initials": "T"
-      },
-      {
-        "given": "Lei",
-        "family": "Zhong",
-        "initials": "L"
-      },
-      {
-        "given": "Tobias",
-        "family": "Bergström",
-        "initials": "T"
-      },
-      {
-        "given": "Sara",
-        "family": "Svanberg",
-        "initials": "S"
-      },
-      {
-        "given": "Azazul I",
-        "family": "Chowdhury",
-        "initials": "AI"
-      },
-      {
-        "given": "Peter",
-        "family": "Bergsten",
-        "initials": "P"
-      },
-      {
-        "given": "Xingqi",
-        "family": "Chen",
-        "initials": "X",
-        "orcid": "0000-0002-5657-2839",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ef7ddc09e57745909175e41ac2d1b647.json"
-        }
-      },
-      {
-        "given": "Daniel",
-        "family": "Bexell",
-        "initials": "D"
-      },
-      {
-        "given": "Fredrik J",
-        "family": "Swartling",
-        "initials": "FJ",
-        "orcid": "0000-0002-8460-4367",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/69679cebbc90496f9c5b32f56d966654.json"
-        }
-      },
-      {
-        "given": "Tobias",
-        "family": "Sjöblom",
-        "initials": "T",
-        "orcid": "0000-0001-6668-4140",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/909f00a5bf6e465f9ff560b12bcd863a.json"
-        }
-      },
-      {
-        "given": "Xiaonan",
-        "family": "Zhang",
-        "initials": "X",
-        "orcid": "0000-0003-4359-9079",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/306b1ef8c6904d6b936e11442b4515f4.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Cell Death Dis",
-      "volume": "16",
-      "issue": "1",
-      "issn": "2041-4889",
-      "issn-l": "2041-4889",
-      "pages": "554"
-    },
-    "labels": {
-      "NGI Single cell": "Service",
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "Chemical Proteomics": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/8e3c080a6b6f4c1494f64bbfe3ee1dc4.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/8e3c080a6b6f4c1494f64bbfe3ee1dc4"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC12287531"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41419-025-07876-7"
-      }
-    ],
-    "notes": [],
-    "created": "2025-09-30T09:25:55.225Z",
-    "modified": "2025-11-25T17:06:41.935Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
     "iuid": "19a4115c6ad14acaaf738a62c51e4f69",
     "doi": "10.1073/pnas.2424333122",
     "pmid": "40587810",
@@ -2152,168 +2465,6 @@
     "created": "2025-07-01T06:45:31.166Z",
     "modified": "2025-11-14T11:07:37.863Z",
     "is_collab": true,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "9f05d86339b84c169856faace9e38db9",
-    "doi": "10.1038/s41467-025-60977-x",
-    "pmid": "40562754",
-    "title": "The mitochondrial methylation potential gates mitoribosome assembly.",
-    "abstract": "S-adenosylmethionine (SAM) is the principal methyl donor in cells and is essential for mitochondrial gene expression, influencing RNA modifications, translation, and ribosome biogenesis. Using direct long-read RNA sequencing in mouse tissues and embryonic fibroblasts, we show that processing of the mitochondrial ribosomal gene cluster fails in the absence of mitochondrial SAM, leading to an accumulation of unprocessed precursors. Proteomic analysis of ribosome fractions revealed these precursors associated with processing and assembly factors, indicating stalled biogenesis. Structural analysis by cryo-electron microscopy demonstrated that SAM-dependent methylation is required for peptidyl transferase centre formation during mitoribosome assembly. Our findings identify a critical role for SAM in coordinating mitoribosomal RNA processing and large subunit maturation, linking cellular methylation potential to mitochondrial translation capacity.",
-    "published": "2025-06-25",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Ruth I C",
-        "family": "Glasgow",
-        "initials": "RIC"
-      },
-      {
-        "given": "Vivek",
-        "family": "Singh",
-        "initials": "V",
-        "orcid": "0000-0003-4656-3362",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/0576b8ffc93d42f6b47d9d0d7d01bbd0.json"
-        }
-      },
-      {
-        "given": "Lucía",
-        "family": "Peña-Pérez",
-        "initials": "L",
-        "orcid": "0000-0002-5044-7754",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/111f8a8c4c6d4d2ea60e5fc76831b7fa.json"
-        }
-      },
-      {
-        "given": "Alissa",
-        "family": "Wilhalm",
-        "initials": "A"
-      },
-      {
-        "given": "Marco F",
-        "family": "Moedas",
-        "initials": "MF"
-      },
-      {
-        "given": "David",
-        "family": "Moore",
-        "initials": "D"
-      },
-      {
-        "given": "Florian A",
-        "family": "Rosenberger",
-        "initials": "FA",
-        "orcid": "0000-0003-4604-6170",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/7e9cd9d0742d40e3b5dc1abfde64d5c4.json"
-        }
-      },
-      {
-        "given": "Xinping",
-        "family": "Li",
-        "initials": "X"
-      },
-      {
-        "given": "Ilian",
-        "family": "Atanassov",
-        "initials": "I",
-        "orcid": "0000-0001-8259-2545",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f8d22eab41e44364be8966abaf693de1.json"
-        }
-      },
-      {
-        "given": "Mira",
-        "family": "Saba",
-        "initials": "M"
-      },
-      {
-        "given": "Miriam",
-        "family": "Cipullo",
-        "initials": "M"
-      },
-      {
-        "given": "Joanna",
-        "family": "Rorbach",
-        "initials": "J",
-        "orcid": "0000-0002-2891-2840",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/a069374613a7403b818ce7ca400f3627.json"
-        }
-      },
-      {
-        "given": "Anna",
-        "family": "Wedell",
-        "initials": "A"
-      },
-      {
-        "given": "Christoph",
-        "family": "Freyer",
-        "initials": "C",
-        "orcid": "0000-0003-0418-1673",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/888298d25fb94acca7639063d3592373.json"
-        }
-      },
-      {
-        "given": "Alexey",
-        "family": "Amunts",
-        "initials": "A",
-        "orcid": "0000-0002-5302-1740",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/e7d0bf36ad1a47f5b5b88f78d1e15395.json"
-        }
-      },
-      {
-        "given": "Anna",
-        "family": "Wredenberg",
-        "initials": "A",
-        "orcid": "0000-0002-2500-6121",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/3ea9ee7305424cdb8c238ef569e5be03.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Nat Commun",
-      "volume": "16",
-      "issue": "1",
-      "issn": "2041-1723",
-      "issn-l": "2041-1723",
-      "pages": "5388"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Uppsala (Uppsala Genome Center)": "Service",
-      "NGI Long read": "Service",
-      "Bioinformatics Support for Computational Resources": "Service",
-      "NGI Stockholm (Genomics Applications)": null
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/9f05d86339b84c169856faace9e38db9.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/9f05d86339b84c169856faace9e38db9"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC12198368"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41467-025-60977-x"
-      }
-    ],
-    "notes": [],
-    "created": "2025-08-19T13:45:26.954Z",
-    "modified": "2025-12-08T12:41:21.324Z",
-    "is_collab": false,
     "is_tech_dev": false
   },
   {
@@ -2883,130 +3034,6 @@
     "notes": [],
     "created": "2025-12-17T11:40:16.625Z",
     "modified": "2025-12-21T19:08:10.173Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "2c7db473960c4c7fa52c676e6bfc84e0",
-    "doi": "10.26508/lsa.202403090",
-    "pmid": "40180576",
-    "title": "Shared requirement for MYC upstream super-enhancer region in tissue regeneration and cancer.",
-    "abstract": "Cancer has been characterized as a wound that does not heal. Malignant cells are morphologically distinct from normal proliferating cells but have extensive similarities to tissues undergoing wound healing and/or regeneration. The mechanistic basis of this similarity has, however, remained enigmatic. Here, we show that the genomic region upstream of Myc, which carries more cancer susceptibility in humans than any other genomic region, is required for intestinal regeneration after radiation damage. Failure to regenerate is associated with inefficient Ly6a/Sca1+ stem/progenitor cell mobilization, and almost complete failure to re-establish Lgr5+ cell compartment in the intestinal crypts. The Myc upstream region is also critical for growth of adult intestinal cells in 3D organoid culture. We show that culture conditions recapitulating most aspects of adult normal tissue architecture still reprogram normal cells to proliferate using a mechanism similar to that employed by cancer cells. Our results establish a function for the Myc super-enhancer region as the genetic link between tissue regeneration and tumorigenesis, and demonstrates that normal tissue renewal and regeneration of tissues after severe damage are mechanistically distinct.2-540",
-    "published": "2025-06-00",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Inderpreet",
-        "family": "Sur",
-        "initials": "I"
-      },
-      {
-        "given": "Wenshuo",
-        "family": "Zhao",
-        "initials": "W"
-      },
-      {
-        "given": "Jilin",
-        "family": "Zhang",
-        "initials": "J",
-        "orcid": "0000-0002-9976-1605",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/b595931cc9c045dbbeb2dba7f3913d05.json"
-        }
-      },
-      {
-        "given": "Margareta",
-        "family": "Kling Pilström",
-        "initials": "M"
-      },
-      {
-        "given": "Anna T",
-        "family": "Webb",
-        "initials": "AT",
-        "orcid": "0000-0001-6045-415X",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/909754226aa04eb0824fc87c9efc628a.json"
-        }
-      },
-      {
-        "given": "Huaitao",
-        "family": "Cheng",
-        "initials": "H"
-      },
-      {
-        "given": "Ari",
-        "family": "Ristimäki",
-        "initials": "A"
-      },
-      {
-        "given": "Pekka",
-        "family": "Katajisto",
-        "initials": "P",
-        "orcid": "0000-0002-3033-4189",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/68045c70bad544b68bbe913e7bf0ded8.json"
-        }
-      },
-      {
-        "given": "Martin",
-        "family": "Enge",
-        "initials": "M"
-      },
-      {
-        "given": "Helena",
-        "family": "Rannikmae",
-        "initials": "H"
-      },
-      {
-        "given": "Marc",
-        "family": "de la Roche",
-        "initials": "M"
-      },
-      {
-        "given": "Jussi",
-        "family": "Taipale",
-        "initials": "J",
-        "orcid": "0000-0003-4204-0951",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/43111333f8a84b2cbbceb64d4e1e3bc5.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Life Sci. Alliance",
-      "volume": "8",
-      "issue": "6",
-      "issn": "2575-1077",
-      "issn-l": "2575-1077"
-    },
-    "labels": {
-      "NGI Single cell": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/2c7db473960c4c7fa52c676e6bfc84e0.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/2c7db473960c4c7fa52c676e6bfc84e0"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC11969384"
-      },
-      {
-        "db": "pii",
-        "key": "8/6/e202403090"
-      }
-    ],
-    "notes": [],
-    "created": "2025-04-07T08:30:27.159Z",
-    "modified": "2025-04-07T08:30:27.535Z",
     "is_collab": false,
     "is_tech_dev": false
   }
