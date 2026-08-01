@@ -1,6 +1,115 @@
 [
   {
     "entity": "publication",
+    "iuid": "6f6a5bd19f4d4a459ee0ff3a82fc3eef",
+    "doi": "10.3390/life16060874",
+    "pmid": "42355402",
+    "title": "Resolving the Haplotype Complexity of Colorectal Cancer Genomes with Droplet Barcode Sequencing.",
+    "abstract": "Precision medicine is increasingly applied in the cancer clinic, adapting treatment to genomic alterations of the tumor. However, whether alterations disrupt the function of a protein can depend on if both alleles of a gene are altered. While massively parallel sequencing technologies can identify sequence aberrations, they are limited in resolving the corresponding haplotype information. In this proof-of-concept case study, we applied the linked-read droplet barcode sequencing (DBS) technology to resolve the haplotype complexity of colorectal cancer genomes on paired tumor and normal samples. Several cancer-related genes carried multiple mutations in either one or both haplotypes. Additionally, a number of haplotype-resolved large structural variants and copy number alterations were detected and phased with short somatic variants. Nearly all characterized oncogenic pathways harbored some of the identified short somatic variants. The study demonstrates that linked-read DBS technology can characterize complex genetic variations in a haplotype context and may provide essential information for personalized approaches.",
+    "published": "2026-05-22",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Humam",
+        "family": "Siga",
+        "initials": "H",
+        "orcid": "0000-0003-1842-0882",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/058b6ec6390a41929dc1288f71de63d4.json"
+        }
+      },
+      {
+        "given": "Pontus",
+        "family": "Höjer",
+        "initials": "P",
+        "orcid": "0000-0001-8010-4755",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/13f901467fc54bb3a162e533248ebb70.json"
+        }
+      },
+      {
+        "given": "Parham",
+        "family": "Pourbozorgi",
+        "initials": "P",
+        "orcid": "0000-0002-5957-627X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/520886f23ef54f008bff773ebb86f7b1.json"
+        }
+      },
+      {
+        "given": "Hooman",
+        "family": "Aghelpasand",
+        "initials": "H"
+      },
+      {
+        "given": "Max",
+        "family": "Käller",
+        "initials": "M"
+      },
+      {
+        "given": "Johan",
+        "family": "Hartman",
+        "initials": "J",
+        "orcid": "0000-0002-6500-8527",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/da7cefda6e00463d8ba95fc63eeb8f0a.json"
+        }
+      },
+      {
+        "given": "Cecilia",
+        "family": "Williams",
+        "initials": "C",
+        "orcid": "0000-0002-0602-2062",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/89989da8d4e64dd3a30b87fc62ceefae.json"
+        }
+      },
+      {
+        "given": "Afshin",
+        "family": "Ahmadian",
+        "initials": "A"
+      }
+    ],
+    "journal": {
+      "title": "Life (Basel)",
+      "volume": "16",
+      "issue": "6",
+      "issn": "2075-1729",
+      "issn-l": null
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative",
+      "NGI Other": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/6f6a5bd19f4d4a459ee0ff3a82fc3eef.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/6f6a5bd19f4d4a459ee0ff3a82fc3eef"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "life16060874"
+      },
+      {
+        "db": "pmc",
+        "key": "PMC13301505"
+      }
+    ],
+    "notes": [],
+    "created": "2026-07-14T17:34:48.527Z",
+    "modified": "2026-07-14T17:34:48.921Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
     "iuid": "49030089ac5e463a815a0459fdcfe9a2",
     "doi": "10.1038/s41437-026-00830-z",
     "pmid": "41840191",
@@ -1431,183 +1540,6 @@
   },
   {
     "entity": "publication",
-    "iuid": "94a6617807b3431a961787b517bc63a0",
-    "doi": "10.1111/mec.17567",
-    "pmid": "39475093",
-    "title": "Orthopteran Neo-Sex Chromosomes Reveal Dynamics of Recombination Suppression and Evolution of Supergenes.",
-    "abstract": "The early evolution of sex chromosomes has remained obscure for more than a century. The Vandiemenella viatica species group of morabine grasshoppers is highly suited for studying the early stages of sex chromosome divergence and degeneration of the Y chromosome. This stems from the fact that neo-XY sex chromosomes have independently evolved multiple times by X-autosome fusions with different autosomes. Here, we generated new chromosome-level assemblies for two chromosomal races representing karyotypes with and without neo-sex chromosomes (P24XY and P24X0), and sequence data of a third chromosomal race with a different neo-XY chromosome system (P25XY). Interestingly, these two neo-XY chromosomal races are formed by different X-autosome fusions (involving chr1 and chrB, respectively), and we found that both neo-Y chromosomes have partly ceased to recombine with their neo-X counterpart. We show that the neo-XY chromosomes have diverged through accumulation of SNPs and structural mutations, and that many neo-Y-linked genes have degenerated since recombination ceased. However, the non-recombining regions of neo-Y chromosomes host non-degenerated genes crucial for sex determination, such as sex-lethal and transformer, alongside genes associated with spermatogenesis, fertility, and reproduction, illustrating their integrative role as a masculinizing supergene. Contrary to expectations, the neo-Y chromosomes showed (slightly) lower density of transposable elements (TEs) compared to other genomic regions. The study reveals the unique dynamics of young sex chromosomes, with evolution of recombination suppression and pronounced decay of (some) neo-sex chromosome genes, and provides a compelling case illustrating how chromosomal fusions and post-fusion mutational processes contribute to the evolution of supergenes.",
-    "published": "2024-10-30",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Suvratha",
-        "family": "Jayaprasad",
-        "initials": "S"
-      },
-      {
-        "given": "Valentina",
-        "family": "Peona",
-        "initials": "V",
-        "orcid": "0000-0001-5119-1837",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/d4903a935025452f88e4f1c02483829b.json"
-        }
-      },
-      {
-        "given": "Simon J",
-        "family": "Ellerstrand",
-        "initials": "SJ",
-        "orcid": "0000-0003-2674-6997",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/5ed13c7732674cc992f2356848b97a7b.json"
-        }
-      },
-      {
-        "given": "Roberto",
-        "family": "Rossini",
-        "initials": "R"
-      },
-      {
-        "given": "Ignas",
-        "family": "Bunikis",
-        "initials": "I"
-      },
-      {
-        "given": "Olga V",
-        "family": "Pettersson",
-        "initials": "OV",
-        "orcid": "0000-0002-5597-1870",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/31689f508a984d0680d285c294669615.json"
-        }
-      },
-      {
-        "given": "Remi-André",
-        "family": "Olsen",
-        "initials": "RA",
-        "orcid": "0009-0002-8357-5186",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/5419b796720a47c8aa7a26ca663a96bd.json"
-        }
-      },
-      {
-        "given": "Carl-Johan",
-        "family": "Rubin",
-        "initials": "CJ",
-        "orcid": "0000-0001-8238-5052",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/0bd98ada4083444e8336ef3ec53df488.json"
-        }
-      },
-      {
-        "given": "Elisabet",
-        "family": "Einarsdottir",
-        "initials": "E",
-        "orcid": "0000-0003-3101-2285",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/0db39539bdd94519a418e6dd7a287cc8.json"
-        }
-      },
-      {
-        "given": "Franziska",
-        "family": "Bonath",
-        "initials": "F"
-      },
-      {
-        "given": "Tessa M",
-        "family": "Bradford",
-        "initials": "TM",
-        "orcid": "0000-0003-0607-1398",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/d434c308f143443b864dfb1137c9d549.json"
-        }
-      },
-      {
-        "given": "Steven J B",
-        "family": "Cooper",
-        "initials": "SJB",
-        "orcid": "0000-0002-7843-8438",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/8df76e7fede64a0294cf68a3ae20a07c.json"
-        }
-      },
-      {
-        "given": "Bengt",
-        "family": "Hansson",
-        "initials": "B",
-        "orcid": "0000-0001-6694-8169",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/01f0144e207c41dcbc4d5aec68690e4b.json"
-        }
-      },
-      {
-        "given": "Alexander",
-        "family": "Suh",
-        "initials": "A",
-        "orcid": "0000-0002-8979-9992",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/4e39e1313d894596a6c4ed949e43e019.json"
-        }
-      },
-      {
-        "given": "Takeshi",
-        "family": "Kawakami",
-        "initials": "T",
-        "orcid": "0000-0002-9204-6852",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/424031a0011f4e77bbb6f64a1d369b8b.json"
-        }
-      },
-      {
-        "given": "Holger",
-        "family": "Schielzeth",
-        "initials": "H",
-        "orcid": "0000-0002-9124-2261",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/56d7e24b36a24560bafa92f08848ac46.json"
-        }
-      },
-      {
-        "given": "Octavio M",
-        "family": "Palacios-Gimenez",
-        "initials": "OM",
-        "orcid": "0000-0002-1472-9949",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f90e29ecd5724ff19509983e65891915.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Mol. Ecol.",
-      "issn": "1365-294X",
-      "issn-l": "0962-1083",
-      "pages": "e17567"
-    },
-    "labels": {
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Collaborative",
-      "National Genomics Infrastructure": "Collaborative",
-      "NGI Uppsala (Uppsala Genome Center)": "Collaborative",
-      "NGI Long read": "Collaborative",
-      "Bioinformatics Support for Computational Resources": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/94a6617807b3431a961787b517bc63a0.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/94a6617807b3431a961787b517bc63a0"
-      }
-    },
-    "xrefs": [],
-    "notes": [],
-    "created": "2024-10-31T12:37:22.766Z",
-    "modified": "2024-11-25T10:27:35.236Z",
-    "is_collab": true,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
     "iuid": "b16a5df99b634091a39abab2b83d0afc",
     "doi": "10.1093/nargab/lqag053",
     "pmid": "42206012",
@@ -2624,6 +2556,92 @@
   },
   {
     "entity": "publication",
+    "iuid": "e3a0b036f1a64129a355aafe11a904e8",
+    "doi": "10.1186/s13073-025-01565-y",
+    "pmid": "41168841",
+    "title": "Disease-specific epigenetic deregulation of enhancers, transposons, and polycomb targets in acute promyelocytic leukemia.",
+    "abstract": "Acute promyelocytic leukemia (APL) is a subtype of acute myeloid leukemia (AML), characterized by a fusion between the PML and RARA genes and by a block in the myeloid maturation at the promyelocytic stage.\r\n\r\nThis study investigates the epigenetic landscape of APL by integrating ChIP-seq data on eight histone modifications and RNA-seq in APL as well as non-APL AML. APL showed a distinct chromatin profile that differed from non-APL AML.\r\n\r\nWe describe APL-specific changes in H3K27ac, H3K9me3, and H3K27me3 with impact on enhancer activity, repression of transposable elements, and Polycomb regulated gene repression. The APL-specific H3K27ac pattern identifies APL-specific enhancer and super-enhancer regions, including a subset of enhancers that are bound by the PML-RARA fusion protein. While chromatin bound specifically by PML-RARA were dominantly active, APL was also characterized by gain of APL-specific heterochromatin states with significant gains of H3K9me3 enriched lamina-associated domains and the transposable elements LINE, LTR, and SINE.\r\n\r\nThese findings suggest a unique enhancer and heterochromatin profile in APL, with implications for transcription regulation and treatment response. These findings offer novel insights into the pathogenesis of APL.",
+    "published": "2025-10-30",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Xiangfu",
+        "family": "Zhong",
+        "initials": "X"
+      },
+      {
+        "given": "Lina",
+        "family": "Cordeddu",
+        "initials": "L"
+      },
+      {
+        "given": "Angelica",
+        "family": "Gamboa-Cedeno",
+        "initials": "A"
+      },
+      {
+        "given": "Sofia",
+        "family": "Bengtzén",
+        "initials": "S"
+      },
+      {
+        "given": "Karl",
+        "family": "Ekwall",
+        "initials": "K"
+      },
+      {
+        "given": "Andreas",
+        "family": "Lennartsson",
+        "initials": "A"
+      },
+      {
+        "given": "Sören",
+        "family": "Lehmann",
+        "initials": "S"
+      }
+    ],
+    "journal": {
+      "title": "Genome Med",
+      "volume": "17",
+      "issue": "1",
+      "issn": "1756-994X",
+      "issn-l": "1756-994X",
+      "pages": "135"
+    },
+    "labels": {
+      "Bioinformatics Support for Computational Resources": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Other": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/e3a0b036f1a64129a355aafe11a904e8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/e3a0b036f1a64129a355aafe11a904e8"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC12573822"
+      },
+      {
+        "db": "pii",
+        "key": "10.1186/s13073-025-01565-y"
+      }
+    ],
+    "notes": [],
+    "created": "2025-11-28T10:53:15.320Z",
+    "modified": "2026-07-15T07:14:00.504Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
     "iuid": "1938da5a9fb54644b9fd03953d33a22d",
     "doi": "10.1016/j.ard.2025.09.015",
     "pmid": "41139557",
@@ -2763,132 +2781,6 @@
     "notes": [],
     "created": "2025-10-29T10:08:57.216Z",
     "modified": "2025-11-11T13:53:36.238Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "a303b58b4fa1409b9589100fef20ee82",
-    "doi": "10.1038/s41698-025-01145-8",
-    "pmid": "41093965",
-    "title": "Postnatal sustentacular cells as chromaffin progenitors and tumor cells of origin in VHL-related paragangliomas.",
-    "abstract": "The cellular source of chromaffin cell regeneration after birth and its relationship to paraganglioma tumorigenesis remains incompletely defined. Here, we identify a postnatal population of SOX2/SOX10-expressing sustentacular glia-like cells in the organ of Zuckerkandl (OZ) and adrenal gland that give rise to chromaffin cells in vivo. These cells differ transcriptionally from embryonic chromaffin progenitors known as Schwann cell precursors and exhibit a unique progenitor signature. Genetic lineage tracing confirms their postnatal contribution to chromaffin cells, and SOX2+PHOX2B+ transitional cells were observed in both human and mouse OZ and adrenal tissues. Single-nuclei RNA-seq and inferCNA analysis of pheochromocytoma and paraganglioma (PPGL) revealed that while most sustentacular cells exhibit a stromal profile, a subset in VHL-mutated PPGLs harbor the hallmark 3p chromosomal loss shared with chief tumor cells, suggesting a clonal origin. In an additional PPGL, widespread SOX2 expression in PHOX2B+ tumor cells supports this hypothesis. Finally, DLK1-NOTCH signaling was predicted as a central regulator of chromaffin-sustentacular communication, suggesting DLK1 fine-tunes chromaffin regeneration via NOTCH inhibition and may represent a therapeutic target in PPGL.",
-    "published": "2025-10-15",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Petra",
-        "family": "Bullova",
-        "initials": "P"
-      },
-      {
-        "given": "Peng",
-        "family": "Cui",
-        "initials": "P"
-      },
-      {
-        "given": "Maria",
-        "family": "Arceo",
-        "initials": "M"
-      },
-      {
-        "given": "Jiacheng",
-        "family": "Zhu",
-        "initials": "J"
-      },
-      {
-        "given": "Wenyu",
-        "family": "Li",
-        "initials": "W"
-      },
-      {
-        "given": "Monika",
-        "family": "Plescher",
-        "initials": "M"
-      },
-      {
-        "given": "Valentin",
-        "family": "Poltorachenko",
-        "initials": "V"
-      },
-      {
-        "given": "Katerina",
-        "family": "Stripling",
-        "initials": "K"
-      },
-      {
-        "given": "Christian",
-        "family": "Santangeli",
-        "initials": "C"
-      },
-      {
-        "given": "Lidiya",
-        "family": "Mykhaylechko",
-        "initials": "L"
-      },
-      {
-        "given": "Maria Eleni",
-        "family": "Kastriti",
-        "initials": "ME"
-      },
-      {
-        "given": "Catharina",
-        "family": "Larsson",
-        "initials": "C"
-      },
-      {
-        "given": "C Christofer",
-        "family": "Juhlin",
-        "initials": "CC"
-      },
-      {
-        "given": "Michael",
-        "family": "Mints",
-        "initials": "M"
-      },
-      {
-        "given": "Susanne",
-        "family": "Schlisio",
-        "initials": "S"
-      }
-    ],
-    "journal": {
-      "title": "NPJ Precis Oncol",
-      "volume": "9",
-      "issue": "1",
-      "issn": "2397-768X",
-      "issn-l": null,
-      "pages": "324"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "NGI Short read": "Service",
-      "Bioinformatics Support for Computational Resources": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/a303b58b4fa1409b9589100fef20ee82"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC12528426"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41698-025-01145-8"
-      }
-    ],
-    "notes": [],
-    "created": "2025-11-21T13:44:18.484Z",
-    "modified": "2025-11-28T10:47:30.359Z",
     "is_collab": false,
     "is_tech_dev": false
   }
