@@ -4,6 +4,7 @@
   "compilerOptions": {
     "allowJs": true,
     "noEmit": true,
+    "rootDir": ".",
     "isolatedModules": true
   },
   "exclude": ["dist", "node_modules"],
