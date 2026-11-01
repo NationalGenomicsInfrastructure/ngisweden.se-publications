@@ -1,6 +1,93 @@
 [
   {
     "entity": "publication",
+    "iuid": "ba4738285d254af68ab27ea4233041e8",
+    "doi": "10.1186/s13072-026-00703-z",
+    "pmid": "42839271",
+    "title": "Whole-genome 5-hydroxymethylation profiling of human neurons for regulatory and biological insight.",
+    "abstract": "While 5-methylcytosine (5mC) DNA methylation is a well-known player in genome stability and transcriptional regulation, the role of 5-hydroxymethylcytosine (5hmC), particularly prevalent in neurons, remains largely unknown. Here, we used long-read Oxford Nanopore Technology (ONT) to profile whole-genome, native 5mC and 5hmC levels in sorted neuronal nuclei samples from human post-mortem brain tissue. Genomic annotation revealed high 5hmC levels in actively transcribed genes and enhancers, which were enriched in neuron-related pathways, with functional variety when stratifying across chromatin states. Furthermore, 5hmC and 5mC modifications were enriched at transcription factor binding sites, affecting specific downstream regulatory networks. Altogether, our study demonstrates the potential of 5hmC and 5mC DNA modifications to provide biological insight into the regulatory landscape and function of human neurons.",
+    "published": "2026-10-05",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Dennis",
+        "family": "Klose",
+        "initials": "D"
+      },
+      {
+        "given": "Mohammad Hossein",
+        "family": "Sepehri",
+        "initials": "MH"
+      },
+      {
+        "given": "Remi-André",
+        "family": "Olsen",
+        "initials": "RA"
+      },
+      {
+        "given": "Ha",
+        "family": "Vu",
+        "initials": "H"
+      },
+      {
+        "given": "Jason",
+        "family": "Ernst",
+        "initials": "J"
+      },
+      {
+        "given": "Lara",
+        "family": "Kular",
+        "initials": "L"
+      },
+      {
+        "given": "Maria",
+        "family": "Needhamsen",
+        "initials": "M",
+        "orcid": "0000-0002-1197-5597",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/407c697549224e718d45da1148359c6d.json"
+        }
+      },
+      {
+        "given": "Maja",
+        "family": "Jagodic",
+        "initials": "M"
+      }
+    ],
+    "journal": {
+      "title": "Epigenetics Chromatin",
+      "volume": "19",
+      "issue": "1",
+      "issn": "1756-8935",
+      "issn-l": "1756-8935"
+    },
+    "labels": {
+      "NGI Long read": "Collaborative",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Collaborative"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/ba4738285d254af68ab27ea4233041e8.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/ba4738285d254af68ab27ea4233041e8"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1186/s13072-026-00703-z"
+      }
+    ],
+    "notes": [],
+    "created": "2026-10-07T11:52:08.734Z",
+    "modified": "2026-10-07T11:52:08.888Z",
+    "is_collab": true,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
     "iuid": "b16a5df99b634091a39abab2b83d0afc",
     "doi": "10.1093/nargab/lqag053",
     "pmid": "42206012",
@@ -129,315 +216,6 @@
     "modified": "2026-08-12T15:02:18.123Z",
     "is_collab": true,
     "is_tech_dev": true
-  },
-  {
-    "entity": "publication",
-    "iuid": "bc897f115b504534a471daff92251cea",
-    "doi": "10.1038/s44319-026-00895-1",
-    "pmid": "42601506",
-    "title": "3D chromatin organisation contributes to the regulatory logic in differentiating lymphatic endothelium.",
-    "abstract": "Gene activation and repression is an integral part of embryonic development and tissue formation. Changes in chromatin organisation dictate accessibility to gene regulatory elements, controlling gene expression. Although several molecular regulators of lymphatic endothelial cell (LEC) development have been identified, the role of chromatin organisation in the acquisition of LEC identity remains unclear. In this study, we combine HiC and ATAC-sequencing to map 3D chromatin architecture and accessibility in LECs and blood endothelial cells (BECs). We identify cell type-specific topologically associating domains (TADs), and discovered TAD boundaries changes and differentially segregating enhancers in lymphatic-associated loci, such as prox1a and tbx1. Our multi-omic approach also defines the regulatory logic of nine LEC-enriched genes. In vivo validation of ATAC- and HiC-based enhancers confirms their activity in LECs. Leveraging these datasets, we reconstructed mafba tissue-specific regulatory networks identifying a genetic interaction with tfe3a in vivo limiting ectopic vessel formation. Overall, our work provides a powerful resource of multi-omic datasets that can be used to systematically determine the regulatory networks governing LEC identity and genes linked to lymphatic disease.",
-    "published": "2026-08-14",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Virginia",
-        "family": "Panara",
-        "initials": "V"
-      },
-      {
-        "given": "Hannah",
-        "family": "Arnold",
-        "initials": "H",
-        "orcid": "0000-0002-4010-0124",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/971d88c608aa44699b9b6ce11da2d23c.json"
-        }
-      },
-      {
-        "given": "Marleen",
-        "family": "Gloger",
-        "initials": "M",
-        "orcid": "0000-0002-3319-7642",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/d3e99b33a5f04f238d33ddc34398382c.json"
-        }
-      },
-      {
-        "given": "Renae",
-        "family": "Skoczylas",
-        "initials": "R",
-        "orcid": "0000-0002-8570-7368",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/e923fe8f7a5844449256214cad71f59b.json"
-        }
-      },
-      {
-        "given": "Victoria",
-        "family": "Vidal Gutierrez",
-        "initials": "V",
-        "orcid": "0009-0008-5938-8712",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/d50e32efd7014286a40b952641a3cbea.json"
-        }
-      },
-      {
-        "given": "Anna",
-        "family": "Johansson",
-        "initials": "A"
-      },
-      {
-        "given": "Agata",
-        "family": "Smialowska",
-        "initials": "A"
-      },
-      {
-        "given": "Katarzyna",
-        "family": "Koltowska",
-        "initials": "K",
-        "orcid": "0000-0002-6841-8900",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/06a8aeda504340c1af3ab893fd413a65.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "EMBO Rep.",
-      "issn": "1469-3178",
-      "issn-l": "1469-221X"
-    },
-    "labels": {
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Short read": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Other": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/bc897f115b504534a471daff92251cea.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/bc897f115b504534a471daff92251cea"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "10.1038/s44319-026-00895-1"
-      }
-    ],
-    "notes": [],
-    "created": "2026-08-26T11:17:22.932Z",
-    "modified": "2026-08-26T11:17:23.345Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "201bfa2897fc4bbebdb6dd723acec680",
-    "doi": "10.1038/s41598-026-63764-w",
-    "pmid": "42533084",
-    "title": "Transcriptomic and RNAi-mediated antiviral response to Kamiti River virus infection in Aedes albopictus U4.4 cells.",
-    "abstract": "Mosquitoes transmit arboviruses that represent major global public health challenges. Increasing insecticide resistance and absence of effective antiviral therapies underscore the need for novel vector control strategies. Insect-specific viruses have emerged as candidates for biological control, however, the cellular mechanisms underlying their interactions with mosquito hosts remain poorly understood. Here, we examined the immune response of Aedes albopictus U4.4 cells to Kamiti River virus (KRV) infection, an insect-specific flavivirus. Cells were infected with KRV, and transcriptomic and small RNA profiles were analyzed at 24, 48 and 72 h post-infection. KRV infection induced production of virus-derived small interfering RNAs (vsiRNAs) and virus-derived PIWI-interacting RNA (vpiRNAs) from 24 to 72 h. The vsiRNAs predominantly mapped to the 3' untranslated region of the KRV genome, whereas vpiRNAs formed distinct hotspots in regions encoding the NS1, NS3, NS4A/B and NS5 proteins. Transcriptomic analysis revealed upregulation of genes associated with the humoral immune response, including defensin, cecropin, and glutathione S-transferase, and downregulation of Toll-like receptors and ecdysone-induced transcripts at later stages of infection. These gene expression patterns suggest an early activation followed by suppression of key immune signaling pathways. Collectively, the findings indicate that KRV leads to coordinated modulation of antiviral RNAi and host transcriptional responses, consistent with a balanced, commensal-like interaction in mosquito cells.",
-    "published": "2026-07-31",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Pontus",
-        "family": "Öhlund",
-        "initials": "P"
-      },
-      {
-        "given": "Marlene Cavaleiro",
-        "family": "Pinto",
-        "initials": "MC"
-      },
-      {
-        "given": "Anne-Lie",
-        "family": "Blomström",
-        "initials": "AL"
-      }
-    ],
-    "journal": {
-      "title": "Sci Rep",
-      "volume": "16",
-      "issue": "1",
-      "issn": "2045-2322",
-      "issn-l": "2045-2322"
-    },
-    "labels": {
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Short read": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/201bfa2897fc4bbebdb6dd723acec680.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/201bfa2897fc4bbebdb6dd723acec680"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC13424557"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41598-026-63764-w"
-      },
-      {
-        "db": "BioProject",
-        "key": "PRJNA870316"
-      },
-      {
-        "db": "BioProject",
-        "key": "PRJNA141589"
-      },
-      {
-        "db": "BioProject",
-        "key": "PRJNA786637"
-      }
-    ],
-    "notes": [],
-    "created": "2026-08-26T12:45:34.534Z",
-    "modified": "2026-08-26T12:45:34.538Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "f3a80f800f3f4f8191d234dff89c3a03",
-    "doi": "10.70962/jhi.20260011",
-    "pmid": "42169676",
-    "title": "Fibroblast-driven collagen expansion and altered thymic medullary niches in 22q11.2 deletion syndrome.",
-    "abstract": "22q11.2 deletion syndrome (22q11DS) is associated with congenital anomalies and variable thymic hypoplasia with T cell lymphopenia and immune dysregulation. However, the spatial organization of human thymic lymphopoiesis and stromal mechanisms contributing to thymic dysfunction in 22q11DS remain incompletely defined. We applied spatial transcriptomic and spatial proteomic analyses on thymic samples from two 22q11DS patients and compared them with healthy controls. Across 22q11DS samples, we observed alterations in the corticomedullary organization and in the frequencies of fibroblasts, B cells, regulatory T cells, and mTEC subsets. These features coincided with a prominent remodeling of the mesenchymal compartment, including increased expression of extracellular matrix programs and collagens, and predicted disruption in mesenchymal-epithelial cell crosstalk. In the medulla, we observed alterations in interferon-associated gene programs within a colocalized niche comprising B cells, antigen-presenting cells, and mTEC subsets. Together, this provides an integrated spatial map of the 22q11DS thymus and nominates stromal remodeling as a candidate driver of impaired central tolerance induction in 22q11DS.",
-    "published": "2026-07-06",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Viktoria",
-        "family": "Hennings",
-        "initials": "V",
-        "orcid": "0000-0002-7789-8299",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/c52800e09fce43178a7b42966f17c67c.json"
-        }
-      },
-      {
-        "given": "Jenny",
-        "family": "Lingman Framme",
-        "initials": "J",
-        "orcid": "0000-0001-5665-1927",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/adf94743f00c47fa98def118f68b791a.json"
-        }
-      },
-      {
-        "given": "Karolina",
-        "family": "Thörn",
-        "initials": "K",
-        "orcid": "0009-0000-1185-283X",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/3aa1200b5ade4d25bfb04fd25260384b.json"
-        }
-      },
-      {
-        "given": "Christina",
-        "family": "Lundqvist",
-        "initials": "C",
-        "orcid": "0000-0002-2256-4072",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/10b339e6cc1f48f3a5f736201038ee59.json"
-        }
-      },
-      {
-        "given": "Andri",
-        "family": "Lemarquis",
-        "initials": "A",
-        "orcid": "0000-0001-5165-0247",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/776e9a2ecebf446ba4d0e3d20c8d793c.json"
-        }
-      },
-      {
-        "given": "Solveig",
-        "family": "Oskarsdottir",
-        "initials": "S",
-        "orcid": "0000-0002-6029-8844",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/45f3baa525f84d4fa940bb65a8ea2358.json"
-        }
-      },
-      {
-        "given": "Esbjörn",
-        "family": "Telemo",
-        "initials": "E",
-        "orcid": "0000-0001-8334-9096",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/47025b93964e47a7ac75c5c483881048.json"
-        }
-      },
-      {
-        "given": "Åsa",
-        "family": "Björklund",
-        "initials": "Å",
-        "orcid": "0000-0003-2224-7090",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/8eb8c1fc5f704cbfb87471226485ae1f.json"
-        }
-      },
-      {
-        "given": "Olov",
-        "family": "Ekwall",
-        "initials": "O",
-        "orcid": "0000-0002-4506-9955",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/2d7af11d7d30410d8fe5f3b5fbd0ba1d.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "J Hum Immun",
-      "volume": "2",
-      "issue": "4",
-      "issn": "3065-8993",
-      "issn-l": null,
-      "pages": "e20260011"
-    },
-    "labels": {
-      "Spatial Proteomics": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "National Genomics Infrastructure": "Service",
-      "NGI Spatial omics": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/f3a80f800f3f4f8191d234dff89c3a03.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/f3a80f800f3f4f8191d234dff89c3a03"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC13177773"
-      },
-      {
-        "db": "pii",
-        "key": "jhi.20260011"
-      }
-    ],
-    "notes": [],
-    "created": "2026-08-13T08:40:13.364Z",
-    "modified": "2026-08-26T13:36:31.255Z",
-    "is_collab": false,
-    "is_tech_dev": false
   },
   {
     "entity": "publication",
@@ -829,658 +607,6 @@
     "created": "2026-02-26T13:37:49.302Z",
     "modified": "2026-03-24T09:13:34.204Z",
     "is_collab": true,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "b32de9be5435484c9597989fb073c05f",
-    "doi": "10.1016/j.isci.2026.115236",
-    "pmid": "41940329",
-    "title": "RUVBL1 and RUVBL2 are druggable MYC effector regulators in neuroblastoma cells.",
-    "abstract": "High-risk neuroblastoma is characterized by MYCN amplification and high MYCN or MYC gene expression. These patients have a poor prognosis and there is an urgent need for more effective drugs. While strategies to develop inhibitors that directly target the MYC proteins have remained largely unsuccessful, recent preclinical studies have identified ATR, a key protein of the DNA damage response, as a promising alternative therapeutic target. Here, we identified a strong RUVBL1 and RUVBL2 signature in transcriptomics data derived from different MYCN-driven mice tumors treated with ATR inhibitors. The RUVBL proteins form a complex with ATPase activity that has broad cellular functions and we demonstrate that pharmacological inhibition of this protein complex results in a strong reduction of MYC(N) signaling, cell-cycle arrest, DNA damage, and apoptosis. We confirmed the association with MYCN and identified the RUVBL genes as independent prognostic biomarkers in human primary neuroblastoma data.",
-    "published": "2026-04-17",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Joachim Tetteh",
-        "family": "Siaw",
-        "initials": "JT"
-      },
-      {
-        "given": "Arne",
-        "family": "Claeys",
-        "initials": "A"
-      },
-      {
-        "given": "Wei-Yun",
-        "family": "Lai",
-        "initials": "WY"
-      },
-      {
-        "given": "Marcus",
-        "family": "Borenäs",
-        "initials": "M"
-      },
-      {
-        "given": "Elien",
-        "family": "Hilgert",
-        "initials": "E"
-      },
-      {
-        "given": "Sarah-Lee",
-        "family": "Bekaert",
-        "initials": "SL"
-      },
-      {
-        "given": "Ellen",
-        "family": "Sanders",
-        "initials": "E"
-      },
-      {
-        "given": "Irem",
-        "family": "Kaya",
-        "initials": "I"
-      },
-      {
-        "given": "Jo",
-        "family": "Van Dorpe",
-        "initials": "J"
-      },
-      {
-        "given": "Frank",
-        "family": "Speleman",
-        "initials": "F"
-      },
-      {
-        "given": "Kaat",
-        "family": "Durinck",
-        "initials": "K"
-      },
-      {
-        "given": "Bengt",
-        "family": "Hallberg",
-        "initials": "B"
-      },
-      {
-        "given": "Ruth H",
-        "family": "Palmer",
-        "initials": "RH"
-      },
-      {
-        "given": "Jimmy",
-        "family": "Van den Eynden",
-        "initials": "J"
-      }
-    ],
-    "journal": {
-      "title": "iScience",
-      "volume": "29",
-      "issue": "4",
-      "issn": "2589-0042",
-      "issn-l": "2589-0042",
-      "pages": "115236"
-    },
-    "labels": {
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/b32de9be5435484c9597989fb073c05f.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/b32de9be5435484c9597989fb073c05f"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC13049659"
-      },
-      {
-        "db": "pii",
-        "key": "S2589-0042(26)00611-5"
-      }
-    ],
-    "notes": [],
-    "created": "2026-04-10T13:11:20.241Z",
-    "modified": "2026-04-10T13:11:20.252Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "fecec34336824e84b6c3dd0f90675ef4",
-    "doi": "10.1111/jfb.70417",
-    "pmid": "41912439",
-    "title": "Contrasting population genomic structuring of northern pike ( Esox lucius L.) in fresh‐ and brackish water environments: Implications for management and conservation",
-    "abstract": "Understanding the factors that shape population genetic structure is crucial for advancing evolutionary studies and developing effective management and conservation strategies. The northern pike (Esox lucius L.) is a top teleost predator that inhabits fresh and brackish water environments in the northern hemisphere. Pike populations in the brackish Baltic Sea typically display strong genetic structuring, with coastal sympatric populations that separate during spring for spawning in either shallow, sheltered brackish bays or in freshwater tributaries and wetlands. In contrast to the Baltic Sea, genomic structuring in freshwater environments, particularly in large lacustrine systems, remains poorly understood. To address this gap, we used restriction site-associated DNA-sequencing to assess the genetic structure and diversity of northern pike in two ecologically contrasting habitats: freshwater Vänern Lake, Sweden (8932 single nucleotide polimorphisms [SNPs]), and the brackish Baltic Sea around Saaremaa, Estonia (6899 SNPs). The results show strong genetic structuring and lower genetic diversity in brackish environment compared to the higher genetic diversity and extremely low genetic structuring observed in freshwater habitat. We found no evidence of divergent selection within environments. However, we identified 187 outlier SNPs and 62 outlier genes distinguishing the brackish and freshwater environments, potentially reflecting adaptation to salinity. Notably, several of these genes are associated with key biological processes, including osmotic stress regulation (akap13), early development (tfap2a) and pathogens response (tlr18). From a fisheries management perspective, our results indicate that the freshwater system can be managed as a single stock, while strong population structuring among Baltic coastal pike likely requires either large-scale solutions and/or population-specific fine-scale management efforts to maintain the genetic and life-history diversity among brackish coastal pike populations.",
-    "published": "2026-03-30",
-    "type": "journal-article",
-    "authors": [
-      {
-        "given": "Alfonso",
-        "family": "Diaz‐Suarez",
-        "initials": "A",
-        "orcid": "0000-0002-1726-2563",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/51f3f9866fe543b78c91c9c62c362cdd.json"
-        }
-      },
-      {
-        "given": "María‐Eugenia",
-        "family": "López",
-        "initials": "M"
-      },
-      {
-        "given": "Göran",
-        "family": "Sundblad",
-        "initials": "G"
-      },
-      {
-        "given": "Anti",
-        "family": "Vasemägi",
-        "initials": "A",
-        "orcid": "0000-0002-2184-5534",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ad9186f5720d493980b92869fb504cb8.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "J. Fish Biol.",
-      "issn": "0022-1112",
-      "issn-l": null
-    },
-    "labels": {
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/fecec34336824e84b6c3dd0f90675ef4.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/fecec34336824e84b6c3dd0f90675ef4"
-      }
-    },
-    "xrefs": [],
-    "notes": [],
-    "created": "2026-04-10T13:09:47.227Z",
-    "modified": "2026-04-16T09:42:58.777Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "dcc99177f164437e8a1a681594fa0445",
-    "doi": "10.1038/s41467-026-70365-8",
-    "pmid": "41876491",
-    "title": "Ribonuclease 4 Functions in Nociceptor-Mediated Nerve Homeostasis.",
-    "abstract": "The regulation of nociceptor identity and function is essential, as disruptions can significantly influence pain sensation, yet our understanding of the molecular mechanisms involved remains incomplete. In this study, we identified ribonuclease 4 (RNase4) as selectively expressed in the unmyelinated nociceptor lineage. Analysis of RNase4-deficient mice and single-cell transcriptomic data revealed a cell-autonomous role for RNase4 in regulating nociceptor function. Moreover, in a neuropathic pain model, RNase4 expression was upregulated in nociceptors during the pain and recovery phases, and its deletion altered mechanical sensation. Additionally, RNase4 exerted non-cell- autonomous effects on the myelin structural organization of adjacent myelinated axons. Together, these findings implicate RNase4 as a dual regulator of nociceptor biology and myelin integrity, revealing a molecular pathway for pain regulation and nerve repair.",
-    "published": "2026-03-24",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Xiaona",
-        "family": "Feng",
-        "initials": "X",
-        "orcid": "0000-0001-6186-1160",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ade5499e48344e448626eef177bf1b27.json"
-        }
-      },
-      {
-        "given": "Kaiwen",
-        "family": "Zhang",
-        "initials": "K",
-        "orcid": "0009-0001-0790-1616",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/c1880c8da747467795a011858ca2c9bf.json"
-        }
-      },
-      {
-        "given": "Prach",
-        "family": "Techameena",
-        "initials": "P",
-        "orcid": "0009-0005-9380-2428",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/835cc139cbbd4e08afd433a817f74ac6.json"
-        }
-      },
-      {
-        "given": "Rolen M",
-        "family": "Quadros",
-        "initials": "RM"
-      },
-      {
-        "given": "Csaba",
-        "family": "Adori",
-        "initials": "C"
-      },
-      {
-        "given": "Aliia",
-        "family": "Murtazina",
-        "initials": "A"
-      },
-      {
-        "given": "Igor",
-        "family": "Adameyko",
-        "initials": "I",
-        "orcid": "0000-0001-5471-0356",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/346f484a56cb4ad5b866b194ccd44e4f.json"
-        }
-      },
-      {
-        "given": "Sofia",
-        "family": "Biagini",
-        "initials": "S",
-        "orcid": "0009-0001-8033-1568",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/a6a1c687a2e945c0a01cd9ea4729fcd0.json"
-        }
-      },
-      {
-        "given": "Ozun Gokce",
-        "family": "Bayramlik",
-        "initials": "OG",
-        "orcid": "0009-0006-2130-9674",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ecf0118536354092bddc54ca48594444.json"
-        }
-      },
-      {
-        "given": "Francois",
-        "family": "Lallemend",
-        "initials": "F",
-        "orcid": "0000-0001-5484-0011",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/9a9494a8ea444facbf3b564670930ab5.json"
-        }
-      },
-      {
-        "given": "Channabasavaiah B",
-        "family": "Gurumurthy",
-        "initials": "CB"
-      },
-      {
-        "given": "Saida",
-        "family": "Hadjab",
-        "initials": "S",
-        "orcid": "0000-0001-7953-8396",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/ed79ab77088f43859e11b75dcae33d73.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Nat Commun",
-      "volume": "17",
-      "issue": "1",
-      "issn": "2041-1723",
-      "issn-l": "2041-1723"
-    },
-    "labels": {
-      "NGI Short read": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "National Genomics Infrastructure": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/dcc99177f164437e8a1a681594fa0445.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/dcc99177f164437e8a1a681594fa0445"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC13022371"
-      },
-      {
-        "db": "pii",
-        "key": "10.1038/s41467-026-70365-8"
-      }
-    ],
-    "notes": [],
-    "created": "2026-04-10T12:49:18.049Z",
-    "modified": "2026-04-10T12:49:18.431Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "8a88693e35b444ce876a3dd11d760a8e",
-    "doi": "10.1038/s41467-026-70842-0",
-    "pmid": "41851103",
-    "title": "FGFR signaling establishes spatial gradients of secretory cell identities along the airway proximal-distal axis.",
-    "abstract": "Secretory cells are major structural and functional constituents of the lung airways. Their heterogeneity, spatial organization and specification mechanisms are partially understood. Here, we analyze secretory lung cell-types at single-cell resolution. In the airway epithelium, we find opposing, partially overlapping gene-expression gradients along the proximal-distal airway axis superimposed on a general gene program encoding detoxification. One graded program is elevated proximally and relates to innate immunity, whereas the other is enriched distally, encoding lipid metabolism and antigen presentation. Intermediately positioned cells express moderate levels of both graded programs creating a differentiation continuum towards each end. Lineage tracing analysis during development reveals the sequential establishment of the gradients in common epithelial progenitors postnatally. We show that Fgfr2b regulates the airway patterning by inducing and maintaining high levels of lipid biosynthesis and vesicle trafficking in distal airways and down-regulating innate-immunity genes in vivo and in airway organoids. Our analysis offers a framework for studying epithelial and lung tissue organization to better understand cellular roles in tissue-level pathology.",
-    "published": "2026-03-18",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Alexandros",
-        "family": "Sountoulidis",
-        "initials": "A",
-        "orcid": "0000-0002-8837-4642",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f49f693f406b4ba28faf373fa67ee683.json"
-        }
-      },
-      {
-        "given": "Jonas",
-        "family": "Theelke",
-        "initials": "J",
-        "orcid": "0000-0002-5074-1793",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/9bfd9c1f49b24c9e8dc5c22bc4288543.json"
-        }
-      },
-      {
-        "given": "Andreas",
-        "family": "Liontos",
-        "initials": "A"
-      },
-      {
-        "given": "Alexandra B",
-        "family": "Firsova",
-        "initials": "AB",
-        "orcid": "0000-0002-7345-7429",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/32fc885aa10d48cebd772ad1470def0c.json"
-        }
-      },
-      {
-        "given": "Orane",
-        "family": "Eliot",
-        "initials": "O"
-      },
-      {
-        "given": "Janine",
-        "family": "Koepke",
-        "initials": "J"
-      },
-      {
-        "given": "Pamela",
-        "family": "Millar-Büchner",
-        "initials": "P"
-      },
-      {
-        "given": "Louise",
-        "family": "Mannerås-Holm",
-        "initials": "L"
-      },
-      {
-        "given": "Åsa",
-        "family": "Björklund",
-        "initials": "Å",
-        "orcid": "0000-0003-2224-7090",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/8eb8c1fc5f704cbfb87471226485ae1f.json"
-        }
-      },
-      {
-        "given": "Athanasios",
-        "family": "Fysikopoulos",
-        "initials": "A",
-        "orcid": "0000-0002-8081-0198",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/3c94301c7ab74979ae2db1c606d9387b.json"
-        }
-      },
-      {
-        "given": "Antonia",
-        "family": "Kelm",
-        "initials": "A"
-      },
-      {
-        "given": "Eleni",
-        "family": "Bouloukou",
-        "initials": "E"
-      },
-      {
-        "given": "Konstantin",
-        "family": "Gaengel",
-        "initials": "K",
-        "orcid": "0000-0002-2682-2833",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/b405d74174ae47749815a091affb9aea.json"
-        }
-      },
-      {
-        "given": "Fredrik",
-        "family": "Bäckhed",
-        "initials": "F"
-      },
-      {
-        "given": "Christer",
-        "family": "Betsholtz",
-        "initials": "C"
-      },
-      {
-        "given": "Werner",
-        "family": "Seeger",
-        "initials": "W",
-        "orcid": "0000-0003-1946-0894",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/36385e53dcd7475ab3f100b63179807b.json"
-        }
-      },
-      {
-        "given": "Saverio",
-        "family": "Bellusci",
-        "initials": "S"
-      },
-      {
-        "given": "Christos",
-        "family": "Samakovlis",
-        "initials": "C",
-        "orcid": "0000-0002-9153-6040",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/004a4a166cb34d59ba054055658425f6.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Nat Commun",
-      "volume": "17",
-      "issue": "1",
-      "issn": "2041-1723",
-      "issn-l": "2041-1723"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "NGI Short read": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/8a88693e35b444ce876a3dd11d760a8e.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/8a88693e35b444ce876a3dd11d760a8e"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "10.1038/s41467-026-70842-0"
-      },
-      {
-        "db": "pmc",
-        "key": "PMC13004988"
-      }
-    ],
-    "notes": [],
-    "created": "2026-03-23T13:53:27.906Z",
-    "modified": "2026-03-23T13:53:28.385Z",
-    "is_collab": false,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "e5ec787139724ab0bcd41b3b3b928147",
-    "doi": "10.1038/s41593-026-02234-y",
-    "pmid": "41807847",
-    "title": "Persistent interferon signaling causes sensory neuron plasticity and pain before and during arthritis.",
-    "abstract": "Although inflammatory processes in rheumatoid arthritis have been described, mechanisms driving pain are poorly defined. Here, we used a multitude of approaches to uncover the neural basis and causes of inflammatory pain. We show in mice with cartilage autoantibody-induced arthritis that early immune activation and a cytokine storm were mainly driven by vascular cells and monocytes/macrophages in the dorsal root ganglion. However, persistently elevated interferons and receptor activation of the MNK1/MNK2-eIF4E signaling pathway at all disease phases caused sensory-motor dysfunction and pain by inducing hyperexcitability and sensitization of a GFRA3+ C-fiber subtype of joint-innervating sensory neurons. Signaling pathway inhibition in vivo reversed pain and restored limb function. Like mice, human sensory neurons expressed interferon receptors, and type 1 interferons and signaling were increased only in individuals with painful rheumatoid arthritis. The finding that joint pain before and during arthritis is caused by a defined cytokine and signaling pathway holds promise for targeted therapies for pain relief in arthritis.",
-    "published": "2026-03-10",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Jie",
-        "family": "Su",
-        "initials": "J",
-        "orcid": "0000-0001-9828-9794",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/228f25d52aef47d9b5b0d1000fed5ea7.json"
-        }
-      },
-      {
-        "given": "Ming-Dong",
-        "family": "Zhang",
-        "initials": "MD",
-        "orcid": "0000-0002-6348-1994",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/3a1585272a1848508d8f2395ace61332.json"
-        }
-      },
-      {
-        "given": "Jussi",
-        "family": "Kupari",
-        "initials": "J"
-      },
-      {
-        "given": "Dongoh",
-        "family": "Kwak",
-        "initials": "D"
-      },
-      {
-        "given": "Laurence",
-        "family": "Picton",
-        "initials": "L"
-      },
-      {
-        "given": "Bingze",
-        "family": "Xu",
-        "initials": "B"
-      },
-      {
-        "given": "Leandro Flores",
-        "family": "do Nascimento",
-        "initials": "LF"
-      },
-      {
-        "given": "Yizhou",
-        "family": "Hu",
-        "initials": "Y",
-        "orcid": "0000-0002-2635-0258",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/2b75010a59c243279eaf9ca7af75315b.json"
-        }
-      },
-      {
-        "given": "Alejandro",
-        "family": "Gonzalez",
-        "initials": "A",
-        "orcid": "0000-0001-7513-2516",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/df94b05dc87c4d5f9e9939170f4d001f.json"
-        }
-      },
-      {
-        "given": "Dmitry",
-        "family": "Usoskin",
-        "initials": "D",
-        "orcid": "0000-0001-9122-6387",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f4848f28ec474a71b8240ff6ab553444.json"
-        }
-      },
-      {
-        "given": "Zhongwei",
-        "family": "Xu",
-        "initials": "Z",
-        "orcid": "0000-0001-5178-3437",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f056000b3af842bda8cdd411da7d44ad.json"
-        }
-      },
-      {
-        "given": "Marcin",
-        "family": "Szczot",
-        "initials": "M",
-        "orcid": "0000-0002-3902-059X",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/a4fef830b2914f37b100c433fbdd4fd0.json"
-        }
-      },
-      {
-        "given": "Abdeljabbar",
-        "family": "El Manira",
-        "initials": "A",
-        "orcid": "0000-0001-5920-9384",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/9c6e1ed8fbb547b1844b979220d8514a.json"
-        }
-      },
-      {
-        "given": "Rikard",
-        "family": "Holmdahl",
-        "initials": "R",
-        "orcid": "0000-0002-4969-2576",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/49e60d22dd1a4dd1a4ca5a50d9fc4fc7.json"
-        }
-      },
-      {
-        "given": "Patrik",
-        "family": "Ernfors",
-        "initials": "P",
-        "orcid": "0000-0002-1140-3986",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/c31df7b8976c496c9d3e3199a91f9d22.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Nat. Neurosci.",
-      "issn": "1546-1726",
-      "issn-l": "1097-6256"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "NGI Short read": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/e5ec787139724ab0bcd41b3b3b928147.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/e5ec787139724ab0bcd41b3b3b928147"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pii",
-        "key": "10.1038/s41593-026-02234-y"
-      }
-    ],
-    "notes": [],
-    "created": "2026-03-23T15:25:03.672Z",
-    "modified": "2026-03-23T15:25:04.053Z",
-    "is_collab": false,
     "is_tech_dev": false
   },
   {
@@ -2473,319 +1599,1331 @@
   },
   {
     "entity": "publication",
-    "iuid": "784df73e8dc84ac78534a0c33e5aec03",
-    "doi": "10.1038/s41598-025-96298-8",
-    "pmid": "40221584",
-    "title": "Cytoskeletal alterations in neuronal cells implicate Toxoplasma gondii secretory machinery and host microRNA-containing extracellular vesicles.",
-    "abstract": "The widespread protozoan Toxoplasma gondii chronically infects neural tissue in vertebrates and is linked to various neurological and neuropsychiatric disorders in humans. However, its effects on sparsely infected neurons and on broader neural circuits remain elusive. Our study reveals that T. gondii infection disrupts cytoskeletal dynamics in SH-SY5Y neuronal cells and primary cortical neurons. Infected neuronal cells undergo significant cytomorphological changes, including retraction of dendritic extensions and alterations in microtubule and F-actin networks, across both parasite genotypes I and II. These cytoskeletal alterations were notably diminished in cells exposed to T. gondii mutants with impaired secretion via the MYR translocon, and were independent of intraneuronal parasite replication. Moreover, a bystander effect was observed, with supernatants from T. gondii-challenged cells inducing similar cytoskeletal changes in uninfected cells. Analyses of extracellular vesicles (EVs) in supernatants revealed differential expression of host microRNAs in response to infection, most notably the upregulation of miR-221-3p, a microRNA not previously associated with T. gondii. The data indicate that unidentified parasite-derived effector(s) secreted via the MYR translocon, in conjunction with MYR-independently induced EV-associated host microRNAs, mediate cytoskeletal alterations in both infected and bystander neuronal cells. The findings provide new insights into molecular mechanisms by which T. gondii infection may disrupt neural networks, shedding light on its potential role in neuronal dysregulation.",
-    "published": "2025-04-12",
+    "iuid": "bd88d15de1c94c189273bf1b2247f6cd",
+    "doi": "10.1016/j.bneo.2026.100282",
+    "pmid": "42835289",
+    "title": "Single-cell sequencing reveals transcriptional and immunogenetic diversity in stereotyped chronic lymphocytic leukemia.",
+    "abstract": "Chronic lymphocytic leukemia (CLL) comprises immunogenetically defined stereotyped subsets of patients with distinct B-cell receptor (BcR) immunoglobulin features and clinical trajectories, yet the molecular pathways underlying subset-specific differences remain incompletely characterized. To resolve disease-relevant heterogeneity obscured in bulk analyses, we performed integrated single-cell transcriptomic and immunogenetic profiling of 48 557 malignant and bystander immune cells from 13 treatment-naïve primary patient samples representing poor-prognostic subsets #1 and #2 and the indolent subset #4. Despite interpatient variability, leukemic cells exhibited pronounced subset-specific transcriptional features, with enrichment of hypoxia-related genes in subset #1, oxidative phosphorylation (OXPHOS), MYC/E2F targets, and mechanistic target of rapamycin complex 1 (mTORC1) signaling in subset #2, and negative enrichment of hypoxia, apoptosis, and reactive oxygen species-related pathways in subset #4. Notably, compared with indolent subset #4, aggressive subsets #1 and #2 harbored increased proportions of metabolically active and recently emigrated/proliferative leukemic cells, characterized by a CXCR4dim CD5bright transcriptional phenotype and concerted enrichment of MYC target genes, mTORC1 signaling, OXPHOS, and BcR signaling. Immunogenetic analyses revealed dominant malignant clones with evidence of intraclonal immunogenetic diversification in 11 of 13 cases. T cells were dominated by effector-memory phenotypes exhibiting progressive differentiation toward terminal cytotoxic states, accompanied by exhaustion-associated programs, and expanded T-cell clones largely restricted to terminal states. Ligand-receptor analysis further indicated costimulatory and inhibitory signaling between leukemic and immune cells. Together, this study provides an integrated view of the transcriptional and immunogenetic landscape of 3 major stereotyped CLL subsets, linking BcR immunoglobulin configuration with proliferative capacity and microenvironmental cross talk, thereby shaping clonal behavior.",
+    "published": "2026-11-00",
     "type": "journal article",
     "authors": [
       {
-        "given": "Thomas",
-        "family": "Mazza",
-        "initials": "T"
+        "given": "Blaž",
+        "family": "Oder",
+        "initials": "B"
       },
       {
-        "given": "Morteza",
-        "family": "Aslanzadeh",
-        "initials": "M"
-      },
-      {
-        "given": "Lïse",
-        "family": "Berentsen",
+        "given": "Leily",
+        "family": "Rabbani",
         "initials": "L"
       },
       {
-        "given": "Franziska",
-        "family": "Bonath",
-        "initials": "F"
+        "given": "Teresa",
+        "family": "Del Peso Santos",
+        "initials": "T"
       },
       {
-        "given": "Marc R",
-        "family": "Friedländer",
-        "initials": "MR"
+        "given": "Sameer A",
+        "family": "Parikh",
+        "initials": "SA"
       },
       {
-        "given": "Antonio",
-        "family": "Barragan",
-        "initials": "A",
-        "orcid": "0000-0001-7746-9964",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/4eefb95f00db42e3891769f384269c6c.json"
-        }
+        "given": "Karla",
+        "family": "Plevova",
+        "initials": "K"
+      },
+      {
+        "given": "Larry",
+        "family": "Mansouri",
+        "initials": "L"
+      },
+      {
+        "given": "Anastasia",
+        "family": "Chatzidimitriou",
+        "initials": "A"
+      },
+      {
+        "given": "Sarka",
+        "family": "Pospisilova",
+        "initials": "S"
+      },
+      {
+        "given": "Neil E",
+        "family": "Kay",
+        "initials": "NE"
+      },
+      {
+        "given": "Kostas",
+        "family": "Stamatopoulos",
+        "initials": "K"
+      },
+      {
+        "given": "Cecilia",
+        "family": "Österholm",
+        "initials": "C"
+      },
+      {
+        "given": "Richard",
+        "family": "Rosenquist",
+        "initials": "R"
       }
     ],
     "journal": {
-      "title": "Sci Rep",
-      "volume": "15",
-      "issue": "1",
-      "issn": "2045-2322",
-      "issn-l": "2045-2322",
-      "pages": "12606"
+      "title": "Blood Neoplasia",
+      "volume": "3",
+      "issue": "4",
+      "issn": "2950-3280",
+      "issn-l": null,
+      "pages": "100282"
     },
     "labels": {
-      "NGI Short read": "Collaborative",
-      "NGI Stockholm (Genomics Applications)": "Collaborative",
-      "National Genomics Infrastructure": "Collaborative",
-      "NGI Other": "Collaborative",
-      "NGI Stockholm (Genomics Production)": "Service"
+      "NGI Single cell": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/784df73e8dc84ac78534a0c33e5aec03.json"
+        "href": "https://publications.scilifelab.se/publication/bd88d15de1c94c189273bf1b2247f6cd.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/784df73e8dc84ac78534a0c33e5aec03"
+        "href": "https://publications.scilifelab.se/publication/bd88d15de1c94c189273bf1b2247f6cd"
       }
     },
     "xrefs": [
       {
         "db": "pmc",
-        "key": "PMC11993698"
+        "key": "PMC13635511"
       },
       {
         "db": "pii",
-        "key": "10.1038/s41598-025-96298-8"
+        "key": "S2950-3280(26)00093-2"
       }
     ],
     "notes": [],
-    "created": "2025-06-03T09:17:07.614Z",
-    "modified": "2025-06-03T09:17:07.717Z",
-    "is_collab": true,
-    "is_tech_dev": false
-  },
-  {
-    "entity": "publication",
-    "iuid": "e05c68328fed4b66bdae56b5a53a8183",
-    "doi": "10.1111/ede.70030",
-    "pmid": "41709476",
-    "title": "Enrichment of Neural Crest Cells by Antibody Labeling and Flow Cytometry for Single-Cell Transcriptomics in a Lizard.",
-    "abstract": "Neural crest cells (NCCs) are a key component of the vertebrate body plan and contribute to a variety of different traits. Recent advances in single-cell transcriptomics (scRNA-seq) have significantly improved our understanding of NCC biology. However, their dynamic migratory behavior and spatiotemporal heterogeneity in the developing embryo pose significant challenges for their identification and isolation. Consequently, most studies of NCCs have been confined to model organisms with established transgenic tools or established methods for in ovo manipulation. To overcome this limitation, we present a novel approach that combines antibody labeling with fluorescence activated cell sorting to enrich for NCCs and we demonstrate the approach in the common wall lizard (Podarcis muralis). Through microscopy, reverse transcription quantitative polymerase chain reaction and single-cell RNA sequencing, we show that the method enriches for NCCs as efficiently as methods relying on transgenic animals. Using this technique, we successfully characterize transcriptional profiles of NCCs in wall lizard embryos. We anticipate that this method can be applied to a wide range of vertebrates that lack transgenic tools, enabling deeper insights into the diverse roles of neural crest cells in development and evolution.",
-    "published": "2026-03-00",
-    "type": "journal article",
-    "authors": [
-      {
-        "given": "Robin",
-        "family": "Pranter",
-        "initials": "R",
-        "orcid": "0000-0003-3615-0281",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/02c2a85e333a477597ff77429646a0a9.json"
-        }
-      },
-      {
-        "given": "Cedric",
-        "family": "Patthey",
-        "initials": "C",
-        "orcid": "0000-0002-2627-9578",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/6b7707e8bd3d4e029fb1e1f43df86ad4.json"
-        }
-      },
-      {
-        "given": "Nathalie",
-        "family": "Feiner",
-        "initials": "N",
-        "orcid": "0000-0003-4648-6950",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/4dfa523d52b348359775994be5d69640.json"
-        }
-      }
-    ],
-    "journal": {
-      "title": "Evol Dev",
-      "volume": "28",
-      "issue": "1",
-      "issn": "1525-142X",
-      "issn-l": null,
-      "pages": "e70030"
-    },
-    "labels": {
-      "National Genomics Infrastructure": "Service",
-      "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Single cell": "Service",
-      "NGI Short read": "Service"
-    },
-    "links": {
-      "self": {
-        "href": "https://publications.scilifelab.se/publication/e05c68328fed4b66bdae56b5a53a8183.json"
-      },
-      "display": {
-        "href": "https://publications.scilifelab.se/publication/e05c68328fed4b66bdae56b5a53a8183"
-      }
-    },
-    "xrefs": [
-      {
-        "db": "pmc",
-        "key": "PMC12917300"
-      }
-    ],
-    "notes": [],
-    "created": "2026-02-26T15:21:38.415Z",
-    "modified": "2026-03-24T09:08:52.661Z",
+    "created": "2026-10-15T09:37:43.150Z",
+    "modified": "2026-10-15T09:37:43.156Z",
     "is_collab": false,
     "is_tech_dev": false
   },
   {
     "entity": "publication",
-    "iuid": "a1a66eb9378f48bcbb9c32923b5503e3",
-    "doi": "10.1111/mec.70204",
-    "pmid": "41387163",
-    "title": "Genome Variation in Three Anthophora Bee Species Reflects Divergent Demographic Histories",
-    "abstract": "Population genomics can reveal trends and drivers of biodiversity loss, but it is still unclear how best to use measures of genome variation to understand population vulnerability in insects. Here we study genome variation in three species of Anthophora bees that show contrasting population trends in northern Europe. Two species, Anthophora plagiata and Anthophora retusa , have experienced declines and recoveries of different magnitudes in the last 50 years, whereas a third species, Anthophora quadrimaculata , has relative population stability. We generate highly contiguous genome assemblies and use them to study genome variation in 136 samples of these species collected throughout Sweden. We find exceedingly low genetic variation in A. plagiata , which has experienced a severe recent bottleneck, but high genetic variation in A. retusa , despite a similar recent population trajectory. Fragmented populations of the threatened species A. plagiata appear isolated from each other, but in A. retusa, there is a lack of deep population structure among geographically separated subpopulations. We infer population size in the distant past using MSMC2 and recent past using GONE. These methods are remarkably concordant and indicate ancient fluctuations in population size dating back to the Pleistocene, with moderate expansions in the past century in all three species. These results are comparable to some other studies of endangered insects, which have experienced population declines that predate the modern era. We detect long blocks of identity-by-state in A. plagiata , indicative of severe recent inbreeding. Translocations between isolated populations of this species could have a positive effect on their resilience.",
-    "published": "2025-12-00",
-    "type": "journal-article",
+    "iuid": "cddd4f867b6543aab0686369ef33d526",
+    "doi": "10.1038/s44318-026-00941-7",
+    "pmid": "42860441",
+    "title": "Expression patterns of CD24 and CD27 resolve the origins and gradual differentiation of CD11c+ atypical memory B-cells after malaria infection.",
+    "abstract": "Atypical B-cells (ABCs) are observed across infections, yet their ontogeny and differentiation remain unclear. Using high-dimensional flow cytometry, single-cell transcriptomics, V(D)J sequencing, and functional assays in samples from individuals with malaria and healthy donors, we identify markers of cellular origin while tracking ABC differentiation. Early ABCs express CD11c and arise predominantly from memory B-cells. Two intermediate states originate from germinal center-derived and marginal zone-like B-cells. Pseudotime and lineage analyses reveal trajectories marked by progressive loss of CD24 and CD27, which is recapitulated in vitro, defining bona fide differentiation programs. Differentiation culminates in late ABCs lacking CD24, CD27, and CD21, while expressing CD11c, T-bet, and NKG7 at high levels, exhibiting partial overlap with double-negative-2 B-cells. Early and intermediate stages show greater plasma-cell differentiation potential and cytokine production capacity, whereas later stages acquire transcriptomic signatures of antigen presentation and association with microbial particles, defining stage-dependent functions that reconcile conflicting ABC roles. Comparable ABC populations occur in healthy blood and tonsils, with tissue-associated class switching and CD86 expression consistent with recent T-cell interaction. This framework consolidates ABC definitions along a single differentiation axis and clarifies their cellular origins.",
+    "published": "2026-10-11",
+    "type": "journal article",
     "authors": [
       {
-        "given": "Demetris",
-        "family": "Taliadoros",
-        "initials": "D"
-      },
-      {
-        "given": "André E R",
-        "family": "Soares",
-        "initials": "AER",
-        "orcid": "0000-0002-7768-2199",
+        "given": "Alan-Dine",
+        "family": "Courey-Ghaouzi",
+        "initials": "AD",
+        "orcid": "0009-0005-5846-8639",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/2270d42b20f6456a8db81f41503b0063.json"
+          "href": "https://publications.scilifelab.se/researcher/2b176a8e3b6b4f5a97a164d77c06b76f.json"
         }
       },
       {
-        "given": "Guilherme",
-        "family": "Dias",
-        "initials": "G",
-        "orcid": "0000-0002-1459-3148",
+        "given": "Linn",
+        "family": "Kleberg",
+        "initials": "L",
+        "orcid": "0009-0004-3839-3281",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/73778a1096e04b5d94f8d5c6f3584d99.json"
+          "href": "https://publications.scilifelab.se/researcher/30f392c8e72d459d9881724718e620a4.json"
         }
       },
       {
-        "given": "Ignas",
-        "family": "Bunikis",
-        "initials": "I",
-        "orcid": "0009-0008-8375-0451",
+        "given": "Zaynab",
+        "family": "Mousavian",
+        "initials": "Z",
+        "orcid": "0009-0003-3489-126X",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/d2a9c139b7d64681a5712250d3cf63ff.json"
+          "href": "https://publications.scilifelab.se/researcher/19412879a7a648b78d517989b4a9ddff.json"
         }
       },
       {
-        "given": "Martin",
-        "family": "Pippel",
+        "given": "Maximilian Julius",
+        "family": "Lautenbach",
+        "initials": "MJ",
+        "orcid": "0000-0001-5763-6964",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/6de69bdbf1d5487abf499b72ba038dfb.json"
+        }
+      },
+      {
+        "given": "Marta",
+        "family": "Pirronello",
         "initials": "M",
-        "orcid": "0000-0002-8134-5929",
+        "orcid": "0000-0002-9907-2279",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/1f59d0c98de64ac1a62234792258ee62.json"
+          "href": "https://publications.scilifelab.se/researcher/a58d5bbb00654beb944fcb775c6d1185.json"
+        }
+      },
+      {
+        "given": "Ganesh E",
+        "family": "Phad",
+        "initials": "GE",
+        "orcid": "0009-0009-7723-8467",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c21261003b934d9798b7e8da15d00464.json"
+        }
+      },
+      {
+        "given": "Mattias N E",
+        "family": "Forsell",
+        "initials": "MNE",
+        "orcid": "0000-0001-6904-742X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/5947732f625a43e8a08055fc214649b6.json"
         }
       },
       {
         "given": "Anna",
-        "family": "Olsson",
+        "family": "Färnert",
         "initials": "A",
-        "orcid": "0000-0002-5438-7293",
+        "orcid": "0000-0001-7583-282X",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/57ec91022afd4c1390433d6383a06fc0.json"
+          "href": "https://publications.scilifelab.se/researcher/0543fb8f425844bcaf599f48292132a7.json"
         }
       },
       {
-        "given": "Mai‐Britt",
-        "family": "Mosbech",
-        "initials": "M",
-        "orcid": "0000-0002-6068-0971",
+        "given": "Christopher",
+        "family": "Sundling",
+        "initials": "C",
+        "orcid": "0000-0002-6138-690X",
         "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/efde81e53e6e48cba694e82e6fa8d38c.json"
-        }
-      },
-      {
-        "given": "Julia",
-        "family": "Heintz",
-        "initials": "J",
-        "orcid": "0009-0001-9345-1358",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/f7ebbb1f975844f7910676091d05a61e.json"
-        }
-      },
-      {
-        "given": "Nina",
-        "family": "Lager",
-        "initials": "N"
-      },
-      {
-        "given": "Anna‐Sofi",
-        "family": "Strand",
-        "initials": "A"
-      },
-      {
-        "given": "Mats",
-        "family": "Pettersson",
-        "initials": "M",
-        "orcid": "0000-0002-7372-9076",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/27011c7fbb8a44dda536a4fc876675b0.json"
-        }
-      },
-      {
-        "given": "Olga Vinnere",
-        "family": "Pettersson",
-        "initials": "OV"
-      },
-      {
-        "given": "Henrik",
-        "family": "Lantz",
-        "initials": "H",
-        "orcid": "0000-0003-2419-0075",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/85fa15d934214e00bb7818b865c4d754.json"
-        }
-      },
-      {
-        "given": "Björn",
-        "family": "Cederberg",
-        "initials": "B"
-      },
-      {
-        "given": "Kerstin",
-        "family": "Lindblad‐Toh",
-        "initials": "K"
-      },
-      {
-        "given": "Matthew T",
-        "family": "Webster",
-        "initials": "MT",
-        "orcid": "0000-0003-1141-2863",
-        "researcher": {
-          "href": "https://publications.scilifelab.se/researcher/579df0da95b94e5087512b76d7f1c058.json"
+          "href": "https://publications.scilifelab.se/researcher/89c1e689a46b4b14adb0dc99e1c0a58c.json"
         }
       }
     ],
     "journal": {
-      "title": "Mol Ecol",
-      "volume": "34",
-      "issue": "24",
-      "issn": "0962-1083",
-      "issn-l": "0962-1083",
-      "pages": "e70204"
+      "title": "EMBO J.",
+      "issn": "1460-2075",
+      "issn-l": "0261-4189"
     },
     "labels": {
-      "National Genomics Infrastructure": "Service",
       "NGI Stockholm (Genomics Production)": "Service",
-      "NGI Stockholm (Genomics Applications)": "Service",
-      "NGI Short read": "Service",
-      "NGI Long read": "Service"
+      "National Genomics Infrastructure": "Service",
+      "NGI Single cell": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service"
     },
     "links": {
       "self": {
-        "href": "https://publications.scilifelab.se/publication/a1a66eb9378f48bcbb9c32923b5503e3.json"
+        "href": "https://publications.scilifelab.se/publication/cddd4f867b6543aab0686369ef33d526.json"
       },
       "display": {
-        "href": "https://publications.scilifelab.se/publication/a1a66eb9378f48bcbb9c32923b5503e3"
+        "href": "https://publications.scilifelab.se/publication/cddd4f867b6543aab0686369ef33d526"
       }
     },
-    "xrefs": [],
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s44318-026-00941-7"
+      }
+    ],
     "notes": [],
-    "created": "2025-12-17T11:40:16.625Z",
-    "modified": "2025-12-21T19:08:10.173Z",
+    "created": "2026-10-13T09:03:17.111Z",
+    "modified": "2026-10-13T09:03:17.684Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "e417f3206b4c4195822b992607fddabd",
+    "doi": "10.1038/s41380-026-03644-x",
+    "pmid": "42141080",
+    "title": "Effects of SSRIs on the spatial transcriptome of dorsal raphe serotonin neurons.",
+    "abstract": "The serotonin system is the main therapeutic target for selective serotonin reuptake inhibitors (SSRIs) in treating depression, yet the mechanism of action of SSRIs remains incompletely understood. To investigate the molecular and transcriptional effects of SSRI administration on serotonin neurons, we performed spatial transcriptomics, a spatially resolved RNA-sequencing method in intact brain tissue. Mouse brain sections containing the dorsal raphe nucleus and adjacent midbrain structures were analyzed, revealing six distinct serotonergic subpopulations with unique molecular signatures and spatial distributions. Both acute and chronic fluoxetine treatment induced a large number of changes in gene expression in the dorsal raphe nucleus. Notably, Htr1a expression increased following acute treatment but decreased after chronic administration, supporting previous findings on serotonin transporter blockade effects on 5-HT1A autoreceptors. Gene enrichment and network analysis identified key pathways modulated by SSRI administration, including Ras, MAPK and cAMP signaling pathways as well as pathways involved in axonal guidance. Additionally, we observed treatment-dependent opposing transcriptional changes in neuropeptides, particularly Thyrotropin-releasing hormone (Trh) and Prodynorphin (Pdyn), with distinct spatial localization within the dorsal raphe nucleus. Collectively, our transcriptomic and in situ hybridization analyses reveal spatial and cell-type-specific heterogeneity in SSRI action within the dorsal raphe nucleus, providing new insights into the molecular basis of SSRI treatment effects.",
+    "published": "2026-10-00",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Charlotta",
+        "family": "Henningson",
+        "initials": "C"
+      },
+      {
+        "given": "Jakub",
+        "family": "Mlost",
+        "initials": "J"
+      },
+      {
+        "given": "Iskra",
+        "family": "Pollak Dorocic",
+        "initials": "I",
+        "orcid": "0000-0002-6391-5377",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/23e75644bf804f31a7c27b777b06c971.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Mol. Psychiatry",
+      "volume": "31",
+      "issue": "10",
+      "issn": "1476-5578",
+      "issn-l": "1359-4184",
+      "pages": "5607-5618"
+    },
+    "labels": {
+      "NGI Spatial omics": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/e417f3206b4c4195822b992607fddabd.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/e417f3206b4c4195822b992607fddabd"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13569412"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41380-026-03644-x"
+      }
+    ],
+    "notes": [],
+    "created": "2026-10-14T12:25:45.212Z",
+    "modified": "2026-10-14T12:25:45.331Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "2dc5d9cb04764976a695f1713c6ad85f",
+    "doi": "10.1038/s41588-026-02748-y",
+    "pmid": "42786296",
+    "title": "Atlas of cell types and regulatory elements underlying human facial diversity.",
+    "abstract": "Human genetic diversity generates an astonishing variety of facial shapes, and craniofacial anomalies rank among the most common birth defects. Identifying the cellular mechanisms that mediate the genome's influence on facial variation remains a challenge. Here we created a multimodal facial atlas across embryonic weeks 6-11, providing single-cell transcriptomics, chromatin accessibility and spatial transcriptomics, all at single-cell resolution. We characterized 56 cell states, mapping mesenchymal subtypes and their gene-enhancer cis-regulatory landscapes in space and time. Gene expression associations with facial traits were strongest in early mesenchymal progenitor cells, gradually becoming more region restricted. Autocorrelation analysis revealed patterning genes that define spatial neighborhoods of mesenchyme, potentially explaining trait specificity of their nearby variants. Enhancers of key pathology-related genes were found to be likely vehicles for generating facial variation in modern human populations. One such enhancer, linked to PAX1 expression, appears to be important for normal skeletal development in mice. Finally, facial effects inferred from the genome-wide association study, cell signaling interaction analysis and validation in mice revealed that peripheral nerves fine-tune maxilla shape during embryonic development. Together, these data offer new insights into the mechanisms underlying human phenotypic individuality and yield a multimodal atlas useful for studying craniofacial development and abnormalities.",
+    "published": "2026-09-24",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Alek G",
+        "family": "Erickson",
+        "initials": "AG",
+        "orcid": "0000-0001-7110-9386",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0fcd4f91a2fa4847a1d81bb5be2b1da9.json"
+        }
+      },
+      {
+        "given": "Yaakov",
+        "family": "Gershtein",
+        "initials": "Y"
+      },
+      {
+        "given": "Rozalina",
+        "family": "Galimullina",
+        "initials": "R",
+        "orcid": "0009-0007-9937-3622",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/edd81c9e93f4420d99bdba96db9a1986.json"
+        }
+      },
+      {
+        "given": "Felix",
+        "family": "Waern",
+        "initials": "F",
+        "orcid": "0009-0004-9628-4868",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0daa735c8784430dada8b3401aee3377.json"
+        }
+      },
+      {
+        "given": "Tonyak",
+        "family": "Riba",
+        "initials": "T"
+      },
+      {
+        "given": "Markéta",
+        "family": "Kaiser",
+        "initials": "M",
+        "orcid": "0000-0002-5200-7365",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ad2bf55bfa2240458ad9a4d73fe9baff.json"
+        }
+      },
+      {
+        "given": "Daniela",
+        "family": "Schnyder",
+        "initials": "D",
+        "orcid": "0000-0002-9594-3823",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d0c9aa863b224ffda812d2d050830f35.json"
+        }
+      },
+      {
+        "given": "Lei",
+        "family": "Li",
+        "initials": "L"
+      },
+      {
+        "given": "Nikita",
+        "family": "Vaulin",
+        "initials": "N",
+        "orcid": "0009-0002-3570-4385",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2a6d2ea5ceed4d69804682a04ac2baad.json"
+        }
+      },
+      {
+        "given": "Saga",
+        "family": "Samuelsson",
+        "initials": "S"
+      },
+      {
+        "given": "Aliia",
+        "family": "Murtazina",
+        "initials": "A"
+      },
+      {
+        "given": "Sergey",
+        "family": "Isaev",
+        "initials": "S",
+        "orcid": "0000-0002-0404-9261",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/38edf29746f8482d96f99cecb248dea4.json"
+        }
+      },
+      {
+        "given": "Thibault",
+        "family": "Bouderlique",
+        "initials": "T",
+        "orcid": "0000-0002-3926-990X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/95261ae9454044129590906f1f686bc0.json"
+        }
+      },
+      {
+        "given": "Viktoria",
+        "family": "Parobkova",
+        "initials": "V",
+        "orcid": "0009-0004-7996-8328",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/de946ea6668f4a12bc3c363c8b5204c1.json"
+        }
+      },
+      {
+        "given": "Hugo",
+        "family": "Zeberg",
+        "initials": "H",
+        "orcid": "0000-0001-7118-1249",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/090e842ed8ff4cf2a3fe5f8e58118e58.json"
+        }
+      },
+      {
+        "given": "Tomáš",
+        "family": "Zikmund",
+        "initials": "T",
+        "orcid": "0000-0003-2948-5198",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/7648df9d2584437d8388fab4a130d4eb.json"
+        }
+      },
+      {
+        "given": "Jozef",
+        "family": "Kaiser",
+        "initials": "J",
+        "orcid": "0000-0002-7397-125X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/98b611052bed483eb58f6ac51b35e003.json"
+        }
+      },
+      {
+        "given": "Kaj",
+        "family": "Fried",
+        "initials": "K",
+        "orcid": "0000-0002-9997-7078",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b46eaae026524ee6b9b589f12846b458.json"
+        }
+      },
+      {
+        "given": "Elena I",
+        "family": "Shagimardanova",
+        "initials": "EI"
+      },
+      {
+        "given": "Leyla",
+        "family": "Shigapova",
+        "initials": "L",
+        "orcid": "0000-0001-6292-6560",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/ddc528358eab42f8bdf32143401bde8f.json"
+        }
+      },
+      {
+        "given": "Guzel R",
+        "family": "Gazizova",
+        "initials": "GR"
+      },
+      {
+        "given": "Ivan V",
+        "family": "Reva",
+        "initials": "IV"
+      },
+      {
+        "given": "Ruslan",
+        "family": "Deviatiiarov",
+        "initials": "R",
+        "orcid": "0000-0003-0019-2076",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1e46ef1241bf4af6bb870d8119be4e27.json"
+        }
+      },
+      {
+        "given": "Kateřina",
+        "family": "Vymazalová",
+        "initials": "K",
+        "orcid": "0000-0001-5613-0777",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/740bbd551561428ebf7ba1419dc2be3c.json"
+        }
+      },
+      {
+        "given": "Seppe",
+        "family": "Goovaerts",
+        "initials": "S",
+        "orcid": "0000-0001-5176-8552",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1efbfbc6bc1647b9a6814798530af56d.json"
+        }
+      },
+      {
+        "given": "Yuk Kit",
+        "family": "Lor",
+        "initials": "YK"
+      },
+      {
+        "given": "Gonçalo",
+        "family": "Castelo-Branco",
+        "initials": "G",
+        "orcid": "0000-0003-2247-9393",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/10b1a8fb48114340b8e390ca1f9e3321.json"
+        }
+      },
+      {
+        "given": "Peter",
+        "family": "Claes",
+        "initials": "P",
+        "orcid": "0000-0001-9489-9819",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/46079dd389064f4bb06f4534cd32c9e3.json"
+        }
+      },
+      {
+        "given": "Xiaofei",
+        "family": "Li",
+        "initials": "X",
+        "orcid": "0000-0002-9991-7534",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d90bb6581d134277924377269eef88b9.json"
+        }
+      },
+      {
+        "given": "Oleg",
+        "family": "Gusev",
+        "initials": "O",
+        "orcid": "0000-0002-6203-9758",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/31d4a1b245d449428a6fe219c91cde24.json"
+        }
+      },
+      {
+        "given": "Andrei S",
+        "family": "Chagin",
+        "initials": "AS",
+        "orcid": "0000-0002-2696-5850",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/909bca2fc68645e980a93b99dc150e4c.json"
+        }
+      },
+      {
+        "given": "Erik",
+        "family": "Sundström",
+        "initials": "E",
+        "orcid": "0000-0003-2931-8015",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/594c030b77f348e98805ea71e06c1b4d.json"
+        }
+      },
+      {
+        "given": "Peter V",
+        "family": "Kharchenko",
+        "initials": "PV",
+        "orcid": "0000-0002-6036-5875",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/a67002dec1264bf2865da0017405ee9b.json"
+        }
+      },
+      {
+        "given": "Igor",
+        "family": "Adameyko",
+        "initials": "I",
+        "orcid": "0000-0001-5471-0356",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/346f484a56cb4ad5b866b194ccd44e4f.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Nat. Genet.",
+      "volume": null,
+      "issue": null,
+      "issn": "1546-1718",
+      "issn-l": "1061-4036",
+      "pages": null
+    },
+    "labels": {
+      "NGI Short read": "Service",
+      "NGI Single cell": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Spatial omics": null
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/2dc5d9cb04764976a695f1713c6ad85f.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/2dc5d9cb04764976a695f1713c6ad85f"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s41588-026-02748-y"
+      }
+    ],
+    "notes": [],
+    "created": "2026-10-07T12:23:38.421Z",
+    "modified": "2026-10-19T15:18:21.591Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "c7ecb533dec64fa98f27357ccfb28149",
+    "doi": "10.1172/jci.insight.199206",
+    "pmid": "42709494",
+    "title": "Previous malaria exposure attenuates monocyte-driven inflammation and correlates with modulation of the B cell response.",
+    "abstract": "Clinical immunity to malaria develops after repeated malaria episodes. In this process, the inflammatory response is modulated to respond less vigorously upon reinfection. Monocytes are a major source of pro-inflammatory mediators during blood-stage infection and are known to adapt to repeated pathogen exposure. Here, we investigated the impact of previous malaria exposure on monocytes during blood-stage malaria by comparing the response in previously exposed and primary infected individuals. We observed reduced levels of several proinflammatory chemokines in previously exposed individuals, linked to changes in monocytes. Similarly, BAFF levels were lower in these individuals and associated with modulation of monocyte and dendritic cells. This affected the BAFF-BAFF-R axis, crucial for B cell responses, correlating with increasing parasite-specific antibody levels. Collectively, we present insights into how previous malaria exposure shapes monocyte responses during acute malaria and how these in turn correlate with modulation of the B cell compartment and humoral immune response. .",
+    "published": "2026-09-08",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Maximilian Julius",
+        "family": "Lautenbach",
+        "initials": "MJ"
+      },
+      {
+        "given": "Pengjun",
+        "family": "Xi",
+        "initials": "P"
+      },
+      {
+        "given": "Linn",
+        "family": "Kleberg",
+        "initials": "L"
+      },
+      {
+        "given": "Alan-Dine",
+        "family": "Courey-Ghaouzi",
+        "initials": "AD"
+      },
+      {
+        "given": "Maia Serene",
+        "family": "Gower",
+        "initials": "MS"
+      },
+      {
+        "given": "Carolina",
+        "family": "Sousa Silva",
+        "initials": "C"
+      },
+      {
+        "given": "Felicia",
+        "family": "Chammas",
+        "initials": "F"
+      },
+      {
+        "given": "Anna",
+        "family": "Färnert",
+        "initials": "A"
+      },
+      {
+        "given": "Christopher",
+        "family": "Sundling",
+        "initials": "C"
+      }
+    ],
+    "journal": {
+      "title": "JCI Insight",
+      "issn": "2379-3708",
+      "issn-l": "2379-3708"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Single cell": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/c7ecb533dec64fa98f27357ccfb28149.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/c7ecb533dec64fa98f27357ccfb28149"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "199206"
+      }
+    ],
+    "notes": [],
+    "created": "2026-10-13T09:05:24.801Z",
+    "modified": "2026-10-13T09:05:24.807Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "9ea1e59aa4c74cb18edde8f7e6504850",
+    "doi": "10.1158/2326-6066.CIR-25-1309",
+    "pmid": "42330494",
+    "title": "Cancer-Intrinsic Protein Neddylation Modulates the Intratumoral Immune Landscape to Constrain Immune Checkpoint Blockade Therapy.",
+    "abstract": "The cancer-intrinsic network controlling the response to immune checkpoint blockade therapy remains elusive. Using a published single-cell RNA sequencing (scRNA-seq) dataset from patients with breast cancer, we found that pretherapy mRNA expression of NEDD8, which encodes the regulatory protein essential for neddylation, in cancer cells was negatively associated with T-cell expansion upon pembrolizumab treatment. Genetic ablation of protein neddylation in murine tumors induced a curative response to PD-1 or PD-L1 blockade in mice. Combined analysis of neddylation-deficient murine tumors using scRNA-seq and high-resolution spatial transcriptomics revealed distinct spatial immune co-localization and immune cell signatures. In a high-content phenotypic screen of known compounds, protein neddylation was required for the induction of phenotypic changes by lipid inhibitors and ferroptosis inducers in human breast cancer cells. In accordance, these compounds enhanced the efficacy of PD-1 blockade and protected mice from tumor rechallenge. Altogether, we delineate the unknown functions of protein neddylation on antitumor immunity and provide therapeutic options that can enhance immunotherapy.",
+    "published": "2026-09-02",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Irineos",
+        "family": "Papakyriacou",
+        "initials": "I",
+        "orcid": "0000-0002-0728-0995",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/24950ea421e6422982bb1a36e4827922.json"
+        }
+      },
+      {
+        "given": "Yonglin",
+        "family": "Lu",
+        "initials": "Y",
+        "orcid": "0009-0003-6692-437X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9f585825e3fd4f22a675b65f2a517ce5.json"
+        }
+      },
+      {
+        "given": "Malin",
+        "family": "Jarvius",
+        "initials": "M",
+        "orcid": "0000-0002-1565-6155",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f6b510afc21748adb6b432173c3fdab2.json"
+        }
+      },
+      {
+        "given": "Maris",
+        "family": "Lapins",
+        "initials": "M",
+        "orcid": "0000-0002-0122-6680",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/fba78b2f6a8149659cc3ccbdb3f9f201.json"
+        }
+      },
+      {
+        "given": "Jordi",
+        "family": "Carreras-Puigvert",
+        "initials": "J",
+        "orcid": "0000-0002-7671-3707",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/28ad5f6a1a064e52aca72780adc4bb96.json"
+        }
+      },
+      {
+        "given": "Yumeng",
+        "family": "Mao",
+        "initials": "Y",
+        "orcid": "0000-0001-6142-6628",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d1deb3c4a48d402c9f98be90ce96d98d.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "Cancer Immunol Res",
+      "volume": "14",
+      "issue": "9",
+      "issn": "2326-6074",
+      "issn-l": null,
+      "pages": "1467-1483"
+    },
+    "labels": {
+      "Chemical Biology Consortium Sweden": "Collaborative",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Single cell": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/9ea1e59aa4c74cb18edde8f7e6504850.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/9ea1e59aa4c74cb18edde8f7e6504850"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13535320"
+      },
+      {
+        "db": "pii",
+        "key": "786086"
+      }
+    ],
+    "notes": [],
+    "created": "2026-09-08T15:02:26.109Z",
+    "modified": "2026-10-13T06:33:10.928Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "bc897f115b504534a471daff92251cea",
+    "doi": "10.1038/s44319-026-00895-1",
+    "pmid": "42601506",
+    "title": "3D chromatin organisation contributes to the regulatory logic in differentiating lymphatic endothelium.",
+    "abstract": "Gene activation and repression is an integral part of embryonic development and tissue formation. Changes in chromatin organisation dictate accessibility to gene regulatory elements, controlling gene expression. Although several molecular regulators of lymphatic endothelial cell (LEC) development have been identified, the role of chromatin organisation in the acquisition of LEC identity remains unclear. In this study, we combine HiC and ATAC-sequencing to map 3D chromatin architecture and accessibility in LECs and blood endothelial cells (BECs). We identify cell type-specific topologically associating domains (TADs), and discovered TAD boundaries changes and differentially segregating enhancers in lymphatic-associated loci, such as prox1a and tbx1. Our multi-omic approach also defines the regulatory logic of nine LEC-enriched genes. In vivo validation of ATAC- and HiC-based enhancers confirms their activity in LECs. Leveraging these datasets, we reconstructed mafba tissue-specific regulatory networks identifying a genetic interaction with tfe3a in vivo limiting ectopic vessel formation. Overall, our work provides a powerful resource of multi-omic datasets that can be used to systematically determine the regulatory networks governing LEC identity and genes linked to lymphatic disease.",
+    "published": "2026-08-14",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Virginia",
+        "family": "Panara",
+        "initials": "V"
+      },
+      {
+        "given": "Hannah",
+        "family": "Arnold",
+        "initials": "H",
+        "orcid": "0000-0002-4010-0124",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/971d88c608aa44699b9b6ce11da2d23c.json"
+        }
+      },
+      {
+        "given": "Marleen",
+        "family": "Gloger",
+        "initials": "M",
+        "orcid": "0000-0002-3319-7642",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d3e99b33a5f04f238d33ddc34398382c.json"
+        }
+      },
+      {
+        "given": "Renae",
+        "family": "Skoczylas",
+        "initials": "R",
+        "orcid": "0000-0002-8570-7368",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/e923fe8f7a5844449256214cad71f59b.json"
+        }
+      },
+      {
+        "given": "Victoria",
+        "family": "Vidal Gutierrez",
+        "initials": "V",
+        "orcid": "0009-0008-5938-8712",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/d50e32efd7014286a40b952641a3cbea.json"
+        }
+      },
+      {
+        "given": "Anna",
+        "family": "Johansson",
+        "initials": "A"
+      },
+      {
+        "given": "Agata",
+        "family": "Smialowska",
+        "initials": "A"
+      },
+      {
+        "given": "Katarzyna",
+        "family": "Koltowska",
+        "initials": "K",
+        "orcid": "0000-0002-6841-8900",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/06a8aeda504340c1af3ab893fd413a65.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "EMBO Rep.",
+      "issn": "1469-3178",
+      "issn-l": "1469-221X"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "NGI Other": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/bc897f115b504534a471daff92251cea.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/bc897f115b504534a471daff92251cea"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pii",
+        "key": "10.1038/s44319-026-00895-1"
+      }
+    ],
+    "notes": [],
+    "created": "2026-08-26T11:17:22.932Z",
+    "modified": "2026-08-26T11:17:23.345Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "201bfa2897fc4bbebdb6dd723acec680",
+    "doi": "10.1038/s41598-026-63764-w",
+    "pmid": "42533084",
+    "title": "Transcriptomic and RNAi-mediated antiviral response to Kamiti River virus infection in Aedes albopictus U4.4 cells.",
+    "abstract": "Mosquitoes transmit arboviruses that represent major global public health challenges. Increasing insecticide resistance and absence of effective antiviral therapies underscore the need for novel vector control strategies. Insect-specific viruses have emerged as candidates for biological control, however, the cellular mechanisms underlying their interactions with mosquito hosts remain poorly understood. Here, we examined the immune response of Aedes albopictus U4.4 cells to Kamiti River virus (KRV) infection, an insect-specific flavivirus. Cells were infected with KRV, and transcriptomic and small RNA profiles were analyzed at 24, 48 and 72 h post-infection. KRV infection induced production of virus-derived small interfering RNAs (vsiRNAs) and virus-derived PIWI-interacting RNA (vpiRNAs) from 24 to 72 h. The vsiRNAs predominantly mapped to the 3' untranslated region of the KRV genome, whereas vpiRNAs formed distinct hotspots in regions encoding the NS1, NS3, NS4A/B and NS5 proteins. Transcriptomic analysis revealed upregulation of genes associated with the humoral immune response, including defensin, cecropin, and glutathione S-transferase, and downregulation of Toll-like receptors and ecdysone-induced transcripts at later stages of infection. These gene expression patterns suggest an early activation followed by suppression of key immune signaling pathways. Collectively, the findings indicate that KRV leads to coordinated modulation of antiviral RNAi and host transcriptional responses, consistent with a balanced, commensal-like interaction in mosquito cells.",
+    "published": "2026-07-31",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Pontus",
+        "family": "Öhlund",
+        "initials": "P"
+      },
+      {
+        "given": "Marlene Cavaleiro",
+        "family": "Pinto",
+        "initials": "MC"
+      },
+      {
+        "given": "Anne-Lie",
+        "family": "Blomström",
+        "initials": "AL"
+      }
+    ],
+    "journal": {
+      "title": "Sci Rep",
+      "volume": "16",
+      "issue": "1",
+      "issn": "2045-2322",
+      "issn-l": "2045-2322"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/201bfa2897fc4bbebdb6dd723acec680.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/201bfa2897fc4bbebdb6dd723acec680"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13424557"
+      },
+      {
+        "db": "pii",
+        "key": "10.1038/s41598-026-63764-w"
+      },
+      {
+        "db": "BioProject",
+        "key": "PRJNA870316"
+      },
+      {
+        "db": "BioProject",
+        "key": "PRJNA141589"
+      },
+      {
+        "db": "BioProject",
+        "key": "PRJNA786637"
+      }
+    ],
+    "notes": [],
+    "created": "2026-08-26T12:45:34.534Z",
+    "modified": "2026-08-26T12:45:34.538Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "36ac6e2c75c94614be34596a62cdedbf",
+    "doi": "10.1128/mbio.00205-26",
+    "pmid": "42307252",
+    "title": "Phylogeny-aware comparative genomics of Vibrio vulnificus links genetic traits to pathogenicity.",
+    "abstract": "Vibrio vulnificus, a coastal marine bacterium and opportunistic pathogen, poses increasing health risks due to rising sea water temperatures. While it harbors diverse virulence factors, its disease mechanisms remain poorly understood. To address this, we sequenced 82 environmental isolates from the Baltic Sea and combined them with 325 published genomes (clinical and environmental) for comparative analysis. Phylogenetic reconstruction revealed four major lineages, with Baltic strains restricted to L2 and L4. Clinical and environmental strains were found across all lineages, suggesting phylogeny reflects environmental adaptation more than pathogenicity. Using our newly developed PhyloBOTL pipeline, we identified 128 orthologs enriched in clinical isolates, grouped into 36 co-localization clusters. These include both known and novel virulence candidates, such as chaperone-usher pili, type VI secretion effectors, and spermidine synthases. Some clusters showed convergent loss across clades, implying niche-specific evolution. We also designed PCR primers targeting these genes to aid in the surveillance of pathogenic V. vulnificus strains.IMPORTANCEVibrio vulnificus is a naturally occurring marine bacterium that can cause life-threatening infections, with incidence increasing as coastal waters warm due to climate change. Determining which environmental strains pose the greatest risk remains a major challenge for public health surveillance. By analyzing hundreds of genomes from globally distributed strains, including extensive sampling from the rapidly warming Baltic Sea, this study shows that pathogenic potential is not restricted to specific evolutionary lineages but is instead associated with distinct sets of genes enriched in clinical strains. To support pathogen detection, we developed PCR primers targeting a subset of these clinically associated genes. Together, these findings provide new insight into the molecular basis of V. vulnificus infections and offer practical tools for improved detection, monitoring, and risk assessment of harmful strains in coastal waters and seafood under ongoing climate change.",
+    "published": "2026-07-08",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Luis F",
+        "family": "Delgado",
+        "initials": "LF",
+        "orcid": "0000-0001-7850-5285",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c90912060686401482b1079bd8251e60.json"
+        }
+      },
+      {
+        "given": "David J",
+        "family": "Riedinger",
+        "initials": "DJ",
+        "orcid": "0009-0002-0221-6772",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/44aad5ff755241a7b9f8e2c29fa19b8a.json"
+        }
+      },
+      {
+        "given": "Víctor",
+        "family": "Fernández-Juárez",
+        "initials": "V",
+        "orcid": "0000-0002-8090-5154",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/a29935a6fb20407c803cbb6b555573b6.json"
+        }
+      },
+      {
+        "given": "Daniel P R",
+        "family": "Herlemann",
+        "initials": "DPR",
+        "orcid": "0000-0002-8100-4649",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2a0dc17e46354d5f99250e559b82befe.json"
+        }
+      },
+      {
+        "given": "Christian",
+        "family": "Pansch",
+        "initials": "C",
+        "orcid": "0000-0001-8442-4502",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/50129df0120e441081efa1a9649ffbd5.json"
+        }
+      },
+      {
+        "given": "Marija",
+        "family": "Kataržytė",
+        "initials": "M",
+        "orcid": "0000-0001-7751-3187",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/b652cb5aacc348e0a9a8bb16cfbf83fd.json"
+        }
+      },
+      {
+        "given": "Greta",
+        "family": "Gyraitė",
+        "initials": "G",
+        "orcid": "0000-0002-7079-7997",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/e9fa8139fbc64e7e990587ca8e5f6d52.json"
+        }
+      },
+      {
+        "given": "Jens",
+        "family": "Hulterström",
+        "initials": "J",
+        "orcid": "0009-0006-1146-2827",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/1744cf0e964d4971acc5896e9b218071.json"
+        }
+      },
+      {
+        "given": "Thorsten B H",
+        "family": "Reusch",
+        "initials": "TBH",
+        "orcid": "0000-0002-8961-4337",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/39b27965acd74a7a95e97b77abee769d.json"
+        }
+      },
+      {
+        "given": "Marcin",
+        "family": "Rakowski",
+        "initials": "M",
+        "orcid": "0000-0002-7943-8851",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/f5f532d3f38142478ad0166578ca662b.json"
+        }
+      },
+      {
+        "given": "Kasia",
+        "family": "Piwosz",
+        "initials": "K",
+        "orcid": "0000-0002-3248-3364",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/69c75bc4dc65411b9afe81b06a9398fa.json"
+        }
+      },
+      {
+        "given": "Adam",
+        "family": "Woźniczka",
+        "initials": "A"
+      },
+      {
+        "given": "Heike",
+        "family": "Benterbusch-Brockmöller",
+        "initials": "H"
+      },
+      {
+        "given": "Theodor",
+        "family": "Sperlea",
+        "initials": "T",
+        "orcid": "0000-0003-4307-2963",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/0e0963de222d42eb915c9d5b47c7a1f7.json"
+        }
+      },
+      {
+        "given": "Susann",
+        "family": "Dupke",
+        "initials": "S",
+        "orcid": "0009-0001-0639-208X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/4f6184e84afc44098c8d0dc2c84b9443.json"
+        }
+      },
+      {
+        "given": "Holger C",
+        "family": "Scholz",
+        "initials": "HC",
+        "orcid": "0000-0001-7224-0458",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c274e57dfe2a40968e3d9b046e708d26.json"
+        }
+      },
+      {
+        "given": "Sandra",
+        "family": "Kube",
+        "initials": "S"
+      },
+      {
+        "given": "Lasse",
+        "family": "Riemann",
+        "initials": "L",
+        "orcid": "0000-0001-9207-2543",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/9fc561d1d5694c4c9fbc9a05dd741e17.json"
+        }
+      },
+      {
+        "given": "Matthias",
+        "family": "Labrenz",
+        "initials": "M",
+        "orcid": "0000-0003-3452-8631",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/38c42f1aada5411281b2bdc4d2f8e934.json"
+        }
+      },
+      {
+        "given": "Anders F",
+        "family": "Andersson",
+        "initials": "AF",
+        "orcid": "0000-0002-3627-6899",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/caa76ee4438d4b4aad386ba8a90448c2.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "MBio",
+      "volume": "17",
+      "issue": "7",
+      "issn": "2150-7511",
+      "issn-l": null,
+      "pages": "e0020526"
+    },
+    "labels": {
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Short read": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/36ac6e2c75c94614be34596a62cdedbf.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/36ac6e2c75c94614be34596a62cdedbf"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13348674"
+      }
+    ],
+    "notes": [],
+    "created": "2026-07-14T17:40:48.791Z",
+    "modified": "2026-10-12T13:21:24.504Z",
+    "is_collab": false,
+    "is_tech_dev": false
+  },
+  {
+    "entity": "publication",
+    "iuid": "f3a80f800f3f4f8191d234dff89c3a03",
+    "doi": "10.70962/jhi.20260011",
+    "pmid": "42169676",
+    "title": "Fibroblast-driven collagen expansion and altered thymic medullary niches in 22q11.2 deletion syndrome.",
+    "abstract": "22q11.2 deletion syndrome (22q11DS) is associated with congenital anomalies and variable thymic hypoplasia with T cell lymphopenia and immune dysregulation. However, the spatial organization of human thymic lymphopoiesis and stromal mechanisms contributing to thymic dysfunction in 22q11DS remain incompletely defined. We applied spatial transcriptomic and spatial proteomic analyses on thymic samples from two 22q11DS patients and compared them with healthy controls. Across 22q11DS samples, we observed alterations in the corticomedullary organization and in the frequencies of fibroblasts, B cells, regulatory T cells, and mTEC subsets. These features coincided with a prominent remodeling of the mesenchymal compartment, including increased expression of extracellular matrix programs and collagens, and predicted disruption in mesenchymal-epithelial cell crosstalk. In the medulla, we observed alterations in interferon-associated gene programs within a colocalized niche comprising B cells, antigen-presenting cells, and mTEC subsets. Together, this provides an integrated spatial map of the 22q11DS thymus and nominates stromal remodeling as a candidate driver of impaired central tolerance induction in 22q11DS.",
+    "published": "2026-07-06",
+    "type": "journal article",
+    "authors": [
+      {
+        "given": "Viktoria",
+        "family": "Hennings",
+        "initials": "V",
+        "orcid": "0000-0002-7789-8299",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/c52800e09fce43178a7b42966f17c67c.json"
+        }
+      },
+      {
+        "given": "Jenny",
+        "family": "Lingman Framme",
+        "initials": "J",
+        "orcid": "0000-0001-5665-1927",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/adf94743f00c47fa98def118f68b791a.json"
+        }
+      },
+      {
+        "given": "Karolina",
+        "family": "Thörn",
+        "initials": "K",
+        "orcid": "0009-0000-1185-283X",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/3aa1200b5ade4d25bfb04fd25260384b.json"
+        }
+      },
+      {
+        "given": "Christina",
+        "family": "Lundqvist",
+        "initials": "C",
+        "orcid": "0000-0002-2256-4072",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/10b339e6cc1f48f3a5f736201038ee59.json"
+        }
+      },
+      {
+        "given": "Andri",
+        "family": "Lemarquis",
+        "initials": "A",
+        "orcid": "0000-0001-5165-0247",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/776e9a2ecebf446ba4d0e3d20c8d793c.json"
+        }
+      },
+      {
+        "given": "Solveig",
+        "family": "Oskarsdottir",
+        "initials": "S",
+        "orcid": "0000-0002-6029-8844",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/45f3baa525f84d4fa940bb65a8ea2358.json"
+        }
+      },
+      {
+        "given": "Esbjörn",
+        "family": "Telemo",
+        "initials": "E",
+        "orcid": "0000-0001-8334-9096",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/47025b93964e47a7ac75c5c483881048.json"
+        }
+      },
+      {
+        "given": "Åsa",
+        "family": "Björklund",
+        "initials": "Å",
+        "orcid": "0000-0003-2224-7090",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/8eb8c1fc5f704cbfb87471226485ae1f.json"
+        }
+      },
+      {
+        "given": "Olov",
+        "family": "Ekwall",
+        "initials": "O",
+        "orcid": "0000-0002-4506-9955",
+        "researcher": {
+          "href": "https://publications.scilifelab.se/researcher/2d7af11d7d30410d8fe5f3b5fbd0ba1d.json"
+        }
+      }
+    ],
+    "journal": {
+      "title": "J Hum Immun",
+      "volume": "2",
+      "issue": "4",
+      "issn": "3065-8993",
+      "issn-l": null,
+      "pages": "e20260011"
+    },
+    "labels": {
+      "Spatial Proteomics": "Service",
+      "NGI Stockholm (Genomics Production)": "Service",
+      "NGI Stockholm (Genomics Applications)": "Service",
+      "National Genomics Infrastructure": "Service",
+      "NGI Spatial omics": "Service"
+    },
+    "links": {
+      "self": {
+        "href": "https://publications.scilifelab.se/publication/f3a80f800f3f4f8191d234dff89c3a03.json"
+      },
+      "display": {
+        "href": "https://publications.scilifelab.se/publication/f3a80f800f3f4f8191d234dff89c3a03"
+      }
+    },
+    "xrefs": [
+      {
+        "db": "pmc",
+        "key": "PMC13177773"
+      },
+      {
+        "db": "pii",
+        "key": "jhi.20260011"
+      }
+    ],
+    "notes": [],
+    "created": "2026-08-13T08:40:13.364Z",
+    "modified": "2026-08-26T13:36:31.255Z",
     "is_collab": false,
     "is_tech_dev": false
   }
